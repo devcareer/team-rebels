@@ -1,0 +1,123 @@
+//headings 
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+
+h1{
+  font-family:$default-font-family;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+}
+h2{
+  font-family:$default-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 80px;
+}
+h3{
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 67px;
+}
+h4{
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size:2rem;
+}
+h5{
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 40px;
+}
+h6{
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 27px;
+}
+
+
+
+.text-small{
+ font-family: $default-font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 26px;
+}
+
+.text-small-bold{
+font-family: $default-font-family Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 0.9rem;
+line-height: 26px;
+}
+.text-regular{
+font-family: $default-font-family;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 29px;
+}
+.text-regular-bold{
+font-family: $default-font-family;
+font-style: normal;
+font-weight: 800;
+font-size: 1rem;
+line-height: 29px;
+}
+.text-medium{
+font-family: $default-font-family;
+font-style: normal;
+font-weight: normal;
+font-size: 1.1rem;
+line-height: 32px;
+}
+.text-medium-bold{
+font-family: $default-font-family;
+font-style: normal;
+font-weight: 800;
+font-size: 1.1rem;
+line-height: 32px;
+}
+.text-large{
+  font-family: $default-font-family;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;
+line-height: 35px;
+}
+.text-large-bold{
+  font-family: $default-font-family;
+font-style: normal;
+font-weight: 800;
+font-size: 1.2rem;
+line-height: 35px;
+}
+.quote-large{
+  font-family: $default-font-family-quote;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+}
+.quote-small{
+font-family:$default-font-family-quote;
+font-style: italic;
+font-weight: normal;
+font-size: 22.5px;
+line-height: 40px;
+display: flex;
+}
