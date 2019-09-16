@@ -8,23 +8,29 @@
 @import 'sass/base/typography';
 @import 'sass/base/utilities';
 //components
-@import 'sass/components/button.scss';
+@import 'sass/components/button';
 @import 'sass/components/newsletter';
 @import 'sass/components/testimonials';
 //layout
 @import 'sass/layouts/footer';
-@import 'sass/layouts/header';
+@import 'sass/layouts/header-about';
+@import 'sass/layouts/header-home';
 //pages
 @import 'sass/pages/about1';
 @import 'sass/pages/about2';
 @import 'sass/pages/about3';
 @import 'sass/pages/about4';
+
 @import 'sass/pages/contact1';
+
 @import 'sass/pages/gallery1';
+
 @import 'sass/pages/home1';
 @import 'sass/pages/home2';
 @import 'sass/pages/home3';
+
 @import 'sass/pages/services2';
 @import 'sass/pages/services1';
+
 @import 'sass/pages/team1';
 @import 'sass/pages/team2';
