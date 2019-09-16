@@ -4,7 +4,7 @@ Fork and clone the repository,create a branch for your whatever you wanna work o
 
 Fixes # (issue)
 
-## Type of change
+# Type of change
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
