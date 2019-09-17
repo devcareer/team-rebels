@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
 
   "name":"Lopper",
+=======
+  "name": "Lopper",
+>>>>>>> add package.json
   "version": "1.0.0",
   "description": "Static build of http://www.looper.netify with SASS as CSS pre-processsor, Bootstrap as CSS framework and Jquery as Javascript framework.",
   "main": "app.js",
@@ -13,7 +17,11 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "scss": "node-sass --watch sass/main.scss -o css"
+=======
+    "compile:scss": "node-sass sass/main.scss css/style.css -w"
+>>>>>>> add package.json
 
   },
   "repository": {
@@ -27,5 +35,3 @@
   },
   "homepage": "https://github.com/devcareer/team-rebels#readme"
 }
-
-    
