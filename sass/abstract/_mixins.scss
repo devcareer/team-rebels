@@ -1,1 +1,21 @@
-
+// For Card-Section
+@mixin background-property($url, $blend-mode){
+    background: url("#{$url}");
+    background-blend-mode: $blend-mode;
+}
+@mixin position-property($value, $top, $left){
+    position: $value;
+    top: $top;
+    left: $left;
+}
+@mixin font-property($family,$size,$weight,$style){
+    font :{
+        family:$family;
+        size: $size;
+        weight: $weight;
+        style: $style;
+    }
+}
+@mixin line-height ($size){
+    line-height: $size;
+}
