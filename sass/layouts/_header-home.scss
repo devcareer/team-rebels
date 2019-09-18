@@ -1,15 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+      overflow-x: hidden;
+}
+
+
 .header__banner--image {
   position: relative;
   height: 100%;
   width: 100%;
-  background: rgba($color-secondary-400, 0.8);
+
+  
 }
 
 .header__navbar {
   background: rgba($color-secondary-400, 0.8);
   position: absolute;
   width: 100%;
-  height: 800px;
+  height: 70px;
   top: 0;
   display: flex;
   font-weight: bold;
@@ -21,7 +31,7 @@
     line-height: 43px;
     letter-spacing: 2px;
     margin-top: 12px;
-    padding-right: 200px;
+    padding-right: 250px;
     padding-left: 100px;
     
       
@@ -66,9 +76,9 @@ span{
     color: $color-primary;
     }
 .border{
-    border: 1px solid $color-light-grey;
+    // border: 1px solid black;
     border-left: 0;
-}
+   }
     .regular-text{
         position: absolute;
         top: 28rem;
@@ -76,35 +86,77 @@ span{
         border-left: 0;
         border-spacing: 10px;
         padding: 20px 0 20px 0;
-        width: 50%;
+        width: 55%;
         text-align: center;
         bottom: 21rem;
         color: $color-white;
         padding-bottom: 50px;
 
     }
+    .box-2{
+        position: relative;
+        top: -30.9rem;
+        width:50px;
+        height:50px;
+        border: 1px solid $color-white;
+        border-radius:50%;
+        left: 38rem;
+      }
+      
+      
+      .arrow-2{
+       text-align:center;
+        font-size: 20px;
+        margin-top:1rem;
+        color: $color-white;
+      }
 
-    .arrow{
-        border: 1px solid$color-light-grey;
-        border-radius: 50%;
-        padding: .4rem;
-      color: $color-white;
+    // .arrow{
+    //     border: 1px solid$color-light-grey;
+    //     border-radius: 50%;
+    //     padding: .4rem;
+    //   color: $color-white;
              
-    }
+    // }
 
-    .text-small{
+    .small-text{
       transform: rotate(90deg);
       color: $color-white;
       text-transform: uppercase;
    position: absolute;
    right: 2rem;
    top: 10rem;
-    }
 
-    .arrow-2{
-        border: 1px solid $color-white;
-        width: 100px;
-        height: 10rem;
-        border-radius: 50rem;
-        color: $color-light-grey;
     }
+    .arrow-box{
+        margin:30px;
+        padding:10px;
+        border: 1px solid $color-white;
+        width: 50px;
+        height: 2px;
+        border-radius:30px;
+        position:relative;
+        left: 15rem;
+        bottom: 3rem;
+        z-index: ;
+     }
+
+     .arrow-1{
+         font-size: 28px;
+         position: relative;
+         top: -.9rem;
+         text-align: center;
+     }
+
+
+
+
+
+
+    // .arrow-2{
+    //     border: 1px solid $color-white;
+    //     width: 100px;
+    //     height: 10rem;
+    //     border-radius: 50rem;
+    //     color: $color-light-grey;
+    // }
