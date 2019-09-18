@@ -1,5 +1,5 @@
 // abstract
-@import '/sass/abstract/functions';
+@import 'sass/abstract/functions';
 @import 'sass/abstract/mixins';
 @import 'sass/abstract/variables';
 // base
@@ -15,6 +15,7 @@
 @import 'sass/layouts/footer';
 @import 'sass/layouts/header-home';
 @import 'sass/layouts/header-about';
+@import 'sass/layouts/card-section';
 //pages
 @import 'sass/pages/about1';
 @import 'sass/pages/about2';
@@ -30,3 +31,4 @@
 @import 'sass/pages/team2';
 @import 'sass/pages/gallery';
 @import 'sass/pages/contact';
+
