@@ -140,7 +140,7 @@ letter-spacing: 4px;
 text-transform: uppercase;
 }
 
-.logo{
+.logo {
 font-family: $default-font-family;
 font-style: normal;
 font-weight: 900;
@@ -160,14 +160,17 @@ letter-spacing: 2px;
 color: $color-white;
 }
 
-
-
 .text-misc{
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.6px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.title-small{
+font-family:$default-font-family;
 font-style: normal;
 font-weight: 800;
-font-size: 14.4px;
-line-height: 30px;
-letter-spacing: 2px;
-color: $color-white;
+font-size: 12.6px;
 }
-
