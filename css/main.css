@@ -121,6 +121,7 @@ h6 {
   font-style: italic;
   font-weight: normal;
 <<<<<<< HEAD
+<<<<<<< HEAD
   font-size: 22.5px;
   line-height: 40px;
   display: flex; }
@@ -130,6 +131,12 @@ h6 {
   line-height: 40px;
   display: flex; }
 
+=======
+  font-size: 1.25rem;
+  line-height: 40px;
+  display: flex; }
+
+>>>>>>> footer component complete
 .logo {
   font-family: "M PLUS 1p", sans-serif;
   font-style: normal;
@@ -221,6 +228,9 @@ h6 {
     justify-content: center;
     align-content: center; } }
 
+<<<<<<< HEAD
+>>>>>>> footer component complete
+=======
 >>>>>>> footer component complete
 section.blank {
   background-color: #150433 !important;
