@@ -121,7 +121,12 @@ h6 {
   font-family: "Noticia Text", serif;
   font-style: italic;
   font-weight: normal;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> footer component complete
   font-size: 22.5px;
   line-height: 40px;
   display: flex; }
@@ -148,6 +153,12 @@ h6 {
   line-height: 40px;
   display: flex; }
 
+=======
+  font-size: 1.25rem;
+  line-height: 40px;
+  display: flex; }
+
+>>>>>>> footer component complete
 .logo {
   font-family: "M PLUS 1p", sans-serif;
   font-style: normal;
@@ -322,6 +333,13 @@ header {
     justify-content: center;
     align-content: center; } }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> footer component complete
+=======
+>>>>>>> footer component complete
+>>>>>>> footer component complete
 section.blank {
   background-color: #150433 !important;
 

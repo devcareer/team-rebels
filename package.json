@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "Lopper",
 
-=======
-
-
-  "name":"Lopper",
->>>>>>> package json update
   "version": "1.0.0",
   "description": "Static build of http://www.looper.netify with SASS as CSS pre-processsor, Bootstrap as CSS framework and Jquery as Javascript framework.",
   "main": "app.js",
