@@ -9,11 +9,11 @@
     left: $left;
 }
 @mixin font-property($family,$size,$weight,$style){
-    font :{
-        family:$family;
-        size: $size;
-        weight: $weight;
-        style: $style;
+    font{
+        font-family:$family;
+        font-size: $size;
+        font-weight: $weight;
+        font-style: $style;
     }
 }
 @mixin line-height ($size){
