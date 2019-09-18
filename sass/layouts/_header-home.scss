@@ -1,0 +1,110 @@
+.header__banner--image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgba($color-secondary-400, 0.8);
+}
+
+.header__navbar {
+  background: rgba($color-secondary-400, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: 0;
+  display: flex;
+  font-weight: bold;
+  &--logo {
+    font-family: $default-font-family;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    padding-right: 200px;
+    padding-left: 100px;
+    
+      
+  }
+  
+}
+.nav-links {
+    list-style: none;
+    margin-top: 20px;
+  }
+.nav-links li {
+    display: inline-block;
+    padding: 0px 30px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: $default-font-family;
+  }
+  
+
+.fas {
+  margin-top: 20px;
+  padding: 0px 50px;
+  color: white;
+}
+
+.header__slogan {
+  position: relative;
+  top: -35rem;
+  left: 5rem;
+  color: white;
+  &--small-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 30px;
+  
+}
+}
+span{
+    color: $color-primary;
+    }
+.border{
+    border: 1px solid $color-light-grey;
+    border-left: 0;
+}
+    .regular-text{
+        position: absolute;
+        top: 28rem;
+        border: 1px solid $color-light-grey;
+        border-left: 0;
+        border-spacing: 10px;
+        padding: 20px 0 20px 0;
+        width: 50%;
+        text-align: center;
+        bottom: 21rem;
+        color: $color-white;
+        padding-bottom: 50px;
+
+    }
+
+    .arrow{
+        border: 1px solid$color-light-grey;
+        border-radius: 50%;
+        padding: .4rem;
+      color: $color-white;
+             
+    }
+
+    .text-small{
+      transform: rotate(90deg);
+      color: $color-white;
+      text-transform: uppercase;
+   position: absolute;
+   right: 2rem;
+   top: 10rem;
+    }
+
+    .arrow-2{
+        border: 1px solid $color-white;
+        width: 100px;
+        height: 10rem;
+        border-radius: 50rem;
+        color: $color-light-grey;
+    }
