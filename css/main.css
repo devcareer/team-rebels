@@ -124,11 +124,26 @@ h6 {
   line-height: 40px;
   display: flex; }
 
+.title-small {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  overflow: vi; }
+
 .header__banner--image {
   position: relative;
   height: 100%;
-  width: 100%;
-  background: rgba(21, 4, 51, 0.8); }
+  width: 100%; }
 
 .header__navbar {
   background: rgba(21, 4, 51, 0.8);
@@ -146,7 +161,7 @@ h6 {
     line-height: 43px;
     letter-spacing: 2px;
     margin-top: 12px;
-    padding-right: 200px;
+    padding-right: 250px;
     padding-left: 100px; }
 
 .nav-links {
@@ -181,7 +196,6 @@ span {
   color: #F61067; }
 
 .border {
-  border: 1px solid #F4F4ED;
   border-left: 0; }
 
 .regular-text {
@@ -191,19 +205,28 @@ span {
   border-left: 0;
   border-spacing: 10px;
   padding: 20px 0 20px 0;
-  width: 50%;
+  width: 55%;
   text-align: center;
   bottom: 21rem;
   color: #FCFCFC;
   padding-bottom: 50px; }
 
-.arrow {
-  border: 1px solid #F4F4ED;
+.box-2 {
+  position: relative;
+  top: -30.9rem;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FCFCFC;
   border-radius: 50%;
-  padding: .4rem;
+  left: 38rem; }
+
+.arrow-2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 1rem;
   color: #FCFCFC; }
 
-.text-small {
+.small-text {
   transform: rotate(90deg);
   color: #FCFCFC;
   text-transform: uppercase;
@@ -211,12 +234,23 @@ span {
   right: 2rem;
   top: 10rem; }
 
-.arrow-2 {
+.arrow-box {
+  margin: 30px;
+  padding: 10px;
   border: 1px solid #FCFCFC;
-  width: 100px;
-  height: 10rem;
-  border-radius: 50rem;
-  color: #F4F4ED; }
+  width: 50px;
+  height: 2px;
+  border-radius: 30px;
+  position: relative;
+  left: 15rem;
+  bottom: 3rem;
+  z-index: 0; }
+
+.arrow-1 {
+  font-size: 28px;
+  position: relative;
+  top: -.9rem;
+  text-align: center; }
 
 .card-section .blank {
   margin: 0;
