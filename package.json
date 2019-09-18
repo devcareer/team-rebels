@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> footer component complete
   "name":"Lopper",
   "version": "1.0.0",
   "description": "Static build of http://www.looper.netify with SASS as CSS pre-processsor, Bootstrap as CSS framework and Jquery as Javascript framework.",
@@ -26,3 +30,8 @@
   },
   "homepage": "https://github.com/devcareer/team-rebels#readme"
 }
+<<<<<<< HEAD
+=======
+
+    
+>>>>>>> footer component complete

@@ -112,6 +112,7 @@ h6 {
   display: flex;
   align-items: center;
 }
+<<<<<<< HEAD
 .quote-small {
   font-family: $default-font-family-quote;
   font-style: italic;
@@ -141,6 +142,17 @@ text-transform: uppercase;
 }
 
 .logo{
+=======
+.quote-small{
+font-family:$default-font-family-quote;
+font-style: italic;
+font-weight: normal;
+font-size: 1.25rem;
+line-height: 40px;
+display: flex;
+}
+.logo {
+>>>>>>> footer component complete
 font-family: $default-font-family;
 font-style: normal;
 font-weight: 900;
@@ -148,6 +160,7 @@ font-size: 24px;
 line-height: 43px;
 letter-spacing: 2px;
 }
+<<<<<<< HEAD
 
 .nav-link {
   font-family: $default-font-family;
@@ -171,3 +184,19 @@ letter-spacing: 2px;
 color: $color-white;
 }
 
+=======
+.text-misc{
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.6px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+.title-small{
+font-family:$default-font-family;
+font-style: normal;
+font-weight: 800;
+font-size: 12.6px;
+}
+>>>>>>> footer component complete
