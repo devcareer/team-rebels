@@ -1,0 +1,33 @@
+// abstract
+@import 'sass/abstract/functions';
+@import 'sass/abstract/mixins';
+@import 'sass/abstract/variables';
+// base
+@import 'sass/base/animations';
+@import 'sass/base/base';
+@import 'sass/base/typography';
+@import 'sass/base/utilities';
+//components
+@import 'sass/components/button.scss';
+@import 'sass/components/newsletter';
+@import 'sass/components/testimonials';
+//layout
+@import 'sass/layouts/footer';
+@import 'sass/layouts/header-home';
+@import 'sass/layouts/header-about';
+@import 'sass/layouts/card-section';
+//pages
+@import 'sass/pages/about1';
+@import 'sass/pages/about2';
+@import 'sass/pages/about3';
+@import 'sass/pages/about4';
+@import 'sass/pages/home1';
+@import 'sass/pages/home2';
+@import 'sass/pages/home3';
+@import 'sass/pages/home1';
+@import 'sass/pages/services1';
+@import 'sass/pages/services2';
+@import 'sass/pages/team1';
+@import 'sass/pages/team2';
+@import 'sass/pages/gallery';
+@import 'sass/pages/contact';
