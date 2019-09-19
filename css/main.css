@@ -411,6 +411,12 @@ section.card {
       padding: 0.6em;
       border-radius: 50%;
       font-weight: 100; }
+      section.card .card-positioned-icon .fa-arrow-right:hover {
+        background: #F61067;
+        transition: background .8s ease-in-out;
+        color: #FFF;
+        border: 1px solid #FFF;
+        cursor: pointer; }
       @media (min-width: 840px) and (max-width: 1200px) {
         section.card .card-positioned-icon .fa-arrow-right {
           display: none; } }
@@ -426,6 +432,12 @@ section.card {
       padding: 0.6em;
       border-radius: 50%;
       font-weight: 100; }
+      section.card .card-positioned-icon .fa-arrow-left:hover {
+        background: #FFF;
+        transition: background .8s ease-in-out;
+        color: #F61067;
+        border: 1px solid #F61067;
+        cursor: pointer; }
       @media (min-width: 840px) and (max-width: 1200px) {
         section.card .card-positioned-icon .fa-arrow-left {
           display: none; } }
@@ -558,6 +570,8 @@ section.card {
     letter-spacing: 0.3em;
     color: #F61067; }
     section.card .card-newsletter-form button.card-newsletter-button:hover {
+      background: rgba(212, 187, 187, 0.5);
+      transition: background .8s ease-in-out;
       cursor: pointer; }
     @media (min-width: 1201px) {
       section.card .card-newsletter-form button.card-newsletter-button {
