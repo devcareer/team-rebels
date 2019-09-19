@@ -218,6 +218,13 @@ section.card {
             padding: 0.6em;
             @include border-radius(50%);
             font-weight: 100;
+            &:hover {
+                background: $color-primary;
+                transition: background .8s ease-in-out;
+                color: #FFF;
+                border: 1px solid #FFF;
+                cursor: pointer;
+            }
             @include tablet {
                 display: none;
             }
@@ -232,6 +239,13 @@ section.card {
             padding: 0.6em;
             @include border-radius(50%);
             font-weight: 100;
+            &:hover {
+                background: #FFF;
+                transition: background .8s ease-in-out;
+                color: $color-primary;
+                border: 1px solid $color-primary;
+                cursor: pointer;
+            }
             @include tablet {
                 display: none;
             }
@@ -326,7 +340,6 @@ section.card {
         border-right: none;
         border-left: none;
         outline: none;
-        @include desktop {}
     }
     input::placeholder {
         color: $text-color-grey;
@@ -340,7 +353,6 @@ section.card {
         height: 3.6em;
         @include font-property($default-font-family, 0.7em, 800, normal);
         background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-      
         border: none;
         border-bottom: 2px solid $color-light-grey;
         margin-top: 0.7em;
@@ -349,6 +361,8 @@ section.card {
         letter-spacing: 0.3em;
         color: $color-primary;
         &:hover {
+            background: rgba(212, 187, 187, 0.5);
+            transition: background .8s ease-in-out;
             cursor: pointer;
         }
         @include desktop {
