@@ -133,12 +133,12 @@ h6 {
   letter-spacing: 6px;
   text-transform: uppercase; }
 
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   width: auto;
-  overflow: vi; }
+  overflow-x: hidden; }
 
 .header__banner--image {
   position: relative;
@@ -149,7 +149,7 @@ h6 {
   background: rgba(21, 4, 51, 0.8);
   position: absolute;
   width: 100%;
-  height: 800px;
+  height: 70px;
   top: 0;
   display: flex;
   font-weight: bold; }
@@ -243,8 +243,7 @@ span {
   border-radius: 30px;
   position: relative;
   left: 15rem;
-  bottom: 3rem;
-  z-index: 0; }
+  bottom: 3rem; }
 
 .arrow-1 {
   font-size: 28px;
