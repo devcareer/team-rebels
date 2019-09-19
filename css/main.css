@@ -179,7 +179,10 @@ h6 {
   text-align: center; }
 
 .u-margin-top-medium {
-  margin-top: 6rem; }
+  margin-top: 4rem; }
+
+.u-margin-top-small {
+  margin-top: 1rem; }
 
 body {
   width: 100%;
@@ -958,3 +961,36 @@ nav {
     padding: .5em;
     border-radius: 50%;
     margin-left: 1.3em; }
+
+.section-intro {
+  padding: 6rem; }
+
+.into__heading--primary {
+  color: #F61067;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: .6rem; }
+
+.intro__info--text {
+  width: 70%; }
+
+.intro__icon--text-secondary {
+  color: #776C82; }
+
+.section-what-we-do {
+  padding: 0 6rem 6rem 6rem; }
+
+.what-we-do__primary {
+  color: #F61067;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: .2rem; }
+
+.row {
+  padding: 2rem 0 2rem 0; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }

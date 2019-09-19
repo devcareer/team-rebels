@@ -1,0 +1,46 @@
+.section-intro{
+  padding:6rem;
+}
+.into__heading{
+  &--primary{
+    color: $color-primary;
+    text-transform: uppercase;
+    line-height: 26px;
+letter-spacing: .6rem;
+  }
+}
+.intro__info--text{
+  width:70%;
+}
+
+.intro__icon{
+  &--text-secondary{
+    color:$text-color-main-text;
+  }
+}
+.section-what-we-do{
+  padding:0 6rem 6rem 6rem;
+}
+.what-we-do{
+    &__primary{
+      color: $color-primary;
+      text-transform: uppercase;
+      line-height: 26px;
+      letter-spacing: .2rem;
+}
+}
+.row{
+  padding:2rem 0 2rem 0 ;
+  
+  &-primary{
+    background-color: $color-secondary-100;
+
+  }
+  &-secondary{
+    background-color: $color-secondary-300;
+   
+  }
+  &-tertiary{
+    background-color: $color-secondary-200;
+  }
+}
