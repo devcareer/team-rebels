@@ -124,48 +124,48 @@ h6 {
   line-height: 40px;
   display: flex; }
 
-section.blank {
+.card-section .blank {
   margin: 0;
   padding: 0; }
-  section.blank .blank--content {
-    background: #150433 !important;
+  .card-section .blank .blank__content {
+    background: #150433;
     width: 100%;
     height: 40vh;
     color: #FFF; }
 
-section.card {
+.card-section .card {
   margin: 0;
   padding: 0;
   border: none; }
-  section.card .card-photos {
+  .card-section .card .card .card__photos {
     position: relative;
     background: #FCFCFC;
     width: 100%;
     height: 40vh;
     border: none; }
     @media (min-width: 1201px) {
-      section.card .card-photos {
+      .card-section .card .card .card__photos {
         width: 100%;
         height: 80vh; } }
     @media (min-width: 840px) and (max-width: 1200px) {
-      section.card .card-photos {
+      .card-section .card .card .card__photos {
         width: 100%;
         height: 58vh; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images {
+    .card-section .card .card-positioned-images {
       position: absolute; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images {
+    .card-section .card .card-positioned-images {
       position: absolute; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-1 {
+    .card-section .card .card-positioned-images.image-1 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 9em !important;
+      background-size: 9em 9em;
       position: absolute;
       top: 4.2em;
       left: 17em;
@@ -173,14 +173,14 @@ section.card {
       height: 4.5em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-1 {
+    .card-section .card .card-positioned-images.image-1 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 8em 8em !important;
+      background-size: 8em 8em;
       position: absolute;
       top: 2.5em;
       left: 5em;
@@ -188,17 +188,17 @@ section.card {
       height: 4.0em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-1 {
+    .card-section .card .card-positioned-images.image-1 {
       display: none; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-2 {
+    .card-section .card .card-positioned-images.image-2 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 9em 9em !important;
+      background-size: 9em 9em;
       position: absolute;
       top: 12em;
       left: 8em;
@@ -207,14 +207,14 @@ section.card {
       height: 4em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-2 {
+    .card-section .card .card-positioned-images.image-2 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 8em 8em !important;
+      background-size: 8em 8em;
       position: absolute;
       top: 8em;
       left: 4em;
@@ -223,17 +223,17 @@ section.card {
       height: 3.5em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-2 {
+    .card-section .card .card-positioned-images.image-2 {
       display: none; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-3 {
+    .card-section .card .card-positioned-images.image-3 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 6em 6em !important;
+      background-size: 6em 6em;
       position: absolute;
       top: 10em;
       left: 25em;
@@ -242,14 +242,14 @@ section.card {
       height: 2.2em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-3 {
+    .card-section .card .card-positioned-images.image-3 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 6em 6em !important;
+      background-size: 6em 6em;
       position: absolute;
       top: 6.5em;
       left: 13em;
@@ -258,17 +258,17 @@ section.card {
       height: 2.2em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-3 {
+    .card-section .card .card-positioned-images.image-3 {
       display: none; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-4 {
+    .card-section .card .card-positioned-images.image-4 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 7em 7em !important;
+      background-size: 7em 7em;
       position: absolute;
       top: 10em;
       right: 23em;
@@ -277,14 +277,14 @@ section.card {
       height: 3em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-4 {
+    .card-section .card .card-positioned-images.image-4 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 7em 7em !important;
+      background-size: 7em 7em;
       position: absolute;
       top: 6em;
       right: 12em;
@@ -293,17 +293,17 @@ section.card {
       height: 3em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-4 {
+    .card-section .card .card-positioned-images.image-4 {
       display: none; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-5 {
+    .card-section .card .card-positioned-images.image-5 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 7em 7em !important;
+      background-size: 7em 7em;
       position: absolute;
       top: 11em;
       right: 11em;
@@ -312,14 +312,14 @@ section.card {
       height: 3em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-5 {
+    .card-section .card .card-positioned-images.image-5 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 7em 7em !important;
+      background-size: 7em 7em;
       position: absolute;
       top: 8em;
       right: 2em;
@@ -328,17 +328,17 @@ section.card {
       height: 3em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-5 {
+    .card-section .card .card-positioned-images.image-5 {
       display: none; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-6 {
+    .card-section .card .card-positioned-images.image-6 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 10em !important;
+      background-size: 9em 10em;
       position: absolute;
       top: 6em;
       right: 18em;
@@ -347,14 +347,14 @@ section.card {
       height: 2.3em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-6 {
+    .card-section .card .card-positioned-images.image-6 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 10em !important;
+      background-size: 9em 10em;
       position: absolute;
       top: 4em;
       right: 7em;
@@ -363,17 +363,17 @@ section.card {
       height: 2.3em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-6 {
+    .card-section .card .card-positioned-images.image-6 {
       display: none; } }
   @media (min-width: 1201px) {
-    section.card .card-positioned-images.image-7 {
+    .card-section .card .card-positioned-images.image-7 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 9em 10em !important;
+      background-size: 9em 10em;
       position: absolute;
       top: 2em;
       right: 11em;
@@ -382,14 +382,14 @@ section.card {
       height: 3.5em;
       border-radius: 50%; } }
   @media (min-width: 840px) and (max-width: 1200px) {
-    section.card .card-positioned-images.image-7 {
+    .card-section .card .card-positioned-images.image-7 {
       display: block;
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
       box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 9em 10em !important;
+      background-size: 9em 10em;
       position: absolute;
       top: 2em;
       right: 2em;
@@ -398,11 +398,11 @@ section.card {
       height: 3.5em;
       border-radius: 50%; } }
   @media (max-width: 839px) {
-    section.card .card-positioned-images.image-7 {
+    .card-section .card .card-positioned-images.image-7 {
       display: none; } }
-  section.card .card-positioned-icon {
+  .card-section .card .card-positioned-icon {
     position: absolute; }
-    section.card .card-positioned-icon .fa-arrow-right {
+    .card-section .card .card-positioned-icon .fa-arrow-right {
       position: absolute;
       top: 18em;
       left: 60em;
@@ -411,19 +411,19 @@ section.card {
       padding: 0.6em;
       border-radius: 50%;
       font-weight: 100; }
-      section.card .card-positioned-icon .fa-arrow-right:hover {
+      .card-section .card .card-positioned-icon .fa-arrow-right:hover {
         background: #F61067;
         transition: background .8s ease-in-out;
         color: #FFF;
         border: 1px solid #FFF;
         cursor: pointer; }
       @media (min-width: 840px) and (max-width: 1200px) {
-        section.card .card-positioned-icon .fa-arrow-right {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
           display: none; } }
       @media (max-width: 839px) {
-        section.card .card-positioned-icon .fa-arrow-right {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
           display: none; } }
-    section.card .card-positioned-icon .fa-arrow-left {
+    .card-section .card .card-positioned-icon .fa-arrow-left {
       position: absolute;
       top: 18em;
       left: 11em;
@@ -432,34 +432,34 @@ section.card {
       padding: 0.6em;
       border-radius: 50%;
       font-weight: 100; }
-      section.card .card-positioned-icon .fa-arrow-left:hover {
+      .card-section .card .card-positioned-icon .fa-arrow-left:hover {
         background: #FFF;
         transition: background .8s ease-in-out;
         color: #F61067;
         border: 1px solid #F61067;
         cursor: pointer; }
       @media (min-width: 840px) and (max-width: 1200px) {
-        section.card .card-positioned-icon .fa-arrow-left {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
           display: none; } }
       @media (max-width: 839px) {
-        section.card .card-positioned-icon .fa-arrow-left {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
           display: none; } }
-  section.card img.card-center-image {
+  .card-section .card img.card-center-image {
     display: block;
     background: none;
     margin: -5em auto 0 auto;
     width: 13em;
     height: 13em; }
     @media (min-width: 1201px) {
-      section.card img.card-center-image {
+      .card-section .card img.card-center-image {
         width: 20em;
         height: 20em; } }
-  section.card i.card-photos-fa {
+  .card-section .card i.card__photos-fa {
     margin: -0.4em auto 0 auto;
     color: #F61067;
     font-size: 3em;
     z-index: 2; }
-  section.card h3.card-photos-h3 {
+  .card-section .card h3.card__photos-h3 {
     font-family: "Noticia Text", serif;
     font-size: 0.9em;
     font-weight: normal;
@@ -467,77 +467,77 @@ section.card {
     text-align: center;
     line-height: 1.2em; }
     @media (min-width: 1201px) {
-      section.card h3.card-photos-h3 {
+      .card-section .card h3.card__photos-h3 {
         font-family: "Noticia Text", serif;
         font-size: 1.3em;
         font-weight: normal;
         font-style: italic;
         line-height: 1.5em; } }
     @media (min-width: 840px) and (max-width: 1200px) {
-      section.card h3.card-photos-h3 {
+      .card-section .card h3.card__photos-h3 {
         font-family: "Noticia Text", serif;
         font-size: 1.3em;
         font-weight: normal;
         font-style: italic;
         line-height: 1.7em;
         margin-top: 1.3em; } }
-  section.card .card-photos-tagline {
+  .card-section .card .card__photos-tagline {
     text-align: center;
     font-size: 0.7em;
     padding-bottom: 3em; }
     @media (min-width: 1201px) {
-      section.card .card-photos-tagline {
+      .card-section .card .card__photos-tagline {
         font-size: 1em; } }
     @media (min-width: 840px) and (max-width: 1200px) {
-      section.card .card-photos-tagline {
+      .card-section .card .card__photos-tagline {
         font-size: 1em; } }
-  section.card .card-photos-tagline span {
+  .card-section .card .card__photos-tagline span {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.8em;
     font-weight: 800;
     font-style: normal;
     color: #F61067; }
-  section.card .card-newsletter {
+  .card-section .card .card__newsletter {
     width: 100%;
     height: 30vh;
     border: none;
     text-align: center; }
     @media (min-width: 1201px) {
-      section.card .card-newsletter {
+      .card-section .card .card__newsletter {
         margin-top: 3.0em; } }
-  section.card h3.card-newsletter-h3 {
+  .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
     font-weight: 500;
     font-style: normal; }
     @media (min-width: 1201px) {
-      section.card h3.card-newsletter-h3 {
+      .card-section .card h3.card__newsletter-h3 {
         font-family: "M PLUS 1p", sans-serif;
         font-size: 1.8em;
         font-weight: 500;
         font-style: normal; } }
-  section.card p.card-newsletter-p {
+  .card-section .card p.card__newsletter-p {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.7em;
     font-weight: 500;
     font-style: normal; }
     @media (min-width: 1201px) {
-      section.card p.card-newsletter-p {
+      .card-section .card p.card__newsletter-p {
         font-family: "M PLUS 1p", sans-serif;
         font-size: 1em;
         font-weight: 500;
         font-style: normal; } }
-  section.card .card-newsletter-form {
+  .card-section .card .card__newsletter-form {
     padding: 2em; }
     @media (min-width: 1201px) {
-      section.card .card-newsletter-form {
+      .card-section .card .card__newsletter-form {
         width: 50%;
         display: inline-flex;
         margin: 0 auto; } }
     @media (min-width: 840px) and (max-width: 1200px) {
-      section.card .card-newsletter-form {
+      .card-section .card .card__newsletter-form {
         padding: 0 10em; } }
-  section.card .card-newsletter-form input.card-newsletter-input {
+  .card-section .card .card__newsletter-form input.card__newsletter-input {
     width: 100%;
     height: 3.0em;
     border-bottom: 2px solid #F4F4ED;
@@ -545,7 +545,7 @@ section.card {
     border-right: none;
     border-left: none;
     outline: none; }
-  section.card input::placeholder {
+  .card-section .card input::placeholder {
     color: #9B94A3;
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.7em;
@@ -554,7 +554,7 @@ section.card {
     text-transform: uppercase;
     letter-spacing: 0.3em;
     line-height: 3.5em; }
-  section.card .card-newsletter-form button.card-newsletter-button {
+  .card-section .card .card__newsletter-form button.card__newsletter-button {
     width: 100%;
     height: 3.6em;
     font-family: "M PLUS 1p", sans-serif;
@@ -569,14 +569,14 @@ section.card {
     text-transform: uppercase;
     letter-spacing: 0.3em;
     color: #F61067; }
-    section.card .card-newsletter-form button.card-newsletter-button:hover {
+    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
       background: rgba(212, 187, 187, 0.5);
       transition: background .8s ease-in-out;
       cursor: pointer; }
     @media (min-width: 1201px) {
-      section.card .card-newsletter-form button.card-newsletter-button {
+      .card-section .card .card__newsletter-form button.card__newsletter-button {
         width: 70%; } }
-  section.card button.card-newsletter-button i.button-fa {
+  .card-section .card button.card__newsletter-button i.button-fa {
     border: 1px solid rgba(246, 16, 103, 0.5);
     box-sizing: border-box;
     padding: .5em;
