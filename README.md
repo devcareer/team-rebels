@@ -31,7 +31,11 @@ $ git remote -v=Verifies the new remote URL
 9. Push the changes in your local repository to GitHub.
 e.g $ git push origin develop=Pushes the changes in your local repository up to the remote repository you specified as the origin.
 
-
+# To run and watch your scss
+1. Open your terminal or CMD on windows
+2. cd to the project directory
+3. run `npm run scss`
+4. Then your scss will be automatically watched and rendered to the css/main.css
 
 # Styleguides
 
