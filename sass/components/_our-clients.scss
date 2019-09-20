@@ -1,0 +1,133 @@
+.client__background {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 0px;
+  top: 95px;
+  //   background: ;
+  margin: 2rem;
+  .txt {
+    color: #f61067;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 0 0.5rem 6rem;
+  }
+}
+.text-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
+  margin-left: 6rem;
+  /* TextColors/Headers */
+  color: $color-secondary-400;
+}
+.logos {
+  margin: 2rem;
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  left: 605px;
+  top: 74px;
+  background: $color-white;
+}
+.our-clients {
+  position: absolute;
+  font-weight: bold;
+  color: $color-secondary-400;
+  left: 17.78%;
+  top: 63.86%;
+  padding-left: 2rem;
+}
+.client-logo {
+  position: absolute;
+  width: 15rem;
+  left: 17.78%;
+  top: 290px;
+  padding-left: 2rem;
+}
+.leftside {
+  margin-left: 2rem;
+  position: absolute;
+  width: 450px;
+  height: 320px;
+  left: 0px;
+  top: 280px;
+  bottom: 34px;
+  background: $color-secondary-400;
+  color: $color-white;
+  padding: 2rem 6rem 4rem 6rem;
+  text-align: justify;
+  .leftside-text {
+    padding-bottom: 1rem;
+    color: #f61067;
+  }
+}
+
+.client-banner {
+  margin: 2rem;
+  position: absolute;
+  width: 1000px;
+  height: 590px;
+  left: 0px;
+  top: 32rem;
+  background: $color-secondary-300;
+  z-index: -1;
+}
+.txt-2 {
+  color: #f61067;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  padding-left: 6rem;
+}
+
+.client-text {
+  padding: 2rem 2rem;
+  font-size: 20px;
+  line-height: 26px;
+  color: $color-white;
+  padding-left: 6rem;
+}
+.text-box {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin: 0 -15px;
+  top: 52rem;
+  left: 4rem;
+  padding-left: 4rem;
+}
+.box {
+  //   position: absolute;
+  left: 10.21%;
+  right: 64.65%;
+  border: 1px solid $color-white;
+  height: 180px;
+  width: 195px;
+  background: $color-secondary-300;
+  margin: 0 15px;
+  padding: 1rem;
+}
+.nb {
+  padding-top: .05rem;
+  text-align: center;
+  color: #f61067;
+  font-family: $default-font-family;
+  font-weight: 800;
+}
+.texty {
+  font-family: $default-font-family;
+  font-style: normal;
+  font-weight: 500;
+  color: $color-white;
+  line-height: 40px;
+  padding-left: .5rem;
+}
+.content{
+    overflow-wrap: normal;
+    padding-bottom: 2rem;
+    color: $color-white;
+    text-align: left;
+}
