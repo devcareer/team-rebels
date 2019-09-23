@@ -184,6 +184,15 @@ h6 {
 .u-margin-top-small {
   margin-top: 1rem; }
 
+.u-margin-medium {
+  margin: 3rem; }
+
+.u-margin-left {
+  margin-right: 4rem; }
+
+.u-padding-none {
+  padding: 0; }
+
 body {
   width: 100%;
   height: auto;
@@ -963,7 +972,11 @@ nav {
     margin-left: 1.3em; }
 
 .section-intro {
-  padding: 6rem; }
+  padding: 6rem;
+  overflow: hidden; }
+
+body {
+  overflow-x: hidden; }
 
 .into__heading--primary {
   color: #F61067;
@@ -974,23 +987,81 @@ nav {
 .intro__info--text {
   width: 70%; }
 
+.container-fluid {
+  position: relative; }
+
 .intro__icon--text-secondary {
   color: #776C82; }
 
 .section-what-we-do {
-  padding: 0 6rem 6rem 6rem; }
+  overflow-x: hidden; }
 
-.what-we-do__primary {
-  color: #F61067;
-  text-transform: uppercase;
-  line-height: 26px;
-  letter-spacing: .2rem; }
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.8), rgba(246, 16, 103, 0.8)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    height: 70%;
+    margin-top: -10rem;
+    background-size: cover; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
 
 .row {
-  padding: 2rem 0 2rem 0; }
+  flex-wrap: nowrap; }
   .row-primary {
     background-color: #5E239D; }
   .row-secondary {
     background-color: #30124E; }
   .row-tertiary {
     background-color: #3A0475; }
+
+.icon__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #F61067;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+  .icon__circle--icon {
+    color: #F61067; }
+
+.row__container--text {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+.senior {
+  display: flex;
+  flex-direction: column; }
+
+.junior {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-emphasis: center;
+  color: #FCFCFC; }
+
+.txt1 {
+  margin: 3rem 2rem; }
+
+.txt2 {
+  margin: 3rem 4rem 3rem 4rem; }
+
+.what-we-do-stats {
+  padding: 6rem; }
+  .what-we-do-stats__primary {
+    color: #F61067; }
+  .what-we-do-stats__secondary {
+    color: #5E239D; }
+  .what-we-do-stats__tertiary {
+    color: #00F0B5; }
+
+.stats_text {
+  letter-spacing: 6px;
+  text-transform: uppercase; }

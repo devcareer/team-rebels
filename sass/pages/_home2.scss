@@ -1,5 +1,9 @@
 .section-intro{
   padding:6rem;
+  overflow: hidden;
+}
+body{
+  overflow-x: hidden;
 }
 .into__heading{
   &--primary{
@@ -12,16 +16,28 @@ letter-spacing: .6rem;
 .intro__info--text{
   width:70%;
 }
-
+.container-fluid{
+  position: relative;
+}
 .intro__icon{
   &--text-secondary{
     color:$text-color-main-text;
   }
 }
 .section-what-we-do{
-  padding:0 6rem 6rem 6rem;
+ overflow-x: hidden;
 }
+
 .what-we-do{
+  margin:0 6rem 3rem 6rem;
+  &--image{
+    background-image: linear-gradient(to right bottom ,rgba($color-primary, 0.8), rgba($color-primary,0.8)),url('https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png');
+    background-blend-mode: multiply;
+    height:70%;
+   margin-top: -10rem;
+   background-size: cover;
+  }
+ 
     &__primary{
       color: $color-primary;
       text-transform: uppercase;
@@ -29,9 +45,9 @@ letter-spacing: .6rem;
       letter-spacing: .2rem;
 }
 }
+ 
 .row{
-  padding:2rem 0 2rem 0 ;
-  
+  flex-wrap: nowrap;
   &-primary{
     background-color: $color-secondary-100;
 
@@ -43,4 +59,68 @@ letter-spacing: .6rem;
   &-tertiary{
     background-color: $color-secondary-200;
   }
+}
+.icon{
+  &__circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid $color-primary;
+    text-align: center;
+    line-height: 1rem;
+    vertical-align: middle;
+    padding: 1rem;
+
+    &--icon{
+      color:$color-primary;
+    }
+  }
+
+}
+
+.row__container{
+  &--text{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+  
+  }
+}
+.senior {
+  display: flex;
+  flex-direction: column;
+}
+.junior {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-emphasis: center;
+  color: $color-white;
+
+}
+.txt1 {
+
+  margin: 3rem 2rem;
+  
+}
+.txt2 {
+ 
+  margin: 3rem 4rem 3rem 4rem;
+}
+.what-we-do-stats{
+  padding: 6rem;
+  &__primary{
+    color: $color-primary;
+  }
+  &__secondary{
+      color: $color-secondary-100;
+  }
+  &__tertiary{
+    color: $color-tertiary;
+  }
+}
+.stats_text{
+  letter-spacing: 6px;
+  text-transform: uppercase;
 }
