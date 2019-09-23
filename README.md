@@ -36,6 +36,7 @@ e.g $ git push origin develop=Pushes the changes in your local repository up to 
 2. cd to the project directory
 3. run `npm run scss`
 4. Then your scss will be automatically watched and rendered to the css/main.css
+5. Kepp watching your terminal/CMD for any error message.
 
 # Styleguides
 
