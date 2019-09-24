@@ -161,13 +161,6 @@ h6 {
   letter-spacing: 2px;
   color: #FCFCFC; }
 
-.vector {
-  position: absolute;
-  left: 70%;
-  top: 4.5%;
-  bottom: 98.34%;
-  color: #FCFCFC; }
-
 .text-misc {
   font-style: normal;
   font-weight: 800;
@@ -176,144 +169,71 @@ h6 {
   letter-spacing: 2px;
   color: #FCFCFC; }
 
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden; }
+
 .client__background {
-  position: absolute;
-  width: 450px;
-  height: 350px;
-  left: 0px;
-  top: 95px;
-  margin: 2rem; }
-  .client__background .txt {
-    color: #f61067;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 0 0 0.5rem 6rem; }
+  padding-left: 5rem;
+  padding-top: 5rem; }
 
-.text-header {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 24px;
-  margin-left: 6rem;
-  /* TextColors/Headers */
-  color: #150433; }
-
-.logos {
-  margin: 2rem;
-  position: absolute;
-  width: 450px;
-  height: 350px;
-  left: 605px;
-  top: 74px;
-  background: #FCFCFC; }
-
-.our-clients {
-  position: absolute;
-  font-weight: bold;
-  color: #150433;
-  left: 17.78%;
-  top: 63.86%;
-  padding-left: 2rem; }
-
-.client-logo {
-  position: absolute;
-  width: 15rem;
-  left: 17.78%;
-  top: 290px;
-  padding-left: 2rem; }
-
-.leftside {
-  margin-left: 2rem;
-  position: absolute;
-  width: 450px;
-  height: 320px;
-  left: 0px;
-  top: 280px;
-  bottom: 34px;
-  background: #150433;
-  color: #FCFCFC;
-  padding: 2rem 6rem 4rem 6rem;
-  text-align: justify; }
-  .leftside .leftside-text {
-    padding-bottom: 1rem;
-    color: #f61067; }
-
-.client-banner {
-  margin: 2rem;
-  position: absolute;
-  width: 1000px;
-  height: 590px;
-  left: 0px;
-  top: 32rem;
-  background: #30124E;
-  z-index: -1; }
-
-.txt-2 {
-  color: #f61067;
-  font-size: 18px;
+.client__title {
   text-transform: uppercase;
-  padding-top: 8rem;
-  padding-left: 2rem;
-  padding-left: 6rem; }
+  color: #F61067; }
 
-.client-text {
-  padding: 2rem 2rem;
-  font-size: 20px;
-  line-height: 26px;
-  color: #FCFCFC;
-  padding-left: 6rem; }
+.client__body {
+  color: #150433;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 3rem; }
 
-.text-box {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  margin: 0 -15px;
-  top: 52rem;
-  left: 4rem;
-  padding-left: 4rem; }
+.container {
+  float: left; }
 
-.box {
-  left: 10.21%;
-  right: 64.65%;
-  border: 1px solid #FCFCFC;
-  height: 180px;
-  width: 195px;
-  background: #30124E;
-  margin: 0 15px;
-  padding: 1rem; }
+.blue__bg {
+  background-color: #150433;
+  width: 50%; }
+  .blue__bg--title {
+    text-align: center;
+    color: #F61067;
+    padding: 2rem 0rem;
+    margin-top: 2rem; }
+  .blue__bg--text {
+    color: #FCFCFC;
+    text-align: justify;
+    padding-right: 4rem;
+    padding-left: 4rem; }
 
-.nb {
-  padding-top: .05rem;
-  text-align: center;
-  color: #f61067;
-  font-family: "M PLUS 1p", sans-serif;
-  font-weight: 800; }
+.logo {
+  margin-left: 6rem; }
 
-.texty {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  color: #FCFCFC;
-  line-height: 40px;
-  padding-left: .5rem; }
+.banner {
+  background-color: #30124E;
+  width: 100%;
+  color: #FCFCFC; }
 
-.content {
-  overflow-wrap: normal;
-  padding-bottom: 2rem;
-  color: #FCFCFC;
-  text-align: left; }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: absolute; }
 
 header {
   background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
   mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 30rem; }
+  height: 35rem;
+  width: 100%;
+  position: absolute; }
 
 .background {
   position: absolute;
   width: 100%;
-  height: 30rem;
+  height: 100%;
   top: 0;
   background: #30124E;
   mix-blend-mode: multiply;
@@ -326,17 +246,14 @@ nav {
   background: transparent; }
   .navbar .navbar-brand {
     color: #FCFCFC;
-    margin-left: 9rem;
-    margin-right: 9rem;
+    margin-left: 6rem;
+    margin-right: 10rem;
     position: relative; }
-
-.navbar .navbar-brand {
-  color: #FCFCFC; }
 
 .navbar .navbar-brand:hover {
   color: #FCFCFC; }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
   color: #FCFCFC;
   margin-right: 3rem; }
 
@@ -344,14 +261,20 @@ nav {
   text-decoration: underline;
   color: #FCFCFC; }
 
+.vector {
+  position: absolute;
+  left: 71%;
+  color: #FCFCFC;
+  margin-top: .3%; }
+
 .text-one {
   color: #FCFCFC;
-  padding-left: 10rem;
+  padding-left: 7rem;
   padding-top: 2rem;
   padding-bottom: .5rem; }
 
 .big__text {
-  margin-left: 10rem; }
+  margin-left: 7rem; }
   .big__text--color {
     color: #F61067; }
 
@@ -359,14 +282,15 @@ nav {
   position: absolute;
   width: 833px;
   height: 80px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid #FCFCFC;
   border-left: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin-top: 3.5rem; }
   .bg .small-text {
     position: absolute;
     left: 147px;
     margin-top: 1.4rem;
-    margin-left: 1rem;
+    margin-left: .1rem;
     color: #FCFCFC; }
 
 .arrow {
@@ -377,12 +301,11 @@ nav {
     position: absolute;
     width: 38px;
     height: 38px;
-    left: 762px;
-    top: 18px;
+    left: 752px;
+    top: 4.5rem;
     border-radius: 100px;
     text-align: center;
     padding-top: .2rem;
-    /* Colors/White */
     border: 1px solid #FCFCFC;
     box-sizing: border-box; }
 
@@ -393,35 +316,11 @@ nav {
   left: 972px;
   top: 22px; }
 
-.rect-1 {
-  position: absolute;
-  width: 27px;
-  height: 2px;
-  left: 1293px;
-  top: 40px;
-  background: #FCFCFC; }
-
-.rect-2 {
-  position: absolute;
-  width: 27px;
-  height: 2px;
-  left: 1293px;
-  top: 35px;
-  background: #FCFCFC; }
-
-.rect-3 {
-  position: absolute;
-  width: 18px;
-  height: 2px;
-  left: 1302px;
-  top: 45px;
-  background: #FCFCFC; }
-
 .scroll {
   position: absolute;
   width: 272px;
   height: 28px;
-  left: 1175px;
+  left: 75%;
   top: 240px;
   text-transform: uppercase;
   transform: rotate(90deg);
@@ -431,7 +330,7 @@ nav {
   position: absolute;
   width: 21px;
   height: 46px;
-  left: 1300px;
+  left: 84.5%;
   top: 337px;
   border: 1px solid #FCFCFC;
   border-radius: 40px; }
@@ -450,23 +349,79 @@ nav {
     mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 100%;
-    width: 100rem;
-    overflow-x: hidden; }
+    height: 20rem;
+    width: 100%; }
   .background {
-    height: 100%;
-    width: 100rem;
+    height: 20rem;
+    width: 100%;
     top: 0; }
   .navbar {
     height: .2rem; }
   .navbar .navbar-brand {
     margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
+    margin-top: -3rem;
+    font-size: 1rem; }
   .navbar-nav {
     margin-left: .5rem;
-    display: flex; } }
+    display: flex; }
+  .navbar-dark .navbar-toggler {
+    margin-left: 35rem; }
+  .navbar-dark .navbar-nav .nav-link {
+    margin-left: 35rem; }
+  .vector {
+    position: absolute;
+    left: 76%;
+    padding: .5rem;
+    color: #FCFCFC; }
+  .misc-text {
+    letter-spacing: 0rem;
+    left: 79%;
+    top: 258px; }
+  .text-one {
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem; }
+  .big__text {
+    margin-left: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem; }
+  .scroll {
+    display: none; }
+  .icon {
+    display: none; }
+  .bg {
+    margin-top: 1.2rem;
+    height: 2.5rem;
+    width: 28rem; }
+    .bg .small-text {
+      margin-top: 0.5rem;
+      margin-left: -6rem;
+      font-size: .8rem; }
+  .arrow .Arrow {
+    position: absolute;
+    left: 52rem;
+    top: 18px; } }
+
+@media screen and (max-width: 360px) {
+  header {
+    width: 100rem; }
+  .navbar .navbar-brand {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .navbar-dark .navbar-toggler {
+    margin-left: 17rem;
+    margin-top: -2rem; } }
+
+@media (min-width: 1440px) {
+  .vector {
+    margin-left: -5%; }
+  .scroll {
+    margin-left: .6%; } }
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 10rem; } }
 
 .card-section .blank {
   margin: 0;

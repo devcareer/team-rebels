@@ -1,16 +1,26 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+  position: absolute;
+}
+
 header {
   background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%),
     URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
   mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 30rem;
-  
+  height: 35rem;
+  width: 100%;
+  position: absolute;
 }
 .background{
 position: absolute;
 width: 100%;
-height: 30rem;
+height: 100%;
 top: 0;
 background:#30124E;
 mix-blend-mode: multiply;
@@ -25,19 +35,17 @@ nav{
   background:transparent;
   .navbar-brand{
     color: $color-white;
-    margin-left: 9rem;
-    margin-right: 9rem;
+    margin-left: 6rem;
+    margin-right: 10rem;
     position: relative;
           
   }
 }
-.navbar .navbar-brand{
-  color: $color-white;
-}
+
 .navbar .navbar-brand:hover{
   color: $color-white;
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
   color: $color-white;
   margin-right: 3rem;
   
@@ -46,15 +54,21 @@ nav{
   text-decoration: underline;
   color: $color-white;
   }
+  .vector{
+    position: absolute;
+    left: 71%;
+    color: $color-white;
+    margin-top: .3%;
+    }
 .text-one{
   color: $color-white;
-  padding-left: 10rem;
+  padding-left: 7rem;
   padding-top: 2rem;
   padding-bottom: .5rem;
 }
 
 .big__text{
-  margin-left: 10rem;
+  margin-left: 7rem;
   &--color{
     color: $color-primary;
       }
@@ -64,14 +78,15 @@ nav{
   position: absolute;
 width: 833px;
 height: 80px;
-border: 1px solid rgba(255, 255, 255, 0.25);
+border: 1px solid $color-white;
 border-left: none;
 box-sizing: border-box;
+margin-top: 3.5rem;
 .small-text{
   position: absolute;
 left: 147px;
 margin-top: 1.4rem;
-margin-left: 1rem;
+margin-left: .1rem;
 color: $color-white;
 
 }
@@ -85,13 +100,11 @@ border-radius: 50%;
   position: absolute;
 width: 38px;
 height: 38px;
-left: 762px;
-top: 18px;
+left: 752px;
+top: 4.5rem;
 border-radius: 100px;
 text-align: center;
 padding-top: .2rem;
-
-/* Colors/White */
 border: 1px solid $color-white;
 box-sizing: border-box;
 }
@@ -105,36 +118,36 @@ top: 22px;
 }
 
 
-.rect-1{
-  position: absolute;
-width: 27px;
-height: 2px;
-left: 1293px;
-top: 40px;
-background: $color-white;
-}
-.rect-2{
-  position: absolute;
-width: 27px;
-height: 2px;
-left: 1293px;
-top: 35px;
-background: $color-white;
-}
-.rect-3{
-  position: absolute;
-width: 18px;
-height: 2px;
-left: 1302px;
-top: 45px;
-background: $color-white;
-}
+// .rect-1{
+//   position: absolute;
+// width: 27px;
+// height: 2px;
+// left: 1293px;
+// top: 40px;
+// background: $color-white;
+// }
+// .rect-2{
+//   position: absolute;
+// width: 27px;
+// height: 2px;
+// left: 1293px;
+// top: 35px;
+// background: $color-white;
+// }
+// .rect-3{
+//   position: absolute;
+// width: 18px;
+// height: 2px;
+// left: 1302px;
+// top: 45px;
+// background: $color-white;
+// }
 
 .scroll{
   position: absolute;
 width: 272px;
 height: 28px;
-left: 1175px;
+left: 75%;
 top: 240px;
 text-transform: uppercase;
 transform: rotate(90deg);
@@ -146,7 +159,7 @@ color: $color-white;
 position: absolute;
 width: 21px;
 height: 46px;
-left: 1300px;
+left: 84.5%;
 top: 337px;
 border: 1px solid $color-white;
 border-radius: 40px;
@@ -168,13 +181,13 @@ transform: rotate(90deg);
   mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-   height: 100%;
-   width: 100rem;
-   overflow-x: hidden;
+  height: 20rem;
+  width: 100%;
+  //  overflow-x: hidden;
   }
   .background{
-    height: 100%;
-    width: 100rem;
+    height: 20rem;
+    width: 100%;
     top: 0;
   
   }
@@ -182,13 +195,99 @@ transform: rotate(90deg);
     height: .2rem;
   }
   .navbar .navbar-brand{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+   margin-left: 1rem;
+   margin-top: -3rem;
+   font-size: 1rem;
   }
   .navbar-nav{
     margin-left: .5rem;
     display: flex;
+    }
+    .navbar-dark .navbar-toggler {
+            margin-left: 35rem;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+      margin-left: 35rem;
+    }
+.vector{
+  position: absolute;
+  left: 76%;
+  padding: .5rem;
+  color: $color-white;
+  // padding-left: .5rem;
+}
+.misc-text{
+  letter-spacing: 0rem;
+    left: 79%;
+  top: 258px;
+  }
+  .text-one{
+      padding-left: 2rem;
+      padding-top: 3rem;
+      padding-bottom: .5rem;
+    }
+    .big__text{
+    margin-left: 2rem;
+  font-size: 2rem;
+line-height: 2.5rem;
+
+}
+    
+    .scroll{
+      display: none;
+      
+    }
+    .icon{
+      display: none;
+    }
+
+    .bg{
+      margin-top: 1.2rem;
+      height: 2.5rem ;
+      width: 28rem;
+      .small-text{
+        margin-top: 0.5rem;
+    margin-left: -6rem;
+    font-size: .8rem;
+  
+      }
+    }
+    .arrow {
+      
+    .Arrow {
+      position: absolute;
+          left: 52rem;
+      top: 18px;
+     }}
+}
+
+
+@media screen and (max-width:360px){
+  header{
+    width: 100rem;
+  }
+  .navbar .navbar-brand{
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .navbar-dark .navbar-toggler {
+    margin-left: 17rem;
+    margin-top: -2rem;
+}
+}
+
+@media (min-width:1440px){
+  .vector{
+    margin-left: -5%;
+  }
+  .scroll{
+    margin-left: .6%;
+  }
+}
+
+@media (max-width:1024px){
+  .navbar-brand{
+    margin-left: 10rem;
   }
 }
