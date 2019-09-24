@@ -1,6 +1,11 @@
-
+// Variables for card-section-02 starts here
+//For the desktop responsiveness view
+$desktop: 1201px;
+//For the tablet responsiveness view
+$min-tablet: 900px;
+$max-tablet: 1200px;
+//Variables for card-section-02 starts here
 // Colors
-
 $color-primary: #F61067;
 $color-secondary-100:#5E239D;
 $color-secondary-200:#3A0475;
@@ -17,15 +22,12 @@ $color-error:#F0002B;
 $color-success:#10F65E;
 $color-warning:#F67110;
 $color-info:#00A8F0;
-
-
 //fonts
-
-$default-font-family:'M PLUS 1p', sans-serif;
-$default-font-family-quote: 'Noticia Text', serif;
-
+$default-font-family:'M PLUS 1p',
+sans-serif;
+$default-font-family-quote: 'Noticia Text',
+serif;
 //shadow
 $violet-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
 $green-shadow:0px 8px 64px rgba(0, 240, 181, 0.25);
 $pink-shadow:0px 8px 64px rgba(246, 16, 103, 0.25);
-
