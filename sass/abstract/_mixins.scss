@@ -1,7 +1,5 @@
-
-//For Desktop responsiveness view
-
 //Mixins for card-section-02 starts here
+
 //For the desktop responsiveness view
 
 @mixin desktop-02 {
@@ -21,14 +19,14 @@
 }
 //Mixins for Card-section-02 ends here
 
-
 // For Card-Section starts here
 
 //For Desktop responsiveness view
-@mixin desktop{
+@mixin desktop {
     @media (min-width: #{$desktop}) {
         @content;
     }
+}
 //For Tablet responsiveness view
 @mixin tablet {
     @media (min-width: #{$tablet}) and (max-width: 1200px) {
@@ -87,5 +85,4 @@ $style) {
 @mixin border-radius($size) {
     border-radius: $size;
 }
-
 // For Card-Section ends here
