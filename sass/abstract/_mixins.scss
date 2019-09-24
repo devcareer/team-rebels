@@ -1,10 +1,34 @@
+
 //For Desktop responsiveness view
-@mixin desktop {
-    @media (min-width: #{$desktop}) {
+
+//Mixins for card-section-02 starts here
+//For the desktop responsiveness view
+
+@mixin desktop-02 {
+    @media (min-width: #{$desktop-02}) {
         @content;
     }
 }
+@mixin tablet-02 {
+    @media (min-width: #{$min-tablet-02}) and (max-width: #{$max-tablet-02}) {
+        @content;
+    }
+}
+@mixin background-property-02($url, $blend-mode) {
+    background-image: url("#{$url}");
+    background-blend-mode: $blend-mode;
+   
+}
+//Mixins for Card-section-02 ends here
 
+
+// For Card-Section starts here
+
+//For Desktop responsiveness view
+@mixin desktop{
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
 //For Tablet responsiveness view
 @mixin tablet {
     @media (min-width: #{$tablet}) and (max-width: 1200px) {
@@ -19,10 +43,9 @@
     }
 }
 
-// For Card-Section
-@mixin background-property($url, $blend-mode, $box-shadow) {
-    background-image: url("#{$url}");
-    background-repeat: no-repeat;
+@mixin background-property($url, $blend-mode,$box-shadow) {
+    background: url("#{$url}");
+     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: $blend-mode;
     box-shadow: $box-shadow;
@@ -35,6 +58,7 @@ $left) {
     top: $top;
     left: $left;
 }
+
 
 @mixin position-property-right($value,
 $top,
@@ -63,3 +87,5 @@ $style) {
 @mixin border-radius($size) {
     border-radius: $size;
 }
+
+// For Card-Section ends here
