@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+
+$color-primary: #F61067;
+$color-secondary-100:#5E239D;
+$color-secondary-200:#3A0475;
+$color-secondary-300:#30124E;
+$color-secondary-400:#150433;
+$color-tertiary:#00F0B5;
+$color-tertiary-light:#6DECAF;
+$color-white:#FCFCFC;
+$color-light-grey:#F4F4ED;
+$text-color-headers:#30233D;
+$text-color-main-text:#776C82;
+$text-color-grey:#9B94A3;
+$color-error:#F0002B;
+$color-success:#10F65E;
+$color-warning:#F67110;
+$color-info:#00A8F0;
+
+$default-font-family:'M PLUS 1p', sans-serif;
+
+@mixin text-style {
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+*, *::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        // min-height: 50vmax;
+        margin-top: 5%;
+        background: $color-white;
+
+        &__top {
+            width: 100%;
+            max-height: 20%;
+            min-height: 10%;
+           
+
+            &__logo {
+                margin-left: 7%;
+                font-family: $default-font-family;
+                font-style: normal;
+                font-size: 0.75rem;
+                font-weight: 900;
+                color: $color-secondary-300;
+            }
+
+            .nav {
+                width: 75%;
+                font-family: $default-font-family;
+                font-style: normal;
+                font-size: 0.45rem;
+                font-weight: 800;
+                margin-left: 5vw; 
+                
+                .list--style {
+                    // list-style: none;
+                    // margin-right: 3vw;
+                    // text-decoration: none;
+                    
+                    // a {
+                    //   color: $color-secondary-400;
+                    // }
+                      display: none;
+
+                }
+
+                &__menu {
+                width: 15%;
+                margin-top: 0;
+                } 
+            }
+        }
+
+        .header__bottom {
+            width: 100%;
+            height: 70%;
+            background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png');
+            background-blend-mode: multiply;
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+            &__h1 {
+              margin-top: 7%;
+              margin-left: 7%;
+              font-size: 5vmin;
+              font-family: $default-font-family;
+              color: $color-primary;
+            }
+
+            &__p {
+              margin-left: 7%;
+              margin-bottom: 7%;
+              font-size: 1.8vmin;
+              font-family: $default-font-family;
+              color: $color-light-grey;
+            }
+
+        }
+    }
+
+    .main {
+      background: $color-white;
+      margin-top: 5%;
+
+      &__h4 {
+        color: $color-primary;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        margin-left: 7%;
+        font-family: $default-font-family;
+        font-size: 2.8vmin;
+      }
+
+      &__p1 {
+        margin-left: 7%;
+        margin-bottom: 7%;
+        width: 90%;
+        font-family: $default-font-family;
+        font-size: 5vmin;
+        color: $text-color-headers;
+      }
+
+      .flex-row {
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+      }
+
+      &__bottom {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-right: 2%;
+
+        &__left, &__right {
+        
+
+          &__h5 {
+            color: $text-color-headers;
+            font-size: 3.5vmin;
+            font-weight: 500;
+            font-family: $default-font-family;
+          }
+
+          &__p2 {
+            font-family: $default-font-family;
+            font-size: 3.2vmin;
+            color: $text-color-main-text;
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    width: 100%;
+    height: 30vmax;
+    margin-top: 3%;
+    overflow-x: hidden;
+
+    &__top {
+        width: 100%;
+        height: 15%;
+        margin-bottom: 1%;
+
+        &__logo {
+            margin-left: 8%;
+            font-family: $default-font-family;
+            font-size: 3.2vmin;
+            font-style: normal;
+            font-weight: 900;
+            color: $color-secondary-400;
+        }
+
+        .nav {
+            width: 80%;
+
+            .nav__list {
+                background: $color-white;
+
+              .list--style {
+                list-style: none;
+                margin-top: 1%;
+                margin-left: 1%;
+                font-family: $default-font-family;
+                font-size: 2vmin;
+                font-style: normal;
+                font-weight: 800;
+
+                a { 
+                  color: $color-secondary-400;
+                }
+              } 
+            }
+            ul{
+              width: 80%;
+              list-style: none;
+            }
+
+            &__menu {
+                width: 15%;
+                margin-top: 1%;
+                margin-left: 5%;
+
+                // .rect-1, .rect-2, .rect-3 {
+                //   width: 20%;
+                //   height: 3%;
+                //   margin-top: 7%;
+                //   margin-left: 20%;
+                //   background: $color-secondary-400;
+                // }
+            } 
+            
+        }
+    }
+
+    .header__bottom {
+        width: 100%;
+        height: 85%;
+        background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png');
+        background-blend-mode: multiply;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        .header__bottom__h1 {
+            margin-top: 7%;
+            margin-left: 8%;
+            font-size: 6vmin;
+            color: $color-primary;
+        }
+
+        .header__bottom__p {
+            margin-top: 2%;
+            margin-bottom: 7%;
+            margin-left: 8%;
+            font-size: 2.5vmin;
+            color: $color-white;
+            
+        }
+      }
+  }
+
+  .main {
+    background: $color-white;
+
+    &__h4 {
+      color: $color-primary;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      font-family: $default-font-family
+    }
+
+    &__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 60%;
+      font-size: 5vmin;
+      font-family: $default-font-family;
+      color: $text-color-headers;
+    }
+
+    &__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%;
+
+      &__left, &__right {
+        width: 45%;
+
+        &__h5 {
+          font-family: $default-font-family;
+          font-weight: 500;
+          color: $text-color-headers;
+        }
+
+        &__p2 {
+          font-family: $default-font-family;
+          color: $text-color-main-text;
+        }
+      }
+    }
+
+  }
+}
