@@ -1,21 +1,45 @@
+//Mixins for card-section-02 starts here
+//For the desktop responsiveness view
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+//For the tablet responsiveness view
+@mixin tablet {
+    @media (min-width: #{$min-tablet}) and (max-width: #{$max-tablet}) {
+        @content;
+    }
+}
+
+//Mixins for Card-section-02 ends here
 // For Card-Section
-@mixin background-property($url, $blend-mode){
+@mixin background-property($url, $blend-mode) {
     background: url("#{$url}");
     background-blend-mode: $blend-mode;
 }
-@mixin position-property($value, $top, $left){
+
+@mixin position-property($value,
+$top,
+$left) {
     position: $value;
     top: $top;
     left: $left;
 }
-@mixin font-property($family,$size,$weight,$style){
-    font :{
-        family:$family;
+
+@mixin font-property($family,
+$size,
+$weight,
+$style) {
+    font: {
+        family: $family;
         size: $size;
         weight: $weight;
         style: $style;
     }
 }
-@mixin line-height ($size){
+
+@mixin line-height ($size) {
     line-height: $size;
 }
