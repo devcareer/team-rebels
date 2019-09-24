@@ -3,425 +3,304 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
 
 html {
-    font-size: 18px;
-}
+  font-size: 18px; }
 
 h1 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 99px;
-    line-height: 118px;
-<<<<<<< HEAD
-    color: #FCFCFC;
-=======
->>>>>>> I add comment to the stylesheet
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+  color: #FCFCFC; }
 
 h2 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 80px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 80px; }
 
 h3 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.5rem;
-    line-height: 67px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 67px; }
 
 h4 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2rem;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem; }
 
 h5 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 40px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 40px; }
 
 h6 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 27px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 27px; }
 
 .text-small {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.9rem;
-    line-height: 26px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 26px; }
 
 .text-small-bold {
-    font-family: "M PLUS 1p", sans-serif Bold;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.9rem;
-    line-height: 26px;
-}
+  font-family: "M PLUS 1p", sans-serif Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 26px; }
 
 .text-regular {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 29px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 29px; }
 
 .text-regular-bold {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1rem;
-    line-height: 29px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 29px; }
 
 .text-medium {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.1rem;
-    line-height: 32px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 32px; }
 
 .text-medium-bold {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1.1rem;
-    line-height: 32px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.1rem;
+  line-height: 32px; }
 
 .text-large {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.2rem;
-    line-height: 35px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 35px; }
 
 .text-large-bold {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 1.2rem;
-    line-height: 35px;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 35px; }
 
 .quote-large {
-    font-family: "Noticia Text", serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 2rem;
-    line-height: 64px;
-    display: flex;
-    align-items: center;
-}
+  font-family: "Noticia Text", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 64px;
+  display: flex;
+  align-items: center; }
 
 .quote-small {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> I add comment to the stylesheet
-    font-family: "Noticia Text", serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 22.5px;
-    line-height: 40px;
-    display: flex;
-}
-<<<<<<< HEAD
-
-.title-small {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12.6px;
-    line-height: 26px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-}
-
-.title-medium {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14.4px;
-    line-height: 30px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
-.logo {
-=======
   font-family: "Noticia Text", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 22.5px;
   line-height: 40px;
   display: flex; }
-=======
->>>>>>> I add comment to the stylesheet
 
 .title-small {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 12.6px;
-    line-height: 26px;
-    letter-spacing: 6px;
-    text-transform: uppercase;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase; }
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: auto;
-    overflow-x: hidden;
-}
+.title-medium {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
 
-.header__banner--image {
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-
-.header__navbar {
-<<<<<<< HEAD
-  background: rgba(21, 4, 51, 0.8);
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  top: 0;
-  display: flex;
-  font-weight: bold; }
-  .header__navbar--logo {
->>>>>>> initial commit
-=======
-    background: rgba(21, 4, 51, 0.8);
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    top: 0;
-    display: flex;
-    font-weight: bold;
-}
-
-.header__navbar--logo {
->>>>>>> I add comment to the stylesheet
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 43px;
-    letter-spacing: 2px;
-<<<<<<< HEAD
-}
+.logo {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 43px;
+  letter-spacing: 2px; }
 
 .nav-link {
-    font-family: "M PLUS 1p", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14.4px;
-    line-height: 30px;
-    /* identical to box height */
-    letter-spacing: 2px;
-    color: #FCFCFC;
-}
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  /* identical to box height */
+  letter-spacing: 2px;
+  color: #FCFCFC; }
 
 .text-misc {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 14.4px;
-    line-height: 30px;
-    letter-spacing: 2px;
-    color: #FCFCFC;
-}
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #FCFCFC; }
 
 body {
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
-}
+  width: 100%;
+  height: auto;
+  overflow-x: hidden; }
 
 .client__background {
-    padding-left: 5rem;
-    padding-top: 5rem;
-}
+  padding-left: 5rem;
+  padding-top: 5rem; }
 
 .client__title {
-    text-transform: uppercase;
-    color: #F61067;
-}
+  text-transform: uppercase;
+  color: #F61067; }
 
 .client__body {
-    color: #150433;
-    font-weight: 800;
-    line-height: 1.5;
-    margin-bottom: 3rem;
-}
+  color: #150433;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 3rem; }
 
 .container {
-    float: left;
-}
+  float: left; }
 
 .blue__bg {
-    background-color: #150433;
-    width: 50%;
-}
-
-.blue__bg--title {
+  background-color: #150433;
+  width: 50%; }
+  .blue__bg--title {
     text-align: center;
     color: #F61067;
     padding: 2rem 0rem;
-    margin-top: 2rem;
-}
-
-.blue__bg--text {
+    margin-top: 2rem; }
+  .blue__bg--text {
     color: #FCFCFC;
     text-align: justify;
     padding-right: 4rem;
-    padding-left: 4rem;
-}
+    padding-left: 4rem; }
 
 .logo {
-    margin-left: 6rem;
-}
+  margin-left: 6rem; }
 
 .banner {
-    z-index: 1;
-    background-color: #30124E;
-    width: 100%;
-    color: #FCFCFC;
-    padding-right: 10rem;
-}
+  z-index: 1;
+  background-color: #30124E;
+  width: 100%;
+  color: #FCFCFC;
+  padding-right: 10rem; }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    position: absolute;
-}
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: absolute; }
 
 header {
-    background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
-    mix-blend-mode: multiply;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 35rem;
-    width: 100%;
-    position: absolute;
-}
+  background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100%;
+  position: absolute; }
 
 .background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background: #30124E;
-    mix-blend-mode: multiply;
-    z-index: -2;
-}
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: #30124E;
+  mix-blend-mode: multiply;
+  z-index: -2; }
 
 nav {
-    z-index: 999;
-}
+  z-index: 999; }
 
 .navbar {
-    background: transparent;
-}
-
-.navbar .navbar-brand {
+  background: transparent; }
+  .navbar .navbar-brand {
     color: #FCFCFC;
     margin-left: 6rem;
     margin-right: 10rem;
-    position: relative;
-}
+    position: relative; }
 
 .navbar .navbar-brand:hover {
-    color: #FCFCFC;
-}
+  color: #FCFCFC; }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #FCFCFC;
-    margin-right: 3rem;
-}
+  color: #FCFCFC;
+  margin-right: 3rem; }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    text-decoration: underline;
-    color: #FCFCFC;
-}
+  text-decoration: underline;
+  color: #FCFCFC; }
 
 .vector {
-    position: absolute;
-    left: 71%;
-    color: #FCFCFC;
-    margin-top: .3%;
-}
+  position: absolute;
+  left: 71%;
+  color: #FCFCFC;
+  margin-top: .3%; }
 
 .text-one {
-    color: #FCFCFC;
-    padding-left: 7rem;
-    padding-top: 2rem;
-    padding-bottom: .5rem;
-}
+  color: #FCFCFC;
+  padding-left: 7rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem; }
 
 .big__text {
-    margin-left: 7rem;
-}
-
-.big__text--color {
-    color: #F61067;
-}
+  margin-left: 7rem; }
+  .big__text--color {
+    color: #F61067; }
 
 .bg {
-    position: absolute;
-    width: 833px;
-    height: 80px;
-    border: 1px solid #FCFCFC;
-    border-left: none;
-    box-sizing: border-box;
-    margin-top: 3.5rem;
-}
-
-.bg .small-text {
+  position: absolute;
+  width: 833px;
+  height: 80px;
+  border: 1px solid #FCFCFC;
+  border-left: none;
+  box-sizing: border-box;
+  margin-top: 3.5rem; }
+  .bg .small-text {
     position: absolute;
     left: 147px;
     margin-top: 1.4rem;
     margin-left: .1rem;
-    color: #FCFCFC;
-}
+    color: #FCFCFC; }
 
 .arrow {
-    color: #FCFCFC;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.arrow .Arrow {
+  color: #FCFCFC;
+  position: absolute;
+  border-radius: 50%; }
+  .arrow .Arrow {
     position: absolute;
     width: 38px;
     height: 38px;
@@ -431,730 +310,544 @@ nav {
     text-align: center;
     padding-top: .2rem;
     border: 1px solid #FCFCFC;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; }
 
 .misc-text {
-    position: absolute;
-    width: 226px;
-    height: 31px;
-    left: 972px;
-    top: 22px;
-}
+  position: absolute;
+  width: 226px;
+  height: 31px;
+  left: 972px;
+  top: 22px; }
 
 .scroll {
-    position: absolute;
-    width: 272px;
-    height: 28px;
-    left: 75%;
-    top: 240px;
-    text-transform: uppercase;
-    transform: rotate(90deg);
-    color: #FCFCFC;
-}
+  position: absolute;
+  width: 272px;
+  height: 28px;
+  left: 75%;
+  top: 240px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  color: #FCFCFC; }
 
 .icon {
-    position: absolute;
-    width: 21px;
-    height: 46px;
-    left: 84.5%;
-    top: 337px;
-    border: 1px solid #FCFCFC;
-    border-radius: 40px;
-}
-
-.icon .arrow-2 {
+  position: absolute;
+  width: 21px;
+  height: 46px;
+  left: 84.5%;
+  top: 337px;
+  border: 1px solid #FCFCFC;
+  border-radius: 40px; }
+  .icon .arrow-2 {
     position: absolute;
     width: 27px;
     height: 0px;
     left: 10px;
     top: 27px;
     color: #FCFCFC;
-    transform: rotate(90deg);
-}
+    transform: rotate(90deg); }
 
 @media screen and (max-width: 768px) {
-    header {
-        background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
-        mix-blend-mode: multiply;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        height: 20rem;
-        width: 100%;
-    }
-    .background {
-        height: 20rem;
-        width: 100%;
-        top: 0;
-    }
-    .navbar {
-        height: .2rem;
-    }
-    .navbar .navbar-brand {
-        margin-left: 1rem;
-        margin-top: -3rem;
-        font-size: 1rem;
-    }
-    .navbar-nav {
-        margin-left: .5rem;
-        display: flex;
-    }
-    .navbar-dark .navbar-toggler {
-        margin-left: 35rem;
-    }
-    .navbar-dark .navbar-nav .nav-link {
-        margin-left: 35rem;
-    }
-    .vector {
-        position: absolute;
-        left: 76%;
-        padding: .5rem;
-        color: #FCFCFC;
-    }
-    .misc-text {
-        letter-spacing: 0rem;
-        left: 79%;
-        top: 258px;
-    }
-    .text-one {
-        padding-left: 2rem;
-        padding-top: 3rem;
-        padding-bottom: .5rem;
-    }
-    .big__text {
-        margin-left: 2rem;
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
-    .scroll {
-        display: none;
-    }
-    .icon {
-        display: none;
-    }
-    .bg {
-        margin-top: 1.2rem;
-        height: 2.5rem;
-        width: 28rem;
-    }
+  header {
+    background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20rem;
+    width: 100%; }
+  .background {
+    height: 20rem;
+    width: 100%;
+    top: 0; }
+  .navbar {
+    height: .2rem; }
+  .navbar .navbar-brand {
+    margin-left: 1rem;
+    margin-top: -3rem;
+    font-size: 1rem; }
+  .navbar-nav {
+    margin-left: .5rem;
+    display: flex; }
+  .navbar-dark .navbar-toggler {
+    margin-left: 35rem; }
+  .navbar-dark .navbar-nav .nav-link {
+    margin-left: 35rem; }
+  .vector {
+    position: absolute;
+    left: 76%;
+    padding: .5rem;
+    color: #FCFCFC; }
+  .misc-text {
+    letter-spacing: 0rem;
+    left: 79%;
+    top: 258px; }
+  .text-one {
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem; }
+  .big__text {
+    margin-left: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem; }
+  .scroll {
+    display: none; }
+  .icon {
+    display: none; }
+  .bg {
+    margin-top: 1.2rem;
+    height: 2.5rem;
+    width: 28rem; }
     .bg .small-text {
-        margin-top: 0.5rem;
-        margin-left: -6rem;
-        font-size: .8rem;
-    }
-    .arrow .Arrow {
-        position: absolute;
-        left: 52rem;
-        top: 18px;
-    }
-}
+      margin-top: 0.5rem;
+      margin-left: -6rem;
+      font-size: .8rem; }
+  .arrow .Arrow {
+    position: absolute;
+    left: 52rem;
+    top: 18px; } }
 
 @media screen and (max-width: 360px) {
-    header {
-        width: 100rem;
-    }
-    .navbar .navbar-brand {
-        margin-right: 2rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    .navbar-dark .navbar-toggler {
-        margin-left: 17rem;
-        margin-top: -2rem;
-    }
-}
+  header {
+    width: 100rem; }
+  .navbar .navbar-brand {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .navbar-dark .navbar-toggler {
+    margin-left: 17rem;
+    margin-top: -2rem; } }
 
 @media (min-width: 1440px) {
-    .vector {
-        margin-left: -5%;
-    }
-    .scroll {
-        margin-left: .6%;
-    }
-}
+  .vector {
+    margin-left: -5%; }
+  .scroll {
+    margin-left: .6%; } }
 
 @media (max-width: 1024px) {
-    .navbar-brand {
-        margin-left: 10rem;
-    }
-}
+  .navbar-brand {
+    margin-left: 10rem; } }
 
 .card-section .blank {
-    margin: 0;
-    padding: 0;
-}
-
-.card-section .blank .blank__content {
+  margin: 0;
+  padding: 0; }
+  .card-section .blank .blank__content {
     background: #150433;
     width: 100%;
     height: 40vh;
-    color: #FFF;
-}
+    color: #FFF; }
 
 .card-section .card {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-.card-section .card .card .card__photos {
+  margin: 0;
+  padding: 0;
+  border: none; }
+  .card-section .card .card .card__photos {
     position: relative;
     background: #FCFCFC;
     width: 100%;
     height: 40vh;
-    border: none;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card .card .card__photos {
+    border: none; }
+    @media (min-width: 1201px) {
+      .card-section .card .card .card__photos {
         width: 100%;
-        height: 80vh;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card .card__photos {
+        height: 80vh; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card .card__photos {
         width: 100%;
-        height: 58vh;
-    }
-}
-
-@media (min-width: 1201px) {
+        height: 58vh; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images {
-        position: absolute;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      position: absolute; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images {
-        position: absolute;
-    }
-}
-
-@media (min-width: 1201px) {
+      position: absolute; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-1 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-        background-size: 9em 9em;
-        position: absolute;
-        top: 4.2em;
-        left: 17em;
-        width: 4.5em;
-        height: 4.5em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 9em;
+      position: absolute;
+      top: 4.2em;
+      left: 17em;
+      width: 4.5em;
+      height: 4.5em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-1 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-        background-size: 8em 8em;
-        position: absolute;
-        top: 2.5em;
-        left: 5em;
-        width: 4.0em;
-        height: 4.0em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 8em 8em;
+      position: absolute;
+      top: 2.5em;
+      left: 5em;
+      width: 4.0em;
+      height: 4.0em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-1 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
+      display: none; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-2 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-        background-size: 9em 9em;
-        position: absolute;
-        top: 12em;
-        left: 8em;
-        object-position: center;
-        width: 4em;
-        height: 4em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 9em 9em;
+      position: absolute;
+      top: 12em;
+      left: 8em;
+      object-position: center;
+      width: 4em;
+      height: 4em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-2 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-        background-size: 8em 8em;
-        position: absolute;
-        top: 8em;
-        left: 4em;
-        object-position: center;
-        width: 3.5em;
-        height: 3.5em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 8em 8em;
+      position: absolute;
+      top: 8em;
+      left: 4em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-2 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
+      display: none; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-3 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-        background-size: 6em 6em;
-        position: absolute;
-        top: 10em;
-        left: 25em;
-        object-position: center;
-        width: 2.2em;
-        height: 2.2em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 6em 6em;
+      position: absolute;
+      top: 10em;
+      left: 25em;
+      object-position: center;
+      width: 2.2em;
+      height: 2.2em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-3 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-        background-size: 6em 6em;
-        position: absolute;
-        top: 6.5em;
-        left: 13em;
-        object-position: center;
-        width: 2.2em;
-        height: 2.2em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 6em 6em;
+      position: absolute;
+      top: 6.5em;
+      left: 13em;
+      object-position: center;
+      width: 2.2em;
+      height: 2.2em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-3 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
+      display: none; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-4 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-        background-size: 7em 7em;
-        position: absolute;
-        top: 10em;
-        right: 23em;
-        object-position: center;
-        width: 3em;
-        height: 3em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 10em;
+      right: 23em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-4 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-        background-size: 7em 7em;
-        position: absolute;
-        top: 6em;
-        right: 12em;
-        object-position: center;
-        width: 3em;
-        height: 3em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 6em;
+      right: 12em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-4 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
+      display: none; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-5 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-        background-size: 7em 7em;
-        position: absolute;
-        top: 11em;
-        right: 11em;
-        object-position: center;
-        width: 3em;
-        height: 3em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 11em;
+      right: 11em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-5 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-        background-size: 7em 7em;
-        position: absolute;
-        top: 8em;
-        right: 2em;
-        object-position: center;
-        width: 3em;
-        height: 3em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 8em;
+      right: 2em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-5 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
+      display: none; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-6 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-        background-size: 9em 10em;
-        position: absolute;
-        top: 6em;
-        right: 18em;
-        object-position: center;
-        width: 2.3em;
-        height: 2.3em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 6em;
+      right: 18em;
+      object-position: center;
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-6 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-        background-size: 9em 10em;
-        position: absolute;
-        top: 4em;
-        right: 7em;
-        object-position: center;
-        width: 2.3em;
-        height: 2.3em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 4em;
+      right: 7em;
+      object-position: center;
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-6 {
-        display: none;
-    }
-}
-
-@media (min-width: 1201px) {
+      display: none; } }
+  @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-7 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-        background-size: 9em 10em;
-        position: absolute;
-        top: 2em;
-        right: 11em;
-        object-position: center;
-        width: 3.5em;
-        height: 3.5em;
-        border-radius: 50%;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 2em;
+      right: 11em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-7 {
-        display: block;
-        background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: normal;
-        box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-        background-size: 9em 10em;
-        position: absolute;
-        top: 2em;
-        right: 2em;
-        object-position: center;
-        width: 3.5em;
-        height: 3.5em;
-        border-radius: 50%;
-    }
-}
-
-@media (max-width: 839px) {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 2em;
+      right: 2em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
     .card-section .card .card-positioned-images.image-7 {
-        display: none;
-    }
-}
-
-.card-section .card .card-positioned-icon {
-    position: absolute;
-}
-
-.card-section .card .card-positioned-icon .fa-arrow-right {
-    position: absolute;
-    top: 18em;
-    left: 60em;
-    border: 1px solid #F61067;
-    color: #F61067;
-    padding: 0.6em;
-    border-radius: 50%;
-    font-weight: 100;
-}
-
-.card-section .card .card-positioned-icon .fa-arrow-right:hover {
-    background: #F61067;
-    transition: background .8s ease-in-out;
-    color: #FFF;
-    border: 1px solid #FFF;
-    cursor: pointer;
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      display: none; } }
+  .card-section .card .card-positioned-icon {
+    position: absolute; }
     .card-section .card .card-positioned-icon .fa-arrow-right {
-        display: none;
-    }
-}
-
-@media (max-width: 839px) {
-    .card-section .card .card-positioned-icon .fa-arrow-right {
-        display: none;
-    }
-}
-
-.card-section .card .card-positioned-icon .fa-arrow-left {
-    position: absolute;
-    top: 18em;
-    left: 11em;
-    background: #F61067;
-    color: #FFF;
-    padding: 0.6em;
-    border-radius: 50%;
-    font-weight: 100;
-}
-
-.card-section .card .card-positioned-icon .fa-arrow-left:hover {
-    background: #FFF;
-    transition: background .8s ease-in-out;
-    color: #F61067;
-    border: 1px solid #F61067;
-    cursor: pointer;
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
+      position: absolute;
+      top: 18em;
+      left: 60em;
+      border: 1px solid #F61067;
+      color: #F61067;
+      padding: 0.6em;
+      border-radius: 50%;
+      font-weight: 100; }
+      .card-section .card .card-positioned-icon .fa-arrow-right:hover {
+        background: #F61067;
+        transition: background .8s ease-in-out;
+        color: #FFF;
+        border: 1px solid #FFF;
+        cursor: pointer; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
+          display: none; } }
+      @media (max-width: 839px) {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
+          display: none; } }
     .card-section .card .card-positioned-icon .fa-arrow-left {
-        display: none;
-    }
-}
-
-@media (max-width: 839px) {
-    .card-section .card .card-positioned-icon .fa-arrow-left {
-        display: none;
-    }
-}
-
-.card-section .card img.card-center-image {
+      position: absolute;
+      top: 18em;
+      left: 11em;
+      background: #F61067;
+      color: #FFF;
+      padding: 0.6em;
+      border-radius: 50%;
+      font-weight: 100; }
+      .card-section .card .card-positioned-icon .fa-arrow-left:hover {
+        background: #FFF;
+        transition: background .8s ease-in-out;
+        color: #F61067;
+        border: 1px solid #F61067;
+        cursor: pointer; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
+          display: none; } }
+      @media (max-width: 839px) {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
+          display: none; } }
+  .card-section .card img.card-center-image {
     display: block;
     background: none;
     margin: -5em auto 0 auto;
     width: 13em;
-    height: 13em;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card img.card-center-image {
+    height: 13em; }
+    @media (min-width: 1201px) {
+      .card-section .card img.card-center-image {
         width: 20em;
-        height: 20em;
-    }
-}
-
-.card-section .card i.card__photos-fa {
+        height: 20em; } }
+  .card-section .card i.card__photos-fa {
     margin: -0.4em auto 0 auto;
     color: #F61067;
     font-size: 3em;
-    z-index: 2;
-}
-
-.card-section .card h3.card__photos-h3 {
+    z-index: 2; }
+  .card-section .card h3.card__photos-h3 {
     font-family: "Noticia Text", serif;
     font-size: 0.9em;
     font-weight: normal;
     font-style: italic;
     text-align: center;
-    line-height: 1.2em;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card h3.card__photos-h3 {
+    line-height: 1.2em; }
+    @media (min-width: 1201px) {
+      .card-section .card h3.card__photos-h3 {
         font-family: "Noticia Text", serif;
         font-size: 1.3em;
         font-weight: normal;
         font-style: italic;
-        line-height: 1.5em;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card h3.card__photos-h3 {
+        line-height: 1.5em; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card h3.card__photos-h3 {
         font-family: "Noticia Text", serif;
         font-size: 1.3em;
         font-weight: normal;
         font-style: italic;
         line-height: 1.7em;
-        margin-top: 1.3em;
-    }
-}
-
-.card-section .card .card__photos-tagline {
+        margin-top: 1.3em; } }
+  .card-section .card .card__photos-tagline {
     text-align: center;
     font-size: 0.7em;
-    padding-bottom: 3em;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card .card__photos-tagline {
-        font-size: 1em;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card__photos-tagline {
-        font-size: 1em;
-    }
-}
-
-.card-section .card .card__photos-tagline span {
+    padding-bottom: 3em; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__photos-tagline {
+        font-size: 1em; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card__photos-tagline {
+        font-size: 1em; } }
+  .card-section .card .card__photos-tagline span {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.8em;
     font-weight: 800;
     font-style: normal;
-    color: #F61067;
-}
-
-.card-section .card .card__newsletter {
+    color: #F61067; }
+  .card-section .card .card__newsletter {
     width: 100%;
     height: 30vh;
     border: none;
-    text-align: center;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card .card__newsletter {
-        margin-top: 3.0em;
-    }
-}
-
-.card-section .card h3.card__newsletter-h3 {
+    text-align: center; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter {
+        margin-top: 3.0em; } }
+  .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
     font-weight: 500;
-    font-style: normal;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card h3.card__newsletter-h3 {
+    font-style: normal; }
+    @media (min-width: 1201px) {
+      .card-section .card h3.card__newsletter-h3 {
         font-family: "M PLUS 1p", sans-serif;
         font-size: 1.8em;
         font-weight: 500;
-        font-style: normal;
-    }
-}
-
-.card-section .card p.card__newsletter-p {
+        font-style: normal; } }
+  .card-section .card p.card__newsletter-p {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.7em;
     font-weight: 500;
-    font-style: normal;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card p.card__newsletter-p {
+    font-style: normal; }
+    @media (min-width: 1201px) {
+      .card-section .card p.card__newsletter-p {
         font-family: "M PLUS 1p", sans-serif;
         font-size: 1em;
         font-weight: 500;
-        font-style: normal;
-    }
-}
-
-.card-section .card .card__newsletter-form {
-    padding: 2em;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card .card__newsletter-form {
+        font-style: normal; } }
+  .card-section .card .card__newsletter-form {
+    padding: 2em; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter-form {
         width: 50%;
         display: inline-flex;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card__newsletter-form {
-        padding: 0 10em;
-    }
-}
-
-.card-section .card .card__newsletter-form input.card__newsletter-input {
+        margin: 0 auto; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card__newsletter-form {
+        padding: 0 10em; } }
+  .card-section .card .card__newsletter-form input.card__newsletter-input {
     width: 100%;
     height: 3.0em;
     border-bottom: 2px solid #F4F4ED;
     border-top: none;
     border-right: none;
     border-left: none;
-    outline: none;
-}
-
-.card-section .card input::placeholder {
+    outline: none; }
+  .card-section .card input::placeholder {
     color: #9B94A3;
     font-family: "M PLUS 1p", sans-serif;
     font-size: 0.7em;
@@ -1162,10 +855,8 @@ nav {
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    line-height: 3.5em;
-}
-
-.card-section .card .card__newsletter-form button.card__newsletter-button {
+    line-height: 3.5em; }
+  .card-section .card .card__newsletter-form button.card__newsletter-button {
     width: 100%;
     height: 3.6em;
     font-family: "M PLUS 1p", sans-serif;
@@ -1179,707 +870,332 @@ nav {
     line-height: 3.5em;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    color: #F61067;
-}
-
-.card-section .card .card__newsletter-form button.card__newsletter-button:hover {
-    background: rgba(212, 187, 187, 0.5);
-    transition: background .8s ease-in-out;
-    cursor: pointer;
-}
-
-@media (min-width: 1201px) {
-    .card-section .card .card__newsletter-form button.card__newsletter-button {
-        width: 70%;
-    }
-}
-
-.card-section .card button.card__newsletter-button i.button-fa {
+    color: #F61067; }
+    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
+      background: rgba(212, 187, 187, 0.5);
+      transition: background .8s ease-in-out;
+      cursor: pointer; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter-form button.card__newsletter-button {
+        width: 70%; } }
+  .card-section .card button.card__newsletter-button i.button-fa {
     border: 1px solid rgba(246, 16, 103, 0.5);
     box-sizing: border-box;
     padding: .5em;
     border-radius: 50%;
-    margin-left: 1.3em;
-}
-=======
-    margin-top: 12px;
-    padding-right: 250px;
-    padding-left: 100px;
-}
-
-.nav-links {
-    list-style: none;
-    margin-top: 20px;
-}
-
-.nav-links li {
-    display: inline-block;
-    padding: 0px 30px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-family: "M PLUS 1p", sans-serif;
-}
-
-.fas {
-    margin-top: 20px;
-    padding: 0px 50px;
-    color: white;
-}
-
-.header__slogan {
-    position: relative;
-    top: -35rem;
-    left: 5rem;
-    color: white;
-}
-
-.header__slogan--small-text {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
-
-span {
-    color: #F61067;
-}
-
-.border {
-    border-left: 0;
-}
-
-.regular-text {
-    position: absolute;
-    top: 28rem;
-    border: 1px solid #F4F4ED;
-    border-left: 0;
-    border-spacing: 10px;
-    padding: 20px 0 20px 0;
-    width: 55%;
-    text-align: center;
-    bottom: 21rem;
-    color: #FCFCFC;
-    padding-bottom: 50px;
-}
-
-.box-2 {
-    position: relative;
-    top: -30.9rem;
-    width: 50px;
-    height: 50px;
-    border: 1px solid #FCFCFC;
-    border-radius: 50%;
-    left: 38rem;
-}
-
-.arrow-2 {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 1rem;
-    color: #FCFCFC;
-}
-
-.small-text {
-    transform: rotate(90deg);
-    color: #FCFCFC;
-    text-transform: uppercase;
-    position: absolute;
-    right: 2rem;
-    top: 10rem;
-}
-
-.arrow-box {
-    margin: 30px;
-    padding: 10px;
-    border: 1px solid #FCFCFC;
-    width: 50px;
-    height: 2px;
-    border-radius: 30px;
-    position: relative;
-    left: 15rem;
-    bottom: 3rem;
-}
-
-.arrow-1 {
-    font-size: 28px;
-    position: relative;
-    top: -.9rem;
-    text-align: center;
-}
-
-section.blank {
-<<<<<<< HEAD
-  background-color: #150433 !important;
-  width: 100%;
-  height: 30%; }
-  section.blank .blank--content {
-    color: #FFF; }
-<<<<<<< HEAD
->>>>>>> initial commit
-=======
-=======
-    background-color: #150433 !important;
-    width: 100%;
-    height: 30%;
-}
-
-section.blank .blank--content {
-    color: #FFF;
-}
-
-
-/* THE STYLESHEET FOR CARD-SECTION-02.HTML STARTS HERE */
->>>>>>> I add comment to the stylesheet
+    margin-left: 1.3em; }
 
 .card-section-02 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.card-section-02 .card__upward {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .card-section-02 .card__upward {
     display: flex;
-    flex-flow: column wrap;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward {
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__upward {
         display: flex;
         flex-flow: row wrap;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward {
-        display: flex;
-        flex-flow: row wrap;
-        padding-left: 2em;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-01 {
-    flex: 1;
-    padding: 1em 2em 1em 2em;
-    text-align: center;
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-h4 {
-    color: #F61067;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-h1 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 2.5em;
-    font-weight: 500;
-    font-style: normal;
-    color: #30233D;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.8em;
-        font-weight: 500;
-        font-style: normal;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.6em;
-        font-weight: 500;
-        font-style: normal;
-        padding: 0;
-        margin: 1em 0 1em 0;
-        line-height: 0;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-h3 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1em;
-    font-weight: 800;
-    font-style: normal;
-    color: #30233D;
-    line-height: 1.5em;
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
-    display: none;
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+        padding-left: 2em; } }
+    .card-section-02 .card__upward .upward-item-01 {
+      flex: 1;
+      padding: 1em 2em 1em 2em;
+      text-align: center; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
+        color: #F61067;
         font-family: "M PLUS 1p", sans-serif;
         font-size: 0.7em;
         font-weight: 800;
         font-style: normal;
-        padding: 0;
-        margin: 1em 0 1em 0;
-    }
-    .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
-        display: block;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-p {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1em;
-    font-weight: normal;
-    font-style: normal;
-    color: #776C82;
-    padding: 0.3em;
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-p br {
-    display: none;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-p {
-        padding: 0;
-        margin: 1em 0 1em 0;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-p {
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.8em;
-        font-weight: normal;
-        font-style: normal;
-        padding: 0;
-        margin: 1em 0 1em 0;
-    }
-    .card-section-02 .card__upward .upward-item-01 .item-01-p br {
-        display: block;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-button {
-    width: 50%;
-    height: 3em;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    font-style: normal;
-    background: #F61067;
-    color: #FFF;
-    border: none;
-    margin-top: 10em;
-    border-radius: 1.5em;
-    text-transform: uppercase;
-    outline: none;
-    cursor: pointer;
-}
-
-.card-section-02 .card__upward .upward-item-01 .item-01-button:hover {
-    background: #df0672;
-    transition: all 1s ease-in-out;
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-button {
-        width: 25%;
-        margin: 1em 0 1em 0;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.9em;
+        font-size: 2.5em;
         font-weight: 500;
         font-style: normal;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-01 .item-01-button {
+        color: #30233D; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.8em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0;
+            line-height: 0; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.9em;
-        font-weight: 500;
-        font-style: normal;
-        width: 70%;
-        margin: 1em 0 1em 0;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-01 {
-        flex-grow: 15;
-        padding: 2em;
-        text-align: left;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-01 {
-        flex-grow: 10;
-        padding: 2em 5em;
-        text-align: left;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-02 {
-    background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
-    background-blend-mode: normal;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: cover;
-    flex: 1 0 25em;
-    text-align: center;
-    position: relative;
-}
-
-@media (min-width: 500px) and (max-width: 900px) {
-    .card-section-02 .card__upward .upward-item-02 {
-        flex: 1 0 35em;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-02 {
-        flex-grow: 2;
-        margin-top: 3em;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-02 {
-        max-width: 20em;
-        margin-top: 3em;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-02 .item-02-content {
-    padding: 1em;
-    margin: -14em auto 0 auto;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1em;
-    font-weight: normal;
-    font-style: italic;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-02 .item-02-content {
-        background: #30124E;
-        width: 15em;
-        position: absolute;
-        color: #FCFCFC;
-        top: 14em;
-        right: -10.0em;
-        padding: 5em;
-        height: 23.5em;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-02 .item-02-content {
-        background: #30124E;
-        width: 13em;
-        position: absolute;
-        top: 20em;
-        right: -12em;
-        height: 17em;
-        z-index: 2;
-    }
-    .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
-        font-size: 1.5em;
-        color: #F4F4ED;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-02 .item-02-content .item-02-p {
-        color: #F4F4ED;
-    }
-}
-
-.card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
-    font-size: 1.5em;
-}
-
-.card-section-02 .card__upward .upward-item-03 {
-    display: none;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__upward .upward-item-03 {
-        display: block;
-        height: 25em;
-        width: 15em;
-        margin: 1.5em 0 5em -3em;
-        background: #30124E;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__upward .upward-item-03 {
-        display: block;
-        height: 25em;
-        width: 15em;
-        margin: 1.5em 0 5em -3em;
-        background: #30124E;
-    }
-    .card-section-02 .card__upward .upward-item-03::before {
-        content: '';
-        position: relative;
-        display: block;
-        height: 23.5em;
-        width: 10em;
-        margin: 1.5em 0 5em 1.8em;
-        background: #30124E;
-        z-index: 1;
-    }
-}
-
-.card-section-02 .card__downward {
-    display: flex;
-    flex-flow: column wrap;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward {
-        flex-flow: row wrap;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward {
-        flex-flow: row wrap;
-        padding: 0;
-        margin-top: -2.5em;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-01 {
-    flex: 1;
-    background: #30124E;
-    padding: 1em;
-    text-align: center;
-    color: #FFF;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward .downward-item-01 {
-        padding: 5em 8em 5em 6em;
-        text-align: left;
-        flex-grow: 22;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-01 {
-        max-width: 50em;
-        padding: 5em 12em;
-        text-align: left;
-        flex-grow: 10;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-h4 {
-    color: #F61067;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.8em;
-    font-weight: 800;
-    font-style: normal;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-h1 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    font-style: normal;
-    color: #FCFCFC;
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.6em;
-        font-weight: 500;
-        font-style: normal;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-h3 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1em;
-    font-weight: 800;
-    font-style: normal;
-    color: #FCFCFC;
-    line-height: 2em;
-    margin-bottom: 2.5em;
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
-    display: none;
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: 800;
         font-style: normal;
-    }
-    .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
-        display: block;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-p {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.8em;
-    font-weight: normal;
-    font-style: normal;
-    color: #FCFCFC;
-    line-height: 2em;
-    padding: 1em;
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-p br {
-    display: none;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward .downward-item-01 .item-01-p {
-        text-align: left;
-        padding: 0;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-01 .item-01-p {
+        color: #30233D;
+        line-height: 1.5em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.7em;
+            font-weight: 800;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-p {
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.6em;
-        font-weight: 500;
+        font-size: 1em;
+        font-weight: normal;
         font-style: normal;
-        padding: 0;
-        margin-bottom: 1.2em;
-    }
-    .card-section-02 .card__downward .downward-item-01 .item-01-p br {
-        display: block;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-button {
-    width: 50%;
-    height: 3em;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1em;
-    font-weight: 500;
-    font-style: normal;
-    background: #F61067;
-    color: #FFF;
-    border: none;
-    border-radius: 1.5em;
-    text-transform: uppercase;
-    outline: none;
-    cursor: pointer;
-}
-
-.card-section-02 .card__downward .downward-item-01 .item-01-button:hover {
-    background: #df0672;
-    transition: all 1s ease-in-out;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward .downward-item-01 .item-01-button {
+        color: #776C82;
+        padding: 0.3em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            padding: 0;
+            margin: 1em 0 1em 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: normal;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-button {
         width: 50%;
-        margin-top: 2em;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-01 .item-01-button {
-        width: 30%;
-        margin: 1em 0 1em 0;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 0.9em;
-        font-weight: 500;
-        font-style: normal;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-02 {
-    flex: 1 0 20em;
-    background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
-    background-blend-mode: normal;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
-}
-
-@media (min-width: 500px) and (max-width: 900px) {
-    .card-section-02 .card__downward .downward-item-02 {
-        flex: 1 0 35em;
-    }
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward .downward-item-02 {
-        height: 25em;
-        margin: 5em 1em 0 -7em;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-02 {
-        max-width: 20em;
-        height: 25em;
-        margin: 9em 1em 0 -7em;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-03 {
-    display: none;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward .downward-item-03 {
-        display: block;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-03 {
-        display: block;
-    }
-}
-
-.card-section-02 .card__downward .downward-item-03 .item-03-p {
-    writing-mode: vertical-lr;
-    margin-top: 12em;
-}
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    .card-section-02 .card__downward .downward-item-03 .item-03-p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.2em;
-        font-weight: 500;
-        font-style: normal;
-        color: #5E239D;
-        padding: 2em;
-        margin-top: 7em;
-        letter-spacing: 0.2em;
-    }
-}
-
-@media (min-width: 1201px) {
-    .card-section-02 .card__downward .downward-item-03 .item-03-p {
+        height: 3em;
         font-family: "M PLUS 1p", sans-serif;
         font-size: 1em;
         font-weight: 500;
         font-style: normal;
-<<<<<<< HEAD
+        background: #F61067;
+        color: #FFF;
+        border: none;
+        margin-top: 10em;
+        border-radius: 1.5em;
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-button:hover {
+          background: #df0672;
+          transition: all 1s ease-in-out; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-button {
+            width: 25%;
+            margin: 1em 0 1em 0;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-button {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal;
+            width: 70%;
+            margin: 1em 0 1em 0; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-01 {
+          flex-grow: 15;
+          padding: 2em;
+          text-align: left; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-01 {
+          flex-grow: 10;
+          padding: 2em 5em;
+          text-align: left; } }
+    .card-section-02 .card__upward .upward-item-02 {
+      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: cover;
+      flex: 1 0 25em;
+      text-align: center;
+      position: relative; }
+      @media (min-width: 500px) and (max-width: 900px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          flex: 1 0 35em; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          flex-grow: 2;
+          margin-top: 3em; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          max-width: 20em;
+          margin-top: 3em; } }
+      .card-section-02 .card__upward .upward-item-02 .item-02-content {
+        padding: 1em;
+        margin: -14em auto 0 auto;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content {
+            background: #30124E;
+            width: 15em;
+            position: absolute;
+            color: #FCFCFC;
+            top: 14em;
+            right: -10.0em;
+            padding: 5em;
+            height: 23.5em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content {
+            background: #30124E;
+            width: 13em;
+            position: absolute;
+            top: 20em;
+            right: -12em;
+            height: 17em;
+            z-index: 2; }
+            .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
+              font-size: 1.5em;
+              color: #F4F4ED; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content .item-02-p {
+            color: #F4F4ED; } }
+        .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
+          font-size: 1.5em; }
+    .card-section-02 .card__upward .upward-item-03 {
+      display: none; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-03 {
+          display: block;
+          height: 25em;
+          width: 15em;
+          margin: 1.5em 0 5em -3em;
+          background: #30124E; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-03 {
+          display: block;
+          height: 25em;
+          width: 15em;
+          margin: 1.5em 0 5em -3em;
+          background: #30124E; }
+          .card-section-02 .card__upward .upward-item-03::before {
+            content: '';
+            position: relative;
+            display: block;
+            height: 23.5em;
+            width: 10em;
+            margin: 1.5em 0 5em 1.8em;
+            background: #30124E;
+            z-index: 1; } }
+  .card-section-02 .card__downward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__downward {
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__downward {
+        flex-flow: row wrap;
+        padding: 0;
+        margin-top: -2.5em; } }
+    .card-section-02 .card__downward .downward-item-01 {
+      flex: 1;
+      background: #30124E;
+      padding: 1em;
+      text-align: center;
+      color: #FFF; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-01 {
+          padding: 5em 8em 5em 6em;
+          text-align: left;
+          flex-grow: 22; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-01 {
+          max-width: 50em;
+          padding: 5em 12em;
+          text-align: left;
+          flex-grow: 10; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h4 {
+        color: #F61067;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.8em;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2em;
+        font-weight: 500;
+        font-style: normal;
+        color: #FCFCFC; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
+            font-style: normal; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal;
+        color: #FCFCFC;
+        line-height: 2em;
+        margin-bottom: 2.5em; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: 800;
+            font-style: normal; }
+            .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.8em;
+        font-weight: normal;
+        font-style: normal;
+        color: #FCFCFC;
+        line-height: 2em;
+        padding: 1em; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-p {
+            text-align: left;
+            padding: 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.6em;
+            font-weight: 500;
+            font-style: normal;
+            padding: 0;
+            margin-bottom: 1.2em; }
+            .card-section-02 .card__downward .downward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-button {
+        width: 50%;
+        height: 3em;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal;
         background: #F61067;
         color: #FFF;
         border: none;
@@ -1904,7 +1220,7 @@ section.blank .blank--content {
             font-style: normal; } }
     .card-section-02 .card__downward .downward-item-02 {
       flex: 1 0 20em;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
       background-blend-mode: normal;
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -1953,16 +1269,3 @@ section.blank .blank--content {
             margin-top: 16em;
             margin-left: 2.3em;
             letter-spacing: 0.2em; } }
->>>>>>> This contains the compiled css for the card-section-02.html
-=======
-        color: #5E239D;
-        padding: 0;
-        margin-top: 16em;
-        margin-left: 2.3em;
-        letter-spacing: 0.2em;
-    }
-}
-
-
-/* THE STYLESHEET FOR CARD-SECTION-02.HTML ENDS HERE */
->>>>>>> I add comment to the stylesheet
