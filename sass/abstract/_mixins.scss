@@ -40,7 +40,7 @@
     }
    
     @else if $class == lg {
-      @media (min-width: 1200px) { @content; }
+      @media (max-width: 1200px) { @content; }
     }
    
     @else if $class == ss {

@@ -10,6 +10,9 @@
 html {
   font-size: 18px; }
 
+body, html {
+  overflow-x: hidden; }
+
 h1 {
   font-family: "M PLUS 1p", sans-serif;
   font-style: normal;
@@ -178,6 +181,9 @@ h6 {
 .u-text-center {
   text-align: center; }
 
+.u-margin-top-large {
+  margin-top: 6rem; }
+
 .u-margin-top-medium {
   margin-top: 4rem; }
 
@@ -298,7 +304,7 @@ body {
     font-size: 0.7rem; }
   .row {
     display: flex;
-    flex-flow: column-wrap;
+    flex-flow: wrap;
     justify-content: center;
     align-content: center; } }
 
@@ -972,8 +978,11 @@ nav {
     margin-left: 1.3em; }
 
 .section-intro {
-  padding: 6rem;
+  padding: 6rem 6rem 0 6rem;
   overflow: hidden; }
+
+.img-hide {
+  display: none; }
 
 body {
   overflow-x: hidden; }
@@ -987,11 +996,9 @@ body {
 .intro__info--text {
   width: 70%; }
 
-.container-fluid {
-  position: relative; }
-
 .intro__icon--text-secondary {
-  color: #776C82; }
+  color: #776C82;
+  justify-content: center; }
 
 .section-what-we-do {
   overflow-x: hidden; }
@@ -999,11 +1006,9 @@ body {
 .what-we-do {
   margin: 0 6rem 3rem 6rem; }
   .what-we-do--image {
-    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.8), rgba(246, 16, 103, 0.8)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
     background-blend-mode: multiply;
-    height: 70%;
-    margin-top: -10rem;
-    background-size: cover; }
+    margin-top: -10rem; }
   .what-we-do__primary {
     color: #F61067;
     text-transform: uppercase;
@@ -1036,22 +1041,21 @@ body {
   flex-direction: row;
   text-align: center; }
 
-.senior {
+.row-container {
   display: flex;
   flex-direction: column; }
+  .row-container__col {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-emphasis: center;
+    color: #FCFCFC; }
 
-.junior {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  text-emphasis: center;
-  color: #FCFCFC; }
+.col-heading__primary {
+  margin: 4rem 6rem; }
 
-.txt1 {
-  margin: 3rem 2rem; }
-
-.txt2 {
-  margin: 3rem 4rem 3rem 4rem; }
+.col-heading__secondary {
+  margin: 4rem 4rem 3rem 4rem; }
 
 .what-we-do-stats {
   padding: 6rem; }
@@ -1065,3 +1069,39 @@ body {
 .stats_text {
   letter-spacing: 6px;
   text-transform: uppercase; }
+
+@media (max-width: 1364px) {
+  .section-intro {
+    padding: 2rem; }
+  .intro__info--text {
+    width: 100%; }
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .footer-row {
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+    .what-we-do-stats {
+      padding: 2rem; }
+  .row {
+    flex-flow: wrap; }
+  .icon__circle {
+    margin: 0 auto; }
+  .intro__icon--text-primary {
+    text-align: center;
+    justify-content: center; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; }
+  .what-we-do-small {
+    font-size: 1.9rem; }
+  .intro__icon {
+    margin-top: 0; } }
