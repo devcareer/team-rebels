@@ -1,0 +1,57 @@
+body{
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+.client{
+&__background{
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+&__title{
+  text-transform: uppercase;
+  color: $color-primary;
+}
+  &__body{
+    color: $color-secondary-400;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+  }
+}
+
+.container{
+    float: left;
+}
+.blue__bg{background-color: $color-secondary-400;
+  width: 50%;
+
+ &--title{
+   text-align: center;
+    color: $color-primary;
+    padding: 2rem 0rem;
+    margin-top: 2rem;
+    
+  }
+  &--text{
+    color: $color-white;
+    text-align: justify;
+    padding-right:4rem;
+    padding-left:4rem;
+  }
+}
+
+.logo{
+  margin-left: 6rem;
+}
+.container{
+
+}
+
+.banner{
+  z-index: ;
+  background-color: $color-secondary-300;
+  width: 100%;
+  color: $color-white;
+  padding-right: 10rem;
+}

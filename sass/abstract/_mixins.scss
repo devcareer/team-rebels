@@ -1,21 +1,65 @@
-// For Card-Section
-@mixin background-property($url, $blend-mode){
-    background: url("#{$url}");
-    background-blend-mode: $blend-mode;
+//For Desktop responsiveness view
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
 }
-@mixin position-property($value, $top, $left){
+
+//For Tablet responsiveness view
+@mixin tablet {
+    @media (min-width: #{$tablet}) and (max-width: 1200px) {
+        @content;
+    }
+}
+
+//For Mobile responsiveness view
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+// For Card-Section
+@mixin background-property($url, $blend-mode, $box-shadow) {
+    background-image: url("#{$url}");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: $blend-mode;
+    box-shadow: $box-shadow;
+}
+
+@mixin position-property($value,
+$top,
+$left) {
     position: $value;
     top: $top;
     left: $left;
 }
-@mixin font-property($family,$size,$weight,$style){
-    font :{
-        family:$family;
+
+@mixin position-property-right($value,
+$top,
+$right) {
+    position: $value;
+    top: $top;
+    right: $right;
+}
+
+@mixin font-property($family,
+$size,
+$weight,
+$style) {
+    font: {
+        family: $family;
         size: $size;
         weight: $weight;
         style: $style;
     }
 }
-@mixin line-height ($size){
+
+@mixin line-height ($size) {
     line-height: $size;
+}
+
+@mixin border-radius($size) {
+    border-radius: $size;
 }
