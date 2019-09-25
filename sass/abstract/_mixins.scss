@@ -59,12 +59,11 @@ $style) {
 @mixin line-height ($size) {
     line-height: $size;
 }
-<<<<<<< HEAD
+
 
 @mixin border-radius($size) {
     border-radius: $size;
 }
-=======
 //breakpoints
 @mixin breakpoint($class) {
     @if $class == xs {
@@ -92,5 +91,3 @@ $style) {
       @warn "Breakpoint mixin supports: xs, sm, md, lg";
     }
   }
-
->>>>>>> footer component complete
