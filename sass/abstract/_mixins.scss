@@ -25,6 +25,54 @@
         @content;
     }
 }
+// For Card-Section
+@mixin background-property($url, $blend-mode){
+    background: url("#{$url}");
+    background-blend-mode: $blend-mode;
+}
+@mixin position-property($value, $top, $left){
+    position: $value;
+    top: $top;
+    left: $left;
+}
+@mixin font-property($family,$size,$weight,$style){
+    font :{
+        family:$family;
+        size: $size;
+        weight: $weight;
+        style: $style;
+    }
+}
+@mixin line-height ($size){
+    line-height: $size;
+}
+//breakpoints
+@mixin breakpoint($class) {
+    @if $class == xs {
+      @media (max-width: 767px) { @content; }
+    }
+   
+    @else if $class == sm {
+      @media (min-width: 768px) { @content; }
+    }
+   
+    @else if $class == md {
+      @media (min-width: 992px) { @content; }
+    }
+   
+    @else if $class == lg {
+      @media (max-width: 1200px) { @content; }
+    }
+   
+    @else if $class == ss {
+
+    @media (max-width: 1364px) { @content; }
+      }
+  
+    @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }
+  }
 
 //For Tablet responsiveness view
 @mixin tablet {
