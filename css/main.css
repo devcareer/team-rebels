@@ -15,8 +15,12 @@ h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 99px;
+<<<<<<< HEAD
   line-height: 118px;
   color: #FCFCFC; }
+=======
+  line-height: 118px; }
+>>>>>>> I change the variable names in the stylesheets
 
 h2 {
   font-family: "M PLUS 1p", sans-serif;
@@ -133,6 +137,7 @@ h6 {
   line-height: 26px;
   letter-spacing: 6px;
   text-transform: uppercase; }
+<<<<<<< HEAD
 
 .title-medium {
   font-family: "M PLUS 1p", sans-serif;
@@ -907,10 +912,189 @@ nav {
       text-align: center; }
       .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
         color: #F61067;
+=======
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  overflow-x: hidden; }
+
+.header__banner--image {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+.header__navbar {
+  background: rgba(21, 4, 51, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  display: flex;
+  font-weight: bold; }
+  .header__navbar--logo {
+    font-family: "M PLUS 1p", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 43px;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    padding-right: 250px;
+    padding-left: 100px; }
+
+.nav-links {
+  list-style: none;
+  margin-top: 20px; }
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 30px; }
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "M PLUS 1p", sans-serif; }
+
+.fas {
+  margin-top: 20px;
+  padding: 0px 50px;
+  color: white; }
+
+.header__slogan {
+  position: relative;
+  top: -35rem;
+  left: 5rem;
+  color: white; }
+  .header__slogan--small-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 30px; }
+
+span {
+  color: #F61067; }
+
+.border {
+  border-left: 0; }
+
+.regular-text {
+  position: absolute;
+  top: 28rem;
+  border: 1px solid #F4F4ED;
+  border-left: 0;
+  border-spacing: 10px;
+  padding: 20px 0 20px 0;
+  width: 55%;
+  text-align: center;
+  bottom: 21rem;
+  color: #FCFCFC;
+  padding-bottom: 50px; }
+
+.box-2 {
+  position: relative;
+  top: -30.9rem;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FCFCFC;
+  border-radius: 50%;
+  left: 38rem; }
+
+.arrow-2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 1rem;
+  color: #FCFCFC; }
+
+.small-text {
+  transform: rotate(90deg);
+  color: #FCFCFC;
+  text-transform: uppercase;
+  position: absolute;
+  right: 2rem;
+  top: 10rem; }
+
+.arrow-box {
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid #FCFCFC;
+  width: 50px;
+  height: 2px;
+  border-radius: 30px;
+  position: relative;
+  left: 15rem;
+  bottom: 3rem; }
+
+.arrow-1 {
+  font-size: 28px;
+  position: relative;
+  top: -.9rem;
+  text-align: center; }
+
+section.blank {
+  background-color: #150433 !important;
+  width: 100%;
+  height: 30%; }
+  section.blank .blank--content {
+    color: #FFF; }
+
+.card-section-02 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .card-section-02 .card__upward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 2em; } }
+    .card-section-02 .card__upward .upward-item-01 {
+      flex: 1;
+      padding: 1em 2em 1em 2em;
+      text-align: center; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
+        color: #F61067;
         font-family: "M PLUS 1p", sans-serif;
         font-size: 0.7em;
         font-weight: 800;
         font-style: normal;
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5em;
+        font-weight: 500;
+        font-style: normal;
+        color: #30233D; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.8em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0;
+            line-height: 0; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+>>>>>>> I change the variable names in the stylesheets
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal;
+<<<<<<< HEAD
         letter-spacing: 0.2em;
         text-transform: uppercase; }
       .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
@@ -981,6 +1165,50 @@ nav {
         height: 3em;
         font-family: "M PLUS 1p", sans-serif;
         font-size: 1em;
+=======
+        color: #30233D;
+        line-height: 1.5em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.7em;
+            font-weight: 800;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: normal;
+        color: #776C82;
+        padding: 0.3em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            padding: 0;
+            margin: 1em 0 1em 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: normal;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-button {
+        width: 50%;
+        height: 3em;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+>>>>>>> I change the variable names in the stylesheets
         font-weight: 500;
         font-style: normal;
         background: #F61067;
@@ -1021,7 +1249,11 @@ nav {
           padding: 2em 5em;
           text-align: left; } }
     .card-section-02 .card__upward .upward-item-02 {
+<<<<<<< HEAD
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+=======
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+>>>>>>> I change the variable names in the stylesheets
       background-blend-mode: normal;
       background-repeat: no-repeat;
       background-size: 100% 100%;
@@ -1220,7 +1452,11 @@ nav {
             font-style: normal; } }
     .card-section-02 .card__downward .downward-item-02 {
       flex: 1 0 20em;
+<<<<<<< HEAD
       background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+=======
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+>>>>>>> I change the variable names in the stylesheets
       background-blend-mode: normal;
       background-repeat: no-repeat;
       background-size: 100% 100%;

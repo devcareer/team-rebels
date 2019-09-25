@@ -1,7 +1,6 @@
 //Mixins for card-section-02 starts here
 
 //For the desktop responsiveness view
-
 @mixin desktop-02 {
     @media (min-width: #{$desktop-02}) {
         @content;
@@ -30,10 +29,8 @@
 //For Tablet responsiveness view
 @mixin tablet {
     @media (min-width: #{$tablet}) and (max-width: 1200px) {
-        @content;
     }
 }
-
 //For Mobile responsiveness view
 @mixin mobile {
     @media (max-width: #{$mobile}) {
