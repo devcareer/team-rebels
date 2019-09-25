@@ -209,9 +209,11 @@ body {
   margin-left: 6rem; }
 
 .banner {
+  z-index: 1;
   background-color: #30124E;
   width: 100%;
-  color: #FCFCFC; }
+  color: #FCFCFC;
+  padding-right: 10rem; }
 
 html, body {
   width: 100%;
