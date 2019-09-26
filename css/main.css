@@ -390,17 +390,14 @@ h6 {
 .col-heading__secondary2 {
   padding-top: 4rem; }
 
-.col-heading__secondary2:last-child {
-  padding-bottom: 3rem; }
-
 .what-we-do-image-1 {
   background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
   background-blend-mode: multiply;
-  height: 103%;
+  height: 133%;
   position: absolute;
   z-index: 2;
   top: -11rem;
-  right: -23.3rem; }
+  right: -23rem; }
 
 #row-what-we-do {
   position: relative; }
@@ -1201,6 +1198,9 @@ nav {
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
         padding: 7rem 0; } }
+    @media (max-width: 839px) {
+      .card-section .card .card__newsletter {
+        padding: 0 0 12rem 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
