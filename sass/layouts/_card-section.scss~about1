@@ -307,7 +307,10 @@
             border: none;
             text-align: center;
             @include desktop {
-                margin-top: 3.0em;
+                padding:7rem 0;
+            }
+            @include mobile {
+                padding:0 0 12rem 0;
             }
         }
         h3.card__newsletter-h3 {
