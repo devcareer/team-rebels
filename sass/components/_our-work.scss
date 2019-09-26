@@ -1,0 +1,42 @@
+
+
+    .text__part{
+        text-align: center;
+        padding: 5% 5% 0 2%;
+        &--capital{
+            color: $color-primary;
+        }
+        &--small{
+            color: $color-secondary-400;
+            font-weight: bolder;
+        }
+        &--body{
+            color: $color-secondary-400;
+            font-weight: bold;
+        }
+    }
+
+
+    //main text and photo part
+
+    .main__text{
+        margin: 8% 8%;
+        &--number{
+            font-weight: 800;
+            color: $color-primary;
+        
+        }
+        &--title{
+            color: $color-secondary-400;
+            font-weight: 800;
+        }
+        &--body{
+            color: $text-color-main-text;
+        }
+    }
+
+.main-image{
+    margin: 10%;
+}
+
+

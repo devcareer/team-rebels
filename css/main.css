@@ -183,7 +183,8 @@ h6 {
 
 .blue__bg {
   background: #150433;
-  z-index: -2; }
+  position: relative;
+  z-index: 2; }
   .blue__bg--title {
     margin-top: 15%;
     font-weight: 800;
@@ -203,12 +204,15 @@ h6 {
     margin-left: 15%;
     margin-bottom: 5%; }
   .client__logo--image {
-    margin-left: 15%; }
+    margin-left: 15%;
+    margin-bottom: 5%; }
 
 .client__bg {
   padding-top: 10%;
   background-color: #30124E;
-  z-index: 0; }
+  position: relative;
+  top: -10%;
+  z-index: 1; }
   .client__bg--title {
     color: #F61067;
     text-transform: uppercase;
@@ -232,6 +236,40 @@ h6 {
     color: #F61067; }
   .value__card--title {
     font-weight: 800; }
+
+@media screen and (max-width: 368px) {
+  .client__logo--title {
+    margin-top: 2rem; }
+  .client__logo--image {
+    width: 200px;
+    padding-right: 10%;
+    padding-bottom: 5%; } }
+
+.text__part {
+  text-align: center;
+  padding: 5% 5% 0 2%; }
+  .text__part--capital {
+    color: #F61067; }
+  .text__part--small {
+    color: #150433;
+    font-weight: bolder; }
+  .text__part--body {
+    color: #150433;
+    font-weight: bold; }
+
+.main__text {
+  margin: 8% 8%; }
+  .main__text--number {
+    font-weight: 800;
+    color: #F61067; }
+  .main__text--title {
+    color: #150433;
+    font-weight: 800; }
+  .main__text--body {
+    color: #776C82; }
+
+.main-image {
+  margin: 10%; }
 
 html, body {
   width: 100%;
