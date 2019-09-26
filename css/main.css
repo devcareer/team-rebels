@@ -1,128 +1,182 @@
 @import url("https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noticia+Text&display=swap");
-*,
-*::after,
-*::before {
+*, *::before,
+*::after {
   margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
+  padding: 0; }
 
-html {
-  font-size: 18px; }
+body {
+  width: 100%;
+  overflow-x: hidden; }
 
-h1 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 99px;
-  line-height: 118px; }
+@media screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+    margin-top: 5%;
+    background: #FCFCFC; }
+    .header__top {
+      width: 100%;
+      flex-direction: row !important; }
+      .header__top__logo {
+        margin-left: 7%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 0.75rem;
+        font-weight: 900;
+        color: #30124E; }
+      .header__top .nav {
+        width: 75%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 0.45rem;
+        font-weight: 800;
+        margin-left: 5vw;
+        flex-direction: row !important; }
+        .header__top .nav .nav__list {
+          flex-direction: row !important; }
+          .header__top .nav .nav__list .list--style {
+            display: none; }
+        .header__top .nav__menu {
+          width: 15%;
+          margin-top: 0; }
+    .header .header__bottom {
+      width: 100%;
+      height: 70%;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+      .header .header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 7%;
+        font-size: 5vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F61067; }
+      .header .header__bottom__p {
+        margin-left: 7%;
+        margin-bottom: 7%;
+        font-size: 1.8vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F4F4ED; }
+  .main {
+    background: #FCFCFC;
+    margin-top: 5%; }
+    .main__h4 {
+      color: #F61067;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 7%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2.8vmin; }
+    .main__p1 {
+      margin-left: 7%;
+      margin-bottom: 7%;
+      width: 90%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 5vmin;
+      color: #30233D; }
+    .main .main__bottom {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    .main__bottom {
+      margin-top: 5%;
+      margin-left: 7%;
+      margin-right: 2%; }
+      .main__bottom__left__h5, .main__bottom__right__h5 {
+        color: #30233D;
+        font-size: 3.5vmin;
+        font-weight: 500;
+        font-family: "M PLUS 1p", sans-serif; }
+      .main__bottom__left__p2, .main__bottom__right__p2 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 3.2vmin;
+        color: #776C82; } }
 
-h2 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 3rem;
-  line-height: 80px; }
-
-h3 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.5rem;
-  line-height: 67px; }
-
-h4 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2rem; }
-
-h5 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 40px; }
-
-h6 {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 27px; }
-
-.text-small {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 0.9rem;
-  line-height: 26px; }
-
-.text-small-bold {
-  font-family: "M PLUS 1p", sans-serif Bold;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 0.9rem;
-  line-height: 26px; }
-
-.text-regular {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 29px; }
-
-.text-regular-bold {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1rem;
-  line-height: 29px; }
-
-.text-medium {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1rem;
-  line-height: 32px; }
-
-.text-medium-bold {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1.1rem;
-  line-height: 32px; }
-
-.text-large {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2rem;
-  line-height: 35px; }
-
-.text-large-bold {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 1.2rem;
-  line-height: 35px; }
-
-.quote-large {
-  font-family: "Noticia Text", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 2rem;
-  line-height: 64px;
-  display: flex;
-  align-items: center; }
-
-.quote-small {
-  font-family: "Noticia Text", serif;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 22.5px;
-  line-height: 40px;
-  display: flex; }
+@media screen and (min-width: 600px) {
+  .header {
+    width: 100%;
+    height: 30vmax;
+    margin-top: 3%;
+    overflow-x: hidden; }
+    .header__top {
+      width: 100%;
+      height: 15%;
+      margin-bottom: 1%; }
+      .header__top__logo {
+        margin-left: 8%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 3.2vmin;
+        font-style: normal;
+        font-weight: 900;
+        color: #150433; }
+      .header__top .nav {
+        width: 80%; }
+        .header__top .nav .nav__list {
+          background: #FCFCFC; }
+          .header__top .nav .nav__list .list--style {
+            list-style: none;
+            margin-top: 1%;
+            margin-left: 1%;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2vmin;
+            font-style: normal;
+            font-weight: 800; }
+            .header__top .nav .nav__list .list--style a {
+              color: #150433; }
+        .header__top .nav ul {
+          width: 80%;
+          list-style: none; }
+        .header__top .nav__menu {
+          width: 15%;
+          margin-top: 1%;
+          margin-left: 5%; }
+    .header .header__bottom {
+      width: 100%;
+      height: 85%;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+      .header .header__bottom .header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 8%;
+        font-size: 6vmin;
+        color: #F61067; }
+      .header .header__bottom .header__bottom__p {
+        margin-top: 2%;
+        margin-bottom: 7%;
+        margin-left: 8%;
+        font-size: 2.5vmin;
+        color: #FCFCFC; }
+  .main {
+    background: #FCFCFC; }
+    .main__h4 {
+      color: #F61067;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      font-family: "M PLUS 1p", sans-serif; }
+    .main__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 60%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #30233D; }
+    .main__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%; }
+      .main__bottom__left, .main__bottom__right {
+        width: 45%; }
+        .main__bottom__left__h5, .main__bottom__right__h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-weight: 500;
+          color: #30233D; }
+        .main__bottom__left__p2, .main__bottom__right__p2 {
+          font-family: "M PLUS 1p", sans-serif;
+          color: #776C82; } }
 
 section.blank {
   background-color: #150433 !important;
@@ -130,3 +184,114 @@ section.blank {
   height: 30%; }
   section.blank .blank--content {
     color: #FFF; }
+
+.main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+  width: 20%;
+  margin-right: 7%; }
+
+*, *::before,
+*::after {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  overflow-x: hidden; }
+
+@media screen and (max-width: 450px) {
+  .flex-row .main1__top__1, .flex-row .main1__top__2, .flex-row .main1__top__3, .flex-row .main1__bottom__1, .flex-row .main1__bottom__2, .flex-row .main1__bottom__3 {
+    width: 90%;
+    margin: 5%; }
+  .main1__p2 {
+    width: 100% !important; }
+  .flex-row {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important; }
+    .flex-row .main1__bottom__1 {
+      order: 1; }
+    .flex-row .main1__bottom__2 {
+      order: 0; }
+    .flex-row .main1__bottom__3 {
+      order: 2; }
+  .main1__p3 {
+    font-size: 4vmin !important; }
+  .head--1, .head--2, .head--3, .head--4, .head--5, .head--6 {
+    font-size: 4.5vmin !important; }
+  .main1__btn {
+    width: 25vw !important;
+    height: 5vw !important; } }
+
+.main1 {
+  margin-top: 10%;
+  width: 100%;
+  margin-bottom: 10%;
+  background: #150433; }
+  .main1__p1 {
+    margin-top: 10%;
+    color: #F61067; }
+  .main1__h2 {
+    color: #FCFCFC; }
+  .main1__p2 {
+    width: 50%;
+    text-align: center;
+    color: #FCFCFC;
+    margin-bottom: 7%; }
+  .main1__top {
+    width: 100%; }
+    .main1__top__1, .main1__top__2, .main1__top__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1__bottom {
+    margin: 5vmin 15vmin;
+    width: 100%; }
+    .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1 .main1__p3 {
+    color: #FCFCFC;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 2.5vmin; }
+  .main1 .head--1 {
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin; }
+  .main1 .head--2 {
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin; }
+  .main1 .head--3 {
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin; }
+  .main1 .head--4 {
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin; }
+  .main1 .head--5 {
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin; }
+  .main1 .head--6 {
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin; }
+  .main1__btn {
+    width: 15vw;
+    height: 3.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 2vmin; }
+
+*, *::before,
+*::after {
+  padding: 0;
+  margin: 0; }

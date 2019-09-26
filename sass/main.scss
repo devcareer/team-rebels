@@ -4,8 +4,8 @@
 @import 'sass/abstract/variables';
 // base
 @import 'sass/base/animations';
-@import 'sass/base/base';
-@import 'sass/base/typography';
+// @import 'sass/base/base';
+// @import 'sass/base/typography';
 @import 'sass/base/utilities';
 //components
 @import 'sass/components/button.scss';
@@ -16,6 +16,8 @@
 @import 'sass/layouts/header-home';
 @import 'sass/layouts/header-about';
 @import 'sass/layouts/card-section';
+@import 'sass/layouts/our-services';
+
 //pages
 @import 'sass/pages/about1';
 @import 'sass/pages/about2';

@@ -1,26 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
-
-$color-primary: #F61067;
-$color-secondary-100:#5E239D;
-$color-secondary-200:#3A0475;
-$color-secondary-300:#30124E;
-$color-secondary-400:#150433;
-$color-tertiary:#00F0B5;
-$color-tertiary-light:#6DECAF;
-$color-white:#FCFCFC;
-$color-light-grey:#F4F4ED;
-$text-color-headers:#30233D;
-$text-color-main-text:#776C82;
-$text-color-grey:#9B94A3;
-$color-error:#F0002B;
-$color-success:#10F65E;
-$color-warning:#F67110;
-$color-info:#00A8F0;
-
-$default-font-family:'M PLUS 1p', sans-serif;
-
 $font-size-1: 2.5vmin;
 $font-size-2: 3.2vmin;
 
@@ -57,7 +34,7 @@ body {
         margin: 5%;
     }
 
-    .main__p2 {
+    .main1__p2 {
         width: 100% !important;
     }
 
@@ -65,21 +42,21 @@ body {
         -ms-flex-direction: column !important;
         flex-direction: column !important;
 
-        .main__top__1, .main__top__2, .main__top__3, .main__bottom__1, .main__bottom__2, .main__bottom__3 {
+        .main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
             @extend %section-placeholder-sm;
         }
-        .main__bottom__1 {
+        .main1__bottom__1 {
             order: 1;
         }
-        .main__bottom__2 {
+        .main1__bottom__2 {
             order: 0;
         }
-        .main__bottom__3 {
+        .main1__bottom__3 {
             order: 2;
         }
     }
 
-    .main__p3 {
+    .main1__p3 {
         font-size: $font-size-3 !important;
     }
 
@@ -87,13 +64,13 @@ body {
         font-size: $font-size-4 !important;
     }
 
-    .main__btn {
+    .main1__btn {
         width: 25vw !important;
         height: 5vw !important;
     }
 }
 
-.main {
+.main1 {
     margin-top: 10%;
     width: 100%;
     margin-bottom: 10%;
@@ -136,7 +113,7 @@ body {
         }
     }
    
-    .main__p3 {
+    .main1__p3 {
         color: $color-white;
         @include margin-t-b-s($font-size-1);
     }
