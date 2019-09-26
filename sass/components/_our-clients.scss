@@ -44,14 +44,38 @@ body{
 .logo{
   margin-left: 6rem;
 }
-.container{
+.conta
 
-}
-
-.banner{
-  z-index: ;
+.client__banner{
   background-color: $color-secondary-300;
   width: 100%;
   color: $color-white;
-  padding-right: 10rem;
+  padding: 6rem;
+    &--title{
+    text-transform: uppercase;
+    color: $color-primary;
+    margin-bottom: 2rem;}
+    &--text{
+      margin-bottom: 3rem;
+      }
 }
+.col-sm{
+  padding: 2rem;
+  border: 1px solid $color-white;
+  margin-right: 3rem;
+  font-weight: 300;
+  &:hover{
+    background: $color-primary;
+    color: white;
+  }
+}
+  .card__number{
+    color: $color-primary;
+    font-weight: 800;
+    font-family: $default-font-family;
+    .card__title{
+      font-family: $default-font-family;
+      font-weight: bold;
+
+    }
+  }

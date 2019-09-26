@@ -208,10 +208,37 @@ body {
 .logo {
   margin-left: 6rem; }
 
-.banner {
+.conta
+.client__banner {
   background-color: #30124E;
   width: 100%;
-  color: #FCFCFC; }
+  color: #FCFCFC;
+  padding: 6rem; }
+  .conta
+.client__banner--title {
+    text-transform: uppercase;
+    color: #F61067;
+    margin-bottom: 2rem; }
+  .conta
+.client__banner--text {
+    margin-bottom: 3rem; }
+
+.col-sm {
+  padding: 2rem;
+  border: 1px solid #FCFCFC;
+  margin-right: 3rem;
+  font-weight: 300; }
+  .col-sm:hover {
+    background: #F61067;
+    color: white; }
+
+.card__number {
+  color: #F61067;
+  font-weight: 800;
+  font-family: "M PLUS 1p", sans-serif; }
+  .card__number .card__title {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: bold; }
 
 html, body {
   width: 100%;
