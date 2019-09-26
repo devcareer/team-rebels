@@ -1,83 +1,84 @@
-body{
-  width: 100%;
-  height: auto;
-  overflow-x: hidden;
-}
-.client{
-&__background{
-  padding-left: 5rem;
-  padding-top: 5rem;
-}
-&__title{
-  text-transform: uppercase;
-  color: $color-primary;
-}
-  &__body{
+//fof the first content
+.client__part{
+  margin-top: 5%;
+  margin-bottom: 5%;
+ 
+  &--title{
+    text-transform: uppercase;
+    color: $color-primary;
+    margin-left: 5%;
+  }
+  &--body{
     color: $color-secondary-400;
     font-weight: 800;
-    line-height: 1.5;
-    margin-bottom: 3rem;
+    margin-left: 5%;
   }
 }
-
-.container{
-    float: left;
-}
-.blue__bg{background-color: $color-secondary-400;
-  width: 50%;
-
- &--title{
-   text-align: center;
+//for the blue background
+.blue__bg{
+  background: $color-secondary-400;
+  // padding: 5%;
+  z-index: -2;
+  &--title{
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
     color: $color-primary;
-    padding: 2rem 0rem;
-    margin-top: 2rem;
     
   }
   &--text{
     color: $color-white;
-    text-align: justify;
-    padding-right:4rem;
-    padding-left:4rem;
+    margin: 5% 10% 5% 10%;
   }
 }
-
-.logo{
-  margin-left: 6rem;
-}
-.conta
-
-.client__banner{
-  background-color: $color-secondary-300;
-  width: 100%;
-  color: $color-white;
-  padding: 6rem;
-    &--title{
+//for the logo part
+.client__logo{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  &--title{
     text-transform: uppercase;
-    color: $color-primary;
-    margin-bottom: 2rem;}
-    &--text{
-      margin-bottom: 3rem;
-      }
-}
-.col-sm{
-  padding: 2rem;
-  border: 1px solid $color-white;
-  margin-right: 3rem;
-  font-weight: 300;
-  &:hover{
-    background: $color-primary;
-    color: white;
+    font-weight: 800;
+    color: $color-secondary-400;
+    margin-left: 15%;
+    margin-bottom: 5%;
+  }
+  &--image{
+    margin-left: 15%;
   }
 }
-
-  .card__number{
+//for the client banner
+.client__bg{
+  padding-top: 10%;
+  background-color: $color-secondary-300;
+  z-index: ;
+  &--title{
     color: $color-primary;
-    font-weight: 800;
-    font-family: $default-font-family;
-    .card__title{
-    
-      font-family: $default-font-family;
-      font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 5%;
+  }
+  &--text{
+    color: $color-white;
+    padding-bottom: 5%;
+    margin-left: 5%;
+  }
+  }
 
+  ///value card part
+  .value__card{
+    color: $color-white;
+    border: 1px solid $color-white;
+    margin-right: 2rem;
+    padding: 2rem;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    &:hover{
+      background-color: $color-primary;
+    }
+    &--number{
+      font-weight: 800;
+      color: $color-primary;
+    }
+    &--title{
+      font-weight: 800;
     }
   }
