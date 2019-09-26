@@ -69,11 +69,13 @@ body{
     color: white;
   }
 }
+
   .card__number{
     color: $color-primary;
     font-weight: 800;
     font-family: $default-font-family;
     .card__title{
+    
       font-family: $default-font-family;
       font-weight: bold;
 
