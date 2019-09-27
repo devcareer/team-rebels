@@ -169,107 +169,76 @@ h6 {
   letter-spacing: 2px;
   color: #FCFCFC; }
 
-.client__part {
-  margin-top: 5%;
-  margin-bottom: 5%; }
-  .client__part--title {
-    text-transform: uppercase;
-    color: #F61067;
-    margin-left: 5%; }
-  .client__part--body {
-    color: #150433;
-    font-weight: 800;
-    margin-left: 5%; }
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden; }
+
+.client__background {
+  padding-left: 5rem;
+  padding-top: 5rem; }
+
+.client__title {
+  text-transform: uppercase;
+  color: #F61067; }
+
+.client__body {
+  color: #150433;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 3rem; }
+
+.container {
+  float: left; }
 
 .blue__bg {
-  background: #150433;
-  position: relative;
-  z-index: 2; }
+  background-color: #150433;
+  width: 50%; }
   .blue__bg--title {
-    margin-top: 15%;
-    font-weight: 800;
     text-align: center;
-    color: #F61067; }
+    color: #F61067;
+    padding: 2rem 0rem;
+    margin-top: 2rem; }
   .blue__bg--text {
     color: #FCFCFC;
-    margin: 5% 10% 5% 10%; }
+    text-align: justify;
+    padding-right: 4rem;
+    padding-left: 4rem; }
 
-.client__logo {
-  margin-top: 5%;
-  margin-bottom: 5%; }
-  .client__logo--title {
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #150433;
-    margin-left: 15%;
-    margin-bottom: 5%; }
-  .client__logo--image {
-    margin-left: 15%;
-    margin-bottom: 5%; }
+.logo {
+  margin-left: 6rem; }
 
-.client__bg {
-  padding-top: 10%;
+.conta
+.client__banner {
   background-color: #30124E;
-  position: relative;
-  top: -10%;
-  z-index: 1; }
-  .client__bg--title {
-    color: #F61067;
-    text-transform: uppercase;
-    margin-left: 5%; }
-  .client__bg--text {
-    color: #FCFCFC;
-    padding-bottom: 5%;
-    margin-left: 5%; }
-
-.value__card {
+  width: 100%;
   color: #FCFCFC;
-  border: 1px solid #FCFCFC;
-  margin-right: 2rem;
+  padding: 6rem; }
+  .conta
+.client__banner--title {
+    text-transform: uppercase;
+    color: #F61067;
+    margin-bottom: 2rem; }
+  .conta
+.client__banner--text {
+    margin-bottom: 3rem; }
+
+.col-sm {
   padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
-  .value__card:hover {
-    background-color: #F61067; }
-  .value__card--number {
-    font-weight: 800;
-    color: #F61067; }
-  .value__card--title {
-    font-weight: 800; }
+  border: 1px solid #FCFCFC;
+  margin-right: 3rem;
+  font-weight: 300; }
+  .col-sm:hover {
+    background: #F61067;
+    color: white; }
 
-@media screen and (max-width: 368px) {
-  .client__logo--title {
-    margin-top: 2rem; }
-  .client__logo--image {
-    width: 200px;
-    padding-right: 10%;
-    padding-bottom: 5%; } }
-
-.text__part {
-  text-align: center;
-  padding: 5% 5% 0 2%; }
-  .text__part--capital {
-    color: #F61067; }
-  .text__part--small {
-    color: #150433;
-    font-weight: bolder; }
-  .text__part--body {
-    color: #150433;
+.card__number {
+  color: #F61067;
+  font-weight: 800;
+  font-family: "M PLUS 1p", sans-serif; }
+  .card__number .card__title {
+    font-family: "M PLUS 1p", sans-serif;
     font-weight: bold; }
-
-.main__text {
-  margin: 8% 8%; }
-  .main__text--number {
-    font-weight: 800;
-    color: #F61067; }
-  .main__text--title {
-    color: #150433;
-    font-weight: 800; }
-  .main__text--body {
-    color: #776C82; }
-
-.main-image {
-  margin: 10%; }
 
 html, body {
   width: 100%;

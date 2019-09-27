@@ -1,9 +1,78 @@
+//Mixins for card-section-02 starts here
+//For the desktop responsiveness view
+@mixin desktop-02 {
+    @media (min-width: #{$desktop-02}) {
+        @content;
+    }
+}
+
+@mixin tablet-02 {
+    @media (min-width: #{$min-tablet-02}) and (max-width: #{$max-tablet-02}) {
+        @content;
+    }
+}
+
+@mixin background-property-02($url, $blend-mode) {
+    background-image: url("#{$url}");
+    background-blend-mode: $blend-mode;
+}
+
+//Mixins for Card-section-02 ends here
+// For Card-Section starts here
 //For Desktop responsiveness view
 @mixin desktop {
     @media (min-width: #{$desktop}) {
         @content;
     }
 }
+// For Card-Section
+@mixin background-property($url, $blend-mode){
+    background: url("#{$url}");
+    background-blend-mode: $blend-mode;
+}
+@mixin position-property($value, $top, $left){
+    position: $value;
+    top: $top;
+    left: $left;
+}
+@mixin font-property($family,$size,$weight,$style){
+    font :{
+        family:$family;
+        size: $size;
+        weight: $weight;
+        style: $style;
+    }
+}
+@mixin line-height ($size){
+    line-height: $size;
+}
+//breakpoints
+@mixin breakpoint($class) {
+    @if $class == xs {
+      @media (max-width: 767px) { @content; }
+    }
+   
+    @else if $class == sm {
+      @media (min-width: 768px) { @content; }
+    }
+   
+    @else if $class == md {
+      @media (min-width: 992px) { @content; }
+    }
+   
+    @else if $class == lg {
+      @media (max-width: 1200px) { @content; }
+    }
+   
+    @else if $class == ss {
+
+    @media (max-width: 1364px) { @content; }
+      }
+  
+    @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }
+  }
 
 //For Tablet responsiveness view
 @mixin tablet {
@@ -19,9 +88,10 @@
     }
 }
 
-// For Card-Section
-@mixin background-property($url, $blend-mode, $box-shadow) {
-    background-image: url("#{$url}");
+@mixin background-property($url,
+$blend-mode,
+$box-shadow) {
+    background: url("#{$url}");
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: $blend-mode;
@@ -60,6 +130,36 @@ $style) {
     line-height: $size;
 }
 
+
 @mixin border-radius($size) {
     border-radius: $size;
 }
+
+//breakpoints
+@mixin breakpoint($class) {
+    @if $class == xs {
+      @media (max-width: 767px) { @content; }
+    }
+   
+    @else if $class == sm {
+      @media (min-width: 768px) { @content; }
+    }
+   
+    @else if $class == md {
+      @media (min-width: 992px) { @content; }
+    }
+   
+    @else if $class == lg {
+      @media (min-width: 1200px) { @content; }
+    }
+   
+    @else if $class == ss {
+
+    @media (max-width: 1364px) { @content; }
+      }
+  
+    @else {
+      @warn "Breakpoint mixin supports: xs, sm, md, lg";
+    }
+  }
+

@@ -1,0 +1,52 @@
+
+.what-we-do-stats {
+  padding: 6rem;
+
+  &__primary {
+    color: $color-primary;
+  }
+
+  &__secondary {
+    color: $color-secondary-100;
+  }
+
+  &__tertiary {
+    color: $color-tertiary;
+  }
+}
+
+.stats_text {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+@include breakpoint(ss){
+
+
+ .footer-row{
+  flex-wrap: wrap;
+ }
+ .what-we-do{
+  
+  &-stats {
+    padding: 2rem;
+ }
+ 
+}
+.row{
+  flex-flow: wrap;
+}
+
+.icon__circle{
+  margin: 0 auto;
+}
+.intro__icon--text-primary {
+  text-align:center;
+  justify-content: center;
+}
+.what-we-do-small{
+  font-size: 1.9rem;
+}
+}
+
+
+

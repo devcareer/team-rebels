@@ -1,0 +1,370 @@
+//Card-section-02 starts here
+.card-section-02 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .card__upward {
+        display: flex;
+        flex-flow: column wrap;
+        // padding: 0;
+        @include tablet-02 {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        @include desktop-02 {
+            display: flex;
+            flex-flow: row wrap;
+            padding-left: 2em;
+        }
+        .upward-item-01 {
+            flex: 1;
+            padding: 1em 2em 1em 2em;
+            text-align: center;
+            .item-01-h4 {
+                color: $color-primary;
+                @include font-property($default-font-family, 0.7em, 800, normal);
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+            }
+            .item-01-h1 {
+                @include font-property($default-font-family, 2.5em, 500, normal);
+                color: $text-color-headers;
+                @include tablet-02 {
+                    @include font-property($default-font-family, 1.8em, 500, normal);
+                }
+                @include desktop-02 {
+                    @include font-property($default-font-family, 1.6em, 500, normal);
+                    padding: 0;
+                    margin: 1em 0 1em 0;
+                    line-height: 0;
+                }
+            }
+            .item-01-h3 {
+                @include font-property($default-font-family, 1.0em, 800, normal);
+                color: $text-color-headers;
+                line-height: 1.5em;
+                br {
+                    display: none;
+                }
+                @include desktop-02 {
+                    @include font-property($default-font-family, .7em, 800, normal);
+                    padding: 0;
+                    margin: 1em 0 1em 0;
+                    br {
+                        display: block;
+                    }
+                }
+            }
+            .item-01-p {
+                @include font-property($default-font-family, 1.0em, normal, normal);
+                color: $text-color-main-text;
+                padding: 0.3em;
+                br {
+                    display: none;
+                }
+                @include tablet-02 {
+                    padding: 0;
+                    margin: 1em 0 1em 0;
+                }
+                @include desktop-02 {
+                    @include font-property($default-font-family, .8em, normal, normal);
+                    padding: 0;
+                    margin: 1em 0 1em 0;
+                    br {
+                        display: block;
+                    }
+                }
+            }
+            .item-01-button {
+                width: 50%;
+                height: 3em;
+                @include font-property($default-font-family, 1.0em, 500, normal);
+                background: $color-primary;
+                color: #FFF;
+                border: none;
+                margin-top: 10em;
+                border-radius: 1.5em;
+                text-transform: uppercase;
+                outline: none;
+                cursor: pointer;
+                &:hover {
+                    background: rgb(223, 6, 114);
+                    transition: all 1s ease-in-out;
+                }
+                @include desktop-02 {
+                    width: 25%;
+                    margin: 1em 0 1em 0;
+                    @include font-property($default-font-family, 0.9em, 500, normal);
+                }
+                @include tablet-02 {
+                    @include font-property($default-font-family, 0.9em, 500, normal);
+                    width: 70%;
+                    margin: 1em 0 1em 0;
+                }
+            }
+            @include tablet-02 {
+                flex-grow: 15;
+                padding: 2em;
+                text-align: left;
+                // border: 2px solid black;
+            }
+            @include desktop-02 {
+                flex-grow: 10;
+                padding: 2em 5em;
+                text-align: left;
+            }
+        }
+        .upward-item-02 {
+            @include background-property-02("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png", normal);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: cover;
+            flex: 1 0 25em;
+            text-align: center;
+            position: relative;
+            @media (min-width: 500px) and (max-width: 900px) {
+                flex: 1 0 35em;
+            }
+            @include tablet-02 {
+                flex-grow: 2;
+                margin-top: 3em;
+                // border: 2px solid rgb(202, 32, 32);
+            }
+            @include desktop-02 {
+                max-width: 20em;
+                margin-top: 3em;
+                // margin-right: 5em;
+            }
+            .item-02-content {
+                padding: 1em;
+                margin: -14em auto 0 auto;
+                @include font-property($default-font-family, 1.0em, normal, italic);
+                // border: 2px solid rgb(250, 248, 248);
+                @include tablet-02 {
+                    background: #30124E;
+                    width: 15em;
+                    position: absolute;
+                    color: $color-white;
+                    top: 14em;
+                    right: -10.0em;
+                    padding: 5em;
+                    height: 23.5em;
+                }
+                @include desktop-02 {
+                    background: #30124E;
+                    width: 13em;
+                    position: absolute;
+                    // border: 2px solid green;
+                    top: 20em;
+                    right: -12em;
+                    height: 17em;
+                    z-index: 2;
+                    .fa {
+                        font-size: 1.5em;
+                        color: $color-light-grey;
+                    }
+                }
+                .item-02-p {
+                    @include desktop-02 {
+                        color: $color-light-grey;
+                    }
+                }
+                .fa {
+                    font-size: 1.5em;
+                    // color: $color-light-grey;
+                }
+            }
+        }
+        .upward-item-03 {
+            display: none;
+            @include tablet-02 {
+                // border: 2px solid rgb(46, 226, 22);
+                display: block;
+                height: 25em;
+                width: 15em;
+                margin: 1.5em 0 5em -3em;
+                background: #30124E;
+            }
+            @include desktop-02 {
+                display: block;
+                height: 25em;
+                width: 15em;
+                margin: 1.5em 0 5em -3em;
+                background: #30124E;
+                &::before {
+                    content: '';
+                    position: relative;
+                    display: block;
+                    height: 23.5em;
+                    width: 10em;
+                    margin: 1.5em 0 5em 1.8em;
+                    background: #30124E;
+                    // border: 2px solid white;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+    .card__downward {
+        display: flex;
+        flex-flow: column wrap;
+        // padding: 1em;
+        @include tablet-02 {
+            flex-flow: row wrap;
+        }
+        @include desktop-02 {
+            flex-flow: row wrap;
+            padding: 0;
+            margin-top: -2.5em;
+        }
+        .downward-item-01 {
+            flex: 1;
+            background: #30124E;
+            // border: 2px solid red;
+            padding: 1em;
+            text-align: center;
+            color: #FFF;
+            @include tablet-02 {
+                padding: 5em 8em 5em 6em;
+                text-align: left;
+                flex-grow: 22;
+            }
+            @include desktop-02 {
+                max-width: 50em;
+                padding: 5em 12em;
+                text-align: left;
+                flex-grow: 10;
+            }
+            .item-01-h4 {
+                color: $color-primary;
+                @include font-property($default-font-family, 0.8em, 800, normal);
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+            }
+            .item-01-h1 {
+                @include font-property($default-font-family, 2.0em, 500, normal);
+                color: $color-white;
+                @include desktop-02 {
+                    @include font-property($default-font-family, 1.6em, 500, normal);
+                }
+            }
+            .item-01-h3 {
+                @include font-property($default-font-family, 1.0em, 800, normal);
+                color: $color-white;
+                line-height: 2em;
+                margin-bottom: 2.5em;
+                br {
+                    display: none;
+                }
+                @include desktop-02 {
+                    @include font-property($default-font-family, .8em, 800, normal);
+                    br {
+                        display: block;
+                    }
+                }
+            }
+            .item-01-p {
+                @include font-property($default-font-family, 0.8em, normal, normal);
+                color: $color-white;
+                line-height: 2em;
+                padding: 1em;
+                br {
+                    display: none;
+                }
+                @include tablet-02 {
+                    text-align: left;
+                    padding: 0;
+                }
+                @include desktop-02 {
+                    @include font-property($default-font-family, .6em, 500, normal);
+                    padding: 0;
+                    margin-bottom: 1.2em;
+                    br {
+                        display: block;
+                    }
+                }
+            }
+            .item-01-button {
+                width: 50%;
+                height: 3em;
+                @include font-property($default-font-family, 1.0em, 500, normal);
+                background: $color-primary;
+                color: #FFF;
+                border: none;
+                border-radius: 1.5em;
+                text-transform: uppercase;
+                outline: none;
+                cursor: pointer;
+                &:hover {
+                    background: rgb(223, 6, 114);
+                    transition: all 1s ease-in-out;
+                }
+                @include tablet-02 {
+                    width: 50%;
+                    margin-top: 2em;
+                }
+                @include desktop-02 {
+                    width: 30%;
+                    margin: 1em 0 1em 0;
+                    @include font-property($default-font-family, 0.9em, 500, normal);
+                }
+            }
+            @include tablet-02 {
+                // margin-top: 2em;
+            }
+        }
+        .downward-item-02 {
+            flex: 1 0 20em;
+            @include background-property-02("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png", normal);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center center;
+            @media (min-width: 500px) and (max-width: 900px) {
+                flex: 1 0 35em;
+            }
+            @include tablet-02 {
+                height: 25em;
+                // border: 2px solid black;
+                margin: 5em 1em 0 -7em;
+            }
+            @include desktop-02 {
+                max-width: 20em;
+                height: 25em;
+                margin: 9em 1em 0 -7em;
+            }
+        }
+        .downward-item-03 {
+            display: none;
+            @include tablet-02 {
+                display: block;
+                // border: 2px solid rgb(104, 100, 100);
+            }
+            @include desktop-02 {
+                display: block;
+                // border: 2px solid rgb(104, 100, 100);
+            }
+            .item-03-p {
+                writing-mode: vertical-lr;
+                margin-top: 12em;
+                @include tablet-02 {
+                    @include font-property($default-font-family, 1.2em, 500, normal);
+                    color: $color-secondary-100;
+                    padding: 2em;
+                    margin-top: 7em;
+                    letter-spacing: 0.2em;
+                }
+                @include desktop-02 {
+                    @include font-property($default-font-family, 1.0em, 500, normal);
+                    color: $color-secondary-100;
+                    padding: 0;
+                    // border: 2px solid black;
+                    margin-top: 16em;
+                    margin-left: 2.3em;
+                    letter-spacing: 0.2em;
+                }
+            }
+        }
+    }
+}
+
+//Card-section-02 ends here
