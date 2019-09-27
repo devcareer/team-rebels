@@ -4,8 +4,8 @@
 @import 'sass/abstract/variables';
 // base
 @import 'sass/base/animations';
-// @import 'sass/base/base';
-// @import 'sass/base/typography';
+@import 'sass/base/base';
+@import 'sass/base/typography';
 @import 'sass/base/utilities';
 //components
 @import 'sass/components/button.scss';
