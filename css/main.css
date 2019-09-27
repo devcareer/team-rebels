@@ -10,6 +10,9 @@
 html {
   font-size: 18px; }
 
+body, html {
+  overflow-x: hidden; }
+
 h1 {
   font-family: "M PLUS 1p", sans-serif;
   font-style: normal;
@@ -169,78 +172,170 @@ h6 {
   letter-spacing: 2px;
   color: #FCFCFC; }
 
-body {
-  width: 100%;
-  height: auto;
-  overflow-x: hidden; }
+.u-text-center {
+  text-align: center; }
 
-.client__background {
-  padding-left: 5rem;
-  padding-top: 5rem; }
+.u-margin-top-medium {
+  margin-top: 6rem; }
 
-.client__title {
-  text-transform: uppercase;
-  color: #F61067; }
+.u-margin-top-large {
+  margin-top: 6rem; }
 
-.client__body {
-  color: #150433;
-  font-weight: 800;
-  line-height: 1.5;
-  margin-bottom: 3rem; }
+.u-margin-top-medium {
+  margin-top: 4rem; }
 
-.container {
-  float: left; }
+.u-margin-top-small {
+  margin-top: 1rem; }
 
-.blue__bg {
-  background-color: #150433;
-  width: 50%; }
-  .blue__bg--title {
-    text-align: center;
-    color: #F61067;
-    padding: 2rem 0rem;
-    margin-top: 2rem; }
-  .blue__bg--text {
-    color: #FCFCFC;
-    text-align: justify;
-    padding-right: 4rem;
-    padding-left: 4rem; }
+.u-margin-medium {
+  margin: 3rem; }
 
-.logo {
-  margin-left: 6rem; }
+.u-margin-left {
+  margin-right: 4rem; }
 
-.conta
-.client__banner {
-  background-color: #30124E;
-  width: 100%;
-  color: #FCFCFC;
-  padding: 6rem; }
-  .conta
-.client__banner--title {
+.u-padding-none {
+  padding: 0; }
+
+.client__part {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__part--title {
     text-transform: uppercase;
     color: #F61067;
-    margin-bottom: 2rem; }
-  .conta
-.client__banner--text {
-    margin-bottom: 3rem; }
+    margin-left: 5%; }
+  .client__part--body {
+    color: #150433;
+    font-weight: 800;
+    margin-left: 5%; }
 
-.col-sm {
-  padding: 2rem;
+.blue__bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue__bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue__bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
+
+.client__logo {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__logo--title {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #150433;
+    margin-left: 15%;
+    margin-bottom: 5%; }
+  .client__logo--image {
+    margin-left: 15%;
+    margin-bottom: 5%; }
+
+.client__bg {
+  padding-top: 10%;
+  background-color: #30124E;
+  position: relative;
+  top: 40%;
+  z-index: 2; }
+  .client__bg--title {
+    color: #F61067;
+    text-transform: uppercase;
+    margin-left: 5%; }
+  .client__bg--text {
+    color: #FCFCFC;
+    padding-bottom: 5%;
+    margin-left: 5%; }
+
+.value__card {
+  color: #FCFCFC;
   border: 1px solid #FCFCFC;
-  margin-right: 3rem;
-  font-weight: 300; }
-  .col-sm:hover {
-    background: #F61067;
-    color: white; }
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card:hover {
+    background-color: #F61067; }
+  .value__card--number {
+    font-weight: 800;
+    color: #F61067; }
+  .value__card--title {
+    font-weight: 800; }
 
-.card__number {
-  color: #F61067;
-  font-weight: 800;
-  font-family: "M PLUS 1p", sans-serif; }
-  .card__number .card__title {
-    font-family: "M PLUS 1p", sans-serif;
-    font-weight: bold; }
+@media screen and (min-width: 368px) {
+  .client__logo--title {
+    margin-top: 2rem; }
+  .client__logo--image {
+    width: 300px;
+    padding-right: 10%;
+    padding-bottom: 5%; } }
 
-html, body {
+.footer-section {
+  padding: 7rem;
+  background-color: #30124E;
+  color: #FCFCFC;
+  overflow: hidden; }
+
+.menu {
+  display: flex; }
+  .menu a {
+    text-decoration: none;
+    color: #FCFCFC; }
+  .menu li {
+    list-style: none; }
+  .menu__item {
+    flex-direction: column;
+    padding: 0 3rem 0 3rem;
+    font-family: Mplus 1p Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.6px;
+    line-height: 28px;
+    letter-spacing: 1px; }
+    .menu__item--primary {
+      letter-spacing: .4rem;
+      white-space: nowrap;
+      text-transform: uppercase;
+      display: inline-block;
+      border-bottom: 0.01rem solid #F61067;
+      line-height: 2; }
+    .menu__item--secondary {
+      padding-top: 1rem;
+      margin: auto; }
+    .menu__item--contact-icons {
+      display: flex;
+      flex-direction: row; }
+      .menu__item--contact-icons a {
+        text-decoration: none;
+        list-style: none;
+        color: white; }
+        .menu__item--contact-icons a:not(:first-child) {
+          padding-left: 2rem; }
+
+@media (max-width: 1364px) {
+  .menu__item {
+    flex-direction: column;
+    padding: 0 .6rem 0 .6rem; }
+    .menu__item:nth-child(2) {
+      padding-right: 0.6rem; }
+    .menu__item:last-child {
+      padding-left: 0; }
+    .menu__item--primary {
+      letter-spacing: .2rem; }
+  .footer-section {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 0.7rem; }
+  .row {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center; } }
+
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -255,13 +350,14 @@ header {
   background-size: 100% 100%;
   height: 35rem;
   width: 100%;
-  position: absolute; }
+  margin: 0;
+  position: relative; }
 
 .background {
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
-  top: 0;
   background: #30124E;
   mix-blend-mode: multiply;
   z-index: -2; }
@@ -290,9 +386,9 @@ nav {
 
 .vector {
   position: absolute;
-  left: 71%;
+  left: 68%;
   color: #FCFCFC;
-  margin-top: .3%; }
+  margin-top: .2%; }
 
 .text-one {
   color: #FCFCFC;
@@ -337,6 +433,7 @@ nav {
     box-sizing: border-box; }
 
 .misc-text {
+  color: #FCFCFC;
   position: absolute;
   width: 226px;
   height: 31px;
@@ -369,6 +466,17 @@ nav {
     top: 27px;
     color: #FCFCFC;
     transform: rotate(90deg); }
+
+@media (min-width: 769px) and (max-width: 950px) {
+  .big__text {
+    font-size: 3em;
+    margin-left: 6rem; }
+  .bg {
+    width: 700px; }
+    .bg .small-text {
+      left: 0; }
+  .arrow .Arrow {
+    left: 600px; } }
 
 @media screen and (max-width: 768px) {
   header {
@@ -486,7 +594,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-1 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -501,7 +609,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-1 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -519,7 +627,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-2 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -535,7 +643,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-2 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -554,7 +662,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-3 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -570,7 +678,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-3 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -589,7 +697,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-4 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -605,7 +713,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-4 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -624,7 +732,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-5 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -640,7 +748,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-5 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -659,7 +767,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-6 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -675,7 +783,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-6 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -694,7 +802,7 @@ nav {
   @media (min-width: 1201px) {
     .card-section .card .card-positioned-images.image-7 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -710,7 +818,7 @@ nav {
   @media (min-width: 840px) and (max-width: 1200px) {
     .card-section .card .card-positioned-images.image-7 {
       display: block;
-      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
       background-repeat: no-repeat;
       background-position: center;
       background-blend-mode: normal;
@@ -908,3 +1016,129 @@ nav {
     padding: .5em;
     border-radius: 50%;
     margin-left: 1.3em; }
+
+.section-intro {
+  padding: 6rem 6rem 0 6rem;
+  overflow: hidden; }
+
+body {
+  overflow-x: hidden; }
+
+.into__heading--primary {
+  color: #F61067;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: .6rem; }
+
+.intro__info--text {
+  width: 70%; }
+
+.intro__icon--text-secondary {
+  color: #776C82;
+  justify-content: center; }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+
+.icon__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #F61067;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+  .icon__circle--icon {
+    color: #F61067; }
+
+.row__container--text {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+.row-container {
+  display: flex;
+  flex-direction: column; }
+  .row-container__col {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-emphasis: center;
+    color: #FCFCFC; }
+
+.col-heading__primary {
+  margin: 4rem 6rem; }
+
+.col-heading__secondary {
+  margin: 4rem 4rem 3rem 4rem; }
+
+.what-we-do-stats {
+  padding: 6rem; }
+  .what-we-do-stats__primary {
+    color: #F61067; }
+  .what-we-do-stats__secondary {
+    color: #5E239D; }
+  .what-we-do-stats__tertiary {
+    color: #00F0B5; }
+
+.stats_text {
+  letter-spacing: 6px;
+  text-transform: uppercase; }
+
+@media (max-width: 1364px) {
+  .section-intro {
+    padding: 2rem; }
+  .intro__info--text {
+    width: 100%; }
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .footer-row {
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+    .what-we-do-stats {
+      padding: 2rem; }
+  .row {
+    flex-flow: wrap; }
+  .icon__circle {
+    margin: 0 auto; }
+  .intro__icon--text-primary {
+    text-align: center;
+    justify-content: center; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; }
+  .what-we-do-small {
+    font-size: 1.9rem; }
+  .intro__icon {
+    margin-top: 0; } }
