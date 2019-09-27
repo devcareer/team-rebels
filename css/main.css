@@ -596,6 +596,207 @@ h6 {
   position: absolute;
   left: 10%; }
 
+.col-3 {
+  text-align: center;
+  display: none; }
+
+.what-we-do {
+  margin: 5rem 13rem;
+  padding: 4rem 0 2rem 0; }
+
+.col-heading__primary1 {
+  margin: 5rem 4rem; }
+
+.col-heading__secondary2 {
+  padding: 5rem 6rem 1rem 6rem; }
+
+.col-heading__secondary2:last-child {
+  padding-bottom: 3rem; }
+
+.what-we-do-image-1 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -23rem; }
+
+.text-pink {
+  color: #F61067; }
+
+#client-img {
+  width: 100%; }
+
+.what-we-do-image-2 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -25.7rem; }
+
+#row-what-we-do {
+  position: relative; }
+
+.background-purple-dark {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.background-purple-light {
+  background-color: #30124E;
+  color: #FCFCFC; }
+
+.background-purple-lighter {
+  background-color: #5E239D;
+  color: #FCFCFC; }
+
+.background-pink {
+  background-color: #F61067;
+  color: #FCFCFC; }
+
+@media (max-width: 839px) {
+  .col-heading__primary1 {
+    display: none; }
+  .col-heading__primary1 {
+    margin: 0; } }
+
+@media (max-width: 768px) {
+  .what-we-do-image-1 {
+    display: none; }
+  .what-we-do-image-2 {
+    display: none; }
+  .col-3 {
+    text-align: center;
+    display: block; } }
+
+.border-white {
+  border: 1rem solid #FCFCFC; }
+
+.zoom {
+  transform: translateX(-20px); }
+
+.what-we-do-image-3 {
+  background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628267/team-rebel/About-03/Home_01_first_image.png");
+  height: 121.5%;
+  position: absolute;
+  z-index: 2;
+  top: -10rem;
+  right: -23.7rem; }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+
+.row__container--text {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+.row-container {
+  display: flex;
+  flex-direction: column; }
+  .row-container__col {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-emphasis: center;
+    color: #FCFCFC; }
+
+.col-heading__primary {
+  margin: 4rem 6rem; }
+
+.col-heading__secondary {
+  margin: 4rem 4rem 3rem 4rem; }
+
+@media (max-width: 1364px) {
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+  .row {
+    flex-flow: wrap; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; } }
+
+.text__part {
+  text-align: center;
+  padding: 5% 5% 0 2%; }
+  .text__part--capital {
+    color: #F61067; }
+  .text__part--small {
+    color: #150433;
+    font-weight: bolder; }
+  .text__part--body {
+    color: #150433;
+    font-weight: bold; }
+
+.main__text {
+  margin: 8% 8%; }
+  .main__text--number {
+    font-weight: 800;
+    color: #F61067; }
+  .main__text--title {
+    color: #150433;
+    font-weight: 800; }
+  .main__text--body {
+    color: #776C82; }
+
+.main-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: auto; }
+
+.rectangle {
+  width: 35rem;
+  height: 20rem;
+  background-color: #00F0B5;
+  position: absolute;
+  top: 14rem;
+  left: 0;
+  z-index: -2;
+  margin-bottom: 5%; }
+
+.darkblue-rect {
+  background-color: #5E239D;
+  position: absolute;
+  left: 15%; }
+
+.pink-rect {
+  background-color: #F61067;
+  position: absolute;
+  left: 10%; }
+
 .footer-section {
   padding: 7rem;
   background-color: #30124E;
@@ -1970,29 +2171,21 @@ nav {
           color: #776C82; }
   .about-link {
     color: #150433;
-<<<<<<< HEAD
     font-weight: 600; }
     .about-link .svg-phone {
       margin-top: 1%; } }
-=======
-    font-weight: 600; } }
->>>>>>> apply changes
 
 .main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
   width: 20%;
   margin-right: 7%; }
 
 @media screen and (max-width: 450px) {
-<<<<<<< HEAD
   .flex-row .main1__top__1,
   .flex-row .main1__top__2,
   .flex-row .main1__top__3,
   .flex-row .main1__bottom__1,
   .flex-row .main1__bottom__2,
   .flex-row .main1__bottom__3 {
-=======
-  .flex-row .main1__top__1, .flex-row .main1__top__2, .flex-row .main1__top__3, .flex-row .main1__bottom__1, .flex-row .main1__bottom__2, .flex-row .main1__bottom__3 {
->>>>>>> apply changes
     width: 90%;
     margin: 5%; }
   .main__p1 {
@@ -2015,16 +2208,12 @@ nav {
       order: 2; }
   .main1__p3 {
     font-size: 4vmin !important; }
-<<<<<<< HEAD
   .head--1,
   .head--2,
   .head--3,
   .head--4,
   .head--5,
   .head--6 {
-=======
-  .head--1, .head--2, .head--3, .head--4, .head--5, .head--6 {
->>>>>>> apply changes
     width: 100%;
     font-size: 4.5vmin !important;
     margin: 0 auto; }
@@ -2033,99 +2222,6 @@ nav {
     height: 5vw !important; }
   svg {
     margin: 0 auto; } }
-<<<<<<< HEAD
-=======
-
-.main1 {
-  width: 100%;
-  background: #150433; }
-  .main1__p1 {
-    margin-top: 22%;
-    font-size: 2.5vmin;
-    color: #F61067; }
-  .main1__h2 {
-    color: #FCFCFC;
-    font-size: 4.5vmin;
-    line-height: normal; }
-  .main1__p2 {
-    width: 50%;
-    text-align: center;
-    color: #FCFCFC;
-    margin-bottom: 7%; }
-  .main1__top {
-    width: 100%; }
-    .main1__top__1, .main1__top__2, .main1__top__3 {
-      font-family: "M PLUS 1p", sans-serif; }
-  .main1__bottom {
-    margin: 5vmin 15vmin;
-    width: 100%; }
-    .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
-      font-family: "M PLUS 1p", sans-serif; }
-  .main1 .main1__p3 {
-    color: #FCFCFC;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 2.5vmin;
-    line-height: normal; }
-  .main1 .head--1 {
-    margin: 0 auto;
-    color: #00F0B5;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3.2vmin;
-    line-height: normal; }
-  .main1 .head--2 {
-    margin: 0 auto;
-    color: #F61067;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3.2vmin;
-    line-height: normal; }
-  .main1 .head--3 {
-    margin: 0 auto;
-    color: #F67110;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3.2vmin;
-    line-height: normal; }
-  .main1 .head--4 {
-    margin: 0 auto;
-    color: #F67110;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3.2vmin;
-    line-height: normal; }
-  .main1 .head--5 {
-    margin: 0 auto;
-    color: #00F0B5;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3.2vmin;
-    line-height: normal; }
-  .main1 .head--6 {
-    margin: 0 auto;
-    color: #F61067;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3.2vmin;
-    line-height: normal; }
-  .main1__btn {
-    width: 15vw;
-    height: 3.5vw;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    color: #FCFCFC;
-    background: #F61067;
-    border: 1px solid #F61067;
-    border-radius: 25vw;
-    font-size: 2vmin; }
-    .main1__btn:hover {
-      background: #f84186; }
-
-.section-intro {
-  padding: 6rem 6rem 0 6rem;
-  overflow: hidden; }
->>>>>>> apply changes
 
 .main1 {
   width: 100%;
