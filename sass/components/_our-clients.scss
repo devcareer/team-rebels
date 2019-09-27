@@ -53,8 +53,8 @@
   padding-top: 10%;
   background-color: $color-secondary-300;
   position: relative;
-  top: 40%;
-  z-index: 2;
+  top: -10%;
+  z-index: 1;
   &--title {
     color: $color-primary;
     text-transform: uppercase;
@@ -87,13 +87,13 @@
   }
 }
 
-@media screen and (min-width: 368px) {
+@media screen and (max-width: 368px) {
   .client__logo {
     &--title {
       margin-top: 2rem;
     }
     &--image {
-      width: 300px;
+      width: 200px;
       padding-right: 10%;
       padding-bottom: 5%;
     }
