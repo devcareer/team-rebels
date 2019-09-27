@@ -171,3 +171,14 @@ letter-spacing: 2px;
 color: $color-white;
 }
 
+.title-large{
+  font-family: $default-font-family;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 37px;
+align-items: center;
+text-align: center;
+letter-spacing: 4px;
+text-transform: uppercase;
+}

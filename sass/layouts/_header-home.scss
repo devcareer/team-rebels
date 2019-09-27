@@ -19,6 +19,16 @@ header {
   position: relative;
 }
 
+.header-home-02 {
+    background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/Rectangle-header.png");
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
 .background {
   position: absolute;
   top: 0;

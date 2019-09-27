@@ -15,7 +15,8 @@
       margin:5rem 4rem;
     }
     &__secondary2{
-  padding-top: 4rem ;
+  
+        padding: 5rem 6rem 1rem 6rem;;
 }
 &__secondary2:last-child{
   padding-bottom: 3rem ;
@@ -30,6 +31,22 @@
     top:-11rem;
     right:-23rem;
 }
+.text-pink{
+  color:$color-primary;
+}
+#client-img{
+
+ width: 100%;
+}
+.what-we-do-image-2{
+  background-image: linear-gradient(to right bottom, rgba($color-primary, 0.9), rgba($color-primary, 0.9)), url('https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png');
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -25.7rem;
+}
 #row-what-we-do{
   position: relative;
 }
@@ -42,6 +59,16 @@
   color: $color-white;
 
 }
+.background-purple-lighter{
+  background-color:$color-secondary-100;
+  color: $color-white;
+
+}
+.background-pink{
+  background-color: $color-primary;
+  color: $color-white;
+
+}
 @include mobile{
   .col-heading__primary1{
     display: none;
@@ -51,7 +78,10 @@ margin: 0;
   }
 }
 @include breakpoint (sm){
-  .what-we-do-image-1{
+  .what-we-do-image-1 {
+    display: none;
+  }
+  .what-we-do-image-2{
     display: none;
   }
   .col-3{
@@ -59,4 +89,8 @@ margin: 0;
     display: block;
   }
 }
+.border-white{
+ border: 1rem solid $color-white;
+}
+
 

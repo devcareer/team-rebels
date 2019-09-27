@@ -172,6 +172,17 @@ h6 {
   letter-spacing: 2px;
   color: #FCFCFC; }
 
+.title-large {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
+
 .u-text-center {
   text-align: center; }
 
@@ -246,6 +257,19 @@ h6 {
     margin-left: 15%;
     margin-bottom: 5%; }
 
+.blue_bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue_bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue_bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
+
 .client__bg {
   padding-top: 10%;
   background-color: #30124E;
@@ -264,6 +288,11 @@ h6 {
 .icon1 {
   color: #FCFCFC;
   font-size: 1rem;
+  font-weight: 900; }
+
+.icon-1 {
+  color: #FCFCFC;
+  font-size: 3rem;
   font-weight: 900; }
 
 .icon1__circle {
@@ -391,7 +420,7 @@ h6 {
   margin: 5rem 4rem; }
 
 .col-heading__secondary2 {
-  padding-top: 4rem; }
+  padding: 5rem 6rem 1rem 6rem; }
 
 .col-heading__secondary2:last-child {
   padding-bottom: 3rem; }
@@ -405,6 +434,21 @@ h6 {
   top: -11rem;
   right: -23rem; }
 
+.text-pink {
+  color: #F61067; }
+
+#client-img {
+  width: 100%; }
+
+.what-we-do-image-2 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -25.7rem; }
+
 #row-what-we-do {
   position: relative; }
 
@@ -416,6 +460,14 @@ h6 {
   background-color: #30124E;
   color: #FCFCFC; }
 
+.background-purple-lighter {
+  background-color: #5E239D;
+  color: #FCFCFC; }
+
+.background-pink {
+  background-color: #F61067;
+  color: #FCFCFC; }
+
 @media (max-width: 839px) {
   .col-heading__primary1 {
     display: none; }
@@ -425,113 +477,14 @@ h6 {
 @media (max-width: 768px) {
   .what-we-do-image-1 {
     display: none; }
+  .what-we-do-image-2 {
+    display: none; }
   .col-3 {
     text-align: center;
     display: block; } }
 
-.client__part {
-  margin-top: 5%;
-  margin-bottom: 5%; }
-  .client__part--title {
-    text-transform: uppercase;
-    color: #F61067;
-    margin-left: 5%; }
-  .client__part--body {
-    color: #150433;
-    font-weight: 800;
-    margin-left: 5%; }
-
-.blue__bg {
-  background: #150433;
-  position: relative;
-  z-index: 2; }
-  .blue__bg--title {
-    margin-top: 15%;
-    font-weight: 800;
-    text-align: center;
-    color: #F61067; }
-  .blue__bg--text {
-    color: #FCFCFC;
-    margin: 5% 10% 5% 10%; }
-
-.client__logo {
-  margin-top: 5%;
-  margin-bottom: 5%; }
-  .client__logo--title {
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #150433;
-    margin-left: 15%;
-    margin-bottom: 5%; }
-  .client__logo--image {
-    margin-left: 15%;
-    margin-bottom: 5%; }
-
-.client__bg {
-  padding-top: 10%;
-  background-color: #30124E;
-  position: relative;
-  top: -10%;
-  z-index: 1; }
-  .client__bg--title {
-    color: #F61067;
-    text-transform: uppercase;
-    margin-left: 5%; }
-  .client__bg--text {
-    color: #FCFCFC;
-    padding-bottom: 5%;
-    margin-left: 5%; }
-
-.icon1 {
-  color: #FCFCFC;
-  font-size: 1rem;
-  font-weight: 900; }
-
-.icon1__circle {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 1px solid #FCFCFC;
-  text-align: center;
-  line-height: 1rem;
-  vertical-align: middle;
-  padding: 1rem; }
-
-.value_card {
-  color: #FCFCFC;
-  margin-right: 2rem;
-  padding: 1rem; }
-  .value_card:hover {
-    background-color: #F61067;
-    transition: background .5s ease-in-out;
-    color: #FCFCFC; }
-    .value_card:hover p {
-      color: #FCFCFC; }
-
-.value__card {
-  color: #FCFCFC;
-  border: 1px solid #FCFCFC;
-  margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
-  .value__card:hover {
-    background-color: #F61067;
-    transition: background .5s ease-in-out;
-    color: #FCFCFC; }
-    .value__card:hover p {
-      color: #FCFCFC; }
-  .value__card--number {
-    font-weight: 800;
-    color: #F61067; }
-  .value__card--title {
-    font-weight: 800; }
-
-@media screen and (max-width: 425px) {
-  .client__logo--title {
-  .client__logo--image {
-    padding-right: 10%;
-    padding-bottom: 5%; } }
+.border-white {
+  border: 1rem solid #FCFCFC; }
 
 .footer-section {
   padding: 7rem;
@@ -819,10 +772,221 @@ nav {
   .navbar-brand {
     margin-left: 10rem; } }
 
+@media screen and (max-width: 600px) {
+  .about-header {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    height: auto;
+    background: #FCFCFC; }
+    .about-header__top {
+      width: 100%;
+      flex-direction: row !important; }
+      .about-header__top__logo {
+        margin-left: 7%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 5vmin;
+        font-weight: 900;
+        line-height: normal;
+        color: #30124E; }
+      .about-header__top .about-nav {
+        width: 75%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 3vmin;
+        font-weight: 800;
+        margin-left: 5vw;
+        line-height: normal;
+        flex-direction: row !important; }
+        .about-header__top .about-nav .about-nav__list {
+          flex-direction: row !important; }
+          .about-header__top .about-nav .about-nav__list .list--style {
+            display: none; }
+            .about-header__top .about-nav .about-nav__list .list--style a {
+              color: #150433; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1.5vmin; }
+          .about-header__top .about-nav__menu .filter-dropdown {
+            position: absolute;
+            top: 10vmin;
+            right: 0;
+            width: 25vmin;
+            align-content: center;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2vmin;
+            font-style: normal;
+            font-weight: 800;
+            list-style: none;
+            background: #FCFCFC;
+            border: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .tog {
+              display: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .list--style {
+              margin-left: 1vmin;
+              margin-bottom: 2vmin; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
+                cursor: pointer; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
+                color: #150433; }
+    .about-header .about-header__bottom {
+      height: 70%;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 7%;
+        font-size: 5vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F61067;
+        line-height: normal; }
+      .about-header .about-header__bottom__p {
+        margin-left: 7%;
+        margin-bottom: 4%;
+        font-size: 3vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F4F4ED; }
+  .about-main {
+    background: #FCFCFC; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 7%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2.8vmin;
+      line-height: normal; }
+    .about-main__p1 {
+      margin-left: 7%;
+      margin-bottom: 7%;
+      width: 90%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 5vmin;
+      color: #30233D; }
+    .about-main .about-main__bottom {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    .about-main__bottom {
+      margin-top: 5%;
+      margin-left: 7%;
+      margin-right: 2%; }
+      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+        color: #30233D;
+        font-size: 3.5vmin;
+        font-weight: 500;
+        line-height: normal;
+        font-family: "M PLUS 1p", sans-serif; }
+      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 3.2vmin;
+        color: #776C82; } }
+
+@media screen and (min-width: 600px) {
+  .about-header {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    overflow-x: hidden; }
+    .about-header__top {
+      width: 100%;
+      background: white;
+      margin-bottom: 0; }
+      .about-header__top__logo {
+        margin-left: 8%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 4.5vmin;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        color: #150433; }
+      .about-header__top .about-nav {
+        width: 80%;
+        height: 100%;
+        background: white; }
+        .about-header__top .about-nav .about-nav__list {
+          margin-top: 1%;
+          background: white;
+          color: #150433; }
+          .about-header__top .about-nav .about-nav__list .about-list--style {
+            list-style: none;
+            margin-left: 1%;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2.8vmin;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            color: #150433; }
+            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
+              color: #150433 !important; }
+        .about-header__top .about-nav ul {
+          width: 80%;
+          list-style: none; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1%;
+          margin-left: 6%; }
+          .about-header__top .about-nav__menu .list--style {
+            display: none; }
+    .about-header .about-header__bottom {
+      width: 100%;
+      height: auto;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 8%;
+        font-size: 6vmin;
+        line-height: normal;
+        color: #F61067; }
+      .about-header .about-header__bottom .about-header__bottom__p {
+        margin-top: 1%;
+        margin-bottom: 6.5%;
+        margin-left: 8%;
+        font-size: 2.5vmin;
+        color: #FCFCFC; }
+  .about-main {
+    background: white; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 7%;
+      margin-bottom: 2%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      line-height: normal;
+      font-family: "M PLUS 1p", sans-serif; }
+    .about-main__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 60%;
+      font-size: 4vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #30233D; }
+    .about-main__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%; }
+      .about-main__bottom__left, .about-main__bottom__right {
+        width: 49%; }
+        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-weight: 500;
+          color: #30233D;
+          line-height: normal; }
+        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+          font-family: "M PLUS 1p", sans-serif;
+          color: #776C82; }
+  .about-link {
+    color: #150433;
+    font-weight: 600; } }
+
 .card-section .blank {
   margin: 0;
-  padding: 0;
-  z-index: 2; }
+  padding: 0; }
   .card-section .blank .blank__content {
     background: #150433;
     width: 100%;
@@ -832,15 +996,13 @@ nav {
 .card-section .card {
   margin: 0;
   padding: 0;
-  border: none;
-  z-index: 2;  }
+  border: none; }
   .card-section .card .card .card__photos {
     position: relative;
     background: #FCFCFC;
     width: 100%;
     height: 40vh;
-    border: none;
-    z-index: 2;  }
+    border: none; }
     @media (min-width: 1201px) {
       .card-section .card .card .card__photos {
         width: 100%;
@@ -1280,23 +1442,9 @@ nav {
     border-radius: 50%;
     margin-left: 1.3em; }
 
-@media screen and (max-width: 600px) {
-  .about-header {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 0;
-    height: auto;
-    background: #FCFCFC; }
-    .about-header__top {
-      width: 100%;
-      flex-direction: row !important; }
-      .about-header__top__logo {
-        margin-left: 7%;
-      }
 .blank1 {
   margin: 0;
-  padding: 0; 
-}
+  padding: 0; }
   .blank1 .blank1__content {
     width: 100%;
     height: 25vh;
@@ -1325,204 +1473,371 @@ nav {
       .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
         color: #F61067;
         font-family: "M PLUS 1p", sans-serif;
-        font-style: normal;
-        font-size: 5vmin;
-        font-weight: 900;
-        line-height: normal;
-        color: #30124E; }
-      .about-header__top .about-nav {
-        width: 75%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-style: normal;
-        font-size: 3vmin;
+        font-size: 0.7em;
         font-weight: 800;
-        margin-left: 5vw;
-        line-height: normal;
-        flex-direction: row !important; }
-        .about-header__top .about-nav .about-nav__list {
-          flex-direction: row !important; }
-          .about-header__top .about-nav .about-nav__list .list--style {
-            display: none; }
-            .about-header__top .about-nav .about-nav__list .list--style a {
-              color: #150433; }
-        .about-header__top .about-nav__menu {
-          width: 15%;
-          margin-top: 1.5vmin; }
-          .about-header__top .about-nav__menu .filter-dropdown {
-            position: absolute;
-            top: 10vmin;
-            right: 0;
-            width: 25vmin;
-            align-content: center;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 2vmin;
-            font-style: normal;
-            font-weight: 800;
-            list-style: none;
-            background: #FCFCFC;
-            border: none; }
-            .about-header__top .about-nav__menu .filter-dropdown .tog {
-              display: none; }
-            .about-header__top .about-nav__menu .filter-dropdown .list--style {
-              margin-left: 1vmin;
-              margin-bottom: 2vmin; }
-              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
-                cursor: pointer; }
-              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
-                color: #150433; }
-    .about-header .about-header__bottom {
-      height: 70%;
-      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
-      background-blend-mode: multiply;
-      background-size: cover;
-      background-repeat: no-repeat; }
-      .about-header .about-header__bottom__h1 {
-        margin-top: 7%;
-        margin-left: 7%;
-        font-size: 5vmin;
-        font-family: "M PLUS 1p", sans-serif;
-        color: #F61067;
-        line-height: normal; }
-      .about-header .about-header__bottom__p {
-        margin-left: 7%;
-        margin-bottom: 4%;
-        font-size: 3vmin;
-        font-family: "M PLUS 1p", sans-serif;
-        color: #F4F4ED; }
-  .about-main {
-    background: #FCFCFC; }
-    .about-main__h4 {
-      color: #F61067;
-      margin-top: 10%;
-      margin-bottom: 3%;
-      margin-left: 7%;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 2.8vmin;
-      line-height: normal; }
-    .about-main__p1 {
-      margin-left: 7%;
-      margin-bottom: 7%;
-      width: 90%;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 5vmin;
-      color: #30233D; }
-    .about-main .about-main__bottom {
-      -ms-flex-direction: column !important;
-      flex-direction: column !important; }
-    .about-main__bottom {
-      margin-top: 5%;
-      margin-left: 7%;
-      margin-right: 2%; }
-      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
-        color: #30233D;
-        font-size: 3.5vmin;
-        font-weight: 500;
-        line-height: normal;
-        font-family: "M PLUS 1p", sans-serif; }
-      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.2vmin;
-        color: #776C82; } }
-
-@media screen and (min-width: 600px) {
-  .about-header {
-    width: 100%;
-    height: auto;
-    margin-top: 3%;
-    overflow-x: hidden; }
-    .about-header__top {
-      width: 100%;
-      background: white;
-      margin-bottom: 0; }
-      .about-header__top__logo {
-        margin-left: 8%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 4.5vmin;
         font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        color: #150433; }
-      .about-header__top .about-nav {
-        width: 80%;
-        height: 100%;
-        background: white; }
-        .about-header__top .about-nav .about-nav__list {
-          margin-top: 1%;
-          background: white;
-          color: #150433; }
-          .about-header__top .about-nav .about-nav__list .about-list--style {
-            list-style: none;
-            margin-left: 1%;
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5em;
+        font-weight: 500;
+        font-style: normal;
+        color: #30233D; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
             font-family: "M PLUS 1p", sans-serif;
-            font-size: 2.8vmin;
+            font-size: 1.8em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
             font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0;
+            line-height: 0; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal;
+        color: #30233D;
+        line-height: 1.5em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.7em;
             font-weight: 800;
-            line-height: normal;
-            color: #150433; }
-            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
-              color: #150433 !important; }
-        .about-header__top .about-nav ul {
-          width: 80%;
-          list-style: none; }
-        .about-header__top .about-nav__menu {
-          width: 15%;
-          margin-top: 1%;
-          margin-left: 6%; }
-          .about-header__top .about-nav__menu .list--style {
-            display: none; }
-    .about-header .about-header__bottom {
-      width: 100%;
-      height: auto;
-      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
-      background-blend-mode: multiply;
-      background-size: 100%;
-      background-repeat: no-repeat; }
-      .about-header .about-header__bottom .about-header__bottom__h1 {
-        margin-top: 7%;
-        margin-left: 8%;
-        font-size: 6vmin;
-        line-height: normal;
-        color: #F61067; }
-      .about-header .about-header__bottom .about-header__bottom__p {
-        margin-top: 1%;
-        margin-bottom: 6.5%;
-        margin-left: 8%;
-        font-size: 2.5vmin;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: normal;
+        color: #776C82;
+        padding: 0.3em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            padding: 0;
+            margin: 1em 0 1em 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: normal;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-button {
+        width: 50%;
+        height: 3em;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal;
+        background: #F61067;
+        color: #FFF;
+        border: none;
+        margin-top: 10em;
+        border-radius: 1.5em;
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-button:hover {
+          background: #df0672;
+          transition: all 1s ease-in-out; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-button {
+            width: 25%;
+            margin: 1em 0 1em 0;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-button {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal;
+            width: 70%;
+            margin: 1em 0 1em 0; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-01 {
+          flex-grow: 15;
+          padding: 2em;
+          text-align: left; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-01 {
+          flex-grow: 10;
+          padding: 2em 5em;
+          text-align: left; } }
+    .card-section-02 .card__upward .upward-item-02 {
+      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: cover;
+      flex: 1 0 25em;
+      text-align: center;
+      position: relative; }
+      @media (min-width: 500px) and (max-width: 900px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          flex: 1 0 35em; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          flex-grow: 2;
+          margin-top: 3em; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          max-width: 20em;
+          margin-top: 3em; } }
+      .card-section-02 .card__upward .upward-item-02 .item-02-content {
+        padding: 1em;
+        margin: -14em auto 0 auto;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content {
+            background: #30124E;
+            width: 15em;
+            position: absolute;
+            color: #FCFCFC;
+            top: 14em;
+            right: -10.0em;
+            padding: 5em;
+            height: 23.5em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content {
+            background: #30124E;
+            width: 13em;
+            position: absolute;
+            top: 20em;
+            right: -12em;
+            height: 17em;
+            z-index: 2; }
+            .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
+              font-size: 1.5em;
+              color: #F4F4ED; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content .item-02-p {
+            color: #F4F4ED; } }
+        .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
+          font-size: 1.5em; }
+    .card-section-02 .card__upward .upward-item-03 {
+      display: none; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-03 {
+          display: block;
+          height: 25em;
+          width: 15em;
+          margin: 1.5em 0 5em -3em;
+          background: #30124E; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-03 {
+          display: block;
+          height: 25em;
+          width: 15em;
+          margin: 1.5em 0 5em -3em;
+          background: #30124E; }
+          .card-section-02 .card__upward .upward-item-03::before {
+            content: '';
+            position: relative;
+            display: block;
+            height: 23.5em;
+            width: 10em;
+            margin: 1.5em 0 5em 1.8em;
+            background: #30124E;
+            z-index: 1; } }
+  .card-section-02 .card__downward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__downward {
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__downward {
+        flex-flow: row wrap;
+        padding: 0;
+        margin-top: -2.5em; } }
+    .card-section-02 .card__downward .downward-item-01 {
+      flex: 1;
+      background: #30124E;
+      padding: 1em;
+      text-align: center;
+      color: #FFF; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-01 {
+          padding: 5em 8em 5em 6em;
+          text-align: left;
+          flex-grow: 22; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-01 {
+          max-width: 50em;
+          padding: 5em 12em;
+          text-align: left;
+          flex-grow: 10; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h4 {
+        color: #F61067;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.8em;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2em;
+        font-weight: 500;
+        font-style: normal;
         color: #FCFCFC; }
-  .about-main {
-    background: white; }
-    .about-main__h4 {
-      color: #F61067;
-      margin-top: 7%;
-      margin-bottom: 2%;
-      margin-left: 8%;
-      font-size: 2.5vmin;
-      line-height: normal;
-      font-family: "M PLUS 1p", sans-serif; }
-    .about-main__p1 {
-      margin-left: 8%;
-      margin-bottom: 7%;
-      width: 60%;
-      font-size: 4vmin;
-      font-family: "M PLUS 1p", sans-serif;
-      color: #30233D; }
-    .about-main__bottom {
-      margin-right: 20%;
-      margin-left: 8%;
-      margin-bottom: 7%; }
-      .about-main__bottom__left, .about-main__bottom__right {
-        width: 49%; }
-        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
-          font-family: "M PLUS 1p", sans-serif;
-          font-weight: 500;
-          color: #30233D;
-          line-height: normal; }
-        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
-          font-family: "M PLUS 1p", sans-serif;
-          color: #776C82; }
-  .about-link {
-    color: #150433;
-    font-weight: 600; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
+            font-style: normal; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal;
+        color: #FCFCFC;
+        line-height: 2em;
+        margin-bottom: 2.5em; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: 800;
+            font-style: normal; }
+            .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.8em;
+        font-weight: normal;
+        font-style: normal;
+        color: #FCFCFC;
+        line-height: 2em;
+        padding: 1em; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-p {
+            text-align: left;
+            padding: 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.6em;
+            font-weight: 500;
+            font-style: normal;
+            padding: 0;
+            margin-bottom: 1.2em; }
+            .card-section-02 .card__downward .downward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-button {
+        width: 50%;
+        height: 3em;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal;
+        background: #F61067;
+        color: #FFF;
+        border: none;
+        border-radius: 1.5em;
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-button:hover {
+          background: #df0672;
+          transition: all 1s ease-in-out; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-button {
+            width: 50%;
+            margin-top: 2em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-button {
+            width: 30%;
+            margin: 1em 0 1em 0;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal; } }
+    .card-section-02 .card__downward .downward-item-02 {
+      flex: 1 0 20em;
+      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center; }
+      @media (min-width: 500px) and (max-width: 900px) {
+        .card-section-02 .card__downward .downward-item-02 {
+          flex: 1 0 35em; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-02 {
+          height: 25em;
+          margin: 5em 1em 0 -7em; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-02 {
+          max-width: 20em;
+          height: 25em;
+          margin: 9em 1em 0 -7em; } }
+    .card-section-02 .card__downward .downward-item-03 {
+      display: none; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-03 {
+          display: block; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-03 {
+          display: block; } }
+      .card-section-02 .card__downward .downward-item-03 .item-03-p {
+        writing-mode: vertical-lr;
+        margin-top: 12em; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-03 .item-03-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.2em;
+            font-weight: 500;
+            font-style: normal;
+            color: #5E239D;
+            padding: 2em;
+            margin-top: 7em;
+            letter-spacing: 0.2em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-03 .item-03-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1em;
+            font-weight: 500;
+            font-style: normal;
+            color: #5E239D;
+            padding: 0;
+            margin-top: 16em;
+            margin-left: 2.3em;
+            letter-spacing: 0.2em; } }
+
+.card__icon--white {
+  font-size: 5rem;
+  color: #FCFCFC; }
 
 .section-intro {
   padding: 6rem 6rem 0 6rem;
