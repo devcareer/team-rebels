@@ -426,6 +426,9 @@ h6 {
     text-align: center;
     display: block; } }
 
+.border-white {
+  border: 1rem solid #FCFCFC; }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -1520,6 +1523,9 @@ nav {
   .about-link {
     color: #150433;
     font-weight: 600; } }
+.card__icon--white {
+  font-size: 5rem;
+  color: #FCFCFC; }
 
 .section-intro {
   padding: 6rem 6rem 0 6rem;
