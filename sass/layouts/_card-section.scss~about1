@@ -382,5 +382,13 @@
         }
     }
 }
-
+.blank1 {
+    margin: 0;
+    padding: 0;
+ .blank1__content {
+        width: 100%;
+        height: 40vh;
+        color: #FFF;
+    }
+}
 // *********The card-section.html style ends here****************
