@@ -1066,6 +1066,36 @@ nav {
       flex-direction: row !important; }
       .about-header__top__logo {
         margin-left: 7%;
+      }
+.blank1 {
+  margin: 0;
+  padding: 0; }
+  .blank1 .blank1__content {
+    width: 100%;
+    height: 40vh; }
+
+.card-section-02 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .card-section-02 .card__upward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 2em; } }
+    .card-section-02 .card__upward .upward-item-01 {
+      flex: 1;
+      padding: 1em 2em 1em 2em;
+      text-align: center; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
+        color: #F61067;
         font-family: "M PLUS 1p", sans-serif;
         font-style: normal;
         font-size: 5vmin;
