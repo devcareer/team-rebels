@@ -190,6 +190,12 @@ h6 {
 .u-margin-medium {
   margin: 3rem; }
 
+.u-margin-top-none {
+  margin-bottom: 0; }
+
+.u-margin-large {
+  margin: 6rem; }
+
 .u-margin-left {
   margin-right: 4rem; }
 
@@ -1072,7 +1078,8 @@ nav {
   padding: 0; }
   .blank1 .blank1__content {
     width: 100%;
-    height: 40vh; }
+    height: 40vh;
+    color: #FFF; }
 
 .card-section-02 {
   margin: 0;
