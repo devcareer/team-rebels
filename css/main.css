@@ -548,6 +548,54 @@ h6 {
   .what-we-do {
     margin: 0 2rem; } }
 
+.text__part {
+  text-align: center;
+  padding: 5% 5% 0 2%; }
+  .text__part--capital {
+    color: #F61067; }
+  .text__part--small {
+    color: #150433;
+    font-weight: bolder; }
+  .text__part--body {
+    color: #150433;
+    font-weight: bold; }
+
+.main__text {
+  margin: 8% 8%; }
+  .main__text--number {
+    font-weight: 800;
+    color: #F61067; }
+  .main__text--title {
+    color: #150433;
+    font-weight: 800; }
+  .main__text--body {
+    color: #776C82; }
+
+.main-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: auto; }
+
+.rectangle {
+  width: 35rem;
+  height: 20rem;
+  background-color: #00F0B5;
+  position: absolute;
+  top: 14rem;
+  left: 0;
+  z-index: -2;
+  margin-bottom: 5%; }
+
+.darkblue-rect {
+  background-color: #5E239D;
+  position: absolute;
+  left: 15%; }
+
+.pink-rect {
+  background-color: #F61067;
+  position: absolute;
+  left: 10%; }
+
 .footer-section {
   padding: 7rem;
   background-color: #30124E;
