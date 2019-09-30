@@ -426,6 +426,109 @@ h6 {
     text-align: center;
     display: block; } }
 
+.client__part {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__part--title {
+    text-transform: uppercase;
+    color: #F61067;
+    margin-left: 5%; }
+  .client__part--body {
+    color: #150433;
+    font-weight: 800;
+    margin-left: 5%; }
+
+.blue__bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue__bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue__bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
+
+.client__logo {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__logo--title {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #150433;
+    margin-left: 15%;
+    margin-bottom: 5%; }
+  .client__logo--image {
+    margin-left: 15%;
+    margin-bottom: 5%; }
+
+.client__bg {
+  padding-top: 10%;
+  background-color: #30124E;
+  position: relative;
+  top: -10%;
+  z-index: 1; }
+  .client__bg--title {
+    color: #F61067;
+    text-transform: uppercase;
+    margin-left: 5%; }
+  .client__bg--text {
+    color: #FCFCFC;
+    padding-bottom: 5%;
+    margin-left: 5%; }
+
+.icon1 {
+  color: #FCFCFC;
+  font-size: 1rem;
+  font-weight: 900; }
+
+.icon1__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #FCFCFC;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+
+.value_card {
+  color: #FCFCFC;
+  margin-right: 2rem;
+  padding: 1rem; }
+  .value_card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value_card:hover p {
+      color: #FCFCFC; }
+
+.value__card {
+  color: #FCFCFC;
+  border: 1px solid #FCFCFC;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value__card:hover p {
+      color: #FCFCFC; }
+  .value__card--number {
+    font-weight: 800;
+    color: #F61067; }
+  .value__card--title {
+    font-weight: 800; }
+
+  .client__logo--title {
+  .client__logo--image {
+    padding-right: 10%;
+    padding-bottom: 5%; } }
+
 .footer-section {
   padding: 7rem;
   background-color: #30124E;
