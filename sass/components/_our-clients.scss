@@ -77,14 +77,24 @@
   margin-bottom: 10%;
   &:hover{
     background-color: $color-primary;
+    transition: background .5s ease-in-out;
+    color: $color-white;
+   p{
+     color:$color-white;
+   }
   }
+  
   &--number {
     font-weight: 800;
     color: $color-primary;
+
+    
   }
+  
   &--title {
     font-weight: 800;
   }
+ 
 }
 
 @media screen and (max-width: 368px) {
