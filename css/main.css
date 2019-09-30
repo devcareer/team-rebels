@@ -255,6 +255,17 @@ h6 {
     padding-bottom: 5%;
     margin-left: 5%; }
 
+.icon1 {
+  color: #FCFCFC;
+  font-size: 1rem; }
+
+.value_card {
+  color: #FCFCFC;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+
 .value__card {
   color: #FCFCFC;
   border: 1px solid #FCFCFC;
@@ -364,6 +375,17 @@ h6 {
     color: #FCFCFC;
     padding-bottom: 5%;
     margin-left: 5%; }
+
+.icon1 {
+  color: #FCFCFC;
+  font-size: 1rem; }
+
+.value_card {
+  color: #FCFCFC;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
 
 .value__card {
   color: #FCFCFC;
