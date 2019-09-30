@@ -1,3 +1,41 @@
+.testimonial__section{
+  margin: 5% auto 10% 2%;
+  width: 80%;
+  height: 10rem;
+  background-color: $color-secondary-300;
+  &--quote{
+    color: $color-white;
+    padding: 4%;
+    margin: 0 auto 0 5%;
+  }
+  &--author{
+    color: $color-primary;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  &--image{
+    height: 20rem;
+    // margin-top: 5%;
+    margin-left: 60%;
+    position: absolute;
+    top: -6%;
+  }
+  &--company{
+    color: $text-color-main-text;
+  }
+}
+
+.benefit__section{
+ 
+}
+
+
+
+
+
+
+
+
 //fof the first content
 .client__part {
   margin-top: 5%;
