@@ -196,6 +196,27 @@ h6 {
 .u-padding-none {
   padding: 0; }
 
+.testimonial__section {
+  margin: 5% auto 0 2%;
+  width: 80%;
+  height: 10rem;
+  background-color: #30124E; }
+  .testimonial__section--quote {
+    color: #FCFCFC;
+    padding: 4%;
+    margin: 0 auto 0 5%; }
+  .testimonial__section--author {
+    color: #F61067;
+    margin-top: 5%;
+    margin-left: 10%; }
+  .testimonial__section--image {
+    height: 20rem;
+    margin-left: 60%;
+    position: absolute;
+    top: -6%; }
+  .testimonial__section--company {
+    color: #776C82; }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
