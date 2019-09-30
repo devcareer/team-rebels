@@ -521,11 +521,8 @@ h6 {
   .value__card--title {
     font-weight: 800; }
 
-@media screen and (max-width: 425px) {
   .client__logo--title {
-    margin-top: 2rem; }
   .client__logo--image {
-    width: 200px;
     padding-right: 10%;
     padding-bottom: 5%; } }
 
