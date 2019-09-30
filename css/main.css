@@ -295,11 +295,11 @@ h6 {
 .what-we-do-image-1 {
   background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
   background-blend-mode: multiply;
-  height: 133%;
+  height: 103%;
   position: absolute;
   z-index: 2;
   top: -11rem;
-  right: -23rem; }
+  right: -23.3rem; }
 
 #row-what-we-do {
   position: relative; }
