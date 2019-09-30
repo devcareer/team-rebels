@@ -1,5 +1,7 @@
-.testimonial__section{
-  margin: 5% auto 10% 2%;
+.testimonial{
+  margin-bottom: 10%;
+}.testimonial__section{
+  margin: 5% auto 0 2%;
   width: 80%;
   height: 10rem;
   background-color: $color-secondary-300;
@@ -26,10 +28,49 @@
 }
 
 .benefit__section{
- 
+  margin-left: 10%;
+ &--title{
+   color: $color-primary;
+   margin:5% 10% 5% 10%;
+ }
+ &--subtitle{
+   color: $color-secondary-400;
+   font-weight: 800;
+   margin:5% 10% 5% 10%;
+ }
+ &--smallquote{
+   color: $color-secondary-400;
+   font-weight: 800;
+   margin:5% 10% 5% 10%;
+ }
+ &--body{
+   color: $color-secondary-400;
+   padding-left: 10%;
+   padding-right: 5%;
+ }
+ &--button{
+   background: $color-primary;
+   padding: 1.5%;
+   width: 40%;
+   margin-left: 10%;
+   border-radius: 100px;
+   color: $color-white;
+   &:hover{
+     color: $color-white;
+     text-decoration: none;
+   }
+ }
 }
 
-
+.benefit__image{
+  
+  &--two{
+    position: absolute;
+    bottom: -8%;
+    right: 57%;
+    width: 15rem;
+  }
+}
 
 
 
