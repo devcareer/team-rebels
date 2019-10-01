@@ -36,3 +36,17 @@
   color: $color-white;
 
 }
+@include mobile{
+  .col-heading__primary1:not(:last-child){
+    display: none;
+  }
+  .col-heading__primary1{
+margin: 0;
+  }
+}
+@include breakpoint (sm){
+  .what-we-do-image-1{
+    display: none;
+  }
+}
+

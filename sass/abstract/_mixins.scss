@@ -88,6 +88,7 @@
     }
 }
 
+
 @mixin background-property($url,
 $blend-mode,
 $box-shadow) {
@@ -142,7 +143,7 @@ $style) {
     }
    
     @else if $class == sm {
-      @media (min-width: 768px) { @content; }
+      @media (max-width: 768px) { @content; }
     }
    
     @else if $class == md {

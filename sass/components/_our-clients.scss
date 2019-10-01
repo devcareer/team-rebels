@@ -69,14 +69,30 @@
 .icon1{
   color: $color-white;
   font-size: 1rem;
-
+}
+.icon1__circle{
+  width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid $color-white;
+    text-align: center;
+    line-height: 1rem;
+    vertical-align: middle;
+    padding: 1rem;
 }
 .value_card{
 color: #FCFCFC;
 margin-right: 2rem;
 padding: 2rem;
 margin-left: 5%;
-margin-bottom: 10%; }
+&:hover{
+  background-color: $color-primary;
+  transition: background .5s ease-in-out;
+  color: $color-white;
+ p{
+   color:$color-white;
+ }
+ }}
 .value__card {
   color: $color-white;
   border: 1px solid $color-white;
