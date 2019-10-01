@@ -202,6 +202,9 @@ h6 {
 .u-padding-none {
   padding: 0; }
 
+.u-margin-none {
+  margin: 0; }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -259,12 +262,27 @@ h6 {
   color: #FCFCFC;
   font-size: 1rem; }
 
+.icon1__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #FCFCFC;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+
 .value_card {
   color: #FCFCFC;
   margin-right: 2rem;
   padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
+  margin-left: 5%; }
+  .value_card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value_card:hover p {
+      color: #FCFCFC; }
 
 .value__card {
   color: #FCFCFC;
@@ -323,6 +341,16 @@ h6 {
   background-color: #30124E;
   color: #FCFCFC; }
 
+@media (max-width: 839px) {
+  .col-heading__primary1:not(:last-child) {
+    display: none; }
+  .col-heading__primary1 {
+    margin: 0; } }
+
+@media (max-width: 768px) {
+  .what-we-do-image-1 {
+    display: none; } }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -380,12 +408,27 @@ h6 {
   color: #FCFCFC;
   font-size: 1rem; }
 
+.icon1__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #FCFCFC;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+
 .value_card {
   color: #FCFCFC;
   margin-right: 2rem;
   padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
+  margin-left: 5%; }
+  .value_card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value_card:hover p {
+      color: #FCFCFC; }
 
 .value__card {
   color: #FCFCFC;
