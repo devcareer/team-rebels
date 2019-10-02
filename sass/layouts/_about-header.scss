@@ -1,0 +1,321 @@
+@mixin text-style {
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+    .about-header {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 0;
+        height: auto;
+        background: $color-white;
+
+        &__top {
+            width: 100%;
+            flex-direction: row !important;
+
+            &__logo {
+                margin-left: 7%;
+                font-family: $default-font-family;
+                font-style: normal;
+                font-size: 5vmin;
+                font-weight: 900;
+                line-height: normal;
+                color: $color-secondary-300;
+            }
+
+            .about-nav {
+                width: 75%;
+                font-family: $default-font-family;
+                font-style: normal;
+                font-size: 3vmin;
+                font-weight: 800;
+                margin-left: 5vw;
+                line-height: normal;
+                flex-direction: row !important;
+                
+                .about-nav__list {
+                  flex-direction: row !important;
+                  
+                  .list--style {
+                    display: none;
+
+                    a { 
+                      color: $color-secondary-400;
+                    }
+                  }
+                }
+
+                &__menu {
+                  width: 15%;
+                  margin-top: 1.5vmin;
+
+                  
+
+                  .filter-dropdown {
+                    position: absolute;
+                    top: 10vmin;
+                    right: 0;
+                    width: 25vmin;
+                    align-content: center;
+                    font-family: $default-font-family;
+                    font-size: 2vmin;
+                    font-style: normal;
+                    font-weight: 800;
+                    list-style: none;
+                    background: $color-white;
+                    border: none;
+                    
+                    
+                    .tog {
+                      display: none;
+                    }
+                    .list--style {
+                      margin-left: 1vmin;
+                      margin-bottom: 2vmin;
+                      
+                      
+                      .list--style:hover {
+                          cursor: pointer;
+                          // background-color: #3b3838;
+                        }
+
+                      a {
+                        color: $color-secondary-400;
+
+                        
+                      }
+                    }
+                  }
+                } 
+            }
+        }
+
+        .about-header__bottom {
+            width: 100%;
+            // height: 70%;
+            background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png');
+            background-blend-mode: multiply;
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+            &__h1 {
+              margin-top: 7%;
+              margin-left: 7%;
+              font-size: 5vmin;
+              font-family: $default-font-family;
+              color: $color-primary;
+              line-height: normal;
+            }
+
+            &__p {
+              margin-left: 7%;
+              margin-bottom: 4%;
+              font-size: 3vmin;
+              font-family: $default-font-family;
+              color: $color-light-grey;
+            }
+
+        }
+    }
+
+    .about-main {
+      background: $color-white;
+      // margin-top: 5%;
+
+      &__h4 {
+        color: $color-primary;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        margin-left: 7%;
+        font-family: $default-font-family;
+        font-size: 2.8vmin;
+        line-height: normal;
+      }
+
+      &__p1 {
+        margin-left: 7%;
+        margin-bottom: 7%;
+        width: 90%;
+        font-family: $default-font-family;
+        font-size: 5vmin;
+        color: $text-color-headers;
+      }
+
+      .about-main__bottom {
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+      }
+
+      &__bottom {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-right: 2%;
+
+        &__left, &__right {
+        
+
+          &__h5 {
+            color: $text-color-headers;
+            font-size: 3.5vmin;
+            font-weight: 500;
+            line-height: normal;
+            font-family: $default-font-family;
+          }
+
+          &__p2 {
+            font-family: $default-font-family;
+            font-size: 3.2vmin;
+            color: $text-color-main-text;
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 600px) {
+  .about-header {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    overflow-x: hidden;
+
+    &__top {
+        width: 100%;
+        // height: 5%;
+        background: white;
+        margin-bottom: 0;
+
+        &__logo {
+            margin-left: 8%;
+            font-family: $default-font-family;
+            font-size: 4.5vmin;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            color: $color-secondary-400;
+        }
+
+        .about-nav {
+            width: 80%;
+            height: 100%;
+            background: white;
+
+            .about-nav__list {
+              margin-top: 1%;
+              background: white;
+              color: $color-secondary-400;
+
+              .about-list--style {
+                list-style: none;
+                // margin-top: 3%;
+                margin-left: 1%;
+                font-family: $default-font-family;
+                font-size: 2.8vmin;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                color: $color-secondary-400;
+
+                .about-link, a { 
+                  color: $color-secondary-400 !important;
+                }
+              } 
+            }
+            ul{
+              width: 80%;
+              list-style: none;
+            }
+
+            &__menu {
+                width: 15%;
+                margin-top: 1%;
+                margin-left: 6%;
+
+                .list--style {
+                  display: none;
+                }
+            } 
+        }
+    }
+
+    .about-header__bottom {
+        width: 100%;
+        height: auto;
+        background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png');
+        background-blend-mode: multiply;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        .about-header__bottom__h1 {
+            margin-top: 7%;
+            margin-left: 8%;
+            font-size: 6vmin;
+            line-height: normal;
+            color: $color-primary;
+        }
+
+        .about-header__bottom__p {
+            margin-top: 1%;
+            margin-bottom: 6.5%;
+            margin-left: 8%;
+            font-size: 2.5vmin;
+            color: $color-white;
+            
+        }
+      }
+  }
+
+  .about-main {
+    background: white;
+
+    &__h4 {
+      color: $color-primary;
+      margin-top: 7%;
+      margin-bottom: 2%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      line-height: normal;
+      font-family: $default-font-family
+    }
+
+    &__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 60%;
+      font-size: 4vmin;
+      font-family: $default-font-family;
+      color: $text-color-headers;
+    }
+
+    &__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%;
+
+      &__left, &__right {
+        width: 49%;
+
+        &__h5 {
+          font-family: $default-font-family;
+          font-weight: 500;
+          color: $text-color-headers;
+          line-height: normal;
+        }
+
+        &__p2 {
+          font-family: $default-font-family;
+          color: $text-color-main-text;
+        }
+      }
+    }
+  }
+  .about-link {
+    // margin-top: 3%;
+    color: $color-secondary-400;
+    font-weight: 600;
+  }
+}
