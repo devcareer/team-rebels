@@ -1142,7 +1142,7 @@ nav {
       .about-header__top__logo {
         margin-left: 8%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.5vmin;
+        font-size: 4.5vmin;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
@@ -1152,10 +1152,11 @@ nav {
         height: 100%;
         background: white; }
         .about-header__top .about-nav .about-nav__list {
-          background: white; }
+          margin-top: 1%;
+          background: white;
+          color: #150433; }
           .about-header__top .about-nav .about-nav__list .about-list--style {
             list-style: none;
-            margin-top: 2%;
             margin-left: 1%;
             font-family: "M PLUS 1p", sans-serif;
             font-size: 2.8vmin;
@@ -1223,7 +1224,10 @@ nav {
           line-height: normal; }
         .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
           font-family: "M PLUS 1p", sans-serif;
-          color: #776C82; } }
+          color: #776C82; }
+  .about-link {
+    color: #150433;
+    font-weight: 600; } }
 
 .section-intro {
   padding: 6rem 6rem 0 6rem;
