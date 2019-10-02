@@ -17,7 +17,7 @@
             height: 40vh;
             color: #FFF;
         }
-    }
+    }}
 
     .card {
         margin: 0;
@@ -321,6 +321,7 @@
             width: 100%;
             border: none;
             text-align: center;
+
             padding: 5em;
             @include desktop {
 
@@ -420,5 +421,4 @@
 
 
 }
-
 // *********The card-section.html style ends here****************
