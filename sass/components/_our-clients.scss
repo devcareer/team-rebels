@@ -69,6 +69,7 @@
 .icon1{
   color: $color-white;
   font-size: 1rem;
+  font-weight: 900;
 }
 .icon1__circle{
   width: 1rem;
@@ -83,8 +84,8 @@
 .value_card{
 color: #FCFCFC;
 margin-right: 2rem;
-padding: 2rem;
-margin-left: 5%;
+padding: 1rem;
+
 &:hover{
   background-color: $color-primary;
   transition: background .5s ease-in-out;
@@ -122,7 +123,7 @@ margin-left: 5%;
  
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 425px) {
   .client__logo {
     &--title {
       margin-top: 2rem;
@@ -134,3 +135,4 @@ margin-left: 5%;
     }
   }
 }
+
