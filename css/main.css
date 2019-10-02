@@ -393,6 +393,9 @@ h6 {
 .col-heading__secondary2 {
   padding-top: 4rem; }
 
+.col-heading__secondary2:last-child {
+  padding-bottom: 3rem; }
+
 .what-we-do-image-1 {
   background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
   background-blend-mode: multiply;
@@ -524,6 +527,7 @@ h6 {
   .value__card--title {
     font-weight: 800; }
 
+@media screen and (max-width: 425px) {
   .client__logo--title {
   .client__logo--image {
     padding-right: 10%;
@@ -1198,9 +1202,6 @@ nav {
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
         padding: 7rem 0; } }
-    @media (max-width: 839px) {
-      .card-section .card .card__newsletter {
-        padding: 0 0 12rem 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
@@ -1291,6 +1292,38 @@ nav {
       flex-direction: row !important; }
       .about-header__top__logo {
         margin-left: 7%;
+      }
+.blank1 {
+  margin: 0;
+  padding: 0; 
+}
+  .blank1 .blank1__content {
+    width: 100%;
+    height: 25vh;
+    color: #FFF; }
+
+.card-section-02 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .card-section-02 .card__upward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 2em; } }
+    .card-section-02 .card__upward .upward-item-01 {
+      flex: 1;
+      padding: 1em 2em 1em 2em;
+      text-align: center; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
+        color: #F61067;
         font-family: "M PLUS 1p", sans-serif;
         font-style: normal;
         font-size: 5vmin;

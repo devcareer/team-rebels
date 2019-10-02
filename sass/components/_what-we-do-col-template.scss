@@ -10,14 +10,17 @@
       margin: 5rem 13rem;
       padding: 4rem 0 2rem 0;
     }
-    .col-heading__primary1{
+    .col-heading{
+    &__primary1{
       margin:5rem 4rem;
     }
-
-
-.col-heading__secondary2{
+    &__secondary2{
   padding-top: 4rem ;
 }
+&__secondary2:last-child{
+  padding-bottom: 3rem ;
+}
+    }
 .what-we-do-image-1{
     background-image: linear-gradient(to right bottom, rgba($color-primary, 0.9), rgba($color-primary, 0.9)), url('https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png');
     background-blend-mode: multiply;
