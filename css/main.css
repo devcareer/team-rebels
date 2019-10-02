@@ -276,6 +276,7 @@ h6 {
 .value_card {
   color: #FCFCFC;
   margin-right: 2rem;
+  margin-bottom: 4rem;
   padding: 1rem; }
   .value_card:hover {
     background-color: #F61067;
@@ -819,7 +820,8 @@ nav {
 
 .card-section .blank {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  z-index: 2; }
   .card-section .blank .blank__content {
     background: #150433;
     width: 100%;
@@ -829,13 +831,15 @@ nav {
 .card-section .card {
   margin: 0;
   padding: 0;
-  border: none; }
+  border: none;
+  z-index: 2;  }
   .card-section .card .card .card__photos {
     position: relative;
     background: #FCFCFC;
     width: 100%;
     height: 40vh;
-    border: none; }
+    border: none;
+    z-index: 2;  }
     @media (min-width: 1201px) {
       .card-section .card .card .card__photos {
         width: 100%;
@@ -1290,10 +1294,11 @@ nav {
       }
 .blank1 {
   margin: 0;
-  padding: 0; }
+  padding: 0; 
+}
   .blank1 .blank1__content {
     width: 100%;
-    height: 25vh;
+    height: 40vh;
     color: #FFF; }
 
 .card-section-02 {
