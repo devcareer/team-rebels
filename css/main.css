@@ -328,13 +328,28 @@ h6 {
     background-color: #F61067;
     transition: background .5s ease-in-out;
     color: #FCFCFC; }
-    .value__card:hover p {
-      color: #FCFCFC; }
-  .value__card--number {
-    font-weight: 800;
-    color: #F61067; }
-  .value__card--title {
-    font-weight: 800; }
+    .value__card:hover--number {
+      font-weight: 800;
+      color: #F61067; }
+    .value__card:hover--title {
+      font-weight: 800; }
+
+.value__card2 {
+  color: #FCFCFC;
+  border: 1px solid #F61067;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card2:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value__card2:hover--number {
+      font-weight: 800;
+      color: #F61067; }
+    .value__card2:hover--title {
+      font-weight: 800; }
 
 @media screen and (max-width: 425px) {
   .client__logo--title {
@@ -485,6 +500,18 @@ h6 {
 
 .border-white {
   border: 1rem solid #FCFCFC; }
+
+.zoom {
+  transform: translateX(-20px); }
+
+.what-we-do-image-3 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628267/team-rebel/About-03/Home_01_first_image.png");
+  background-blend-mode: multiply;
+  height: 121.5%;
+  position: absolute;
+  z-index: 2;
+  top: -10rem;
+  right: -23.7rem; }
 
 .footer-section {
   padding: 7rem;
