@@ -1,4 +1,4 @@
-// *********The card-section.html style starts here****************
+
 .card-section {
     .secondary {
         color: #F61067;
@@ -320,8 +320,10 @@
             width: 100%;
             border: none;
             text-align: center;
+
             padding: 5em;
             @include desktop {
+
                 padding: 5rem 0;
             }
             @include mobile {
