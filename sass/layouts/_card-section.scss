@@ -326,20 +326,6 @@
             }
             @include mobile {
                 padding: 5em 0;
-<<<<<<< HEAD
-=======
-                // margin: 3em 0 3.5em 0;
-
-            padding: 5em;
-            @include desktop {
-                padding:7rem 0;
-            }
-            @include mobile {
-              
-
-                padding: 5em;
-
->>>>>>> fix bugs
             }
         }
         h3.card__newsletter-h3 {
@@ -419,7 +405,8 @@
         width: 100%;
         height: 25vh;
         color: #FFF;
-    }
+    
+}
 }
 
 // *********The card-section.html style ends here****************
