@@ -41,31 +41,8 @@
     width: auto;
     
 }
-.rectangle{
-    width: 35rem;
-    height: 20rem;
-    background-color: $color-tertiary;
-    position: absolute;
-    top: 14rem;
-    left:   0;
-    z-index: -2;
-    margin-bottom: 5%;
+@media screen and (max-width:768px){
+    .main-image{
+        width: 300px;
+    }
 }
-.darkblue-rect{
-    background-color: $color-secondary-100;
-    position: absolute;
-    left: 15%;
- 
-}
-
-.pink-rect{
-    background-color: $color-primary;
-    position: absolute;
-    left: 10%;
-}
-
-// @media screen and (max-width:768px){
-//     .main-image{
-//         wid
-//     }
-// }
