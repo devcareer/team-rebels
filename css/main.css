@@ -172,6 +172,17 @@ h6 {
   letter-spacing: 2px;
   color: #FCFCFC; }
 
+.title-large {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
+
 .u-text-center {
   text-align: center; }
 
@@ -245,6 +256,19 @@ h6 {
   .client__logo--image {
     margin-left: 15%;
     margin-bottom: 5%; }
+
+.blue_bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue_bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue_bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
 
 .client__bg {
   padding-top: 10%;
@@ -405,6 +429,21 @@ h6 {
   top: -11rem;
   right: -23rem; }
 
+.text-pink {
+  color: #F61067; }
+
+#client-img {
+  width: 100%; }
+
+.what-we-do-image-2 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -25.7rem; }
+
 #row-what-we-do {
   position: relative; }
 
@@ -416,6 +455,14 @@ h6 {
   background-color: #30124E;
   color: #FCFCFC; }
 
+.background-purple-lighter {
+  background-color: #5E239D;
+  color: #FCFCFC; }
+
+.background-pink {
+  background-color: #F61067;
+  color: #FCFCFC; }
+
 @media (max-width: 839px) {
   .col-heading__primary1 {
     display: none; }
@@ -424,6 +471,8 @@ h6 {
 
 @media (max-width: 768px) {
   .what-we-do-image-1 {
+    display: none; }
+  .what-we-do-image-2 {
     display: none; }
   .col-3 {
     text-align: center;
@@ -469,6 +518,19 @@ h6 {
   .client__logo--image {
     margin-left: 15%;
     margin-bottom: 5%; }
+
+.blue_bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue_bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue_bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
 
 .client__bg {
   padding-top: 10%;
