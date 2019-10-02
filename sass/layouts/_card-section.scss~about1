@@ -6,7 +6,7 @@
         .blank__content {
             background: $color-secondary-400;
             width: 100%;
-            height:40vh;
+            height: 40vh;
             color: #FFF;
         }
     }
