@@ -933,6 +933,7 @@ nav {
     margin-left: 10rem; } }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .card-section .secondary {
   color: #F61067;
   font-weight: bolder;
@@ -940,6 +941,8 @@ nav {
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> work on service page two
 .card-section .blank {
   margin: 0;
   padding: 0; }
@@ -1400,7 +1403,6 @@ nav {
     border-radius: 50%;
     margin-left: 1.3em; }
 
->>>>>>> fix bugs
 @media screen and (max-width: 600px) {
   .about-header {
     width: 100%;
