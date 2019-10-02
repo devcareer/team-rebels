@@ -260,7 +260,8 @@ h6 {
 
 .icon1 {
   color: #FCFCFC;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-weight: 900; }
 
 .icon1__circle {
   width: 1rem;
@@ -275,8 +276,7 @@ h6 {
 .value_card {
   color: #FCFCFC;
   margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%; }
+  padding: 1rem; }
   .value_card:hover {
     background-color: #F61067;
     transition: background .5s ease-in-out;
@@ -303,13 +303,81 @@ h6 {
   .value__card--title {
     font-weight: 800; }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 425px) {
   .client__logo--title {
     margin-top: 2rem; }
   .client__logo--image {
     width: 200px;
     padding-right: 10%;
     padding-bottom: 5%; } }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+
+.row__container--text {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+.row-container {
+  display: flex;
+  flex-direction: column; }
+  .row-container__col {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-emphasis: center;
+    color: #FCFCFC; }
+
+.col-heading__primary {
+  margin: 4rem 6rem; }
+
+.col-heading__secondary {
+  margin: 4rem 4rem 3rem 4rem; }
+
+@media (max-width: 1364px) {
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+  .row {
+    flex-flow: wrap; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; } }
+
+.col-3 {
+  text-align: center;
+  display: none; }
 
 .what-we-do {
   margin: 5rem 13rem;
@@ -320,6 +388,9 @@ h6 {
 
 .col-heading__secondary2 {
   padding-top: 4rem; }
+
+.col-heading__secondary2:last-child {
+  padding-bottom: 3rem; }
 
 .what-we-do-image-1 {
   background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
@@ -342,14 +413,17 @@ h6 {
   color: #FCFCFC; }
 
 @media (max-width: 839px) {
-  .col-heading__primary1:not(:last-child) {
+  .col-heading__primary1 {
     display: none; }
   .col-heading__primary1 {
     margin: 0; } }
 
 @media (max-width: 768px) {
   .what-we-do-image-1 {
-    display: none; } }
+    display: none; }
+  .col-3 {
+    text-align: center;
+    display: block; } }
 
 .client__part {
   margin-top: 5%;
@@ -406,7 +480,8 @@ h6 {
 
 .icon1 {
   color: #FCFCFC;
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-weight: 900; }
 
 .icon1__circle {
   width: 1rem;
@@ -421,8 +496,7 @@ h6 {
 .value_card {
   color: #FCFCFC;
   margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%; }
+  padding: 1rem; }
   .value_card:hover {
     background-color: #F61067;
     transition: background .5s ease-in-out;
@@ -449,7 +523,7 @@ h6 {
   .value__card--title {
     font-weight: 800; }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 425px) {
   .client__logo--title {
     margin-top: 2rem; }
   .client__logo--image {
@@ -1118,15 +1192,11 @@ nav {
     color: #F61067; }
   .card-section .card .card__newsletter {
     width: 100%;
-    height: 30vh;
     border: none;
     text-align: center; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
         padding: 7rem 0; } }
-    @media (max-width: 839px) {
-      .card-section .card .card__newsletter {
-        padding: 0 0 12rem 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.5em;
@@ -1223,7 +1293,7 @@ nav {
   padding: 0; }
   .blank1 .blank1__content {
     width: 100%;
-    height: 40vh;
+    height: 25vh;
     color: #FFF; }
 
 .card-section-02 {
