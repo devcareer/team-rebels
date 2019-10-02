@@ -21,12 +21,14 @@
   z-index: 2;
 
   &--title {
+
     margin-top: 15%;
     font-weight: 800;
     text-align: center;
     color: $color-primary;
   }
   &--text {
+   
     color: $color-white;
     margin: 5% 10% 5% 10%;
   }
@@ -48,6 +50,22 @@
     margin-bottom: 5%;
   }
 }
+.blue_bg {
+  background: $color-secondary-400;
+  position: relative;
+  z-index: 2;
+
+  &--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: $color-primary;
+  }
+  &--text {
+    color: $color-white;
+    margin: 5% 10% 5% 10%;
+  }
+}
 //for the client banner
 .client__bg {
   padding-top: 10%;
@@ -64,6 +82,7 @@
     color: $color-white;
     padding-bottom: 5%;
     margin-left: 5%;
+   
   }
 }
 .icon1{
