@@ -310,7 +310,7 @@
                 padding:7rem 0;
             }
             @include mobile {
-                padding:0 0 12rem 0;
+              
             }
         }
         h3.card__newsletter-h3 {
