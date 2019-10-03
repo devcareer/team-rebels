@@ -916,218 +916,6 @@ nav {
   .navbar-brand {
     margin-left: 10rem; } }
 
-@media screen and (max-width: 600px) {
-  .about-header {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 0;
-    height: auto;
-    background: #FCFCFC; }
-    .about-header__top {
-      width: 100%;
-      flex-direction: row !important; }
-      .about-header__top__logo {
-        margin-left: 7%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-style: normal;
-        font-size: 5vmin;
-        font-weight: 900;
-        line-height: normal;
-        color: #30124E; }
-      .about-header__top .about-nav {
-        width: 75%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-style: normal;
-        font-size: 3vmin;
-        font-weight: 800;
-        margin-left: 5vw;
-        line-height: normal;
-        flex-direction: row !important; }
-        .about-header__top .about-nav .about-nav__list {
-          flex-direction: row !important; }
-          .about-header__top .about-nav .about-nav__list .list--style {
-            display: none; }
-            .about-header__top .about-nav .about-nav__list .list--style a {
-              color: #150433; }
-        .about-header__top .about-nav__menu {
-          width: 15%;
-          margin-top: 1.5vmin; }
-          .about-header__top .about-nav__menu .filter-dropdown {
-            position: absolute;
-            top: 10vmin;
-            right: 0;
-            width: 25vmin;
-            align-content: center;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 2vmin;
-            font-style: normal;
-            font-weight: 800;
-            list-style: none;
-            background: #FCFCFC;
-            border: none; }
-            .about-header__top .about-nav__menu .filter-dropdown .tog {
-              display: none; }
-            .about-header__top .about-nav__menu .filter-dropdown .list--style {
-              margin-left: 1vmin;
-              margin-bottom: 2vmin; }
-              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
-                cursor: pointer; }
-              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
-                color: #150433; }
-    .about-header .about-header__bottom {
-      height: 70%;
-      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
-      background-blend-mode: multiply;
-      background-size: cover;
-      background-repeat: no-repeat; }
-      .about-header .about-header__bottom__h1 {
-        margin-top: 7%;
-        margin-left: 7%;
-        font-size: 5vmin;
-        font-family: "M PLUS 1p", sans-serif;
-        color: #F61067;
-        line-height: normal; }
-      .about-header .about-header__bottom__p {
-        margin-left: 7%;
-        margin-bottom: 4%;
-        font-size: 3vmin;
-        font-family: "M PLUS 1p", sans-serif;
-        color: #F4F4ED; }
-  .about-main {
-    background: #FCFCFC; }
-    .about-main__h4 {
-      color: #F61067;
-      margin-top: 10%;
-      margin-bottom: 3%;
-      margin-left: 7%;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 2.8vmin;
-      line-height: normal; }
-    .about-main__p1 {
-      margin-left: 7%;
-      margin-bottom: 7%;
-      width: 90%;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 5vmin;
-      color: #30233D; }
-    .about-main .about-main__bottom {
-      -ms-flex-direction: column !important;
-      flex-direction: column !important; }
-    .about-main__bottom {
-      margin-top: 5%;
-      margin-left: 7%;
-      margin-right: 2%; }
-      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
-        color: #30233D;
-        font-size: 3.5vmin;
-        font-weight: 500;
-        line-height: normal;
-        font-family: "M PLUS 1p", sans-serif; }
-      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.2vmin;
-        color: #776C82; } }
-
-@media screen and (min-width: 600px) {
-  .about-header {
-    width: 100%;
-    height: auto;
-    margin-top: 3%;
-    overflow-x: hidden; }
-    .about-header__top {
-      width: 100%;
-      background: white;
-      margin-bottom: 0; }
-      .about-header__top__logo {
-        margin-left: 8%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 4.5vmin;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        color: #150433; }
-      .about-header__top .about-nav {
-        width: 80%;
-        height: 100%;
-        background: white; }
-        .about-header__top .about-nav .about-nav__list {
-          margin-top: 1%;
-          background: white;
-          color: #150433; }
-          .about-header__top .about-nav .about-nav__list .about-list--style {
-            list-style: none;
-            margin-left: 1%;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 2.8vmin;
-            font-style: normal;
-            font-weight: 800;
-            line-height: normal;
-            color: #150433; }
-            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
-              color: #150433 !important; }
-        .about-header__top .about-nav ul {
-          width: 80%;
-          list-style: none; }
-        .about-header__top .about-nav__menu {
-          width: 15%;
-          margin-top: 1%;
-          margin-left: 6%; }
-          .about-header__top .about-nav__menu .list--style {
-            display: none; }
-    .about-header .about-header__bottom {
-      width: 100%;
-      height: auto;
-      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
-      background-blend-mode: multiply;
-      background-size: 100%;
-      background-repeat: no-repeat; }
-      .about-header .about-header__bottom .about-header__bottom__h1 {
-        margin-top: 7%;
-        margin-left: 8%;
-        font-size: 6vmin;
-        line-height: normal;
-        color: #F61067; }
-      .about-header .about-header__bottom .about-header__bottom__p {
-        margin-top: 1%;
-        margin-bottom: 6.5%;
-        margin-left: 8%;
-        font-size: 2.5vmin;
-        color: #FCFCFC; }
-  .about-main {
-    background: white; }
-    .about-main__h4 {
-      color: #F61067;
-      margin-top: 7%;
-      margin-bottom: 2%;
-      margin-left: 8%;
-      font-size: 2.5vmin;
-      line-height: normal;
-      font-family: "M PLUS 1p", sans-serif; }
-    .about-main__p1 {
-      margin-left: 8%;
-      margin-bottom: 7%;
-      width: 60%;
-      font-size: 4vmin;
-      font-family: "M PLUS 1p", sans-serif;
-      color: #30233D; }
-    .about-main__bottom {
-      margin-right: 20%;
-      margin-left: 8%;
-      margin-bottom: 7%; }
-      .about-main__bottom__left, .about-main__bottom__right {
-        width: 49%; }
-        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
-          font-family: "M PLUS 1p", sans-serif;
-          font-weight: 500;
-          color: #30233D;
-          line-height: normal; }
-        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
-          font-family: "M PLUS 1p", sans-serif;
-          color: #776C82; }
-  .about-link {
-    color: #150433;
-    font-weight: 600; } }
-
 .card-section .blank {
   margin: 0;
   padding: 0; }
@@ -1514,7 +1302,10 @@ nav {
     padding: 5em 0; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
-        padding: 5em 0; } }
+        padding: 5rem 0; } }
+    @media (max-width: 839px) {
+      .card-section .card .card__newsletter {
+        padding: 7em 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
     font-size: 1.3em;
@@ -1985,6 +1776,342 @@ nav {
             margin-top: 16em;
             margin-left: 2.3em;
             letter-spacing: 0.2em; } }
+
+@media screen and (max-width: 600px) {
+  .about-header {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    height: auto;
+    background: #FCFCFC; }
+    .about-header__top {
+      width: 100%;
+      flex-direction: row !important; }
+      .about-header__top__logo {
+        margin-left: 7%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 5vmin;
+        font-weight: 900;
+        line-height: normal;
+        color: #30124E; }
+      .about-header__top .about-nav {
+        width: 75%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 3vmin;
+        font-weight: 800;
+        margin-left: 5vw;
+        line-height: normal;
+        flex-direction: row !important; }
+        .about-header__top .about-nav .about-nav__list {
+          flex-direction: row !important; }
+          .about-header__top .about-nav .about-nav__list .list--style {
+            display: none; }
+            .about-header__top .about-nav .about-nav__list .list--style a {
+              color: #150433; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1.5vmin; }
+          .about-header__top .about-nav__menu .filter-dropdown {
+            position: absolute;
+            top: 10vmin;
+            right: 0;
+            width: 25vmin;
+            align-content: center;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2vmin;
+            font-style: normal;
+            font-weight: 800;
+            list-style: none;
+            background: #FCFCFC;
+            border: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .tog {
+              display: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .list--style {
+              margin-left: 1vmin;
+              margin-bottom: 2vmin; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
+                cursor: pointer; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
+                color: #150433; }
+    .about-header .about-header__bottom {
+      height: 70%;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 7%;
+        font-size: 5vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F61067;
+        line-height: normal; }
+      .about-header .about-header__bottom__p {
+        margin-left: 7%;
+        margin-bottom: 4%;
+        font-size: 3vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F4F4ED; }
+  .about-main {
+    background: #FCFCFC; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 7%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2.8vmin;
+      line-height: normal; }
+    .about-main__p1 {
+      margin-left: 7%;
+      margin-bottom: 7%;
+      width: 90%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 5vmin;
+      color: #30233D; }
+    .about-main .about-main__bottom {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    .about-main__bottom {
+      margin-top: 5%;
+      margin-left: 7%;
+      margin-right: 2%; }
+      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+        color: #30233D;
+        font-size: 3.5vmin;
+        font-weight: 500;
+        line-height: normal;
+        font-family: "M PLUS 1p", sans-serif; }
+      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 3.2vmin;
+        color: #776C82; } }
+
+@media screen and (min-width: 600px) {
+  .about-header {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    overflow-x: hidden; }
+    .about-header__top {
+      width: 100%;
+      background: white;
+      margin-bottom: 0; }
+      .about-header__top__logo {
+        margin-left: 8%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 4.5vmin;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        color: #150433; }
+      .about-header__top .about-nav {
+        width: 80%;
+        height: 100%;
+        background: white; }
+        .about-header__top .about-nav .about-nav__list {
+          margin-top: 1%;
+          background: white;
+          color: #150433; }
+          .about-header__top .about-nav .about-nav__list .about-list--style {
+            list-style: none;
+            margin-left: 1%;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2.8vmin;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            color: #150433; }
+            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
+              color: #150433 !important; }
+        .about-header__top .about-nav ul {
+          width: 80%;
+          list-style: none; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1%;
+          margin-left: 6%; }
+          .about-header__top .about-nav__menu .list--style {
+            display: none; }
+    .about-header .about-header__bottom {
+      width: 100%;
+      height: auto;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 8%;
+        font-size: 6vmin;
+        line-height: normal;
+        color: #F61067; }
+      .about-header .about-header__bottom .about-header__bottom__p {
+        margin-top: 1%;
+        margin-bottom: 6.5%;
+        margin-left: 8%;
+        font-size: 2.5vmin;
+        color: #FCFCFC; }
+  .about-main {
+    background: white; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 7%;
+      margin-bottom: 2%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      line-height: normal;
+      font-family: "M PLUS 1p", sans-serif; }
+    .about-main__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 60%;
+      font-size: 4vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #30233D; }
+    .about-main__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%; }
+      .about-main__bottom__left, .about-main__bottom__right {
+        width: 49%; }
+        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-weight: 500;
+          color: #30233D;
+          line-height: normal; }
+        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+          font-family: "M PLUS 1p", sans-serif;
+          color: #776C82; }
+  .about-link {
+    color: #150433;
+    font-weight: 600; } }
+
+.main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+  width: 20%;
+  margin-right: 7%; }
+
+@media screen and (max-width: 450px) {
+  .flex-row .main1__top__1, .flex-row .main1__top__2, .flex-row .main1__top__3, .flex-row .main1__bottom__1, .flex-row .main1__bottom__2, .flex-row .main1__bottom__3 {
+    width: 90%;
+    margin: 5%; }
+  .main__p1 {
+    margin-top: 10%;
+    font-size: 2.5vmin; }
+  .main__h2 {
+    font-size: 4vmin;
+    line-height: normal; }
+  .main1__p2 {
+    width: 100% !important; }
+  .flex-row {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    align-items: center; }
+    .flex-row .main1__bottom__1 {
+      order: 1; }
+    .flex-row .main1__bottom__2 {
+      order: 0; }
+    .flex-row .main1__bottom__3 {
+      order: 2; }
+  .main1__p3 {
+    font-size: 4vmin !important; }
+  .head--1, .head--2, .head--3, .head--4, .head--5, .head--6 {
+    width: 100%;
+    font-size: 4.5vmin !important;
+    margin: 0 auto; }
+  .main1__btn {
+    width: 25vw !important;
+    height: 5vw !important; }
+  svg {
+    margin: 0 auto; } }
+
+.main1 {
+  width: 100%;
+  background: #150433; }
+  .main1__p1 {
+    margin-top: 22%;
+    font-size: 2.5vmin;
+    color: #F61067; }
+  .main1__h2 {
+    color: #FCFCFC;
+    font-size: 4.5vmin;
+    line-height: normal; }
+  .main1__p2 {
+    width: 50%;
+    text-align: center;
+    color: #FCFCFC;
+    margin-bottom: 7%; }
+  .main1__top {
+    width: 100%; }
+    .main1__top__1, .main1__top__2, .main1__top__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1__bottom {
+    margin: 5vmin 15vmin;
+    width: 100%; }
+    .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1 .main1__p3 {
+    color: #FCFCFC;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 2.5vmin;
+    line-height: normal; }
+  .main1 .head--1 {
+    margin: 0 auto;
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--2 {
+    margin: 0 auto;
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--3 {
+    margin: 0 auto;
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--4 {
+    margin: 0 auto;
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--5 {
+    margin: 0 auto;
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--6 {
+    margin: 0 auto;
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1__btn {
+    width: 15vw;
+    height: 3.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 2vmin; }
+    .main1__btn:hover {
+      background: #f84186; }
 
 .card__icon--white {
   font-size: 5rem;
