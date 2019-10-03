@@ -819,6 +819,14 @@ nav {
   .navbar-brand {
     margin-left: 10rem; } }
 
+.card-section .secondary {
+  color: #F61067;
+  font-weight: bolder;
+  transition: all .5s ease-in-out; }
+
+.card-section .imageChange {
+  transition: all .5s ease-in-out; }
+
 .card-section .blank {
   margin: 0;
   padding: 0; }
@@ -1202,100 +1210,90 @@ nav {
     width: 100%;
     border: none;
     text-align: center;
-    padding: 5em; }
-
-@ince desktop {
-  .card-section .card .card__newsletter {
-    padding: 5em;
-    padding: 7rem 0; } }
+    padding: 5em 0; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter {
+        padding: 5rem 0; } }
     @media (max-width: 839px) {
       .card-section .card .card__newsletter {
-        padding: 5em; } }
-  .card-section .card h3.card__newsletter-h3 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1.3em;
-    font-weight: 500;
-    font-style: normal; }
-    @media (min-width: 1201px) {
-      .card-section .card h3.card__newsletter-h3 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.8em;
-        font-weight: 500;
-        font-style: normal; } }
-  .card-section .card p.card__newsletter-p {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 500;
-    font-style: normal; }
-    @media (min-width: 1201px) {
-      .card-section .card p.card__newsletter-p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 500;
-        font-style: normal; } }
-  .card-section .card .card__newsletter-form {
-    padding: 2em; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter-form {
-        width: 50%;
-        display: inline-flex;
-        margin: 0 auto; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card__newsletter-form {
-        padding: 0 10em; } }
-  .card-section .card .card__newsletter-form input.card__newsletter-input {
-    width: 100%;
-    height: 3.0em;
-    border-bottom: 2px solid #F4F4ED;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    outline: none; }
-  .card-section .card input::placeholder {
-    color: #9B94A3;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    line-height: 3.5em; }
-  .card-section .card .card__newsletter-form button.card__newsletter-button {
-    width: 100%;
-    height: 3.6em;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    border: none;
-    border-bottom: 2px solid #F4F4ED;
-    margin-top: 0.7em;
-    line-height: 3.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    color: #F61067; }
-    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
-      background: rgba(212, 187, 187, 0.5);
-      transition: background .8s ease-in-out;
-      cursor: pointer; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter-form button.card__newsletter-button {
-        width: 70%; } }
-  .card-section .card button.card__newsletter-button i.button-fa {
-    border: 1px solid rgba(246, 16, 103, 0.5);
-    box-sizing: border-box;
-    padding: .5em;
-    border-radius: 50%;
-    margin-left: 1.3em; }
-
-.blank1 {
-  margin: 0;
-  padding: 0; }
-  .blank1 .blank1__content {
-    width: 100%;
-    height: 25vh;
-    color: #FFF; }
+        padding: 5em 0; } }
+    .card-section .card .card__newsletter h3.card__newsletter-h3 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.3em;
+      font-weight: 500;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter h3.card__newsletter-h3 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.8em;
+          font-weight: 500;
+          font-style: normal; } }
+    .card-section .card .card__newsletter p.card__newsletter-p {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 500;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter p.card__newsletter-p {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 500;
+          font-style: normal; } }
+    .card-section .card .card__newsletter .card__newsletter-form {
+      padding: 2em; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter .card__newsletter-form {
+          width: 50%;
+          display: inline-flex;
+          margin: 0 auto; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card__newsletter .card__newsletter-form {
+          padding: 0 10em; } }
+    .card-section .card .card__newsletter .card__newsletter-form input.card__newsletter-input {
+      width: 100%;
+      height: 3.0em;
+      border-bottom: 2px solid #F4F4ED;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      outline: none; }
+    .card-section .card .card__newsletter input::placeholder {
+      color: #9B94A3;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      line-height: 3.5em; }
+    .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button {
+      width: 100%;
+      height: 3.6em;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+      border: none;
+      border-bottom: 2px solid #F4F4ED;
+      margin-top: 0.7em;
+      line-height: 3.5em;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #F61067; }
+      .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button:hover {
+        background: rgba(212, 187, 187, 0.5);
+        transition: background .8s ease-in-out;
+        cursor: pointer; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button {
+          width: 70%; } }
+    .card-section .card .card__newsletter button.card__newsletter-button i.button-fa {
+      border: 1px solid rgba(246, 16, 103, 0.5);
+      box-sizing: border-box;
+      padding: .5em;
+      border-radius: 50%;
+      margin-left: 1.3em; }
 
 .card-section-02 {
   margin: 0;
@@ -2030,6 +2028,14 @@ nav {
     .main1__btn:hover {
       background: #f84186; }
 
+.card-section .secondary {
+  color: #F61067;
+  font-weight: bolder;
+  transition: all .5s ease-in-out; }
+
+.card-section .imageChange {
+  transition: all .5s ease-in-out; }
+
 .card-section .blank {
   margin: 0;
   padding: 0; }
@@ -2413,100 +2419,90 @@ nav {
     width: 100%;
     border: none;
     text-align: center;
-    padding: 5em; }
-
-@ince desktop {
-  .card-section .card .card__newsletter {
-    padding: 5em;
-    padding: 7rem 0; } }
+    padding: 5em 0; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter {
+        padding: 5rem 0; } }
     @media (max-width: 839px) {
       .card-section .card .card__newsletter {
-        padding: 5em; } }
-  .card-section .card h3.card__newsletter-h3 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1.3em;
-    font-weight: 500;
-    font-style: normal; }
-    @media (min-width: 1201px) {
-      .card-section .card h3.card__newsletter-h3 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.8em;
-        font-weight: 500;
-        font-style: normal; } }
-  .card-section .card p.card__newsletter-p {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 500;
-    font-style: normal; }
-    @media (min-width: 1201px) {
-      .card-section .card p.card__newsletter-p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 500;
-        font-style: normal; } }
-  .card-section .card .card__newsletter-form {
-    padding: 2em; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter-form {
-        width: 50%;
-        display: inline-flex;
-        margin: 0 auto; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card__newsletter-form {
-        padding: 0 10em; } }
-  .card-section .card .card__newsletter-form input.card__newsletter-input {
-    width: 100%;
-    height: 3.0em;
-    border-bottom: 2px solid #F4F4ED;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    outline: none; }
-  .card-section .card input::placeholder {
-    color: #9B94A3;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    line-height: 3.5em; }
-  .card-section .card .card__newsletter-form button.card__newsletter-button {
-    width: 100%;
-    height: 3.6em;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    border: none;
-    border-bottom: 2px solid #F4F4ED;
-    margin-top: 0.7em;
-    line-height: 3.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    color: #F61067; }
-    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
-      background: rgba(212, 187, 187, 0.5);
-      transition: background .8s ease-in-out;
-      cursor: pointer; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter-form button.card__newsletter-button {
-        width: 70%; } }
-  .card-section .card button.card__newsletter-button i.button-fa {
-    border: 1px solid rgba(246, 16, 103, 0.5);
-    box-sizing: border-box;
-    padding: .5em;
-    border-radius: 50%;
-    margin-left: 1.3em; }
-
-.blank1 {
-  margin: 0;
-  padding: 0; }
-  .blank1 .blank1__content {
-    width: 100%;
-    height: 25vh;
-    color: #FFF; }
+        padding: 5em 0; } }
+    .card-section .card .card__newsletter h3.card__newsletter-h3 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.3em;
+      font-weight: 500;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter h3.card__newsletter-h3 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.8em;
+          font-weight: 500;
+          font-style: normal; } }
+    .card-section .card .card__newsletter p.card__newsletter-p {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 500;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter p.card__newsletter-p {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 500;
+          font-style: normal; } }
+    .card-section .card .card__newsletter .card__newsletter-form {
+      padding: 2em; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter .card__newsletter-form {
+          width: 50%;
+          display: inline-flex;
+          margin: 0 auto; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card__newsletter .card__newsletter-form {
+          padding: 0 10em; } }
+    .card-section .card .card__newsletter .card__newsletter-form input.card__newsletter-input {
+      width: 100%;
+      height: 3.0em;
+      border-bottom: 2px solid #F4F4ED;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      outline: none; }
+    .card-section .card .card__newsletter input::placeholder {
+      color: #9B94A3;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      line-height: 3.5em; }
+    .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button {
+      width: 100%;
+      height: 3.6em;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+      border: none;
+      border-bottom: 2px solid #F4F4ED;
+      margin-top: 0.7em;
+      line-height: 3.5em;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #F61067; }
+      .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button:hover {
+        background: rgba(212, 187, 187, 0.5);
+        transition: background .8s ease-in-out;
+        cursor: pointer; }
+      @media (min-width: 1201px) {
+        .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button {
+          width: 70%; } }
+    .card-section .card .card__newsletter button.card__newsletter-button i.button-fa {
+      border: 1px solid rgba(246, 16, 103, 0.5);
+      box-sizing: border-box;
+      padding: .5em;
+      border-radius: 50%;
+      margin-left: 1.3em; }
 
 .card__icon--white {
   font-size: 5rem;
