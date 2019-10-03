@@ -1,208 +1,190 @@
 .section-intro {
-  padding: 6rem 6rem 0 6rem;
-  overflow: hidden;
-}
-
-
-body {
-  overflow-x: hidden;
-}
-
-.into__heading {
-  &--primary {
-    color: $color-primary;
-    text-transform: uppercase;
-    line-height: 26px;
-    letter-spacing: .6rem;
-  }
-}
-
-.intro__info--text {
-  width: 70%;
-}
-
-
-.intro__icon {
-  &--text-secondary {
-    color: $text-color-main-text;
-    justify-content: center;
-  }
-}
-
-.section-what-we-do {
-  overflow-x: hidden;
-}
-
-.what-we-do {
-  margin: 0 6rem 3rem 6rem;
-
-  &--image {
-    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.9), rgba($color-primary, 0.9)), url('https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png');
-    background-blend-mode: multiply;
-    margin-top: -10rem;
-
-  
-  }
-
-  &__primary {
-    color: $color-primary;
-    text-transform: uppercase;
-    line-height: 26px;
-    letter-spacing: .2rem;
-  }
-}
-
-.row {
-  flex-wrap: nowrap;
-
-  &-primary {
-    background-color: $color-secondary-100;
-
-  }
-
-  &-secondary {
-    background-color: $color-secondary-300;
-
-  }
-
-  &-tertiary {
-    background-color: $color-secondary-200;
-  }
-}
-
-
-.icon {
-  &__circle {
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    border: 1px solid $color-primary;
-    text-align: center;
-    line-height: 1rem;
-    vertical-align: middle;
-    padding: 1rem;
-
-    &--icon {
-      color: $color-primary;
+    box-sizing: border-box;
+    padding: 4em 1.5em;
+    margin-bottom: -10em;
+    .intro__top {
+        display: flex;
+        padding: 1.5em 0;
+        flex-flow: column wrap;
+        // border: 2px solid black;
+        @include tablet {
+            padding: 0 0 0 3em;
+        }
+        @include desktop {
+            padding: 0 0 0 3em;
+        }
+        .intro__top--h5 {
+            @include font-property($default-font-family, 0.9em, 800, normal);
+            text-transform: uppercase;
+            letter-spacing: 0.3em;
+            color: $color-primary;
+            text-align: center;
+            @include tablet {
+                @include font-property($default-font-family, 1.0em, 800, normal);
+            }
+            @include desktop {
+                @include font-property($default-font-family, 1.1em, 800, normal);
+                text-align: left;
+            }
+        }
+        .intro__top--h2 {
+            @include font-property($default-font-family, 1.5em, 800, normal);
+            line-height: 0.9;
+            color: $text-color-headers;
+            text-align: center;
+            @include tablet {
+                @include font-property($default-font-family, 2.0em, 800, normal);
+            }
+            @include desktop {
+                @include font-property($default-font-family, 1.5em, 800, normal);
+                text-align: left;
+            }
+        }
+        .intro__top--article {
+            @include font-property($default-font-family, 1.2em, 500, normal);
+            color: $text-color-headers;
+            br {
+                display: none;
+            }
+            @include tablet {
+                @include font-property($default-font-family, 1.3em, 800, normal);
+                padding: 1em 0;
+                text-align: left;
+            }
+            @include desktop {
+                @include font-property($default-font-family, 1em, 800, normal);
+                text-align: left;
+                padding: 2em 0;
+                br {
+                    display: block;
+                }
+            }
+        }
     }
-  }
-
+    .intro__bottom {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 1em 0;
+        @include desktop {
+            display: flex;
+            flex-flow: row wrap;
+            padding: 0 1.5em;
+        }
+        .intro__bottom--items {
+            margin: 0 0 1em 0;
+            flex: 1;
+            text-align: center;
+            @include tablet {
+                padding: 2em 0;
+            }
+            @include desktop {
+                margin-right: 0.8em;
+                padding: 1.3em 0.8em 0 0.8em;
+            }
+            .intro__bottom--h5 {
+                @include font-property($default-font-family, 1.3em, 500, normal);
+                @include tablet {
+                    @include font-property($default-font-family, 2em, 800, normal);
+                    padding: 1em 0;
+                }
+                @include desktop {
+                    @include font-property($default-font-family, 1.3em, 800, normal);
+                    padding: .5em 0;
+                }
+            }
+            .intro__bottom--p {
+                br {
+                    display: none;
+                }
+                @include tablet {
+                    @include font-property($default-font-family, 1.5em, 800, normal);
+                }
+                @include desktop {
+                    br {
+                        display: block;
+                    }
+                    text-align: left;
+                }
+            }
+        }
+    }
 }
 
-.row__container {
-  &--text {
+.triangle {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-
-
-  }
-}
-
-.row-container {
-  display: flex;
-  flex-direction: column;
-
-  &__col {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-emphasis: center;
-    color: $color-white;
-
-  }
-}
-
-.col-heading {
-  &__primary {
-
-    margin: 4rem 6rem;
-
-  }
-
-  &__secondary {
-
-    margin: 4rem 4rem 3rem 4rem;
-  }
+    flex-flow: column wrap;
+    height: 25em;
+    background: $color-secondary-300;
+    @include desktop {
+        display: flex;
+        flex-flow: row wrap;
+        height: 25em;
+        background: $color-secondary-300;
+    }
+    @include tablet {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    &__items {
+        flex: 1;
+        border-right: none;
+    }
+    .items--image {
+        @include desktop {
+            background: $color-secondary-300;
+            background-image: linear-gradient(270.72deg, #30124E 0.57%, rgba(48, 18, 78, 0) 18.8%), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+            background-blend-mode: normal, multiply;
+            background-position: 70% 45%;
+        }
+    }
+    .items--brand {
+        color: $color-white;
+        &-h5 {
+            padding: 0 0 0 2em;
+            margin-top: -8em;
+            letter-spacing: .3em;
+            text-transform: uppercase;
+            text-align: center;
+            @include font-property($default-font-family,
+            1em,
+            800,
+            normal);
+            @include desktop {
+                text-align: left;
+                margin: 0 0 0 5.8em;
+                padding: 3em 0 1.5em 0;
+            }
+            @include tablet {
+                margin-bottom: 2em;
+                text-align: center;
+            }
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            @include desktop {
+                display: block;
+                height: 40%;
+            }
+            @include tablet {
+                margin: 0 auto;
+                display: block;
+                height: auto;
+                padding-bottom: 3em;
+            }
+        }
+    }
 }
 
 .what-we-do-stats {
-  padding: 6rem;
-
-  &__primary {
-    color: $color-primary;
-  }
-
-  &__secondary {
-    color: $color-secondary-100;
-  }
-
-  &__tertiary {
-    color: $color-tertiary;
-  }
-}
-
-.stats_text {
-  letter-spacing: 6px;
-  text-transform: uppercase;
-}
-@include breakpoint(ss){
-
-.section-intro {
-  padding: 2rem;
-  
-}
-.intro__info--text {
-  width: 100%;
-}
-#row-what-we-do{
-  flex-wrap: wrap;
-
-}
-.row_container{
-  margin: 2rem;
-  flex-wrap: wrap;
- }
-
- .footer-row{
-  flex-wrap: wrap;
- }
- .what-we-do{
-  margin: 0 2rem;
-  &--image{
-    display: none;
-  }
-  &-stats {
-    padding: 2rem;
- }
- 
-}
-.row{
-  flex-flow: wrap;
-}
-
-.icon__circle{
-  margin: 0 auto;
-}
-.intro__icon--text-primary {
-  text-align:center;
-  justify-content: center;
-}
-.col-heading{
-&__primary {
-  margin: 2rem 0rem;
-}
-&__secondary {
-  margin: 1rem 4rem;
-}
-}
-.what-we-do {
-  margin: 0 2rem;
-}
-.what-we-do-small{
-  font-size: 1.9rem;
-}
-.intro__icon{
-  margin-top: 0;
-}
+    padding: 6rem;
+    &__primary {
+        color: $color-primary;
+    }
+    &__secondary {
+        color: $color-secondary-100;
+    }
+    &__tertiary {
+        color: $color-tertiary;
+    }
 }
