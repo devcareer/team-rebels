@@ -261,6 +261,13 @@
             margin: -5em auto 0 auto;
             width: 13em;
             height: 13em;
+            .card-section-home02 {
+                display: block;
+                background: none;
+                margin: 5em auto 0 auto;
+                width: 13em;
+                height: 13em;
+            }
             @include desktop {
                 width: 20em;
                 height: 20em;
@@ -306,15 +313,14 @@
           
             border: none;
             text-align: center;
+            padding: 5em 0;
             @include desktop {
-                padding:7rem 0;
-            }
-            @include mobile {
-              
+                padding: 5em 0;
+                // margin: 3em 0 3.5em 0;
             }
         }
         h3.card__newsletter-h3 {
-            @include font-property($default-font-family, 1.5em, 500, normal);
+            @include font-property($default-font-family, 1.3em, 500, normal);
             @include desktop {
                 @include font-property($default-font-family, 1.8em, 500, normal);
             }
