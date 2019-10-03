@@ -77,8 +77,10 @@
         background: $color-secondary-400;
 
         &-up {
-            width: 100%;
-            margin-top: -10%;
+            width: 30%;
+            margin-left: 35vmin;
+            margin-top: -40vmin;
+            // background: yellow;
 
             &-1, &-2, &-3 {
 
@@ -97,8 +99,8 @@
         }
 
         &-down {
-            width: 100%;
-            margin-top: 15vmin;
+            width: 30%;
+            margin-top: -15vmin;
             margin-bottom: 5%;
 
             &-1, &-2, &-3 {
@@ -124,6 +126,7 @@
         .team-images {
             width: 40vmin;
             height: auto;
+            margin-top: 15%;
         }
 
         @media screen and (max-width: 450px) {
