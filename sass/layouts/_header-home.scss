@@ -1,125 +1,125 @@
 // html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: absolute;
 }
 
 header {
-  background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
-  mix-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 35rem;
-  width: 100%;
-  margin: 0;
-  position: relative;
+    background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 35rem;
+    width: 100%;
+    margin: 0;
+    position: relative;
 }
 
 .background {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #30124E;
-  mix-blend-mode: multiply;
-  z-index: -2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #30124E;
+    mix-blend-mode: multiply;
+    z-index: -2;
 }
 
 nav {
-  z-index: 999;
+    z-index: 999;
 }
 
 .navbar {
-  background: transparent;
-  .navbar-brand {
-      color: $color-white;
-      margin-left: 6rem;
-      margin-right: 10rem;
-      position: relative;
-  }
+    background: transparent;
+    .navbar-brand {
+        color: $color-white;
+        margin-left: 6rem;
+        margin-right: 10rem;
+        position: relative;
+    }
 }
 
 .navbar .navbar-brand:hover {
-  color: $color-white;
+    color: $color-white;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: $color-white;
-  margin-right: 3rem;
+    color: $color-white;
+    margin-right: 3rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  text-decoration: underline;
-  color: $color-white;
+    text-decoration: underline;
+    color: $color-white;
 }
 
 .vector {
-  position: absolute;
-  left: 68%;
-  color: $color-white;
-  margin-top: .2%;
+    position: absolute;
+    left: 68%;
+    color: $color-white;
+    margin-top: .2%;
 }
 
 .text-one {
-  color: $color-white;
-  padding-left: 7rem;
-  padding-top: 2rem;
-  padding-bottom: .5rem;
+    color: $color-white;
+    padding-left: 7rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
 }
 
 .big__text {
-  margin-left: 7rem;
-  &--color {
-      color: $color-primary;
-  }
+    margin-left: 7rem;
+    &--color {
+        color: $color-primary;
+    }
 }
 
 .bg {
-  position: absolute;
-  width: 833px;
-  height: 80px;
-  border: 1px solid $color-white;
-  border-left: none;
-  box-sizing: border-box;
-  margin-top: 3.5rem;
-  .small-text {
-      position: absolute;
-      left: 147px;
-      margin-top: 1.4rem;
-      margin-left: .1rem;
-      color: $color-white;
-  }
+    position: absolute;
+    width: 833px;
+    height: 80px;
+    border: 1px solid $color-white;
+    border-left: none;
+    box-sizing: border-box;
+    margin-top: 3.5rem;
+    .small-text {
+        position: absolute;
+        left: 147px;
+        margin-top: 1.4rem;
+        margin-left: .1rem;
+        color: $color-white;
+    }
 }
 
 .arrow {
-  color: $color-white;
-  position: absolute;
-  border-radius: 50%;
-  .Arrow {
-      position: absolute;
-      width: 38px;
-      height: 38px;
-      left: 752px;
-      top: 4.5rem;
-      border-radius: 100px;
-      text-align: center;
-      padding-top: .2rem;
-      border: 1px solid $color-white;
-      box-sizing: border-box;
-  }
+    color: $color-white;
+    position: absolute;
+    border-radius: 50%;
+    .Arrow {
+        position: absolute;
+        width: 38px;
+        height: 38px;
+        left: 752px;
+        top: 4.5rem;
+        border-radius: 100px;
+        text-align: center;
+        padding-top: .2rem;
+        border: 1px solid $color-white;
+        box-sizing: border-box;
+    }
 }
 
 .misc-text {
-  color: $color-white;
-  position: absolute;
-  width: 226px;
-  height: 31px;
-  left: 972px;
-  top: 22px;
+    color: $color-white;
+    position: absolute;
+    width: 226px;
+    height: 31px;
+    left: 972px;
+    top: 22px;
 }
 
 // .rect-1{
@@ -147,159 +147,159 @@ nav {
 // background: $color-white;
 // }
 .scroll {
-  position: absolute;
-  width: 272px;
-  height: 28px;
-  left: 75%;
-  top: 240px;
-  text-transform: uppercase;
-  transform: rotate(90deg);
-  color: $color-white;
+    position: absolute;
+    width: 272px;
+    height: 28px;
+    left: 75%;
+    top: 240px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    color: $color-white;
 }
 
 .icon {
-  position: absolute;
-  width: 21px;
-  height: 46px;
-  left: 84.5%;
-  top: 337px;
-  border: 1px solid $color-white;
-  border-radius: 40px;
-  .arrow-2 {
-      position: absolute;
-      width: 27px;
-      height: 0px;
-      left: 10px;
-      top: 27px;
-      color: $color-white;
-      transform: rotate(90deg);
-  }
+    position: absolute;
+    width: 21px;
+    height: 46px;
+    left: 84.5%;
+    top: 337px;
+    border: 1px solid $color-white;
+    border-radius: 40px;
+    .arrow-2 {
+        position: absolute;
+        width: 27px;
+        height: 0px;
+        left: 10px;
+        top: 27px;
+        color: $color-white;
+        transform: rotate(90deg);
+    }
 }
 
 @media (min-width: 769px) and (max-width:950px) {
-  .big__text {
-      font-size: 3em;
-      margin-left: 6rem;
-  }
-  .bg {
-      width: 700px;
-      .small-text {
-          left: 0;
-      }
-  }
-  .arrow {
-      .Arrow {
-          left: 600px;
-      }
-  }
+    .big__text {
+        font-size: 3em;
+        margin-left: 6rem;
+    }
+    .bg {
+        width: 700px;
+        .small-text {
+            left: 0;
+        }
+    }
+    .arrow {
+        .Arrow {
+            left: 600px;
+        }
+    }
 }
 
 @media screen and (max-width:768px) {
-  header {
-      background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
-      mix-blend-mode: multiply;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      height: 20rem;
-      width: 100%;
-      //  overflow-x: hidden;
-  }
-  .background {
-      height: 20rem;
-      width: 100%;
-      top: 0;
-  }
-  .navbar {
-      height: .2rem;
-  }
-  .navbar .navbar-brand {
-      margin-left: 1rem;
-      margin-top: -3rem;
-      font-size: 1rem;
-  }
-  .navbar-nav {
-      margin-left: .5rem;
-      display: flex;
-  }
-  .navbar-dark .navbar-toggler {
-      margin-left: 35rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-      margin-left: 35rem;
-  }
-  .vector {
-      position: absolute;
-      left: 76%;
-      padding: .5rem;
-      color: $color-white;
-      // padding-left: .5rem;
-  }
-  .misc-text {
-      letter-spacing: 0rem;
-      left: 79%;
-      top: 258px;
-  }
-  .text-one {
-      padding-left: 2rem;
-      padding-top: 3rem;
-      padding-bottom: .5rem;
-  }
-  .big__text {
-      margin-left: 2rem;
-      font-size: 2rem;
-      line-height: 2.5rem;
-  }
-  .scroll {
-      display: none;
-  }
-  .icon {
-      display: none;
-  }
-  .bg {
-      margin-top: 1.2rem;
-      height: 2.5rem;
-      width: 28rem;
-      .small-text {
-          margin-top: 0.5rem;
-          margin-left: -6rem;
-          font-size: .8rem;
-      }
-  }
-  .arrow {
-      .Arrow {
-          position: absolute;
-          left: 52rem;
-          top: 18px;
-      }
-  }
+    header {
+        background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
+        mix-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 20rem;
+        width: 100%;
+        //  overflow-x: hidden;
+    }
+    .background {
+        height: 20rem;
+        width: 100%;
+        top: 0;
+    }
+    .navbar {
+        height: .2rem;
+    }
+    .navbar .navbar-brand {
+        margin-left: 1rem;
+        margin-top: -3rem;
+        font-size: 1rem;
+    }
+    .navbar-nav {
+        margin-left: .5rem;
+        display: flex;
+    }
+    .navbar-dark .navbar-toggler {
+        margin-left: 35rem;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        margin-left: 35rem;
+    }
+    .vector {
+        position: absolute;
+        left: 76%;
+        padding: .5rem;
+        color: $color-white;
+        // padding-left: .5rem;
+    }
+    .misc-text {
+        letter-spacing: 0rem;
+        left: 79%;
+        top: 258px;
+    }
+    .text-one {
+        padding-left: 2rem;
+        padding-top: 3rem;
+        padding-bottom: .5rem;
+    }
+    .big__text {
+        margin-left: 2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .scroll {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+    .bg {
+        margin-top: 1.2rem;
+        height: 2.5rem;
+        width: 28rem;
+        .small-text {
+            margin-top: 0.5rem;
+            margin-left: -6rem;
+            font-size: .8rem;
+        }
+    }
+    .arrow {
+        .Arrow {
+            position: absolute;
+            left: 52rem;
+            top: 18px;
+        }
+    }
 }
 
 @media screen and (max-width:360px) {
-  header {
-      width: 100rem;
-  }
-  .navbar .navbar-brand {
-      margin-right: 2rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-  }
-  .navbar-dark .navbar-toggler {
-      margin-left: 17rem;
-      margin-top: -2rem;
-  }
+    header {
+        width: 100rem;
+    }
+    .navbar .navbar-brand {
+        margin-right: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .navbar-dark .navbar-toggler {
+        margin-left: 17rem;
+        margin-top: -2rem;
+    }
 }
 
 @media (min-width:1440px) {
-  .vector {
-      margin-left: -5%;
-  }
-  .scroll {
-      margin-left: .6%;
-  }
+    .vector {
+        margin-left: -5%;
+    }
+    .scroll {
+        margin-left: .6%;
+    }
 }
 
 @media (max-width:1024px) {
-  .navbar-brand {
-      margin-left: 10rem;
-  }
+    .navbar-brand {
+        margin-left: 10rem;
+    }
 }
