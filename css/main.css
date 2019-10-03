@@ -706,6 +706,15 @@ header {
   margin: 0;
   position: relative; }
 
+.header-home-02 {
+  background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/Rectangle-header.png");
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  margin: 0;
+  position: relative; }
+
 .background {
   position: absolute;
   top: 0;
@@ -2123,81 +2132,199 @@ nav {
   color: #FCFCFC; }
 
 .section-intro {
-  padding: 6rem 6rem 0 6rem;
-  overflow: hidden; }
-
-body {
-  overflow-x: hidden; }
-
-.into__heading--primary {
-  color: #F61067;
-  text-transform: uppercase;
-  line-height: 26px;
-  letter-spacing: .6rem; }
-
-.intro__info--text {
-  width: 70%; }
-
-.intro__icon--text-secondary {
-  color: #776C82;
-  justify-content: center; }
-
-.section-what-we-do {
-  overflow-x: hidden; }
-
-.what-we-do {
-  margin: 0 6rem 3rem 6rem; }
-  .what-we-do--image {
-    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
-    background-blend-mode: multiply;
-    margin-top: -10rem; }
-  .what-we-do__primary {
-    color: #F61067;
-    text-transform: uppercase;
-    line-height: 26px;
-    letter-spacing: .2rem; }
-
-.row {
-  flex-wrap: nowrap; }
-  .row-primary {
-    background-color: #5E239D; }
-  .row-secondary {
-    background-color: #30124E; }
-  .row-tertiary {
-    background-color: #3A0475; }
-
-.icon__circle {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 1px solid #F61067;
-  text-align: center;
-  line-height: 1rem;
-  vertical-align: middle;
-  padding: 1rem; }
-  .icon__circle--icon {
-    color: #F61067; }
-
-.row__container--text {
-  display: flex;
-  flex-direction: row;
-  text-align: center; }
-
-.row-container {
-  display: flex;
-  flex-direction: column; }
-  .row-container__col {
+  box-sizing: border-box;
+  padding: 4em 1.5em;
+  margin-bottom: -10em; }
+  .section-intro .intro__top {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-emphasis: center;
+    padding: 1.5em 0;
+    flex-flow: column wrap; }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .section-intro .intro__top {
+        padding: 0 0 0 3em; } }
+    @media (min-width: 1201px) {
+      .section-intro .intro__top {
+        padding: 0 0 0 3em; } }
+    .section-intro .intro__top .intro__top--h5 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.9em;
+      font-weight: 800;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #F61067;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.1em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left; } }
+    .section-intro .intro__top .intro__top--h2 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.5em;
+      font-weight: 800;
+      font-style: normal;
+      line-height: 0.9;
+      color: #30233D;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--h2 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 2em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--h2 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left; } }
+    .section-intro .intro__top .intro__top--article {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      font-style: normal;
+      color: #30233D; }
+      .section-intro .intro__top .intro__top--article br {
+        display: none; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--article {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.3em;
+          font-weight: 800;
+          font-style: normal;
+          padding: 1em 0;
+          text-align: left; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--article {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left;
+          padding: 2em 0; }
+          .section-intro .intro__top .intro__top--article br {
+            display: block; } }
+  .section-intro .intro__bottom {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1em 0; }
+    @media (min-width: 1201px) {
+      .section-intro .intro__bottom {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 1.5em; } }
+    .section-intro .intro__bottom .intro__bottom--items {
+      margin: 0 0 1em 0;
+      flex: 1;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__bottom .intro__bottom--items {
+          padding: 2em 0; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__bottom .intro__bottom--items {
+          margin-right: 0.8em;
+          padding: 1.3em 0.8em 0 0.8em; } }
+      .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.3em;
+        font-weight: 500;
+        font-style: normal; }
+        @media (min-width: 840px) and (max-width: 1200px) {
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2em;
+            font-weight: 800;
+            font-style: normal;
+            padding: 1em 0; } }
+        @media (min-width: 1201px) {
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.3em;
+            font-weight: 800;
+            font-style: normal;
+            padding: .5em 0; } }
+      .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p br {
+        display: none; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p {
+          text-align: left; }
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p br {
+            display: block; } }
+
+.triangle {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #30124E; }
+  @media (min-width: 1201px) {
+    .triangle {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #30124E; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle .items--image {
+      background: #30124E;
+      background-image: linear-gradient(270.72deg, #30124E 0.57%, rgba(48, 18, 78, 0) 18.8%), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle .items--brand {
     color: #FCFCFC; }
-
-.col-heading__primary {
-  margin: 4rem 6rem; }
-
-.col-heading__secondary {
-  margin: 4rem 4rem 3rem 4rem; }
+    .triangle .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
 
 .what-we-do-stats {
   padding: 6rem; }
@@ -2207,46 +2334,6 @@ body {
     color: #5E239D; }
   .what-we-do-stats__tertiary {
     color: #00F0B5; }
-
-.stats_text {
-  letter-spacing: 6px;
-  text-transform: uppercase; }
-
-@media (max-width: 1364px) {
-  .section-intro {
-    padding: 2rem; }
-  .intro__info--text {
-    width: 100%; }
-  #row-what-we-do {
-    flex-wrap: wrap; }
-  .row_container {
-    margin: 2rem;
-    flex-wrap: wrap; }
-  .footer-row {
-    flex-wrap: wrap; }
-  .what-we-do {
-    margin: 0 2rem; }
-    .what-we-do--image {
-      display: none; }
-    .what-we-do-stats {
-      padding: 2rem; }
-  .row {
-    flex-flow: wrap; }
-  .icon__circle {
-    margin: 0 auto; }
-  .intro__icon--text-primary {
-    text-align: center;
-    justify-content: center; }
-  .col-heading__primary {
-    margin: 2rem 0rem; }
-  .col-heading__secondary {
-    margin: 1rem 4rem; }
-  .what-we-do {
-    margin: 0 2rem; }
-  .what-we-do-small {
-    font-size: 1.9rem; }
-  .intro__icon {
-    margin-top: 0; } }
 
 @media screen and (max-width: 600px) {
   .team-about-header__bottom {
