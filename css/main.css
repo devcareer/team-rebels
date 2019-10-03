@@ -2953,6 +2953,48 @@ nav {
     padding: 3%; }
 
 .our-service {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.service__headtext {
+  padding-bottom: 5%; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%;
+    padding: 3%; }
+
+.our-service {
   background-color: #FCFCFC;
   color: #150433; }
 
