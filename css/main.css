@@ -2395,10 +2395,13 @@ nav {
     color: #30233D; }
   .team-main__bottom {
     background: #150433; }
+    @media screen and (max-width: 450px) {
+      .team-main__bottom {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; } }
     .team-main__bottom-up {
       width: 30%;
-      margin-left: 35vmin;
-      margin-top: -40vmin; }
+      margin-top: -27%; }
       .team-main__bottom-up-1 .team-main__bottom-up-h5, .team-main__bottom-up-2 .team-main__bottom-up-h5, .team-main__bottom-up-3 .team-main__bottom-up-h5 {
         color: white;
         font-size: 4vmin; }
@@ -2410,8 +2413,38 @@ nav {
         opacity: 0.5; }
     .team-main__bottom-down {
       width: 30%;
-      margin-top: -15vmin;
-      margin-bottom: 5%; }
+      margin-top: -5%;
+      margin-bottom: 5%;
+      margin-left: 5%; }
+      .team-main__bottom-down-2 {
+        width: 100%;
+        background: #5E239D;
+        margin-top: 7vmin; }
+        .team-main__bottom-down-2 .head-5 {
+          margin-top: 5vmin;
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 3vmin;
+          color: white; }
+        .team-main__bottom-down-2 .p1 {
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5vmin;
+          color: white;
+          opacity: 0.5;
+          letter-spacing: 0.5vmin; }
+        .team-main__bottom-down-2 .p2 {
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 2vmin;
+          color: white; }
+        .team-main__bottom-down-2 .img-5 {
+          width: 25%;
+          height: 14vmin;
+          margin-top: 15%;
+          margin-bottom: 5vmin;
+          margin-left: 10vmin;
+          border-radius: 50%; }
       .team-main__bottom-down-1 .team-main__bottom-down-h5, .team-main__bottom-down-2 .team-main__bottom-down-h5, .team-main__bottom-down-3 .team-main__bottom-down-h5 {
         color: white;
         font-size: 4vmin; }
@@ -2435,6 +2468,11 @@ nav {
           margin-bottom: 10vmin; }
         .team-main__bottom .team-main__bottom-up .svg, .team-main__bottom .team-main__bottom-down .svg {
           width: 70%; }
+      .team-main__bottom .team-main__bottom-up {
+        margin-top: -20%; }
+      .team-main__bottom .team-main__bottom-down-2 {
+        width: 70vmin;
+        order: 3; }
       .team-main__bottom .carousel {
         margin-bottom: 0; }
       .team-main__bottom .footer {

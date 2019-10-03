@@ -35,6 +35,8 @@
         background-size: 100%;
         background-repeat: no-repeat;
 
+       
+
         &__h1 {
             margin-top: 7%;
             margin-left: 8%;
@@ -76,10 +78,14 @@
     &__bottom {
         background: $color-secondary-400;
 
+        @media screen and (max-width: 450px) {
+            flex-direction: column !important;
+            -ms-flex-direction: column !important;
+        }
+
         &-up {
             width: 30%;
-            margin-left: 35vmin;
-            margin-top: -40vmin;
+            margin-top: -27%;
             // background: yellow;
 
             &-1, &-2, &-3 {
@@ -100,9 +106,44 @@
 
         &-down {
             width: 30%;
-            margin-top: -15vmin;
+            margin-top: -5%;
             margin-bottom: 5%;
+            margin-left: 5%;
 
+            &-2 {
+                width: 100%;
+                background: $color-secondary-100;
+                margin-top: 7vmin;
+                .head-5 {
+                    margin-top: 5vmin;
+                    margin-left: 10vmin;
+                    font-family: $default-font-family;
+                    font-size: 3vmin;
+                    color: white;
+                }
+                .p1 {
+                    margin-left: 10vmin;
+                    font-family: $default-font-family;
+                    font-size: 1.5vmin;
+                    color: white;
+                    opacity: 0.5;
+                    letter-spacing: 0.5vmin;
+                }
+                .p2 {
+                    margin-left: 10vmin;
+                    font-family: $default-font-family;
+                    font-size: 2vmin;
+                    color: white;
+                }
+                .img-5 {
+                    width: 25%;
+                    height: 14vmin;
+                    margin-top: 15%;
+                    margin-bottom: 5vmin;
+                    margin-left: 10vmin;
+                    border-radius: 50%;
+                }
+            }
             &-1, &-2, &-3 {
                 // background: yellow;
 
@@ -134,6 +175,7 @@
                 flex-direction: column !important;
                 -ms-flex-direction: column !important;
                 &-1, &-2, &-3 {
+                    // margin-top: 10vmin;
                     margin-bottom: 10vmin;
                 }
 
@@ -141,6 +183,16 @@
                     width: 70%;
                 }
 
+            }
+
+            .team-main__bottom-up {
+                margin-top: -20%;
+            }
+            .team-main__bottom-down {
+                &-2 {
+                    width: 70vmin;
+                    order: 3;
+                }
             }
 
             .carousel {
