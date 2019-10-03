@@ -1,0 +1,3546 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noticia+Text&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 18px; }
+
+body, html {
+  overflow-x: hidden; }
+
+h1 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 99px;
+  line-height: 118px;
+  color: #FCFCFC; }
+
+h2 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 80px; }
+
+h3 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 67px; }
+
+h4 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem; }
+
+h5 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 40px; }
+
+h6 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 27px; }
+
+.text-small {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 26px; }
+
+.text-small-bold {
+  font-family: "M PLUS 1p", sans-serif Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 26px; }
+
+.text-regular {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 29px; }
+
+.text-regular-bold {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 29px; }
+
+.text-medium {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 32px; }
+
+.text-medium-bold {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.1rem;
+  line-height: 32px; }
+
+.text-large {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 35px; }
+
+.text-large-bold {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 35px; }
+
+.quote-large {
+  font-family: "Noticia Text", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 64px;
+  display: flex;
+  align-items: center; }
+
+.quote-small {
+  font-family: "Noticia Text", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22.5px;
+  line-height: 40px;
+  display: flex; }
+
+.title-small {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 6px;
+  text-transform: uppercase; }
+
+.u-text-center {
+  text-align: center; }
+
+.u-margin-top-medium {
+  margin-top: 6rem; }
+
+.u-margin-top-large {
+  margin-top: 6rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem; }
+
+.u-margin-top-small {
+  margin-top: 1rem; }
+
+.u-margin-medium {
+  margin: 3rem; }
+
+.u-margin-top-none {
+  margin-bottom: 0; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-medium {
+  margin: 4rem; }
+
+.u-margin-large {
+  margin: 6rem; }
+
+.u-margin-left {
+  margin-right: 4rem; }
+
+.u-padding-none {
+  padding: 0; }
+
+.u-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
+.u-margin-none {
+  margin: 0; }
+
+.triangle {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #30124E; }
+  @media (min-width: 1201px) {
+    .triangle {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #30124E; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle .items--image {
+      background: #30124E;
+      background-image: linear-gradient(270.72deg, #30124E 0.57%, rgba(48, 18, 78, 0) 18.8%), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle .items--brand {
+    color: #FCFCFC; }
+    .triangle .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
+
+.triangle1 {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #00F0B5; }
+  @media (min-width: 1201px) {
+    .triangle1 {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #00F0B5; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle1 {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle1__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle1 .items--image {
+      background: #00F0B5;
+      background-image: linear-gradient(270.72deg, #00F0B5 0.57%, rgba(109, 236, 175, 0.1)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle1 .items--brand {
+    color: #FCFCFC; }
+    .triangle1 .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle1 .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle1 .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle1 .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle1 .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle1 .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
+
+.client__part {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__part--title {
+    text-transform: uppercase;
+    color: #F61067;
+    margin-left: 5%; }
+  .client__part--body {
+    color: #150433;
+    font-weight: 800;
+    margin-left: 5%; }
+
+.blue__bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue__bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue__bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
+
+.client__logo {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  .client__logo--title {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #150433;
+    margin-left: 15%;
+    margin-bottom: 5%; }
+  .client__logo--image {
+    margin-left: 15%;
+    margin-bottom: 5%; }
+
+.blue_bg {
+  background: #150433;
+  position: relative;
+  z-index: 2; }
+  .blue_bg--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: #F61067; }
+  .blue_bg--text {
+    color: #FCFCFC;
+    margin: 5% 10% 5% 10%; }
+
+.client__bg {
+  padding-top: 10%;
+  background-color: #30124E;
+  position: relative;
+  top: -10%;
+  z-index: 1; }
+  .client__bg--title {
+    color: #F61067;
+    text-transform: uppercase;
+    margin-left: 5%; }
+  .client__bg--text {
+    color: #FCFCFC;
+    padding-bottom: 5%;
+    margin-left: 5%; }
+
+.icon1 {
+  color: #FCFCFC;
+  font-size: 1rem;
+  font-weight: 900; }
+
+.icon-1 {
+  color: #FCFCFC;
+  font-size: 3rem;
+  font-weight: 900; }
+
+.icon1__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #FCFCFC;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+
+.value_card {
+  color: #FCFCFC;
+  margin-right: 2rem;
+  padding: 1rem;
+  margin-bottom: 4rem; }
+  .value_card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value_card:hover p {
+      color: #FCFCFC; }
+
+.value__card {
+  color: #FCFCFC;
+  border: 1px solid #FCFCFC;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value__card:hover--number {
+      font-weight: 800;
+      color: #F61067; }
+    .value__card:hover--title {
+      font-weight: 800; }
+
+.value__card2 {
+  color: #FCFCFC;
+  border: 1px solid #F61067;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card2:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value__card2:hover--number {
+      font-weight: 800;
+      color: #F61067; }
+    .value__card2:hover--title {
+      font-weight: 800; }
+  @media screen and (max-width: 368px) {
+    .value__card2 .client__logo--title {
+      margin-top: 2rem; }
+    .value__card2 .client__logo--image {
+      width: 200px;
+      padding-right: 10%;
+      padding-bottom: 5%; } }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+
+.row__container--text {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+.row-container {
+  display: flex;
+  flex-direction: column; }
+  .row-container__col {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-emphasis: center;
+    color: #FCFCFC; }
+
+.col-heading__primary {
+  margin: 4rem 6rem; }
+
+.col-heading__secondary {
+  margin: 4rem 4rem 3rem 4rem; }
+
+@media (max-width: 1364px) {
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+  .row {
+    flex-flow: wrap; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; } }
+
+.text__part {
+  text-align: center;
+  padding: 5% 5% 0 2%; }
+  .text__part--capital {
+    color: #F61067; }
+  .text__part--small {
+    color: #150433;
+    font-weight: bolder; }
+  .text__part--body {
+    color: #150433;
+    font-weight: bold; }
+
+.main__text {
+  margin: 8% 8%; }
+  .main__text--number {
+    font-weight: 800;
+    color: #F61067; }
+  .main__text--title {
+    color: #150433;
+    font-weight: 800; }
+  .main__text--body {
+    color: #776C82; }
+
+.main-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: auto; }
+
+@media screen and (max-width: 768px) {
+  .main-image {
+    width: 300px; } }
+
+.footer-section {
+  padding: 7rem;
+  background-color: #30124E;
+  color: #FCFCFC;
+  overflow: hidden; }
+
+.menu {
+  display: flex; }
+  .menu a {
+    text-decoration: none;
+    color: #FCFCFC; }
+  .menu li {
+    list-style: none; }
+  .menu__item {
+    flex-direction: column;
+    padding: 0 3rem 0 3rem;
+    font-family: Mplus 1p Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.6px;
+    line-height: 28px;
+    letter-spacing: 1px; }
+    .menu__item--primary {
+      letter-spacing: .4rem;
+      white-space: nowrap;
+      text-transform: uppercase;
+      display: inline-block;
+      border-bottom: 0.01rem solid #F61067;
+      line-height: 2; }
+    .menu__item--secondary {
+      padding-top: 1rem;
+      margin: auto; }
+    .menu__item--contact-icons {
+      display: flex;
+      flex-direction: row; }
+      .menu__item--contact-icons a {
+        text-decoration: none;
+        list-style: none;
+        color: white; }
+        .menu__item--contact-icons a:not(:first-child) {
+          padding-left: 2rem; }
+
+@media (max-width: 1364px) {
+  .menu__item {
+    flex-direction: column;
+    padding: 0 .6rem 0 .6rem; }
+    .menu__item:nth-child(2) {
+      padding-right: 0.6rem; }
+    .menu__item:last-child {
+      padding-left: 0; }
+    .menu__item--primary {
+      letter-spacing: .2rem; }
+  .footer-section {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 0.7rem; }
+  .row {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center; } }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: absolute; }
+
+header {
+  background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 35rem;
+  width: 100%;
+  margin: 0;
+  position: relative; }
+
+.background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #30124E;
+  mix-blend-mode: multiply;
+  z-index: -2; }
+
+nav {
+  z-index: 999; }
+
+.navbar {
+  background: transparent; }
+  .navbar .navbar-brand {
+    color: #FCFCFC;
+    margin-left: 6rem;
+    margin-right: 10rem;
+    position: relative; }
+
+.navbar .navbar-brand:hover {
+  color: #FCFCFC; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FCFCFC;
+  margin-right: 3rem; }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: #FCFCFC; }
+
+.vector {
+  position: absolute;
+  left: 68%;
+  color: #FCFCFC;
+  margin-top: .2%; }
+
+.text-one {
+  color: #FCFCFC;
+  padding-left: 7rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem; }
+
+.big__text {
+  margin-left: 7rem; }
+  .big__text--color {
+    color: #F61067; }
+
+.bg {
+  position: absolute;
+  width: 833px;
+  height: 80px;
+  border: 1px solid #FCFCFC;
+  border-left: none;
+  box-sizing: border-box;
+  margin-top: 3.5rem; }
+  .bg .small-text {
+    position: absolute;
+    left: 147px;
+    margin-top: 1.4rem;
+    margin-left: .1rem;
+    color: #FCFCFC; }
+
+.arrow {
+  color: #FCFCFC;
+  position: absolute;
+  border-radius: 50%; }
+  .arrow .Arrow {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 752px;
+    top: 4.5rem;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: .2rem;
+    border: 1px solid #FCFCFC;
+    box-sizing: border-box; }
+
+.misc-text {
+  color: #FCFCFC;
+  position: absolute;
+  width: 226px;
+  height: 31px;
+  left: 972px;
+  top: 22px; }
+
+.scroll {
+  position: absolute;
+  width: 272px;
+  height: 28px;
+  left: 75%;
+  top: 240px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  color: #FCFCFC; }
+
+.icon {
+  position: absolute;
+  width: 21px;
+  height: 46px;
+  left: 84.5%;
+  top: 337px;
+  border: 1px solid #FCFCFC;
+  border-radius: 40px; }
+  .icon .arrow-2 {
+    position: absolute;
+    width: 27px;
+    height: 0px;
+    left: 10px;
+    top: 27px;
+    color: #FCFCFC;
+    transform: rotate(90deg); }
+
+@media (min-width: 769px) and (max-width: 950px) {
+  .big__text {
+    font-size: 3em;
+    margin-left: 6rem; }
+  .bg {
+    width: 700px; }
+    .bg .small-text {
+      left: 0; }
+  .arrow .Arrow {
+    left: 600px; } }
+
+@media screen and (max-width: 768px) {
+  header {
+    background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 20rem;
+    width: 100%; }
+  .background {
+    height: 20rem;
+    width: 100%;
+    top: 0; }
+  .navbar {
+    height: .2rem; }
+  .navbar .navbar-brand {
+    margin-left: 1rem;
+    margin-top: -3rem;
+    font-size: 1rem; }
+  .navbar-nav {
+    margin-left: .5rem;
+    display: flex; }
+  .navbar-dark .navbar-toggler {
+    margin-left: 35rem; }
+  .navbar-dark .navbar-nav .nav-link {
+    margin-left: 35rem; }
+  .vector {
+    position: absolute;
+    left: 76%;
+    padding: .5rem;
+    color: #FCFCFC; }
+  .misc-text {
+    letter-spacing: 0rem;
+    left: 79%;
+    top: 258px; }
+  .text-one {
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem; }
+  .big__text {
+    margin-left: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem; }
+  .scroll {
+    display: none; }
+  .icon {
+    display: none; }
+  .bg {
+    margin-top: 1.2rem;
+    height: 2.5rem;
+    width: 28rem; }
+    .bg .small-text {
+      margin-top: 0.5rem;
+      margin-left: -6rem;
+      font-size: .8rem; }
+  .arrow .Arrow {
+    position: absolute;
+    left: 52rem;
+    top: 18px; } }
+
+@media screen and (max-width: 360px) {
+  header {
+    width: 100rem; }
+  .navbar .navbar-brand {
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .navbar-dark .navbar-toggler {
+    margin-left: 17rem;
+    margin-top: -2rem; } }
+
+@media (min-width: 1440px) {
+  .vector {
+    margin-left: -5%; }
+  .scroll {
+    margin-left: .6%; } }
+
+@media (max-width: 1024px) {
+  .navbar-brand {
+    margin-left: 10rem; } }
+
+.card-section .blank {
+  margin: 0;
+  padding: 0; }
+  .card-section .blank .blank__content {
+    background: #150433;
+    width: 100%;
+    height: 40vh;
+    color: #FFF; }
+
+.card-section .card {
+  margin: 0;
+  padding: 0;
+  border: none; }
+  .card-section .card .card .card__photos {
+    position: relative;
+    background: #FCFCFC;
+    width: 100%;
+    height: 40vh;
+    border: none; }
+    @media (min-width: 1201px) {
+      .card-section .card .card .card__photos {
+        width: 100%;
+        height: 80vh; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card .card__photos {
+        width: 100%;
+        height: 58vh; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images {
+      position: absolute; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images {
+      position: absolute; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-1 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 9em;
+      position: absolute;
+      top: 4.2em;
+      left: 17em;
+      width: 4.5em;
+      height: 4.5em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-1 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 8em 8em;
+      position: absolute;
+      top: 2.5em;
+      left: 5em;
+      width: 4.0em;
+      height: 4.0em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-1 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-2 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 9em 9em;
+      position: absolute;
+      top: 12em;
+      left: 8em;
+      object-position: center;
+      width: 4em;
+      height: 4em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-2 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 8em 8em;
+      position: absolute;
+      top: 8em;
+      left: 4em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-2 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-3 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 6em 6em;
+      position: absolute;
+      top: 10em;
+      left: 25em;
+      object-position: center;
+      width: 2.2em;
+      height: 2.2em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-3 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 6em 6em;
+      position: absolute;
+      top: 6.5em;
+      left: 13em;
+      object-position: center;
+      width: 2.2em;
+      height: 2.2em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-3 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-4 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 10em;
+      right: 23em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-4 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 6em;
+      right: 12em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-4 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-5 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 11em;
+      right: 11em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-5 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 8em;
+      right: 2em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-5 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-6 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 6em;
+      right: 18em;
+      object-position: center;
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-6 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 4em;
+      right: 7em;
+      object-position: center;
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-6 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-7 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 2em;
+      right: 11em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-7 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 2em;
+      right: 2em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-7 {
+      display: none; } }
+  .card-section .card .card-positioned-icon {
+    position: absolute; }
+    .card-section .card .card-positioned-icon .fa-arrow-right {
+      position: absolute;
+      top: 18em;
+      left: 60em;
+      border: 1px solid #F61067;
+      color: #F61067;
+      padding: 0.6em;
+      border-radius: 50%;
+      font-weight: 100; }
+      .card-section .card .card-positioned-icon .fa-arrow-right:hover {
+        background: #F61067;
+        transition: background .8s ease-in-out;
+        color: #FFF;
+        border: 1px solid #FFF;
+        cursor: pointer; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
+          display: none; } }
+      @media (max-width: 839px) {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
+          display: none; } }
+    .card-section .card .card-positioned-icon .fa-arrow-left {
+      position: absolute;
+      top: 18em;
+      left: 11em;
+      background: #F61067;
+      color: #FFF;
+      padding: 0.6em;
+      border-radius: 50%;
+      font-weight: 100; }
+      .card-section .card .card-positioned-icon .fa-arrow-left:hover {
+        background: #FFF;
+        transition: background .8s ease-in-out;
+        color: #F61067;
+        border: 1px solid #F61067;
+        cursor: pointer; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
+          display: none; } }
+      @media (max-width: 839px) {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
+          display: none; } }
+  .card-section .card img.card-center-image {
+    display: block;
+    background: none;
+    margin: -5em auto 0 auto;
+    width: 13em;
+    height: 13em; }
+    .card-section .card img.card-center-image .card-section-home02 {
+      display: block;
+      background: none;
+      margin: 5em auto 0 auto;
+      width: 13em;
+      height: 13em; }
+    @media (min-width: 1201px) {
+      .card-section .card img.card-center-image {
+        width: 20em;
+        height: 20em; } }
+  .card-section .card i.card__photos-fa {
+    margin: -0.4em auto 0 auto;
+    color: #F61067;
+    font-size: 3em;
+    z-index: 2; }
+  .card-section .card h3.card__photos-h3 {
+    font-family: "Noticia Text", serif;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.2em; }
+    @media (min-width: 1201px) {
+      .card-section .card h3.card__photos-h3 {
+        font-family: "Noticia Text", serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 1.5em; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card h3.card__photos-h3 {
+        font-family: "Noticia Text", serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 1.7em;
+        margin-top: 1.3em; } }
+  .card-section .card .card__photos-tagline {
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 3em; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__photos-tagline {
+        font-size: 1em; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card__photos-tagline {
+        font-size: 1em; } }
+  .card-section .card .card__photos-tagline span {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.8em;
+    font-weight: 800;
+    font-style: normal;
+    color: #F61067; }
+  .card-section .card .card__newsletter {
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 5em; }
+
+@ince desktop {
+  .card-section .card .card__newsletter {
+    padding: 5em;
+    padding: 7rem 0; } }
+    @media (max-width: 839px) {
+      .card-section .card .card__newsletter {
+        padding: 5em; } }
+  .card-section .card h3.card__newsletter-h3 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal; }
+    @media (min-width: 1201px) {
+      .card-section .card h3.card__newsletter-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.8em;
+        font-weight: 500;
+        font-style: normal; } }
+  .card-section .card p.card__newsletter-p {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    font-style: normal; }
+    @media (min-width: 1201px) {
+      .card-section .card p.card__newsletter-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal; } }
+  .card-section .card .card__newsletter-form {
+    padding: 2em; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter-form {
+        width: 50%;
+        display: inline-flex;
+        margin: 0 auto; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card__newsletter-form {
+        padding: 0 10em; } }
+  .card-section .card .card__newsletter-form input.card__newsletter-input {
+    width: 100%;
+    height: 3.0em;
+    border-bottom: 2px solid #F4F4ED;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none; }
+  .card-section .card input::placeholder {
+    color: #9B94A3;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.7em;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    line-height: 3.5em; }
+  .card-section .card .card__newsletter-form button.card__newsletter-button {
+    width: 100%;
+    height: 3.6em;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.7em;
+    font-weight: 800;
+    font-style: normal;
+    background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    border: none;
+    border-bottom: 2px solid #F4F4ED;
+    margin-top: 0.7em;
+    line-height: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #F61067; }
+    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
+      background: rgba(212, 187, 187, 0.5);
+      transition: background .8s ease-in-out;
+      cursor: pointer; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter-form button.card__newsletter-button {
+        width: 70%; } }
+  .card-section .card button.card__newsletter-button i.button-fa {
+    border: 1px solid rgba(246, 16, 103, 0.5);
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 50%;
+    margin-left: 1.3em; }
+
+.blank1 {
+  margin: 0;
+  padding: 0; }
+  .blank1 .blank1__content {
+    width: 100%;
+    height: 25vh;
+    color: #FFF; }
+
+.card-section-02 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .card-section-02 .card__upward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__upward {
+        display: flex;
+        flex-flow: row wrap;
+        padding-left: 2em; } }
+    .card-section-02 .card__upward .upward-item-01 {
+      flex: 1;
+      padding: 1em 2em 1em 2em;
+      text-align: center; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h4 {
+        color: #F61067;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.7em;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5em;
+        font-weight: 500;
+        font-style: normal;
+        color: #30233D; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.8em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0;
+            line-height: 0; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal;
+        color: #30233D;
+        line-height: 1.5em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.7em;
+            font-weight: 800;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: normal;
+        color: #776C82;
+        padding: 0.3em; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            padding: 0;
+            margin: 1em 0 1em 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: normal;
+            font-style: normal;
+            padding: 0;
+            margin: 1em 0 1em 0; }
+            .card-section-02 .card__upward .upward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__upward .upward-item-01 .item-01-button {
+        width: 50%;
+        height: 3em;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal;
+        background: #F61067;
+        color: #FFF;
+        border: none;
+        margin-top: 10em;
+        border-radius: 1.5em;
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer; }
+        .card-section-02 .card__upward .upward-item-01 .item-01-button:hover {
+          background: #df0672;
+          transition: all 1s ease-in-out; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-button {
+            width: 25%;
+            margin: 1em 0 1em 0;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal; } }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-01 .item-01-button {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal;
+            width: 70%;
+            margin: 1em 0 1em 0; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-01 {
+          flex-grow: 15;
+          padding: 2em;
+          text-align: left; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-01 {
+          flex-grow: 10;
+          padding: 2em 5em;
+          text-align: left; } }
+    .card-section-02 .card__upward .upward-item-02 {
+      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_first_image.png");
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: cover;
+      flex: 1 0 25em;
+      text-align: center;
+      position: relative; }
+      @media (min-width: 500px) and (max-width: 900px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          flex: 1 0 35em; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          flex-grow: 2;
+          margin-top: 3em; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-02 {
+          max-width: 20em;
+          margin-top: 3em; } }
+      .card-section-02 .card__upward .upward-item-02 .item-02-content {
+        padding: 1em;
+        margin: -14em auto 0 auto;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        font-style: italic; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content {
+            background: #30124E;
+            width: 15em;
+            position: absolute;
+            color: #FCFCFC;
+            top: 14em;
+            right: -10.0em;
+            padding: 5em;
+            height: 23.5em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content {
+            background: #30124E;
+            width: 13em;
+            position: absolute;
+            top: 20em;
+            right: -12em;
+            height: 17em;
+            z-index: 2; }
+            .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
+              font-size: 1.5em;
+              color: #F4F4ED; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__upward .upward-item-02 .item-02-content .item-02-p {
+            color: #F4F4ED; } }
+        .card-section-02 .card__upward .upward-item-02 .item-02-content .fa {
+          font-size: 1.5em; }
+    .card-section-02 .card__upward .upward-item-03 {
+      display: none; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__upward .upward-item-03 {
+          display: block;
+          height: 25em;
+          width: 15em;
+          margin: 1.5em 0 5em -3em;
+          background: #30124E; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__upward .upward-item-03 {
+          display: block;
+          height: 25em;
+          width: 15em;
+          margin: 1.5em 0 5em -3em;
+          background: #30124E; }
+          .card-section-02 .card__upward .upward-item-03::before {
+            content: '';
+            position: relative;
+            display: block;
+            height: 23.5em;
+            width: 10em;
+            margin: 1.5em 0 5em 1.8em;
+            background: #30124E;
+            z-index: 1; } }
+  .card-section-02 .card__downward {
+    display: flex;
+    flex-flow: column wrap; }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      .card-section-02 .card__downward {
+        flex-flow: row wrap; } }
+    @media (min-width: 1201px) {
+      .card-section-02 .card__downward {
+        flex-flow: row wrap;
+        padding: 0;
+        margin-top: -2.5em; } }
+    .card-section-02 .card__downward .downward-item-01 {
+      flex: 1;
+      background: #30124E;
+      padding: 1em;
+      text-align: center;
+      color: #FFF; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-01 {
+          padding: 5em 8em 5em 6em;
+          text-align: left;
+          flex-grow: 22; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-01 {
+          max-width: 50em;
+          padding: 5em 12em;
+          text-align: left;
+          flex-grow: 10; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h4 {
+        color: #F61067;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.8em;
+        font-weight: 800;
+        font-style: normal;
+        letter-spacing: 0.2em;
+        text-transform: uppercase; }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2em;
+        font-weight: 500;
+        font-style: normal;
+        color: #FCFCFC; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-h1 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.6em;
+            font-weight: 500;
+            font-style: normal; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal;
+        color: #FCFCFC;
+        line-height: 2em;
+        margin-bottom: 2.5em; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
+          display: none; }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-h3 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.8em;
+            font-weight: 800;
+            font-style: normal; }
+            .card-section-02 .card__downward .downward-item-01 .item-01-h3 br {
+              display: block; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.8em;
+        font-weight: normal;
+        font-style: normal;
+        color: #FCFCFC;
+        line-height: 2em;
+        padding: 1em; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-p br {
+          display: none; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-p {
+            text-align: left;
+            padding: 0; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.6em;
+            font-weight: 500;
+            font-style: normal;
+            padding: 0;
+            margin-bottom: 1.2em; }
+            .card-section-02 .card__downward .downward-item-01 .item-01-p br {
+              display: block; } }
+      .card-section-02 .card__downward .downward-item-01 .item-01-button {
+        width: 50%;
+        height: 3em;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal;
+        background: #F61067;
+        color: #FFF;
+        border: none;
+        border-radius: 1.5em;
+        text-transform: uppercase;
+        outline: none;
+        cursor: pointer; }
+        .card-section-02 .card__downward .downward-item-01 .item-01-button:hover {
+          background: #df0672;
+          transition: all 1s ease-in-out; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-button {
+            width: 50%;
+            margin-top: 2em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-01 .item-01-button {
+            width: 30%;
+            margin: 1em 0 1em 0;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 0.9em;
+            font-weight: 500;
+            font-style: normal; } }
+    .card-section-02 .card__downward .downward-item-02 {
+      flex: 1 0 20em;
+      background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Home_01_second_image.png");
+      background-blend-mode: normal;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center center; }
+      @media (min-width: 500px) and (max-width: 900px) {
+        .card-section-02 .card__downward .downward-item-02 {
+          flex: 1 0 35em; } }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-02 {
+          height: 25em;
+          margin: 5em 1em 0 -7em; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-02 {
+          max-width: 20em;
+          height: 25em;
+          margin: 9em 1em 0 -7em; } }
+    .card-section-02 .card__downward .downward-item-03 {
+      display: none; }
+      @media (min-width: 900px) and (max-width: 1200px) {
+        .card-section-02 .card__downward .downward-item-03 {
+          display: block; } }
+      @media (min-width: 1201px) {
+        .card-section-02 .card__downward .downward-item-03 {
+          display: block; } }
+      .card-section-02 .card__downward .downward-item-03 .item-03-p {
+        writing-mode: vertical-lr;
+        margin-top: 12em; }
+        @media (min-width: 900px) and (max-width: 1200px) {
+          .card-section-02 .card__downward .downward-item-03 .item-03-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.2em;
+            font-weight: 500;
+            font-style: normal;
+            color: #5E239D;
+            padding: 2em;
+            margin-top: 7em;
+            letter-spacing: 0.2em; } }
+        @media (min-width: 1201px) {
+          .card-section-02 .card__downward .downward-item-03 .item-03-p {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1em;
+            font-weight: 500;
+            font-style: normal;
+            color: #5E239D;
+            padding: 0;
+            margin-top: 16em;
+            margin-left: 2.3em;
+            letter-spacing: 0.2em; } }
+
+@media screen and (max-width: 600px) {
+  .about-header {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    height: auto;
+    background: #FCFCFC; }
+    .about-header__top {
+      width: 100%;
+      flex-direction: row !important; }
+      .about-header__top__logo {
+        margin-left: 7%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 5vmin;
+        font-weight: 900;
+        line-height: normal;
+        color: #30124E; }
+      .about-header__top .about-nav {
+        width: 75%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 3vmin;
+        font-weight: 800;
+        margin-left: 5vw;
+        line-height: normal;
+        flex-direction: row !important; }
+        .about-header__top .about-nav .about-nav__list {
+          flex-direction: row !important; }
+          .about-header__top .about-nav .about-nav__list .list--style {
+            display: none; }
+            .about-header__top .about-nav .about-nav__list .list--style a {
+              color: #150433; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1.5vmin; }
+          .about-header__top .about-nav__menu .filter-dropdown {
+            position: absolute;
+            top: 10vmin;
+            right: 0;
+            width: 25vmin;
+            align-content: center;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2vmin;
+            font-style: normal;
+            font-weight: 800;
+            list-style: none;
+            background: #FCFCFC;
+            border: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .tog {
+              display: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .list--style {
+              margin-left: 1vmin;
+              margin-bottom: 2vmin; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
+                cursor: pointer; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
+                color: #150433; }
+    .about-header .about-header__bottom {
+      height: 70%;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 7%;
+        font-size: 5vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F61067;
+        line-height: normal; }
+      .about-header .about-header__bottom__p {
+        margin-left: 7%;
+        margin-bottom: 4%;
+        font-size: 2.5vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F4F4ED; }
+  .about-main {
+    background: #FCFCFC; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 7%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2.8vmin;
+      line-height: normal; }
+    .about-main__p1 {
+      margin-left: 7%;
+      margin-bottom: 7%;
+      width: 90%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 5vmin;
+      color: #30233D; }
+    .about-main .about-main__bottom {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    .about-main__bottom {
+      margin-top: 5%;
+      margin-left: 7%;
+      margin-right: 2%; }
+      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+        color: #30233D;
+        font-size: 3.5vmin;
+        font-weight: 500;
+        line-height: normal;
+        font-family: "M PLUS 1p", sans-serif; }
+      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 3.2vmin;
+        color: #776C82; } }
+
+@media screen and (min-width: 600px) {
+  .about-header {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    overflow-x: hidden; }
+    .about-header__top {
+      width: 100%;
+      background: white;
+      margin-bottom: 0; }
+      .about-header__top__logo {
+        margin-left: 8%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 4.5vmin;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        color: #150433; }
+      .about-header__top .about-nav {
+        width: 80%;
+        height: 100%;
+        background: white; }
+        .about-header__top .about-nav .about-nav__list {
+          margin-top: 1%;
+          background: white;
+          color: #150433; }
+          .about-header__top .about-nav .about-nav__list .about-list--style {
+            list-style: none;
+            margin-top: 3%;
+            margin-left: 1%;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2.8vmin;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            color: #150433; }
+            .about-header__top .about-nav .about-nav__list .about-list--style .about-link,
+            .about-header__top .about-nav .about-nav__list .about-list--style a {
+              color: #150433 !important; }
+        .about-header__top .about-nav ul {
+          width: 80%;
+          list-style: none; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1%;
+          margin-left: 6%; }
+          .about-header__top .about-nav__menu .list--style {
+            display: none; }
+    .about-header .about-header__bottom {
+      width: 100%;
+      height: auto;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 8%;
+        font-size: 6vmin;
+        line-height: normal;
+        color: #F61067; }
+      .about-header .about-header__bottom .about-header__bottom__p {
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 8%;
+        font-size: 2.5vmin;
+        color: #FCFCFC; }
+  .about-main {
+    background: white; }
+    .about-main__h4 {
+      margin-top: 5%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067; }
+    .about-main__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 50%;
+      font-size: 4vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #30233D; }
+    .about-main__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%; }
+      .about-main__bottom__left, .about-main__bottom__right {
+        width: 49%; }
+        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-weight: 500;
+          color: #30233D;
+          line-height: normal; }
+        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+          font-family: "M PLUS 1p", sans-serif;
+          color: #776C82; }
+  .about-link {
+    color: #150433;
+    font-weight: 600; }
+    .about-link .svg-phone {
+      margin-top: 1%; } }
+
+.main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+  width: 20%;
+  margin-right: 7%; }
+
+@media screen and (max-width: 450px) {
+  .flex-row .main1__top__1,
+  .flex-row .main1__top__2,
+  .flex-row .main1__top__3,
+  .flex-row .main1__bottom__1,
+  .flex-row .main1__bottom__2,
+  .flex-row .main1__bottom__3 {
+    width: 90%;
+    margin: 5%; }
+  .main__p1 {
+    margin-top: 10%;
+    font-size: 2.5vmin; }
+  .main__h2 {
+    font-size: 4vmin;
+    line-height: normal; }
+  .main1__p2 {
+    width: 100% !important; }
+  .flex-row {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    align-items: center; }
+    .flex-row .main1__bottom__1 {
+      order: 1; }
+    .flex-row .main1__bottom__2 {
+      order: 0; }
+    .flex-row .main1__bottom__3 {
+      order: 2; }
+  .main1__p3 {
+    font-size: 4vmin !important; }
+  .head--1,
+  .head--2,
+  .head--3,
+  .head--4,
+  .head--5,
+  .head--6 {
+    width: 100%;
+    font-size: 4.5vmin !important;
+    margin: 0 auto; }
+  .main1__btn {
+    width: 25vw !important;
+    height: 5vw !important; }
+  svg {
+    margin: 0 auto; } }
+
+.main1 {
+  width: 100%;
+  background: #150433; }
+  .main1__p1 {
+    margin-top: 22%;
+    font-size: 2.5vmin;
+    color: #F61067; }
+  .main1__h2 {
+    color: #FCFCFC;
+    font-size: 4.5vmin;
+    line-height: normal; }
+  .main1__p2 {
+    width: 50%;
+    text-align: center;
+    color: #FCFCFC;
+    margin-bottom: 7%; }
+  .main1__top {
+    width: 100%; }
+    .main1__top__1, .main1__top__2, .main1__top__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1__bottom {
+    margin: 5vmin 15vmin;
+    width: 100%; }
+    .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1 .main1__p3 {
+    color: #FCFCFC;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 2.5vmin;
+    line-height: normal; }
+  .main1 .head--1 {
+    margin: 0 auto;
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--2 {
+    margin: 0 auto;
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--3 {
+    margin: 0 auto;
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--4 {
+    margin: 0 auto;
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--5 {
+    margin: 0 auto;
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--6 {
+    margin: 0 auto;
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1__btn {
+    width: 15vw;
+    height: 3.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 2vmin; }
+    .main1__btn:hover {
+      background: #f84186; }
+
+.card-section .blank {
+  margin: 0;
+  padding: 0; }
+  .card-section .blank .blank__content {
+    background: #150433;
+    width: 100%;
+    height: 40vh;
+    color: #FFF; }
+
+.card-section .card {
+  margin: 0;
+  padding: 0;
+  border: none; }
+  .card-section .card .card .card__photos {
+    position: relative;
+    background: #FCFCFC;
+    width: 100%;
+    height: 40vh;
+    border: none; }
+    @media (min-width: 1201px) {
+      .card-section .card .card .card__photos {
+        width: 100%;
+        height: 80vh; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card .card__photos {
+        width: 100%;
+        height: 58vh; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images {
+      position: absolute; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images {
+      position: absolute; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-1 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 9em;
+      position: absolute;
+      top: 4.2em;
+      left: 17em;
+      width: 4.5em;
+      height: 4.5em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-1 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 8em 8em;
+      position: absolute;
+      top: 2.5em;
+      left: 5em;
+      width: 4.0em;
+      height: 4.0em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-1 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-2 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 9em 9em;
+      position: absolute;
+      top: 12em;
+      left: 8em;
+      object-position: center;
+      width: 4em;
+      height: 4em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-2 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 8em 8em;
+      position: absolute;
+      top: 8em;
+      left: 4em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-2 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-3 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 6em 6em;
+      position: absolute;
+      top: 10em;
+      left: 25em;
+      object-position: center;
+      width: 2.2em;
+      height: 2.2em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-3 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 6em 6em;
+      position: absolute;
+      top: 6.5em;
+      left: 13em;
+      object-position: center;
+      width: 2.2em;
+      height: 2.2em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-3 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-4 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 10em;
+      right: 23em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-4 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 6em;
+      right: 12em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-4 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-5 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 11em;
+      right: 11em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-5 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
+      background-size: 7em 7em;
+      position: absolute;
+      top: 8em;
+      right: 2em;
+      object-position: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-5 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-6 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 6em;
+      right: 18em;
+      object-position: center;
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-6 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 4em;
+      right: 7em;
+      object-position: center;
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-6 {
+      display: none; } }
+  @media (min-width: 1201px) {
+    .card-section .card .card-positioned-images.image-7 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 2em;
+      right: 11em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .card-section .card .card-positioned-images.image-7 {
+      display: block;
+      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: normal;
+      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
+      background-size: 9em 10em;
+      position: absolute;
+      top: 2em;
+      right: 2em;
+      object-position: center;
+      width: 3.5em;
+      height: 3.5em;
+      border-radius: 50%; } }
+  @media (max-width: 839px) {
+    .card-section .card .card-positioned-images.image-7 {
+      display: none; } }
+  .card-section .card .card-positioned-icon {
+    position: absolute; }
+    .card-section .card .card-positioned-icon .fa-arrow-right {
+      position: absolute;
+      top: 18em;
+      left: 60em;
+      border: 1px solid #F61067;
+      color: #F61067;
+      padding: 0.6em;
+      border-radius: 50%;
+      font-weight: 100; }
+      .card-section .card .card-positioned-icon .fa-arrow-right:hover {
+        background: #F61067;
+        transition: background .8s ease-in-out;
+        color: #FFF;
+        border: 1px solid #FFF;
+        cursor: pointer; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
+          display: none; } }
+      @media (max-width: 839px) {
+        .card-section .card .card-positioned-icon .fa-arrow-right {
+          display: none; } }
+    .card-section .card .card-positioned-icon .fa-arrow-left {
+      position: absolute;
+      top: 18em;
+      left: 11em;
+      background: #F61067;
+      color: #FFF;
+      padding: 0.6em;
+      border-radius: 50%;
+      font-weight: 100; }
+      .card-section .card .card-positioned-icon .fa-arrow-left:hover {
+        background: #FFF;
+        transition: background .8s ease-in-out;
+        color: #F61067;
+        border: 1px solid #F61067;
+        cursor: pointer; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
+          display: none; } }
+      @media (max-width: 839px) {
+        .card-section .card .card-positioned-icon .fa-arrow-left {
+          display: none; } }
+  .card-section .card img.card-center-image {
+    display: block;
+    background: none;
+    margin: -5em auto 0 auto;
+    width: 13em;
+    height: 13em; }
+    .card-section .card img.card-center-image .card-section-home02 {
+      display: block;
+      background: none;
+      margin: 5em auto 0 auto;
+      width: 13em;
+      height: 13em; }
+    @media (min-width: 1201px) {
+      .card-section .card img.card-center-image {
+        width: 20em;
+        height: 20em; } }
+  .card-section .card i.card__photos-fa {
+    margin: -0.4em auto 0 auto;
+    color: #F61067;
+    font-size: 3em;
+    z-index: 2; }
+  .card-section .card h3.card__photos-h3 {
+    font-family: "Noticia Text", serif;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.2em; }
+    @media (min-width: 1201px) {
+      .card-section .card h3.card__photos-h3 {
+        font-family: "Noticia Text", serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 1.5em; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card h3.card__photos-h3 {
+        font-family: "Noticia Text", serif;
+        font-size: 1.3em;
+        font-weight: normal;
+        font-style: italic;
+        line-height: 1.7em;
+        margin-top: 1.3em; } }
+  .card-section .card .card__photos-tagline {
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 3em; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__photos-tagline {
+        font-size: 1em; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card__photos-tagline {
+        font-size: 1em; } }
+  .card-section .card .card__photos-tagline span {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.8em;
+    font-weight: 800;
+    font-style: normal;
+    color: #F61067; }
+  .card-section .card .card__newsletter {
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 5em; }
+
+@ince desktop {
+  .card-section .card .card__newsletter {
+    padding: 5em;
+    padding: 7rem 0; } }
+    @media (max-width: 839px) {
+      .card-section .card .card__newsletter {
+        padding: 5em; } }
+  .card-section .card h3.card__newsletter-h3 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal; }
+    @media (min-width: 1201px) {
+      .card-section .card h3.card__newsletter-h3 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.8em;
+        font-weight: 500;
+        font-style: normal; } }
+  .card-section .card p.card__newsletter-p {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    font-style: normal; }
+    @media (min-width: 1201px) {
+      .card-section .card p.card__newsletter-p {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        font-style: normal; } }
+  .card-section .card .card__newsletter-form {
+    padding: 2em; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter-form {
+        width: 50%;
+        display: inline-flex;
+        margin: 0 auto; } }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .card-section .card .card__newsletter-form {
+        padding: 0 10em; } }
+  .card-section .card .card__newsletter-form input.card__newsletter-input {
+    width: 100%;
+    height: 3.0em;
+    border-bottom: 2px solid #F4F4ED;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none; }
+  .card-section .card input::placeholder {
+    color: #9B94A3;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.7em;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    line-height: 3.5em; }
+  .card-section .card .card__newsletter-form button.card__newsletter-button {
+    width: 100%;
+    height: 3.6em;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 0.7em;
+    font-weight: 800;
+    font-style: normal;
+    background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    border: none;
+    border-bottom: 2px solid #F4F4ED;
+    margin-top: 0.7em;
+    line-height: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #F61067; }
+    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
+      background: rgba(212, 187, 187, 0.5);
+      transition: background .8s ease-in-out;
+      cursor: pointer; }
+    @media (min-width: 1201px) {
+      .card-section .card .card__newsletter-form button.card__newsletter-button {
+        width: 70%; } }
+  .card-section .card button.card__newsletter-button i.button-fa {
+    border: 1px solid rgba(246, 16, 103, 0.5);
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 50%;
+    margin-left: 1.3em; }
+
+.blank1 {
+  margin: 0;
+  padding: 0; }
+  .blank1 .blank1__content {
+    width: 100%;
+    height: 25vh;
+    color: #FFF; }
+
+.card__icon--white {
+  font-size: 5rem;
+  color: #FCFCFC; }
+
+@media (max-width: 839px) {
+  .about04-html .abt4-container-fluid {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 100%;
+    background: #30124E;
+    color: #FCFCFC;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } }
+
+@media (min-width: 840px) and (max-width: 1200px) {
+  .about04-html .abt4-container-fluid {
+    width: 100%;
+    background: #30124E;
+    color: #FCFCFC;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } }
+
+@media (min-width: 1201px) {
+  .about04-html .abt4-container-fluid {
+    width: 85%;
+    background: #30124E;
+    color: #FCFCFC;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } }
+
+.about04-html .abt4-container-fluid .abt4-what-we-do {
+  padding: 0;
+  margin: 0; }
+  .about04-html .abt4-container-fluid .abt4-what-we-do .what-we-do {
+    display: flex;
+    margin: 0;
+    padding: 5em;
+    flex-flow: column wrap;
+    align-content: flex-start; }
+
+.about04-html .abt4-container-fluid .row .col-1 {
+  background: #FCFCFC;
+  color: #F61067; }
+  @media (min-width: 841px) and (max-width: 989px) {
+    .about04-html .abt4-container-fluid .row .col-1 .col-1 {
+      display: none; } }
+  @media (max-width: 839px) {
+    .about04-html .abt4-container-fluid .row .col-1 {
+      display: none; } }
+  .about04-html .abt4-container-fluid .row .col-1 .col-heading__primary1 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: normal; }
+
+@media (max-width: 839px) {
+  .about04-html .abt4-container-fluid .row .image {
+    display: none; } }
+
+@media (min-width: 1201px) {
+  .about04-html .abt4-container-fluid .row .image {
+    height: 30em;
+    background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628376/team-rebel/Home-01/Home_01_first_image.png"), #F61067;
+    background-position: 20% 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -17em;
+    top: -4em; }
+    .about04-html .abt4-container-fluid .row .image::before {
+      content: '';
+      z-index: 1;
+      width: 16em;
+      height: 15em;
+      position: absolute;
+      bottom: -7.5em;
+      right: 0;
+      background: #5E239D; } }
+
+.about04-html .about4-wrap {
+  margin-top: -20em;
+  padding: 20em 0 0 0;
+  background: #5E239D; }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .about04-html .about4-wrap {
+      margin-top: -3em;
+      padding: 0; } }
+  @media (min-width: 1201px) {
+    .about04-html .about4-wrap {
+      margin-top: -20em;
+      padding: 20em 0 0 0;
+      background: #5E239D; } }
+  .about04-html .about4-wrap .client__part {
+    padding: 4em 0 0 4em; }
+    .about04-html .about4-wrap .client__part--title {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      letter-spacing: .3em; }
+    .about04-html .about4-wrap .client__part--body {
+      color: #FCFCFC;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2em;
+      font-weight: 500;
+      font-style: normal; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .about04-html .about4-wrap .client__part--body {
+          color: #FCFCFC;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 500;
+          font-style: normal; } }
+      @media (max-width: 839px) {
+        .about04-html .about4-wrap .client__part--body {
+          color: #FCFCFC;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.1em;
+          font-weight: 500;
+          font-style: normal; } }
+  .about04-html .about4-wrap .blue__bg {
+    padding: 0 3em;
+    background: #5E239D; }
+    .about04-html .about4-wrap .blue__bg:hover {
+      background: #F61067;
+      transition: background .5s ease-in-out; }
+    .about04-html .about4-wrap .blue__bg--title {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.5em;
+      font-weight: 500;
+      font-style: normal;
+      color: #FCFCFC; }
+  .about04-html .about4-wrap .client__logo:hover {
+    background: #F61067;
+    transition: background .5s ease-in-out; }
+  .about04-html .about4-wrap .client__logo--title {
+    padding: 1em;
+    color: #FCFCFC; }
+    @media (max-width: 839px) {
+      .about04-html .about4-wrap .client__logo--title {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 3em; } }
+  .about04-html .about4-wrap .client__logo--image {
+    margin: 0 auto; }
+    @media (max-width: 839px) {
+      .about04-html .about4-wrap .client__logo--image {
+        margin: 0 auto; } }
+  .about04-html .about4-wrap .client__bg {
+    margin: 0;
+    padding: 0;
+    background: #5E239D; }
+    .about04-html .about4-wrap .client__bg--title {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      letter-spacing: .3em;
+      padding-left: 4.5em; }
+      @media (max-width: 839px) {
+        .about04-html .about4-wrap .client__bg--title {
+          padding: 1em 0;
+          text-align: center; } }
+    .about04-html .about4-wrap .client__bg--text {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 500;
+      font-style: normal;
+      line-height: 1.5em;
+      padding-left: 3em; }
+    .about04-html .about4-wrap .client__bg .abt4-down {
+      margin: 0;
+      padding: 0; }
+      .about04-html .about4-wrap .client__bg .abt4-down .u-margin-none {
+        padding: 5em; }
+      .about04-html .about4-wrap .client__bg .abt4-down .u-margin-bottom-medium {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box; }
+      .about04-html .about4-wrap .client__bg .abt4-down .value__card--title {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal; }
+      .about04-html .about4-wrap .client__bg .abt4-down .value__card--body {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.7em;
+        font-weight: normal;
+        font-style: normal; }
+
+.section-intro {
+  box-sizing: border-box;
+  padding: 4em 1.5em;
+  margin-bottom: -10em; }
+  .section-intro .intro__top {
+    display: flex;
+    padding: 2em 0;
+    flex-flow: column wrap; }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .section-intro .intro__top {
+        padding: 0 0 0 3em; } }
+    @media (min-width: 1201px) {
+      .section-intro .intro__top {
+        padding: 0 0 0 3em; } }
+    .section-intro .intro__top .intro__top--h5 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.9em;
+      font-weight: 800;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #F61067;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.1em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left; } }
+    .section-intro .intro__top .intro__top--h2 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.5em;
+      font-weight: 800;
+      font-style: normal;
+      line-height: 0.9;
+      color: #30233D;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--h2 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 2em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--h2 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left; } }
+    .section-intro .intro__top .intro__top--article {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      font-style: normal;
+      color: #30233D; }
+      .section-intro .intro__top .intro__top--article br {
+        display: none; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--article {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.3em;
+          font-weight: 800;
+          font-style: normal;
+          padding: 1em 0;
+          text-align: left; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--article {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left;
+          padding: 2em 0; }
+          .section-intro .intro__top .intro__top--article br {
+            display: block; } }
+  .section-intro .intro__bottom {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1em 0; }
+    @media (min-width: 1201px) {
+      .section-intro .intro__bottom {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 1.5em; } }
+    .section-intro .intro__bottom .intro__bottom--items {
+      margin: 0 0 1em 0;
+      flex: 1;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__bottom .intro__bottom--items {
+          padding: 2em 0; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__bottom .intro__bottom--items {
+          margin-right: 0.8em;
+          padding: 1.3em 0.8em 0 0.8em; } }
+      .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.3em;
+        font-weight: 500;
+        font-style: normal; }
+        @media (min-width: 840px) and (max-width: 1200px) {
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2em;
+            font-weight: 800;
+            font-style: normal;
+            padding: 1em 0; } }
+        @media (min-width: 1201px) {
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.3em;
+            font-weight: 800;
+            font-style: normal;
+            padding: .5em 0; } }
+      .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p br {
+        display: none; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p {
+          text-align: left; }
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p br {
+            display: block; } }
+
+.triangle {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #30124E; }
+  @media (min-width: 1201px) {
+    .triangle {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #30124E; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle .items--image {
+      background: #30124E;
+      background-image: linear-gradient(270.72deg, #30124E 0.57%, rgba(48, 18, 78, 0) 18.8%), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle .items--brand {
+    color: #FCFCFC; }
+    .triangle .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
+
+.what-we-do-stats {
+  padding: 6rem; }
+  .what-we-do-stats__primary {
+    color: #F61067; }
+  .what-we-do-stats__secondary {
+    color: #5E239D; }
+  .what-we-do-stats__tertiary {
+    color: #00F0B5; }
+
+.our-service {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.service__headtext {
+  padding-bottom: 5%; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%;
+    padding: 3%; }
+
+.our-service {
+  background-color: #FCFCFC;
+  color: #150433; }
+
+.service__headtext {
+  padding-bottom: 5%;
+  text-align: center; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%; }
+
+@media screen and (max-width: 600px) {
+  .team-about-header__bottom {
+    width: 100%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .team-about-header__bottom__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .team-about-header__bottom__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.team-about-header__bottom {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .team-about-header__bottom__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .team-about-header__bottom__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.team-main {
+  width: 100%; }
+  .team-main__p1 {
+    margin-top: 10%;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    color: #F61067; }
+  .team-main__h4 {
+    margin-top: 1%;
+    font-size: 5vmin;
+    color: #30233D; }
+  .team-main__p2 {
+    width: 32%;
+    margin-bottom: 20%;
+    font-size: 2.5vmin;
+    text-align: center;
+    color: #30233D; }
+  .team-main__bottom {
+    background: #150433; }
+    .team-main__bottom-up {
+      width: 100%;
+      margin-top: -10%; }
+      .team-main__bottom-up-1 .team-main__bottom-up-h5, .team-main__bottom-up-2 .team-main__bottom-up-h5, .team-main__bottom-up-3 .team-main__bottom-up-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-up-1 .team-main__bottom-up-p2, .team-main__bottom-up-2 .team-main__bottom-up-p2, .team-main__bottom-up-3 .team-main__bottom-up-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom-down {
+      width: 100%;
+      margin-top: 15vmin;
+      margin-bottom: 5%; }
+      .team-main__bottom-down-1 .team-main__bottom-down-h5, .team-main__bottom-down-2 .team-main__bottom-down-h5, .team-main__bottom-down-3 .team-main__bottom-down-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-down-1 .team-main__bottom-down-p2, .team-main__bottom-down-2 .team-main__bottom-down-p2, .team-main__bottom-down-3 .team-main__bottom-down-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom .svg {
+      width: 100%; }
+    .team-main__bottom .team-images {
+      width: 40vmin;
+      height: auto; }
+    @media screen and (max-width: 450px) {
+      .team-main__bottom .team-main__bottom-up, .team-main__bottom .team-main__bottom-down {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; }
+        .team-main__bottom .team-main__bottom-up-1, .team-main__bottom .team-main__bottom-up-2, .team-main__bottom .team-main__bottom-up-3, .team-main__bottom .team-main__bottom-down-1, .team-main__bottom .team-main__bottom-down-2, .team-main__bottom .team-main__bottom-down-3 {
+          margin-bottom: 10vmin; }
+        .team-main__bottom .team-main__bottom-up .svg, .team-main__bottom .team-main__bottom-down .svg {
+          width: 70%; }
+      .team-main__bottom .carousel {
+        margin-bottom: 0; }
+      .team-main__bottom .footer {
+        margin-top: 5%; } }
+  .team-main .carousel {
+    margin-bottom: 0; }
+
+@media screen and (max-width: 600px) {
+  .team-about-header__bottom {
+    width: 100%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .team-about-header__bottom__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .team-about-header__bottom__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.team-about-header__bottom {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .team-about-header__bottom__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .team-about-header__bottom__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.team-main {
+  width: 100%; }
+  .team-main__p1 {
+    margin-top: 10%;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    color: #F61067; }
+  .team-main__h4 {
+    margin-top: 1%;
+    font-size: 5vmin;
+    color: #30233D; }
+  .team-main__p2 {
+    width: 32%;
+    margin-bottom: 20%;
+    font-size: 2.5vmin;
+    text-align: center;
+    color: #30233D; }
+  .team-main .team2-main__bottom {
+    background: #150433; }
+    @media screen and (max-width: 450px) {
+      .team-main .team2-main__bottom {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; } }
+    .team-main .team2-main__bottom-up {
+      width: 30%;
+      margin-top: -28%; }
+      .team-main .team2-main__bottom-up-1 .team2-main__bottom-up-h5, .team-main .team2-main__bottom-up-2 .team2-main__bottom-up-h5, .team-main .team2-main__bottom-up-3 .team2-main__bottom-up-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main .team2-main__bottom-up-1 .team2-main__bottom-up-p2, .team-main .team2-main__bottom-up-2 .team2-main__bottom-up-p2, .team-main .team2-main__bottom-up-3 .team2-main__bottom-up-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main .team2-main__bottom-down {
+      width: 30%;
+      margin-top: -5%;
+      margin-bottom: 5%;
+      margin-left: 5%; }
+      .team-main .team2-main__bottom-down-2 {
+        width: 100%;
+        background: #5E239D;
+        margin-top: 7vmin; }
+        .team-main .team2-main__bottom-down-2 .head-5 {
+          margin-top: 5vmin;
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 3vmin;
+          color: white; }
+        .team-main .team2-main__bottom-down-2 .p1 {
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5vmin;
+          color: white;
+          opacity: 0.5;
+          letter-spacing: 0.5vmin; }
+        .team-main .team2-main__bottom-down-2 .p2 {
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 2vmin;
+          color: white; }
+        .team-main .team2-main__bottom-down-2 .img-5 {
+          width: 25%;
+          height: 14vmin;
+          margin-top: 15%;
+          margin-bottom: 5vmin;
+          margin-left: 10vmin;
+          border-radius: 50%; }
+      .team-main .team2-main__bottom-down-1 .team2-main__bottom-down-h5, .team-main .team2-main__bottom-down-2 .team2-main__bottom-down-h5, .team-main .team2-main__bottom-down-3 .team2-main__bottom-down-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main .team2-main__bottom-down-1 .team2-main__bottom-down-p2, .team-main .team2-main__bottom-down-2 .team2-main__bottom-down-p2, .team-main .team2-main__bottom-down-3 .team2-main__bottom-down-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main .team2-main__bottom .svg {
+      width: 100%; }
+    .team-main .team2-main__bottom .team-images {
+      width: 40vmin;
+      height: auto;
+      margin-top: 15%; }
+    @media screen and (max-width: 450px) {
+      .team-main .team2-main__bottom .team2-main__bottom-up, .team-main .team2-main__bottom .team2-main__bottom-down {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; }
+        .team-main .team2-main__bottom .team2-main__bottom-up-1, .team-main .team2-main__bottom .team2-main__bottom-up-2, .team-main .team2-main__bottom .team2-main__bottom-up-3, .team-main .team2-main__bottom .team2-main__bottom-down-1, .team-main .team2-main__bottom .team2-main__bottom-down-2, .team-main .team2-main__bottom .team2-main__bottom-down-3 {
+          margin-bottom: 10vmin; }
+        .team-main .team2-main__bottom .team2-main__bottom-up .svg, .team-main .team2-main__bottom .team2-main__bottom-down .svg {
+          width: 70%; }
+      .team-main .team2-main__bottom .team2-main__bottom-up {
+        margin-top: -20%; }
+      .team-main .team2-main__bottom .team2-main__bottom-down-2 {
+        width: 70vmin;
+        order: 3; }
+      .team-main .team2-main__bottom .carousel {
+        margin-bottom: 0; }
+      .team-main .team2-main__bottom .footer {
+        margin-top: 5%; } }
+  .team-main .carousel {
+    margin-bottom: 0; }
+
+.gallery__bottom {
+  background: white; }
+  .gallery__bottom__h2 {
+    margin-top: 5vmin;
+    margin-left: 7%;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 5vmin;
+    font-weight: 900;
+    line-height: normal;
+    color: #F61067; }
+  .gallery__bottom__p {
+    margin-left: 7%;
+    margin-bottom: 15%;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 2vmin;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #150433; }
+
+.gallery-main__pics {
+  height: 335vmin;
+  margin-bottom: 10%; }
+  @media screen and (max-width: 450px) {
+    .gallery-main__pics {
+      flex-direction: column !important;
+      -ms-flex-direction: column !important;
+      height: 650vmin; } }
+  .gallery-main__pics-left {
+    width: 50%; }
+    @media screen and (max-width: 450px) {
+      .gallery-main__pics-left {
+        width: 100%;
+        height: 100%; } }
+    .gallery-main__pics-left-1 {
+      height: 32.5%;
+      background: #5E239D url("https://res.cloudinary.com/john-pels/image/upload/v1568628339/team-rebel/Gallery-01/Rectangle_3.1.png") no-repeat;
+      background-blend-mode: multiply;
+      background-size: cover; }
+      .gallery-main__pics-left-1--h6 {
+        padding-top: 10%;
+        padding-left: 25%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5vmin;
+        font-weight: 900;
+        letter-spacing: 1vmin;
+        color: white; }
+      .gallery-main__pics-left-1--p {
+        padding-left: 25%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.5vmin;
+        font-weight: 400;
+        letter-spacing: 0.5vmin;
+        color: white; }
+    .gallery-main__pics-left-2 {
+      height: 32.5%;
+      background: #F61067 url("https://res.cloudinary.com/john-pels/image/upload/v1568628336/team-rebel/Gallery-01/Rectangle_3.2.png") no-repeat;
+      background-blend-mode: multiply;
+      background-size: cover; }
+      .gallery-main__pics-left-2--h6 {
+        padding-top: 10%;
+        padding-left: 25%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5vmin;
+        font-weight: 900;
+        letter-spacing: 1vmin;
+        color: white; }
+      .gallery-main__pics-left-2--p {
+        padding-left: 25%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.5vmin;
+        font-weight: 400;
+        letter-spacing: 0.5vmin;
+        color: white; }
+    .gallery-main__pics-left-3 {
+      height: 35%;
+      background: #00F0B5 url("https://res.cloudinary.com/john-pels/image/upload/v1568628338/team-rebel/Gallery-01/Rectangle_3.4.png") no-repeat;
+      background-blend-mode: multiply;
+      background-size: cover; }
+      .gallery-main__pics-left-3--h6 {
+        padding-top: 10%;
+        padding-left: 25%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5vmin;
+        font-weight: 900;
+        letter-spacing: 1vmin;
+        color: white; }
+      .gallery-main__pics-left-3--p {
+        padding-left: 25%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.5vmin;
+        font-weight: 400;
+        letter-spacing: 0.5vmin;
+        color: white; }
+  .gallery-main__pics-right {
+    width: 50%; }
+    @media screen and (max-width: 450px) {
+      .gallery-main__pics-right {
+        width: 100%;
+        height: 100%; } }
+    .gallery-main__pics-right-1 {
+      height: 35%;
+      background: #00F0B5 url("https://res.cloudinary.com/john-pels/image/upload/v1568628338/team-rebel/Gallery-01/Rectangle_3.png") no-repeat;
+      background-blend-mode: multiply;
+      background-size: cover; }
+      .gallery-main__pics-right-1--h6 {
+        padding-top: 10%;
+        padding-left: 15%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5vmin;
+        font-weight: 900;
+        letter-spacing: 1vmin;
+        color: white; }
+      .gallery-main__pics-right-1--p {
+        padding-left: 15%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.5vmin;
+        font-weight: 400;
+        letter-spacing: 0.5vmin;
+        color: white; }
+    .gallery-main__pics-right-2 {
+      height: 32.5%;
+      background: #F61067 url("https://res.cloudinary.com/john-pels/image/upload/v1568628336/team-rebel/Gallery-01/Rectangle_3.2.png") no-repeat;
+      background-blend-mode: multiply;
+      background-size: cover; }
+    .gallery-main__pics-right-3 {
+      height: 32.5%;
+      background: #5E239D url("https://res.cloudinary.com/john-pels/image/upload/v1568628337/team-rebel/Gallery-01/Rectangle_3.3.png") no-repeat;
+      background-blend-mode: multiply;
+      background-size: cover; }
+      .gallery-main__pics-right-3--h6 {
+        padding-top: 10%;
+        padding-left: 15%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2.5vmin;
+        font-weight: 900;
+        letter-spacing: 1vmin;
+        color: white; }
+      .gallery-main__pics-right-3--p {
+        padding-left: 15%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.5vmin;
+        font-weight: 400;
+        letter-spacing: 0.5vmin;
+        color: white; }
+
+@media screen and (max-width: 450px) {
+  .gallery-main__pics-right-1 {
+    order: 3; }
+    .gallery-main__pics-right-1--h6, .gallery-main__pics-right-1--p {
+      padding-left: 25%; }
+  .gallery-main__pics-right-3 {
+    order: 1; }
+    .gallery-main__pics-right-3--h6, .gallery-main__pics-right-3--p {
+      padding-left: 25%; } }
+
+.marker-large {
+  color: #F61067;
+  opacity: 0.1;
+  font-size: 15rem;
+  position: absolute;
+  left: -7rem; }
+
+.contact-image {
+  background: #F61067 url("https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 61.2rem;
+  padding: 0; }
+
+.icon-pink {
+  color: #F61067; }
+
+.section-contact__sub {
+  margin: 1rem 6rem;
+  width: 100%; }
+
+.section-contact__col2 {
+  height: 66.5rem; }
+
+.address {
+  color: #776C82;
+  margin-left: 2.5rem; }
+
+.title-largee {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
+
+.background-container {
+  background: linear-gradient(to bottom, #fff 0%, #fff 25%, #30124E 25%, #30124E 100%); }
+
+.purple-dark {
+  transform: translateX(211px);
+  width: 75%;
+  z-index: 2;
+  margin-top: -40.2%;
+  overflow-y: hidden; }
+
+.title-primary1 {
+  padding: 2rem 4rem; }
+
+.input2 {
+  padding: 2rem; }
+
+.main1__btn1 {
+  width: 15vw;
+  height: 3.5vw;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #FCFCFC;
+  background: #F61067;
+  border: 1px solid #F61067;
+  border-radius: 25vw;
+  font-size: 2vmin; }
+  .main1__btn1:hover {
+    background: #f84186; }
+
+::placeholder {
+  color: gray; }
+
+.col1 {
+  height: 70rem;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FCFCFC; }
+
+.input2 {
+  width: 70%;
+  padding: .7rem; }
+
+.purple-light {
+  width: 50vw;
+  z-index: -2; }
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .purple-light {
+    display: none; }
+  .contact-image {
+    height: 30.5rem;
+    z-index: 0; }
+  .input2 {
+    width: 70%;
+    padding: .7rem; }
+  .section-contact__sub {
+    margin: 0; }
+  .section-contact__col2 {
+    height: 59rem; }
+  .purple-dark {
+    transform: translate(0);
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    margin-top: -50.2%;
+    overflow-y: hidden; }
+  .marker-large {
+    left: -14rem; } }
+
+@media (max-width: 768px) {
+  .contact-image {
+    height: 18rem; }
+  .input2 {
+    width: 100%;
+    padding: 0.6rem; }
+  .title-largee {
+    letter-spacing: 1.6px; }
+  .title-primary1 {
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    width: 800%; }
+  .purple-light {
+    display: none; }
+  .purple-dark {
+    overflow-x: hidden;
+    transform: translate(0);
+    width: 100%; }
+  .section-contact__sub {
+    width: 700%;
+    margin: 2rem; }
+  .section-contact__col2 {
+    height: 30rem; }
+  .main1__btn1 {
+    transform: translate(29px, 10px);
+    width: 34vw;
+    height: 10.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 4vmin; }
+  .u-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 1.1px; } }
