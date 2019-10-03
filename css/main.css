@@ -1801,6 +1801,7 @@ nav {
             margin-left: 2.3em;
             letter-spacing: 0.2em; } }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
   .about-header {
     width: 100%;
@@ -2014,18 +2015,27 @@ nav {
     font-weight: 600; }
     .about-link .svg-phone {
       margin-top: 1%; } }
+=======
+.card__icon--white {
+  font-size: 5rem;
+  color: #FCFCFC; }
+>>>>>>> apply changes
 
 .main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
   width: 20%;
   margin-right: 7%; }
 
 @media screen and (max-width: 450px) {
+<<<<<<< HEAD
   .flex-row .main1__top__1,
   .flex-row .main1__top__2,
   .flex-row .main1__top__3,
   .flex-row .main1__bottom__1,
   .flex-row .main1__bottom__2,
   .flex-row .main1__bottom__3 {
+=======
+  .flex-row .main1__top__1, .flex-row .main1__top__2, .flex-row .main1__top__3, .flex-row .main1__bottom__1, .flex-row .main1__bottom__2, .flex-row .main1__bottom__3 {
+>>>>>>> apply changes
     width: 90%;
     margin: 5%; }
   .main__p1 {
@@ -2048,12 +2058,16 @@ nav {
       order: 2; }
   .main1__p3 {
     font-size: 4vmin !important; }
+<<<<<<< HEAD
   .head--1,
   .head--2,
   .head--3,
   .head--4,
   .head--5,
   .head--6 {
+=======
+  .head--1, .head--2, .head--3, .head--4, .head--5, .head--6 {
+>>>>>>> apply changes
     width: 100%;
     font-size: 4.5vmin !important;
     margin: 0 auto; }
@@ -2149,6 +2163,7 @@ nav {
     .main1__btn:hover {
       background: #f84186; }
 
+<<<<<<< HEAD
 
 .card-section .blank {
   margin: 0;
@@ -3010,6 +3025,51 @@ nav {
             margin-top: 16em;
             margin-left: 2.3em;
             letter-spacing: 0.2em; } }
+=======
+.section-intro {
+  padding: 6rem 6rem 0 6rem;
+  overflow: hidden; }
+
+body {
+  overflow-x: hidden; }
+
+.into__heading--primary {
+  color: #F61067;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: .6rem; }
+
+.intro__info--text {
+  width: 70%; }
+
+.intro__icon--text-secondary {
+  color: #776C82;
+  justify-content: center; }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+>>>>>>> apply changes
 
 @media screen and (max-width: 600px) {
   .about-header__bottom1 {
