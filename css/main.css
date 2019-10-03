@@ -2137,7 +2137,7 @@ nav {
   margin-bottom: -10em; }
   .section-intro .intro__top {
     display: flex;
-    padding: 1.5em 0;
+    padding: 2em 0;
     flex-flow: column wrap; }
     @media (min-width: 840px) and (max-width: 1200px) {
       .section-intro .intro__top {
