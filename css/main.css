@@ -219,6 +219,124 @@ h6 {
 .u-margin-none {
   margin: 0; }
 
+.triangle {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #30124E; }
+  @media (min-width: 1201px) {
+    .triangle {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #30124E; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle .items--image {
+      background: #30124E;
+      background-image: linear-gradient(270.72deg, #30124E 0.57%, rgba(48, 18, 78, 0) 18.8%), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle .items--brand {
+    color: #FCFCFC; }
+    .triangle .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
+
+.triangle1 {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #00F0B5; }
+  @media (min-width: 1201px) {
+    .triangle1 {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #00F0B5; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle1 {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle1__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle1 .items--image {
+      background: #00F0B5;
+      background-image: linear-gradient(270.72deg, #00F0B5 0.57%, rgba(109, 236, 175, 0.1)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle1 .items--brand {
+    color: #FCFCFC; }
+    .triangle1 .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle1 .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle1 .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle1 .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle1 .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle1 .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -328,15 +446,30 @@ h6 {
     background-color: #F61067;
     transition: background .5s ease-in-out;
     color: #FCFCFC; }
-    .value__card:hover p {
-      color: #FCFCFC; }
-  .value__card--number {
-    font-weight: 800;
-    color: #F61067; }
-  .value__card--title {
-    font-weight: 800; }
+    .value__card:hover--number {
+      font-weight: 800;
+      color: #F61067; }
+    .value__card:hover--title {
+      font-weight: 800; }
 
-@media screen and (max-width: 368px) {
+.value__card2 {
+  color: #FCFCFC;
+  border: 1px solid #F61067;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%; }
+  .value__card2:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value__card2:hover--number {
+      font-weight: 800;
+      color: #F61067; }
+    .value__card2:hover--title {
+      font-weight: 800; }
+
+@media screen and (max-width: 425px) {
   .client__logo--title {
     margin-top: 2rem; }
   .client__logo--image {
@@ -485,6 +618,17 @@ h6 {
 
 .border-white {
   border: 1rem solid #FCFCFC; }
+
+.zoom {
+  transform: translateX(-20px); }
+
+.what-we-do-image-3 {
+  background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628267/team-rebel/About-03/Home_01_first_image.png");
+  height: 121.5%;
+  position: absolute;
+  z-index: 2;
+  top: -10rem;
+  right: -23.7rem; }
 
 .footer-section {
   padding: 7rem;

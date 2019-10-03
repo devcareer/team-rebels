@@ -131,8 +131,35 @@ margin-bottom: 4rem;
     transition: background .5s ease-in-out;
     color: $color-white;
    p{
-     color:$color-white;
-   }
+    
+  }
+  
+  &--number {
+    font-weight: 800;
+    color: $color-primary;
+
+    
+  }
+  
+  &--title {
+    font-weight: 800;
+  }
+ 
+}
+}
+.value__card2 {
+  color: $color-white;
+  border: 1px solid $color-primary;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  &:hover{
+    background-color: $color-primary;
+    transition: background .5s ease-in-out;
+    color: $color-white;
+   p{
+    
   }
   
   &--number {
@@ -148,7 +175,8 @@ margin-bottom: 4rem;
  
 }
 
-@media screen and (max-width: 368px) {
+}
+@media screen and (max-width: 425px) {
   .client__logo {
     &--title {
       margin-top: 2rem;

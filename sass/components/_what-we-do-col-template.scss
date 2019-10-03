@@ -93,4 +93,15 @@ margin: 0;
  border: 1rem solid $color-white;
 }
 
+.zoom {
+  transform: translateX(-20px)
+}
+.what-we-do-image-3{
+  background-image: url('https://res.cloudinary.com/john-pels/image/upload/v1568628267/team-rebel/About-03/Home_01_first_image.png');
 
+  height: 121.5%;
+  position: absolute;
+  z-index: 2;
+  top: -10rem;
+  right: -23.7rem;
+}
