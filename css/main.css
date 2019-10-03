@@ -884,6 +884,12 @@ nav {
     margin: -5em auto 0 auto;
     width: 13em;
     height: 13em; }
+    .card-section .card img.card-center-image .card-section-home02 {
+      display: block;
+      background: none;
+      margin: 5em auto 0 auto;
+      width: 13em;
+      height: 13em; }
     @media (min-width: 1201px) {
       .card-section .card img.card-center-image {
         width: 20em;
@@ -935,13 +941,14 @@ nav {
     width: 100%;
     height: 30vh;
     border: none;
-    text-align: center; }
+    text-align: center;
+    padding: 5em 0; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
-        margin-top: 3.0em; } }
+        padding: 5em 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
     font-style: normal; }
     @media (min-width: 1201px) {
@@ -1354,3 +1361,108 @@ body {
     font-size: 1.9rem; }
   .intro__icon {
     margin-top: 0; } }
+
+@media screen and (max-width: 600px) {
+  .team-about-header__bottom {
+    width: 100%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+    background-blend-mode: multiply;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .team-about-header__bottom__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .team-about-header__bottom__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.team-about-header__bottom {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .team-about-header__bottom__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .team-about-header__bottom__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.team-main {
+  width: 100%; }
+  .team-main__p1 {
+    margin-top: 10%;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    color: #F61067; }
+  .team-main__h4 {
+    margin-top: 1%;
+    font-size: 5vmin;
+    color: #30233D; }
+  .team-main__p2 {
+    width: 32%;
+    margin-bottom: 20%;
+    font-size: 2.5vmin;
+    text-align: center;
+    color: #30233D; }
+  .team-main__bottom {
+    background: #150433; }
+    .team-main__bottom-up {
+      width: 100%;
+      margin-top: -10%; }
+      .team-main__bottom-up-1 .team-main__bottom-up-h5, .team-main__bottom-up-2 .team-main__bottom-up-h5, .team-main__bottom-up-3 .team-main__bottom-up-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-up-1 .team-main__bottom-up-p2, .team-main__bottom-up-2 .team-main__bottom-up-p2, .team-main__bottom-up-3 .team-main__bottom-up-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom-down {
+      width: 100%;
+      margin-top: 15vmin;
+      margin-bottom: 5%; }
+      .team-main__bottom-down-1 .team-main__bottom-down-h5, .team-main__bottom-down-2 .team-main__bottom-down-h5, .team-main__bottom-down-3 .team-main__bottom-down-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-down-1 .team-main__bottom-down-p2, .team-main__bottom-down-2 .team-main__bottom-down-p2, .team-main__bottom-down-3 .team-main__bottom-down-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom .svg {
+      width: 100%; }
+    .team-main__bottom .team-images {
+      width: 40vmin;
+      height: auto; }
+    @media screen and (max-width: 450px) {
+      .team-main__bottom .team-main__bottom-up, .team-main__bottom .team-main__bottom-down {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; }
+        .team-main__bottom .team-main__bottom-up-1, .team-main__bottom .team-main__bottom-up-2, .team-main__bottom .team-main__bottom-up-3, .team-main__bottom .team-main__bottom-down-1, .team-main__bottom .team-main__bottom-down-2, .team-main__bottom .team-main__bottom-down-3 {
+          margin-bottom: 10vmin; }
+        .team-main__bottom .team-main__bottom-up .svg, .team-main__bottom .team-main__bottom-down .svg {
+          width: 70%; }
+      .team-main__bottom .carousel {
+        margin-bottom: 0; }
+      .team-main__bottom .footer {
+        margin-top: 5%; } }
+  .team-main .carousel {
+    margin-bottom: 0; }
