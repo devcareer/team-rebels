@@ -6,7 +6,7 @@
         .blank__content {
             background: $color-secondary-400;
             width: 100%;
-            height: 40vh;
+            height:40vh;
             color: #FFF;
         }
     }
@@ -303,11 +303,14 @@
         }
         .card__newsletter {
             width: 100%;
-            height: 30vh;
+          
             border: none;
             text-align: center;
             @include desktop {
-                margin-top: 3.0em;
+                padding:7rem 0;
+            }
+            @include mobile {
+              
             }
         }
         h3.card__newsletter-h3 {
@@ -379,5 +382,13 @@
         }
     }
 }
-
+.blank1 {
+    margin: 0;
+    padding: 0;
+ .blank1__content {
+        width: 100%;
+        height: 25vh;
+        color: #FFF;
+    }
+}
 // *********The card-section.html style ends here****************

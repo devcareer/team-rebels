@@ -1,0 +1,178 @@
+$font-size-1: 2.5vmin;
+$font-size-2: 3.2vmin;
+
+
+@mixin margin-t-b-s($size) {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: $size;
+    line-height: normal;
+}
+
+%section-placeholder {
+    width: 20%;
+    margin-right: 7%;
+}
+
+
+@media screen and (max-width: 450px) {
+    $font-size-3: 4vmin;
+    $font-size-4: 4.5vmin;
+
+    %section-placeholder-sm {
+        width: 90%;
+        margin: 5%;
+    }
+    
+    .main__p1 {
+        margin-top: 10%;
+        font-size: 2.5vmin;
+    }
+
+    .main__h2 {
+        font-size: 4vmin;
+        line-height: normal;
+    }
+
+    .main1__p2 {
+        width: 100% !important;
+    }
+
+
+    .flex-row {
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        align-items: center;
+
+        .main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+            @extend %section-placeholder-sm;
+        }
+        .main1__bottom__1 {
+            order: 1;
+        }
+        .main1__bottom__2 {
+            order: 0;
+        }
+        .main1__bottom__3 {
+            order: 2;
+        }
+    }
+
+    .main1__p3 {
+        font-size: $font-size-3 !important;
+    }
+
+    .head--1, .head--2, .head--3, .head--4, .head--5, .head--6 {
+        width: 100%;
+        font-size: $font-size-4 !important;
+        margin: 0 auto;
+    }
+
+    .main1__btn {
+        width: 25vw !important;
+        height: 5vw !important;
+    }
+
+    svg {
+        margin: 0 auto;
+    }
+}
+
+.main1 {
+    // margin-top: 10%;
+    width: 100%;
+    // margin-bottom: 10%;
+    background: $color-secondary-400;
+
+
+    &__p1 {
+        margin-top: 22%;
+        font-size: 2.5vmin;
+        color: $color-primary;
+    }
+    &__h2 {
+        color: $color-white;
+        font-size: 4.5vmin;
+        line-height: normal;
+    }
+    &__p2 {
+        width: 50%;
+        text-align: center;
+        color: $color-white;
+        margin-bottom: 7%;
+
+    }
+
+    &__top {
+        width: 100%;
+
+         &__1, &__2, &__3 {
+            font-family: $default-font-family;
+            @extend %section-placeholder;
+
+        }
+    }
+
+    &__bottom {
+        margin: 5vmin 15vmin;
+        width: 100%;
+
+        &__1, &__2, &__3 {
+            font-family: $default-font-family;
+            @extend %section-placeholder;
+
+        }
+    }
+   
+    .main1__p3 {
+        color: $color-white;
+        @include margin-t-b-s($font-size-1);
+    }
+    .head--1 {
+        margin: 0 auto;
+        color: $color-tertiary;
+        @include margin-t-b-s($font-size-2)
+        
+    }
+    .head--2 {
+        margin: 0 auto;
+        color: $color-primary;
+        @include margin-t-b-s($font-size-2)
+    }
+    .head--3 {
+        margin: 0 auto;
+        color: $color-warning;
+        @include margin-t-b-s($font-size-2)
+    }
+    .head--4 {
+        margin: 0 auto;
+        color: $color-warning;
+        @include margin-t-b-s($font-size-2)
+    }
+    .head--5 {
+        margin: 0 auto;
+        color: $color-tertiary;
+        @include margin-t-b-s($font-size-2)
+    }
+    .head--6 {
+        margin: 0 auto;
+        color: $color-primary; 
+        @include margin-t-b-s($font-size-2)
+    }
+
+    &__btn {
+        width: 15vw;
+        height: 3.5vw;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        color: $color-white;
+        background: $color-primary;
+        border: 1px solid $color-primary;
+        border-radius: 25vw;
+        font-size: 2vmin;
+
+        &:hover {
+            background: lighten($color-primary, 10%)
+        }
+    }
+}

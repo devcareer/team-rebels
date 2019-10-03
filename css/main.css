@@ -190,11 +190,23 @@ h6 {
 .u-margin-medium {
   margin: 3rem; }
 
+.u-margin-top-none {
+  margin-bottom: 0; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-large {
+  margin: 6rem; }
+
 .u-margin-left {
   margin-right: 4rem; }
 
 .u-padding-none {
   padding: 0; }
+
+.u-margin-none {
+  margin: 0; }
 
 .client__part {
   margin-top: 5%;
@@ -249,6 +261,33 @@ h6 {
     padding-bottom: 5%;
     margin-left: 5%; }
 
+.icon1 {
+  color: #FCFCFC;
+  font-size: 1rem;
+  font-weight: 900; }
+
+.icon1__circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #FCFCFC;
+  text-align: center;
+  line-height: 1rem;
+  vertical-align: middle;
+  padding: 1rem; }
+
+.value_card {
+  color: #FCFCFC;
+  margin-right: 2rem;
+  padding: 1rem;
+  margin-bottom: 4rem; }
+  .value_card:hover {
+    background-color: #F61067;
+    transition: background .5s ease-in-out;
+    color: #FCFCFC; }
+    .value_card:hover p {
+      color: #FCFCFC; }
+
 .value__card {
   color: #FCFCFC;
   border: 1px solid #FCFCFC;
@@ -275,6 +314,120 @@ h6 {
     width: 200px;
     padding-right: 10%;
     padding-bottom: 5%; } }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+
+.row__container--text {
+  display: flex;
+  flex-direction: row;
+  text-align: center; }
+
+.row-container {
+  display: flex;
+  flex-direction: column; }
+  .row-container__col {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-emphasis: center;
+    color: #FCFCFC; }
+
+.col-heading__primary {
+  margin: 4rem 6rem; }
+
+.col-heading__secondary {
+  margin: 4rem 4rem 3rem 4rem; }
+
+@media (max-width: 1364px) {
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+  .row {
+    flex-flow: wrap; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; } }
+
+.col-3 {
+  text-align: center;
+  display: none; }
+
+.what-we-do {
+  margin: 5rem 13rem;
+  padding: 4rem 0 2rem 0; }
+
+.col-heading__primary1 {
+  margin: 5rem 4rem; }
+
+.col-heading__secondary2 {
+  padding-top: 4rem; }
+
+.col-heading__secondary2:last-child {
+  padding-bottom: 3rem; }
+
+.what-we-do-image-1 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 103%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -23.3rem; }
+
+#row-what-we-do {
+  position: relative; }
+
+.background-purple-dark {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.background-purple-light {
+  background-color: #30124E;
+  color: #FCFCFC; }
+
+@media (max-width: 839px) {
+  .col-heading__primary1 {
+    display: none; }
+  .col-heading__primary1 {
+    margin: 0; } }
+
+@media (max-width: 768px) {
+  .what-we-do-image-1 {
+    display: none; }
+  .col-3 {
+    text-align: center;
+    display: block; } }
 
 .footer-section {
   padding: 7rem;
@@ -562,465 +715,6 @@ nav {
   .navbar-brand {
     margin-left: 10rem; } }
 
-.card-section .blank {
-  margin: 0;
-  padding: 0; }
-  .card-section .blank .blank__content {
-    background: #150433;
-    width: 100%;
-    height: 40vh;
-    color: #FFF; }
-
-.card-section .card {
-  margin: 0;
-  padding: 0;
-  border: none; }
-  .card-section .card .card .card__photos {
-    position: relative;
-    background: #FCFCFC;
-    width: 100%;
-    height: 40vh;
-    border: none; }
-    @media (min-width: 1201px) {
-      .card-section .card .card .card__photos {
-        width: 100%;
-        height: 80vh; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card .card__photos {
-        width: 100%;
-        height: 58vh; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images {
-      position: absolute; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images {
-      position: absolute; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-1 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 9em;
-      position: absolute;
-      top: 4.2em;
-      left: 17em;
-      width: 4.5em;
-      height: 4.5em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-1 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 8em 8em;
-      position: absolute;
-      top: 2.5em;
-      left: 5em;
-      width: 4.0em;
-      height: 4.0em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-1 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-2 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 9em 9em;
-      position: absolute;
-      top: 12em;
-      left: 8em;
-      object-position: center;
-      width: 4em;
-      height: 4em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-2 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 8em 8em;
-      position: absolute;
-      top: 8em;
-      left: 4em;
-      object-position: center;
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-2 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-3 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 6em 6em;
-      position: absolute;
-      top: 10em;
-      left: 25em;
-      object-position: center;
-      width: 2.2em;
-      height: 2.2em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-3 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 6em 6em;
-      position: absolute;
-      top: 6.5em;
-      left: 13em;
-      object-position: center;
-      width: 2.2em;
-      height: 2.2em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-3 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-4 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 10em;
-      right: 23em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-4 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 6em;
-      right: 12em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-4 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-5 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 11em;
-      right: 11em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-5 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 8em;
-      right: 2em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-5 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-6 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 6em;
-      right: 18em;
-      object-position: center;
-      width: 2.3em;
-      height: 2.3em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-6 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 4em;
-      right: 7em;
-      object-position: center;
-      width: 2.3em;
-      height: 2.3em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-6 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-7 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 2em;
-      right: 11em;
-      object-position: center;
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-7 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 2em;
-      right: 2em;
-      object-position: center;
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-7 {
-      display: none; } }
-  .card-section .card .card-positioned-icon {
-    position: absolute; }
-    .card-section .card .card-positioned-icon .fa-arrow-right {
-      position: absolute;
-      top: 18em;
-      left: 60em;
-      border: 1px solid #F61067;
-      color: #F61067;
-      padding: 0.6em;
-      border-radius: 50%;
-      font-weight: 100; }
-      .card-section .card .card-positioned-icon .fa-arrow-right:hover {
-        background: #F61067;
-        transition: background .8s ease-in-out;
-        color: #FFF;
-        border: 1px solid #FFF;
-        cursor: pointer; }
-      @media (min-width: 840px) and (max-width: 1200px) {
-        .card-section .card .card-positioned-icon .fa-arrow-right {
-          display: none; } }
-      @media (max-width: 839px) {
-        .card-section .card .card-positioned-icon .fa-arrow-right {
-          display: none; } }
-    .card-section .card .card-positioned-icon .fa-arrow-left {
-      position: absolute;
-      top: 18em;
-      left: 11em;
-      background: #F61067;
-      color: #FFF;
-      padding: 0.6em;
-      border-radius: 50%;
-      font-weight: 100; }
-      .card-section .card .card-positioned-icon .fa-arrow-left:hover {
-        background: #FFF;
-        transition: background .8s ease-in-out;
-        color: #F61067;
-        border: 1px solid #F61067;
-        cursor: pointer; }
-      @media (min-width: 840px) and (max-width: 1200px) {
-        .card-section .card .card-positioned-icon .fa-arrow-left {
-          display: none; } }
-      @media (max-width: 839px) {
-        .card-section .card .card-positioned-icon .fa-arrow-left {
-          display: none; } }
-  .card-section .card img.card-center-image {
-    display: block;
-    background: none;
-    margin: -5em auto 0 auto;
-    width: 13em;
-    height: 13em; }
-    @media (min-width: 1201px) {
-      .card-section .card img.card-center-image {
-        width: 20em;
-        height: 20em; } }
-  .card-section .card i.card__photos-fa {
-    margin: -0.4em auto 0 auto;
-    color: #F61067;
-    font-size: 3em;
-    z-index: 2; }
-  .card-section .card h3.card__photos-h3 {
-    font-family: "Noticia Text", serif;
-    font-size: 0.9em;
-    font-weight: normal;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.2em; }
-    @media (min-width: 1201px) {
-      .card-section .card h3.card__photos-h3 {
-        font-family: "Noticia Text", serif;
-        font-size: 1.3em;
-        font-weight: normal;
-        font-style: italic;
-        line-height: 1.5em; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card h3.card__photos-h3 {
-        font-family: "Noticia Text", serif;
-        font-size: 1.3em;
-        font-weight: normal;
-        font-style: italic;
-        line-height: 1.7em;
-        margin-top: 1.3em; } }
-  .card-section .card .card__photos-tagline {
-    text-align: center;
-    font-size: 0.7em;
-    padding-bottom: 3em; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__photos-tagline {
-        font-size: 1em; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card__photos-tagline {
-        font-size: 1em; } }
-  .card-section .card .card__photos-tagline span {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.8em;
-    font-weight: 800;
-    font-style: normal;
-    color: #F61067; }
-  .card-section .card .card__newsletter {
-    width: 100%;
-    height: 30vh;
-    border: none;
-    text-align: center; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter {
-        margin-top: 3.0em; } }
-  .card-section .card h3.card__newsletter-h3 {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 1.5em;
-    font-weight: 500;
-    font-style: normal; }
-    @media (min-width: 1201px) {
-      .card-section .card h3.card__newsletter-h3 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1.8em;
-        font-weight: 500;
-        font-style: normal; } }
-  .card-section .card p.card__newsletter-p {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 500;
-    font-style: normal; }
-    @media (min-width: 1201px) {
-      .card-section .card p.card__newsletter-p {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 1em;
-        font-weight: 500;
-        font-style: normal; } }
-  .card-section .card .card__newsletter-form {
-    padding: 2em; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter-form {
-        width: 50%;
-        display: inline-flex;
-        margin: 0 auto; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card__newsletter-form {
-        padding: 0 10em; } }
-  .card-section .card .card__newsletter-form input.card__newsletter-input {
-    width: 100%;
-    height: 3.0em;
-    border-bottom: 2px solid #F4F4ED;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    outline: none; }
-  .card-section .card input::placeholder {
-    color: #9B94A3;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    line-height: 3.5em; }
-  .card-section .card .card__newsletter-form button.card__newsletter-button {
-    width: 100%;
-    height: 3.6em;
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.7em;
-    font-weight: 800;
-    font-style: normal;
-    background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    border: none;
-    border-bottom: 2px solid #F4F4ED;
-    margin-top: 0.7em;
-    line-height: 3.5em;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
-    color: #F61067; }
-    .card-section .card .card__newsletter-form button.card__newsletter-button:hover {
-      background: rgba(212, 187, 187, 0.5);
-      transition: background .8s ease-in-out;
-      cursor: pointer; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter-form button.card__newsletter-button {
-        width: 70%; } }
-  .card-section .card button.card__newsletter-button i.button-fa {
-    border: 1px solid rgba(246, 16, 103, 0.5);
-    box-sizing: border-box;
-    padding: .5em;
-    border-radius: 50%;
-    margin-left: 1.3em; }
-
 @media screen and (max-width: 600px) {
   .about-header {
     width: 100%;
@@ -1080,10 +774,10 @@ nav {
               .about-header__top .about-nav__menu .filter-dropdown .list--style a {
                 color: #150433; }
     .about-header .about-header__bottom {
-      width: 100%;
+      height: 70%;
       background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
       background-blend-mode: multiply;
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat; }
       .about-header .about-header__bottom__h1 {
         margin-top: 7%;
