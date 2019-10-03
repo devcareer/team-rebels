@@ -4093,6 +4093,7 @@ body {
   .what-we-do-stats__tertiary {
     color: #00F0B5; }
 
+<<<<<<< HEAD
 @media screen and (max-width: 600px) {
   .team-about-header__bottom {
     width: 100%;
@@ -4127,21 +4128,87 @@ body {
     margin-left: 8%;
     font-size: 6vmin;
     line-height: normal;
-    color: #F61067; }
-  .team-about-header__bottom__p {
-    margin-top: 1%;
-    margin-bottom: 6.5%;
-    margin-left: 8%;
-    font-size: 2.5vmin;
-    color: #FCFCFC; }
+=======
+.stats_text {
+  letter-spacing: 6px;
+  text-transform: uppercase; }
 
-.team-main {
-  width: 100%; }
-  .team-main__p1 {
-    margin-top: 10%;
-    font-size: 2vmin;
-    letter-spacing: 2px;
+@media (max-width: 1364px) {
+  .section-intro {
+    padding: 2rem; }
+  .intro__info--text {
+    width: 100%; }
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .footer-row {
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+    .what-we-do-stats {
+      padding: 2rem; }
+  .row {
+    flex-flow: wrap; }
+  .icon__circle {
+    margin: 0 auto; }
+  .intro__icon--text-primary {
+    text-align: center;
+    justify-content: center; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; }
+  .what-we-do-small {
+    font-size: 1.9rem; }
+  .intro__icon {
+    margin-top: 0; } }
+
+.our-service {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.service__headtext {
+  padding-bottom: 5%;
+  text-align: center; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+>>>>>>> complete service page two
     color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+<<<<<<< HEAD
   .team-main__h4 {
     margin-top: 1%;
     font-size: 5vmin;
@@ -4499,7 +4566,6 @@ body {
     order: 1; }
     .gallery-main__pics-right-3--h6, .gallery-main__pics-right-3--p {
       padding-left: 25%; } }
-=======
 .marker-large {
   color: #F61067;
   opacity: 0.1;
@@ -4645,4 +4711,9 @@ body {
   .u-uppercase {
     text-transform: uppercase;
     letter-spacing: 1.1px; } }
+
+
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%; }
 

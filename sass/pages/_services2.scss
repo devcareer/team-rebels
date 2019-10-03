@@ -1,0 +1,60 @@
+.our-service{
+
+    background-color: #150433;
+    color: #FCFCFC;
+   
+  }
+  
+  .service__headtext{
+     padding-bottom: 5%;
+    text-align:center;
+    &--text{
+      color:#F61067;
+      text-transform: uppercase;
+      font-weight:500;
+      padding-top: 10%;
+    }
+    &--head{
+      padding: 2% 0;
+      font-weight: 600;
+    }
+    &--body{
+      font-weight: 500;
+    }
+  }
+  
+  
+  .service__section{
+    padding-bottom: 5%;
+    
+    &--titleone{
+      padding: 3% 3%;
+      color: #00F0B5;
+    }
+    &--titletwo{
+      padding: 3% 3%;
+      color: #F61067;
+    }
+    &--titlethree{
+      padding: 3% 3%;
+      color: #F67110;
+    }
+    &--titlefour{
+      padding: 3% 3%;
+      color: #F67110;
+    }
+    &--titlefive{
+      padding: 3% 3%;
+      color: #00F0B5;
+    }
+    &--titlesix{
+      padding: 3% 3%;
+      color: #F61067;
+    }
+    &--body{
+      text-align: justify;
+      margin: 0 3%;
+    }
+  }
+  
+  
