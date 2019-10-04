@@ -57,6 +57,7 @@
 
 * Photo --- (https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png)
 * Rectanle ---- (https://res.cloudinary.com/john-pels/image/upload/v1568628312/team-rebel/Contact/Rectangle.png)
+
 * side-vector --- (https://res.cloudinary.com/john-pels/image/upload/v1568628312/team-rebel/Contact/side-Vector.png)
 
 # Gallery_01
