@@ -1784,7 +1784,6 @@ nav {
 @media screen and (max-width: 600px) {
   .about-header {
     width: 100%;
-    margin-top: 5%;
     margin-bottom: 0;
     height: auto;
     background: #FCFCFC; }
@@ -1928,7 +1927,8 @@ nav {
             font-weight: 800;
             line-height: normal;
             color: #150433; }
-            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
+            .about-header__top .about-nav .about-nav__list .about-list--style .about-link,
+            .about-header__top .about-nav .about-nav__list .about-list--style a {
               color: #150433 !important; }
         .about-header__top .about-nav ul {
           width: 80%;
@@ -2130,6 +2130,200 @@ nav {
 .card__icon--white {
   font-size: 5rem;
   color: #FCFCFC; }
+
+@media (max-width: 839px) {
+  .about04-html .abt4-container-fluid {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    width: 100%;
+    background: #30124E;
+    color: #FCFCFC;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } }
+
+@media (min-width: 840px) and (max-width: 1200px) {
+  .about04-html .abt4-container-fluid {
+    width: 100%;
+    background: #30124E;
+    color: #FCFCFC;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } }
+
+@media (min-width: 1201px) {
+  .about04-html .abt4-container-fluid {
+    width: 85%;
+    background: #30124E;
+    color: #FCFCFC;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; } }
+
+.about04-html .abt4-container-fluid .abt4-what-we-do {
+  padding: 0;
+  margin: 0; }
+  .about04-html .abt4-container-fluid .abt4-what-we-do .what-we-do {
+    display: flex;
+    margin: 0;
+    padding: 5em;
+    flex-flow: column wrap;
+    align-content: flex-start; }
+
+.about04-html .abt4-container-fluid .row .col-1 {
+  background: #FCFCFC;
+  color: #F61067; }
+  @media (min-width: 841px) and (max-width: 989px) {
+    .about04-html .abt4-container-fluid .row .col-1 .col-1 {
+      display: none; } }
+  @media (max-width: 839px) {
+    .about04-html .abt4-container-fluid .row .col-1 {
+      display: none; } }
+  .about04-html .abt4-container-fluid .row .col-1 .col-heading__primary1 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: normal; }
+
+@media (max-width: 839px) {
+  .about04-html .abt4-container-fluid .row .image {
+    display: none; } }
+
+@media (min-width: 1201px) {
+  .about04-html .abt4-container-fluid .row .image {
+    height: 30em;
+    background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628376/team-rebel/Home-01/Home_01_first_image.png"), #F61067;
+    background-position: 20% 40%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -17em;
+    top: -4em; }
+    .about04-html .abt4-container-fluid .row .image::before {
+      content: '';
+      z-index: 1;
+      width: 16em;
+      height: 15em;
+      position: absolute;
+      bottom: -7.5em;
+      right: 0;
+      background: #5E239D; } }
+
+.about04-html .about4-wrap {
+  margin-top: -20em;
+  padding: 20em 0 0 0;
+  background: #5E239D; }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .about04-html .about4-wrap {
+      margin-top: -3em;
+      padding: 0; } }
+  @media (min-width: 1201px) {
+    .about04-html .about4-wrap {
+      margin-top: -20em;
+      padding: 20em 0 0 0;
+      background: #5E239D; } }
+  .about04-html .about4-wrap .client__part {
+    padding: 4em 0 0 4em; }
+    .about04-html .about4-wrap .client__part--title {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      letter-spacing: .3em; }
+    .about04-html .about4-wrap .client__part--body {
+      color: #FCFCFC;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2em;
+      font-weight: 500;
+      font-style: normal; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .about04-html .about4-wrap .client__part--body {
+          color: #FCFCFC;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 500;
+          font-style: normal; } }
+      @media (max-width: 839px) {
+        .about04-html .about4-wrap .client__part--body {
+          color: #FCFCFC;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.1em;
+          font-weight: 500;
+          font-style: normal; } }
+  .about04-html .about4-wrap .blue__bg {
+    padding: 0 3em;
+    background: #5E239D; }
+    .about04-html .about4-wrap .blue__bg:hover {
+      background: #F61067;
+      transition: background .5s ease-in-out; }
+    .about04-html .about4-wrap .blue__bg--title {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.5em;
+      font-weight: 500;
+      font-style: normal;
+      color: #FCFCFC; }
+  .about04-html .about4-wrap .client__logo:hover {
+    background: #F61067;
+    transition: background .5s ease-in-out; }
+  .about04-html .about4-wrap .client__logo--title {
+    padding: 1em;
+    color: #FCFCFC; }
+    @media (max-width: 839px) {
+      .about04-html .about4-wrap .client__logo--title {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 3em; } }
+  .about04-html .about4-wrap .client__logo--image {
+    margin: 0 auto; }
+    @media (max-width: 839px) {
+      .about04-html .about4-wrap .client__logo--image {
+        margin: 0 auto; } }
+  .about04-html .about4-wrap .client__bg {
+    margin: 0;
+    padding: 0;
+    background: #5E239D; }
+    .about04-html .about4-wrap .client__bg--title {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.7em;
+      font-weight: 800;
+      font-style: normal;
+      letter-spacing: .3em;
+      padding-left: 4.5em; }
+      @media (max-width: 839px) {
+        .about04-html .about4-wrap .client__bg--title {
+          padding: 1em 0;
+          text-align: center; } }
+    .about04-html .about4-wrap .client__bg--text {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 500;
+      font-style: normal;
+      line-height: 1.5em;
+      padding-left: 3em; }
+    .about04-html .about4-wrap .client__bg .abt4-down {
+      margin: 0;
+      padding: 0; }
+      .about04-html .about4-wrap .client__bg .abt4-down .u-margin-none {
+        padding: 5em; }
+      .about04-html .about4-wrap .client__bg .abt4-down .u-margin-bottom-medium {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box; }
+      .about04-html .about4-wrap .client__bg .abt4-down .value__card--title {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1em;
+        font-weight: 800;
+        font-style: normal; }
+      .about04-html .about4-wrap .client__bg .abt4-down .value__card--body {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 0.7em;
+        font-weight: normal;
+        font-style: normal; }
 
 .section-intro {
   box-sizing: border-box;
