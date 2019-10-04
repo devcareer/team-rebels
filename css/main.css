@@ -1999,8 +1999,6 @@ nav {
     color: #150433;
     font-weight: 600; } }
 
-.main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
-  width: 20%;
   margin-right: 7%; }
 
 @media screen and (max-width: 450px) {
@@ -2050,6 +2048,7 @@ nav {
   .about-header__bottom1 {
     height: 70%;
     background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+    height: 70%;
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -2066,7 +2065,6 @@ nav {
       font-size: 3vmin;
       font-family: "M PLUS 1p", sans-serif;
       color: #F4F4ED; } }
-
 .about-header__bottom1 {
   width: 100%;
   height: auto;
@@ -2135,11 +2133,75 @@ body {
   .row-tertiary {
     background-color: #3A0475; }
 
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628312/team-rebel/Contact/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .about-header__bottom1__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .about-header__bottom1__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.card__icon--white {
+  font-size: 5rem;
+  color: #FCFCFC; }
+
+.section-intro {
+  padding: 6rem 6rem 0 6rem;
+  overflow: hidden; }
+
+body {
+  overflow-x: hidden; }
+
+.into__heading--primary {
+  color: #F61067;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: .6rem; }
+
+.intro__info--text {
+  width: 70%; }
+
+.intro__icon--text-secondary {
+  color: #776C82;
+  justify-content: center; }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
+
 .main1 {
-  width: 100%;
   background: #150433; }
   .main1__p1 {
-    margin-top: 22%;
     font-size: 2.5vmin;
     color: #F61067; }
   .main1__h2 {
@@ -2239,6 +2301,13 @@ body {
     color: #FFF; }
 
 .card-section .card {
+  padding: 0; }
+  .card-section .blank .blank__content {
+    background: #150433;
+    width: 100%;
+    height: 40vh;
+    color: #FFF; }
+
   margin: 0;
   padding: 0;
   border: none; }
