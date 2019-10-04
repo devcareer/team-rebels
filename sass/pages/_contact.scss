@@ -123,15 +123,18 @@ padding: 2rem 4rem;
     overflow-y: hidden;
     
   }
+  .marker-large{
+    left: -14rem;
+  
+  }
+
 }
 
 @include breakpoint(sm){
 .contact-image{
   height: 18rem;
 }
-.marker-large{
-  left: -3rem;
-}
+
 
 
 .title-primary1{
