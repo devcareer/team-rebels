@@ -2223,6 +2223,12 @@ body {
 
 .card-section .blank {
   margin: 0;
+.contact-image {
+  background: #F61067 url("https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 61.2rem;
   padding: 0; }
   .card-section .blank .blank__content {
     background: #150433;
