@@ -533,6 +533,64 @@ h6 {
   .main-image {
     width: 300px; } }
 
+.testimonial {
+  position: relative;
+  margin-bottom: 10%; }
+
+.testimonial__section {
+  margin: 4% auto 0 2%;
+  width: 80%;
+  height: 10rem;
+  background-color: #30124E; }
+  .testimonial__section--quote {
+    color: #FCFCFC;
+    padding: 4%;
+    margin: 0 auto 0 5%; }
+  .testimonial__section--author {
+    color: #F61067;
+    margin-top: 5%;
+    margin-left: 10%; }
+  .testimonial__section--image {
+    height: 20rem;
+    margin-top: -35%;
+    margin-left: 65%; }
+  .testimonial__section--company {
+    color: #776C82; }
+
+.benefit__section {
+  margin-left: 5%; }
+  .benefit__section--title {
+    color: #F61067;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--subtitle {
+    color: #150433;
+    font-weight: 800;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--smallquote {
+    color: #150433;
+    font-weight: 800;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--body {
+    color: #150433;
+    padding-left: 10%;
+    padding-right: 5%; }
+  .benefit__section--button {
+    background: #F61067;
+    padding: 1.5%;
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 100px;
+    color: #FCFCFC; }
+    .benefit__section--button:hover {
+      color: #FCFCFC;
+      text-decoration: none; }
+
+.benefit__image--two {
+  position: absolute;
+  bottom: -8%;
+  right: 65%;
+  width: 15rem; }
+
 .footer-section {
   padding: 7rem;
   background-color: #30124E;
