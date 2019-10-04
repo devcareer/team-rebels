@@ -2223,6 +2223,8 @@ body {
 
 .card-section .blank {
   margin: 0;
+}
+
 .contact-image {
   background: #F61067 url("https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png");
   background-blend-mode: multiply;
@@ -3954,6 +3956,13 @@ body {
   .marker-large {
     left: -14rem; }
 
+    overflow-y: hidden; }
+  .marker-large {
+    left: -14rem; } }
+
+@media (max-width: 768px) {
+  .contact-image {
+    height: 18rem; }
   .title-primary1 {
     padding: 2rem 2rem;
     margin: 0 auto;
