@@ -1752,13 +1752,13 @@ body {
     width: 100%;
     z-index: 2;
     margin-top: -50.2%;
-    overflow-y: hidden; } }
+    overflow-y: hidden; }
+  .marker-large {
+    left: -14rem; } }
 
 @media (max-width: 768px) {
   .contact-image {
     height: 18rem; }
-  .marker-large {
-    left: -3rem; }
   .title-primary1 {
     padding: 2rem 2rem;
     margin: 0 auto;
