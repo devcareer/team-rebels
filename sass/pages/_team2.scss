@@ -1,0 +1,211 @@
+@media screen and (max-width: 600px) {
+    .team-about-header__bottom {
+            width: 100%;
+            // height: 70%;
+            background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png');
+            background-blend-mode: multiply;
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+            &__h1 {
+              margin-top: 7%;
+              margin-left: 7%;
+              font-size: 5vmin;
+              font-family: $default-font-family;
+              color: $color-primary;
+              line-height: normal;
+            }
+
+            &__p {
+              margin-left: 7%;
+              margin-bottom: 4%;
+              font-size: 3vmin;
+              font-family: $default-font-family;
+              color: $color-light-grey;
+            }
+
+    }
+}
+
+    .team-about-header__bottom {
+        width: 100%;
+        height: auto;
+        background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png');
+        background-blend-mode: multiply;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+       
+
+        &__h1 {
+            margin-top: 7%;
+            margin-left: 8%;
+            font-size: 6vmin;
+            line-height: normal;
+            color: $color-primary;
+        }
+
+        &__p {
+            margin-top: 1%;
+            margin-bottom: 6.5%;
+            margin-left: 8%;
+            font-size: 2.5vmin;
+            color: $color-white;
+            
+        }
+    }
+.team-main {
+    width: 100%;
+    &__p1 {
+        margin-top: 10%;
+        font-size: 2vmin;
+        letter-spacing: 2px;
+        color: $color-primary;
+    }
+    &__h4 {
+        margin-top: 1%;
+        font-size: 5vmin;
+        color: $text-color-headers;
+    }
+    &__p2 {
+        width: 32%;
+        margin-bottom: 20%;
+        font-size: 2.5vmin;
+        text-align: center;
+        color: $text-color-headers;
+    }
+
+    &__bottom {
+        background: $color-secondary-400;
+
+        @media screen and (max-width: 450px) {
+            flex-direction: column !important;
+            -ms-flex-direction: column !important;
+        }
+
+        &-up {
+            width: 30%;
+            margin-top: -27%;
+            // background: yellow;
+
+            &-1, &-2, &-3 {
+
+                .team-main__bottom-up-h5 {
+                    color: white;
+                    font-size: 4vmin;
+                }
+                .team-main__bottom-up-p2 {
+                    color: $color-white;
+                    letter-spacing: 2px;
+                    font-weight: 200;
+                    font-size: 3vmin;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        &-down {
+            width: 30%;
+            margin-top: -5%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+
+            &-2 {
+                width: 100%;
+                background: $color-secondary-100;
+                margin-top: 7vmin;
+                .head-5 {
+                    margin-top: 5vmin;
+                    margin-left: 10vmin;
+                    font-family: $default-font-family;
+                    font-size: 3vmin;
+                    color: white;
+                }
+                .p1 {
+                    margin-left: 10vmin;
+                    font-family: $default-font-family;
+                    font-size: 1.5vmin;
+                    color: white;
+                    opacity: 0.5;
+                    letter-spacing: 0.5vmin;
+                }
+                .p2 {
+                    margin-left: 10vmin;
+                    font-family: $default-font-family;
+                    font-size: 2vmin;
+                    color: white;
+                }
+                .img-5 {
+                    width: 25%;
+                    height: 14vmin;
+                    margin-top: 15%;
+                    margin-bottom: 5vmin;
+                    margin-left: 10vmin;
+                    border-radius: 50%;
+                }
+            }
+            &-1, &-2, &-3 {
+                // background: yellow;
+
+                .team-main__bottom-down-h5 {
+                    color: white;
+                    font-size: 4vmin;
+                }
+                .team-main__bottom-down-p2 {
+                    color: $color-white;
+                    letter-spacing: 2px;
+                    font-weight: 200;
+                    font-size: 3vmin;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        .svg {
+            width: 100%;
+        }
+        .team-images {
+            width: 40vmin;
+            height: auto;
+            margin-top: 15%;
+        }
+
+        @media screen and (max-width: 450px) {
+            .team-main__bottom-up, .team-main__bottom-down {
+                flex-direction: column !important;
+                -ms-flex-direction: column !important;
+                &-1, &-2, &-3 {
+                    // margin-top: 10vmin;
+                    margin-bottom: 10vmin;
+                }
+
+                .svg {
+                    width: 70%;
+                }
+
+            }
+
+            .team-main__bottom-up {
+                margin-top: -20%;
+            }
+            .team-main__bottom-down {
+                &-2 {
+                    width: 70vmin;
+                    order: 3;
+                }
+            }
+
+            .carousel {
+                margin-bottom: 0;
+            }
+            .footer {
+                margin-top: 5%;
+            }
+        }
+    }
+
+    .carousel {
+        margin-bottom: 0;
+    }
+
+}

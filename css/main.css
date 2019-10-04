@@ -682,11 +682,6 @@ h6 {
       padding-left: 0; }
     .menu__item--primary {
       letter-spacing: .2rem; }
-  .footer-section {
-    font-size: 0.7rem;
-    flex-wrap: wrap;
-    padding: 1rem;
-    font-size: 0.7rem; }
   .row {
     display: flex;
     flex-flow: wrap;
@@ -707,6 +702,15 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 35rem;
+  width: 100%;
+  margin: 0;
+  position: relative; }
+
+.header-home-02 {
+  background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/Rectangle-header.png");
+  mix-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
   margin: 0;
   position: relative; }
@@ -915,218 +919,6 @@ nav {
 @media (max-width: 1024px) {
   .navbar-brand {
     margin-left: 10rem; } }
-
-@media screen and (max-width: 600px) {
-  .about-header {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 0;
-    height: auto;
-    background: #FCFCFC; }
-    .about-header__top {
-      width: 100%;
-      flex-direction: row !important; }
-      .about-header__top__logo {
-        margin-left: 7%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-style: normal;
-        font-size: 5vmin;
-        font-weight: 900;
-        line-height: normal;
-        color: #30124E; }
-      .about-header__top .about-nav {
-        width: 75%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-style: normal;
-        font-size: 3vmin;
-        font-weight: 800;
-        margin-left: 5vw;
-        line-height: normal;
-        flex-direction: row !important; }
-        .about-header__top .about-nav .about-nav__list {
-          flex-direction: row !important; }
-          .about-header__top .about-nav .about-nav__list .list--style {
-            display: none; }
-            .about-header__top .about-nav .about-nav__list .list--style a {
-              color: #150433; }
-        .about-header__top .about-nav__menu {
-          width: 15%;
-          margin-top: 1.5vmin; }
-          .about-header__top .about-nav__menu .filter-dropdown {
-            position: absolute;
-            top: 10vmin;
-            right: 0;
-            width: 25vmin;
-            align-content: center;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 2vmin;
-            font-style: normal;
-            font-weight: 800;
-            list-style: none;
-            background: #FCFCFC;
-            border: none; }
-            .about-header__top .about-nav__menu .filter-dropdown .tog {
-              display: none; }
-            .about-header__top .about-nav__menu .filter-dropdown .list--style {
-              margin-left: 1vmin;
-              margin-bottom: 2vmin; }
-              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
-                cursor: pointer; }
-              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
-                color: #150433; }
-    .about-header .about-header__bottom {
-      height: 70%;
-      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
-      background-blend-mode: multiply;
-      background-size: cover;
-      background-repeat: no-repeat; }
-      .about-header .about-header__bottom__h1 {
-        margin-top: 7%;
-        margin-left: 7%;
-        font-size: 5vmin;
-        font-family: "M PLUS 1p", sans-serif;
-        color: #F61067;
-        line-height: normal; }
-      .about-header .about-header__bottom__p {
-        margin-left: 7%;
-        margin-bottom: 4%;
-        font-size: 3vmin;
-        font-family: "M PLUS 1p", sans-serif;
-        color: #F4F4ED; }
-  .about-main {
-    background: #FCFCFC; }
-    .about-main__h4 {
-      color: #F61067;
-      margin-top: 10%;
-      margin-bottom: 3%;
-      margin-left: 7%;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 2.8vmin;
-      line-height: normal; }
-    .about-main__p1 {
-      margin-left: 7%;
-      margin-bottom: 7%;
-      width: 90%;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 5vmin;
-      color: #30233D; }
-    .about-main .about-main__bottom {
-      -ms-flex-direction: column !important;
-      flex-direction: column !important; }
-    .about-main__bottom {
-      margin-top: 5%;
-      margin-left: 7%;
-      margin-right: 2%; }
-      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
-        color: #30233D;
-        font-size: 3.5vmin;
-        font-weight: 500;
-        line-height: normal;
-        font-family: "M PLUS 1p", sans-serif; }
-      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.2vmin;
-        color: #776C82; } }
-
-@media screen and (min-width: 600px) {
-  .about-header {
-    width: 100%;
-    height: auto;
-    margin-top: 3%;
-    overflow-x: hidden; }
-    .about-header__top {
-      width: 100%;
-      background: white;
-      margin-bottom: 0; }
-      .about-header__top__logo {
-        margin-left: 8%;
-        font-family: "M PLUS 1p", sans-serif;
-        font-size: 4.5vmin;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        color: #150433; }
-      .about-header__top .about-nav {
-        width: 80%;
-        height: 100%;
-        background: white; }
-        .about-header__top .about-nav .about-nav__list {
-          margin-top: 1%;
-          background: white;
-          color: #150433; }
-          .about-header__top .about-nav .about-nav__list .about-list--style {
-            list-style: none;
-            margin-left: 1%;
-            font-family: "M PLUS 1p", sans-serif;
-            font-size: 2.8vmin;
-            font-style: normal;
-            font-weight: 800;
-            line-height: normal;
-            color: #150433; }
-            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
-              color: #150433 !important; }
-        .about-header__top .about-nav ul {
-          width: 80%;
-          list-style: none; }
-        .about-header__top .about-nav__menu {
-          width: 15%;
-          margin-top: 1%;
-          margin-left: 6%; }
-          .about-header__top .about-nav__menu .list--style {
-            display: none; }
-    .about-header .about-header__bottom {
-      width: 100%;
-      height: auto;
-      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
-      background-blend-mode: multiply;
-      background-size: 100%;
-      background-repeat: no-repeat; }
-      .about-header .about-header__bottom .about-header__bottom__h1 {
-        margin-top: 7%;
-        margin-left: 8%;
-        font-size: 6vmin;
-        line-height: normal;
-        color: #F61067; }
-      .about-header .about-header__bottom .about-header__bottom__p {
-        margin-top: 1%;
-        margin-bottom: 6.5%;
-        margin-left: 8%;
-        font-size: 2.5vmin;
-        color: #FCFCFC; }
-  .about-main {
-    background: white; }
-    .about-main__h4 {
-      color: #F61067;
-      margin-top: 7%;
-      margin-bottom: 2%;
-      margin-left: 8%;
-      font-size: 2.5vmin;
-      line-height: normal;
-      font-family: "M PLUS 1p", sans-serif; }
-    .about-main__p1 {
-      margin-left: 8%;
-      margin-bottom: 7%;
-      width: 60%;
-      font-size: 4vmin;
-      font-family: "M PLUS 1p", sans-serif;
-      color: #30233D; }
-    .about-main__bottom {
-      margin-right: 20%;
-      margin-left: 8%;
-      margin-bottom: 7%; }
-      .about-main__bottom__left, .about-main__bottom__right {
-        width: 49%; }
-        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
-          font-family: "M PLUS 1p", sans-serif;
-          font-weight: 500;
-          color: #30233D;
-          line-height: normal; }
-        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
-          font-family: "M PLUS 1p", sans-serif;
-          color: #776C82; }
-  .about-link {
-    color: #150433;
-    font-weight: 600; } }
 
 .card-section .blank {
   margin: 0;
@@ -1454,6 +1246,12 @@ nav {
     margin: -5em auto 0 auto;
     width: 13em;
     height: 13em; }
+    .card-section .card img.card-center-image .card-section-home02 {
+      display: block;
+      background: none;
+      margin: 5em auto 0 auto;
+      width: 13em;
+      height: 13em; }
     @media (min-width: 1201px) {
       .card-section .card img.card-center-image {
         width: 20em;
@@ -1504,13 +1302,17 @@ nav {
   .card-section .card .card__newsletter {
     width: 100%;
     border: none;
-    text-align: center; }
+    text-align: center;
+    padding: 5em 0; }
     @media (min-width: 1201px) {
       .card-section .card .card__newsletter {
-        padding: 7rem 0; } }
+        padding: 5rem 0; } }
+    @media (max-width: 839px) {
+      .card-section .card .card__newsletter {
+        padding: 5em 0; } }
   .card-section .card h3.card__newsletter-h3 {
     font-family: "M PLUS 1p", sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 500;
     font-style: normal; }
     @media (min-width: 1201px) {
@@ -1979,86 +1781,550 @@ nav {
             margin-left: 2.3em;
             letter-spacing: 0.2em; } }
 
+@media screen and (max-width: 600px) {
+  .about-header {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0;
+    height: auto;
+    background: #FCFCFC; }
+    .about-header__top {
+      width: 100%;
+      flex-direction: row !important; }
+      .about-header__top__logo {
+        margin-left: 7%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 5vmin;
+        font-weight: 900;
+        line-height: normal;
+        color: #30124E; }
+      .about-header__top .about-nav {
+        width: 75%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-style: normal;
+        font-size: 3vmin;
+        font-weight: 800;
+        margin-left: 5vw;
+        line-height: normal;
+        flex-direction: row !important; }
+        .about-header__top .about-nav .about-nav__list {
+          flex-direction: row !important; }
+          .about-header__top .about-nav .about-nav__list .list--style {
+            display: none; }
+            .about-header__top .about-nav .about-nav__list .list--style a {
+              color: #150433; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1.5vmin; }
+          .about-header__top .about-nav__menu .filter-dropdown {
+            position: absolute;
+            top: 10vmin;
+            right: 0;
+            width: 25vmin;
+            align-content: center;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2vmin;
+            font-style: normal;
+            font-weight: 800;
+            list-style: none;
+            background: #FCFCFC;
+            border: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .tog {
+              display: none; }
+            .about-header__top .about-nav__menu .filter-dropdown .list--style {
+              margin-left: 1vmin;
+              margin-bottom: 2vmin; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style .list--style:hover {
+                cursor: pointer; }
+              .about-header__top .about-nav__menu .filter-dropdown .list--style a {
+                color: #150433; }
+    .about-header .about-header__bottom {
+      height: 70%;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 7%;
+        font-size: 5vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F61067;
+        line-height: normal; }
+      .about-header .about-header__bottom__p {
+        margin-left: 7%;
+        margin-bottom: 4%;
+        font-size: 3vmin;
+        font-family: "M PLUS 1p", sans-serif;
+        color: #F4F4ED; }
+  .about-main {
+    background: #FCFCFC; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      margin-left: 7%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 2.8vmin;
+      line-height: normal; }
+    .about-main__p1 {
+      margin-left: 7%;
+      margin-bottom: 7%;
+      width: 90%;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 5vmin;
+      color: #30233D; }
+    .about-main .about-main__bottom {
+      -ms-flex-direction: column !important;
+      flex-direction: column !important; }
+    .about-main__bottom {
+      margin-top: 5%;
+      margin-left: 7%;
+      margin-right: 2%; }
+      .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+        color: #30233D;
+        font-size: 3.5vmin;
+        font-weight: 500;
+        line-height: normal;
+        font-family: "M PLUS 1p", sans-serif; }
+      .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 3.2vmin;
+        color: #776C82; } }
+
+@media screen and (min-width: 600px) {
+  .about-header {
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    overflow-x: hidden; }
+    .about-header__top {
+      width: 100%;
+      background: white;
+      margin-bottom: 0; }
+      .about-header__top__logo {
+        margin-left: 8%;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 4.5vmin;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        color: #150433; }
+      .about-header__top .about-nav {
+        width: 80%;
+        height: 100%;
+        background: white; }
+        .about-header__top .about-nav .about-nav__list {
+          margin-top: 1%;
+          background: white;
+          color: #150433; }
+          .about-header__top .about-nav .about-nav__list .about-list--style {
+            list-style: none;
+            margin-left: 1%;
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2.8vmin;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            color: #150433; }
+            .about-header__top .about-nav .about-nav__list .about-list--style .about-link, .about-header__top .about-nav .about-nav__list .about-list--style a {
+              color: #150433 !important; }
+        .about-header__top .about-nav ul {
+          width: 80%;
+          list-style: none; }
+        .about-header__top .about-nav__menu {
+          width: 15%;
+          margin-top: 1%;
+          margin-left: 6%; }
+          .about-header__top .about-nav__menu .list--style {
+            display: none; }
+    .about-header .about-header__bottom {
+      width: 100%;
+      height: auto;
+      background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+      background-blend-mode: multiply;
+      background-size: 100%;
+      background-repeat: no-repeat; }
+      .about-header .about-header__bottom .about-header__bottom__h1 {
+        margin-top: 7%;
+        margin-left: 8%;
+        font-size: 6vmin;
+        line-height: normal;
+        color: #F61067; }
+      .about-header .about-header__bottom .about-header__bottom__p {
+        margin-top: 1%;
+        margin-bottom: 6.5%;
+        margin-left: 8%;
+        font-size: 2.5vmin;
+        color: #FCFCFC; }
+  .about-main {
+    background: white; }
+    .about-main__h4 {
+      color: #F61067;
+      margin-top: 7%;
+      margin-bottom: 2%;
+      margin-left: 8%;
+      font-size: 2.5vmin;
+      line-height: normal;
+      font-family: "M PLUS 1p", sans-serif; }
+    .about-main__p1 {
+      margin-left: 8%;
+      margin-bottom: 7%;
+      width: 60%;
+      font-size: 4vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #30233D; }
+    .about-main__bottom {
+      margin-right: 20%;
+      margin-left: 8%;
+      margin-bottom: 7%; }
+      .about-main__bottom__left, .about-main__bottom__right {
+        width: 49%; }
+        .about-main__bottom__left__h5, .about-main__bottom__right__h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-weight: 500;
+          color: #30233D;
+          line-height: normal; }
+        .about-main__bottom__left__p2, .about-main__bottom__right__p2 {
+          font-family: "M PLUS 1p", sans-serif;
+          color: #776C82; }
+  .about-link {
+    color: #150433;
+    font-weight: 600; } }
+
+.main1__top__1, .main1__top__2, .main1__top__3, .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+  width: 20%;
+  margin-right: 7%; }
+
+@media screen and (max-width: 450px) {
+  .flex-row .main1__top__1,
+  .flex-row .main1__top__2,
+  .flex-row .main1__top__3,
+  .flex-row .main1__bottom__1,
+  .flex-row .main1__bottom__2,
+  .flex-row .main1__bottom__3 {
+    width: 90%;
+    margin: 5%; }
+  .main__p1 {
+    margin-top: 10%;
+    font-size: 2.5vmin; }
+  .main__h2 {
+    font-size: 4vmin;
+    line-height: normal; }
+  .main1__p2 {
+    width: 100% !important; }
+  .flex-row {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    align-items: center; }
+    .flex-row .main1__bottom__1 {
+      order: 1; }
+    .flex-row .main1__bottom__2 {
+      order: 0; }
+    .flex-row .main1__bottom__3 {
+      order: 2; }
+  .main1__p3 {
+    font-size: 4vmin !important; }
+  .head--1,
+  .head--2,
+  .head--3,
+  .head--4,
+  .head--5,
+  .head--6 {
+    width: 100%;
+    font-size: 4.5vmin !important;
+    margin: 0 auto; }
+  .main1__btn {
+    width: 25vw !important;
+    height: 5vw !important; }
+  svg {
+    margin: 0 auto; } }
+
+.main1 {
+  width: 100%;
+  background: #150433; }
+  .main1__p1 {
+    margin-top: 22%;
+    font-size: 2.5vmin;
+    color: #F61067; }
+  .main1__h2 {
+    color: #FCFCFC;
+    font-size: 4.5vmin;
+    line-height: normal; }
+  .main1__p2 {
+    width: 50%;
+    text-align: center;
+    color: #FCFCFC;
+    margin-bottom: 7%; }
+  .main1__top {
+    width: 100%; }
+    .main1__top__1, .main1__top__2, .main1__top__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1__bottom {
+    margin: 5vmin 15vmin;
+    width: 100%; }
+    .main1__bottom__1, .main1__bottom__2, .main1__bottom__3 {
+      font-family: "M PLUS 1p", sans-serif; }
+  .main1 .main1__p3 {
+    color: #FCFCFC;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 2.5vmin;
+    line-height: normal; }
+  .main1 .head--1 {
+    margin: 0 auto;
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--2 {
+    margin: 0 auto;
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--3 {
+    margin: 0 auto;
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--4 {
+    margin: 0 auto;
+    color: #F67110;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--5 {
+    margin: 0 auto;
+    color: #00F0B5;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1 .head--6 {
+    margin: 0 auto;
+    color: #F61067;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 3.2vmin;
+    line-height: normal; }
+  .main1__btn {
+    width: 15vw;
+    height: 3.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 2vmin; }
+    .main1__btn:hover {
+      background: #f84186; }
+
 .card__icon--white {
   font-size: 5rem;
   color: #FCFCFC; }
 
 .section-intro {
-  padding: 6rem 6rem 0 6rem;
-  overflow: hidden; }
-
-body {
-  overflow-x: hidden; }
-
-.into__heading--primary {
-  color: #F61067;
-  text-transform: uppercase;
-  line-height: 26px;
-  letter-spacing: .6rem; }
-
-.intro__info--text {
-  width: 70%; }
-
-.intro__icon--text-secondary {
-  color: #776C82;
-  justify-content: center; }
-
-.section-what-we-do {
-  overflow-x: hidden; }
-
-.what-we-do {
-  margin: 0 6rem 3rem 6rem; }
-  .what-we-do--image {
-    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
-    background-blend-mode: multiply;
-    margin-top: -10rem; }
-  .what-we-do__primary {
-    color: #F61067;
-    text-transform: uppercase;
-    line-height: 26px;
-    letter-spacing: .2rem; }
-
-.row {
-  flex-wrap: nowrap; }
-  .row-primary {
-    background-color: #5E239D; }
-  .row-secondary {
-    background-color: #30124E; }
-  .row-tertiary {
-    background-color: #3A0475; }
-
-.icon__circle {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 1px solid #F61067;
-  text-align: center;
-  line-height: 1rem;
-  vertical-align: middle;
-  padding: 1rem; }
-  .icon__circle--icon {
-    color: #F61067; }
-
-.row__container--text {
-  display: flex;
-  flex-direction: row;
-  text-align: center; }
-
-.row-container {
-  display: flex;
-  flex-direction: column; }
-  .row-container__col {
+  box-sizing: border-box;
+  padding: 4em 1.5em;
+  margin-bottom: -10em; }
+  .section-intro .intro__top {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    text-emphasis: center;
+    padding: 2em 0;
+    flex-flow: column wrap; }
+    @media (min-width: 840px) and (max-width: 1200px) {
+      .section-intro .intro__top {
+        padding: 0 0 0 3em; } }
+    @media (min-width: 1201px) {
+      .section-intro .intro__top {
+        padding: 0 0 0 3em; } }
+    .section-intro .intro__top .intro__top--h5 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 0.9em;
+      font-weight: 800;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #F61067;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--h5 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.1em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left; } }
+    .section-intro .intro__top .intro__top--h2 {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.5em;
+      font-weight: 800;
+      font-style: normal;
+      line-height: 0.9;
+      color: #30233D;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--h2 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 2em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--h2 {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left; } }
+    .section-intro .intro__top .intro__top--article {
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      font-style: normal;
+      color: #30233D; }
+      .section-intro .intro__top .intro__top--article br {
+        display: none; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__top .intro__top--article {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.3em;
+          font-weight: 800;
+          font-style: normal;
+          padding: 1em 0;
+          text-align: left; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__top .intro__top--article {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1em;
+          font-weight: 800;
+          font-style: normal;
+          text-align: left;
+          padding: 2em 0; }
+          .section-intro .intro__top .intro__top--article br {
+            display: block; } }
+  .section-intro .intro__bottom {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1em 0; }
+    @media (min-width: 1201px) {
+      .section-intro .intro__bottom {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 1.5em; } }
+    .section-intro .intro__bottom .intro__bottom--items {
+      margin: 0 0 1em 0;
+      flex: 1;
+      text-align: center; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__bottom .intro__bottom--items {
+          padding: 2em 0; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__bottom .intro__bottom--items {
+          margin-right: 0.8em;
+          padding: 1.3em 0.8em 0 0.8em; } }
+      .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 1.3em;
+        font-weight: 500;
+        font-style: normal; }
+        @media (min-width: 840px) and (max-width: 1200px) {
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2em;
+            font-weight: 800;
+            font-style: normal;
+            padding: 1em 0; } }
+        @media (min-width: 1201px) {
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--h5 {
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 1.3em;
+            font-weight: 800;
+            font-style: normal;
+            padding: .5em 0; } }
+      .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p br {
+        display: none; }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p {
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5em;
+          font-weight: 800;
+          font-style: normal; } }
+      @media (min-width: 1201px) {
+        .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p {
+          text-align: left; }
+          .section-intro .intro__bottom .intro__bottom--items .intro__bottom--p br {
+            display: block; } }
+
+.triangle {
+  display: flex;
+  flex-flow: column wrap;
+  height: 25em;
+  background: #30124E; }
+  @media (min-width: 1201px) {
+    .triangle {
+      display: flex;
+      flex-flow: row wrap;
+      height: 25em;
+      background: #30124E; } }
+  @media (min-width: 840px) and (max-width: 1200px) {
+    .triangle {
+      display: flex;
+      flex-flow: column wrap; } }
+  .triangle__items {
+    flex: 1;
+    border-right: none; }
+  @media (min-width: 1201px) {
+    .triangle .items--image {
+      background: #30124E;
+      background-image: linear-gradient(270.72deg, #30124E 0.57%, rgba(48, 18, 78, 0) 18.8%), url("https://res.cloudinary.com/john-pels/image/upload/v1568628407/team-rebel/Home-02/right-side.png");
+      background-blend-mode: normal, multiply;
+      background-position: 70% 45%; } }
+  .triangle .items--brand {
     color: #FCFCFC; }
-
-.col-heading__primary {
-  margin: 4rem 6rem; }
-
-.col-heading__secondary {
-  margin: 4rem 4rem 3rem 4rem; }
+    .triangle .items--brand-h5 {
+      padding: 0 0 0 2em;
+      margin-top: -8em;
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: 1em;
+      font-weight: 800;
+      font-style: normal; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand-h5 {
+          text-align: left;
+          margin: 0 0 0 5.8em;
+          padding: 3em 0 1.5em 0; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand-h5 {
+          margin-bottom: 2em;
+          text-align: center; } }
+    .triangle .items--brand img {
+      display: block;
+      margin: 0 auto; }
+      @media (min-width: 1201px) {
+        .triangle .items--brand img {
+          display: block;
+          height: 40%; } }
+      @media (min-width: 840px) and (max-width: 1200px) {
+        .triangle .items--brand img {
+          margin: 0 auto;
+          display: block;
+          height: auto;
+          padding-bottom: 3em; } }
 
 .what-we-do-stats {
   padding: 6rem; }
@@ -2069,42 +2335,252 @@ body {
   .what-we-do-stats__tertiary {
     color: #00F0B5; }
 
-.stats_text {
-  letter-spacing: 6px;
-  text-transform: uppercase; }
+@media screen and (max-width: 600px) {
+  .team-about-header__bottom {
+    width: 100%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+    background-blend-mode: multiply;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .team-about-header__bottom__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .team-about-header__bottom__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
 
-@media (max-width: 1364px) {
-  .section-intro {
-    padding: 2rem; }
-  .intro__info--text {
-    width: 100%; }
-  #row-what-we-do {
-    flex-wrap: wrap; }
-  .row_container {
-    margin: 2rem;
-    flex-wrap: wrap; }
-  .footer-row {
-    flex-wrap: wrap; }
-  .what-we-do {
-    margin: 0 2rem; }
-    .what-we-do--image {
-      display: none; }
-    .what-we-do-stats {
-      padding: 2rem; }
-  .row {
-    flex-flow: wrap; }
-  .icon__circle {
-    margin: 0 auto; }
-  .intro__icon--text-primary {
+.team-about-header__bottom {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .team-about-header__bottom__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .team-about-header__bottom__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.team-main {
+  width: 100%; }
+  .team-main__p1 {
+    margin-top: 10%;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    color: #F61067; }
+  .team-main__h4 {
+    margin-top: 1%;
+    font-size: 5vmin;
+    color: #30233D; }
+  .team-main__p2 {
+    width: 32%;
+    margin-bottom: 20%;
+    font-size: 2.5vmin;
     text-align: center;
-    justify-content: center; }
-  .col-heading__primary {
-    margin: 2rem 0rem; }
-  .col-heading__secondary {
-    margin: 1rem 4rem; }
-  .what-we-do {
-    margin: 0 2rem; }
-  .what-we-do-small {
-    font-size: 1.9rem; }
-  .intro__icon {
-    margin-top: 0; } }
+    color: #30233D; }
+  .team-main__bottom {
+    background: #150433; }
+    .team-main__bottom-up {
+      width: 100%;
+      margin-top: -10%; }
+      .team-main__bottom-up-1 .team-main__bottom-up-h5, .team-main__bottom-up-2 .team-main__bottom-up-h5, .team-main__bottom-up-3 .team-main__bottom-up-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-up-1 .team-main__bottom-up-p2, .team-main__bottom-up-2 .team-main__bottom-up-p2, .team-main__bottom-up-3 .team-main__bottom-up-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom-down {
+      width: 100%;
+      margin-top: 15vmin;
+      margin-bottom: 5%; }
+      .team-main__bottom-down-1 .team-main__bottom-down-h5, .team-main__bottom-down-2 .team-main__bottom-down-h5, .team-main__bottom-down-3 .team-main__bottom-down-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-down-1 .team-main__bottom-down-p2, .team-main__bottom-down-2 .team-main__bottom-down-p2, .team-main__bottom-down-3 .team-main__bottom-down-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom .svg {
+      width: 100%; }
+    .team-main__bottom .team-images {
+      width: 40vmin;
+      height: auto; }
+    @media screen and (max-width: 450px) {
+      .team-main__bottom .team-main__bottom-up, .team-main__bottom .team-main__bottom-down {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; }
+        .team-main__bottom .team-main__bottom-up-1, .team-main__bottom .team-main__bottom-up-2, .team-main__bottom .team-main__bottom-up-3, .team-main__bottom .team-main__bottom-down-1, .team-main__bottom .team-main__bottom-down-2, .team-main__bottom .team-main__bottom-down-3 {
+          margin-bottom: 10vmin; }
+        .team-main__bottom .team-main__bottom-up .svg, .team-main__bottom .team-main__bottom-down .svg {
+          width: 70%; }
+      .team-main__bottom .carousel {
+        margin-bottom: 0; }
+      .team-main__bottom .footer {
+        margin-top: 5%; } }
+  .team-main .carousel {
+    margin-bottom: 0; }
+
+@media screen and (max-width: 600px) {
+  .team-about-header__bottom {
+    width: 100%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+    background-blend-mode: multiply;
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    .team-about-header__bottom__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .team-about-header__bottom__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.team-about-header__bottom {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .team-about-header__bottom__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .team-about-header__bottom__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.team-main {
+  width: 100%; }
+  .team-main__p1 {
+    margin-top: 10%;
+    font-size: 2vmin;
+    letter-spacing: 2px;
+    color: #F61067; }
+  .team-main__h4 {
+    margin-top: 1%;
+    font-size: 5vmin;
+    color: #30233D; }
+  .team-main__p2 {
+    width: 32%;
+    margin-bottom: 20%;
+    font-size: 2.5vmin;
+    text-align: center;
+    color: #30233D; }
+  .team-main__bottom {
+    background: #150433; }
+    @media screen and (max-width: 450px) {
+      .team-main__bottom {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; } }
+    .team-main__bottom-up {
+      width: 30%;
+      margin-top: -27%; }
+      .team-main__bottom-up-1 .team-main__bottom-up-h5, .team-main__bottom-up-2 .team-main__bottom-up-h5, .team-main__bottom-up-3 .team-main__bottom-up-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-up-1 .team-main__bottom-up-p2, .team-main__bottom-up-2 .team-main__bottom-up-p2, .team-main__bottom-up-3 .team-main__bottom-up-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom-down {
+      width: 30%;
+      margin-top: -5%;
+      margin-bottom: 5%;
+      margin-left: 5%; }
+      .team-main__bottom-down-2 {
+        width: 100%;
+        background: #5E239D;
+        margin-top: 7vmin; }
+        .team-main__bottom-down-2 .head-5 {
+          margin-top: 5vmin;
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 3vmin;
+          color: white; }
+        .team-main__bottom-down-2 .p1 {
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 1.5vmin;
+          color: white;
+          opacity: 0.5;
+          letter-spacing: 0.5vmin; }
+        .team-main__bottom-down-2 .p2 {
+          margin-left: 10vmin;
+          font-family: "M PLUS 1p", sans-serif;
+          font-size: 2vmin;
+          color: white; }
+        .team-main__bottom-down-2 .img-5 {
+          width: 25%;
+          height: 14vmin;
+          margin-top: 15%;
+          margin-bottom: 5vmin;
+          margin-left: 10vmin;
+          border-radius: 50%; }
+      .team-main__bottom-down-1 .team-main__bottom-down-h5, .team-main__bottom-down-2 .team-main__bottom-down-h5, .team-main__bottom-down-3 .team-main__bottom-down-h5 {
+        color: white;
+        font-size: 4vmin; }
+      .team-main__bottom-down-1 .team-main__bottom-down-p2, .team-main__bottom-down-2 .team-main__bottom-down-p2, .team-main__bottom-down-3 .team-main__bottom-down-p2 {
+        color: #FCFCFC;
+        letter-spacing: 2px;
+        font-weight: 200;
+        font-size: 3vmin;
+        opacity: 0.5; }
+    .team-main__bottom .svg {
+      width: 100%; }
+    .team-main__bottom .team-images {
+      width: 40vmin;
+      height: auto;
+      margin-top: 15%; }
+    @media screen and (max-width: 450px) {
+      .team-main__bottom .team-main__bottom-up, .team-main__bottom .team-main__bottom-down {
+        flex-direction: column !important;
+        -ms-flex-direction: column !important; }
+        .team-main__bottom .team-main__bottom-up-1, .team-main__bottom .team-main__bottom-up-2, .team-main__bottom .team-main__bottom-up-3, .team-main__bottom .team-main__bottom-down-1, .team-main__bottom .team-main__bottom-down-2, .team-main__bottom .team-main__bottom-down-3 {
+          margin-bottom: 10vmin; }
+        .team-main__bottom .team-main__bottom-up .svg, .team-main__bottom .team-main__bottom-down .svg {
+          width: 70%; }
+      .team-main__bottom .team-main__bottom-up {
+        margin-top: -20%; }
+      .team-main__bottom .team-main__bottom-down-2 {
+        width: 70vmin;
+        order: 3; }
+      .team-main__bottom .carousel {
+        margin-bottom: 0; }
+      .team-main__bottom .footer {
+        margin-top: 5%; } }
+  .team-main .carousel {
+    margin-bottom: 0; }
