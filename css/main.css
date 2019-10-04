@@ -2046,6 +2046,94 @@ nav {
     height: 5vw !important; }
   svg {
     margin: 0 auto; } }
+@media screen and (max-width: 600px) {
+  .about-header__bottom1 {
+    height: 70%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .about-header__bottom1__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .about-header__bottom1__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.about-header__bottom1 {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628312/team-rebel/Contact/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .about-header__bottom1__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .about-header__bottom1__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
+.card__icon--white {
+  font-size: 5rem;
+  color: #FCFCFC; }
+
+.section-intro {
+  padding: 6rem 6rem 0 6rem;
+  overflow: hidden; }
+
+body {
+  overflow-x: hidden; }
+
+.into__heading--primary {
+  color: #F61067;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: .6rem; }
+
+.intro__info--text {
+  width: 70%; }
+
+.intro__icon--text-secondary {
+  color: #776C82;
+  justify-content: center; }
+
+.section-what-we-do {
+  overflow-x: hidden; }
+
+.what-we-do {
+  margin: 0 6rem 3rem 6rem; }
+  .what-we-do--image {
+    background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+    background-blend-mode: multiply;
+    margin-top: -10rem; }
+  .what-we-do__primary {
+    color: #F61067;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: .2rem; }
+
+.row {
+  flex-wrap: nowrap; }
+  .row-primary {
+    background-color: #5E239D; }
+  .row-secondary {
+    background-color: #30124E; }
+  .row-tertiary {
+    background-color: #3A0475; }
 
 .main1 {
   width: 100%;
@@ -3724,6 +3812,41 @@ nav {
         margin-top: 5%; } }
   .team-main .carousel {
     margin-bottom: 0; }
+@media (max-width: 1364px) {
+  .section-intro {
+    padding: 2rem; }
+  .intro__info--text {
+    width: 100%; }
+  #row-what-we-do {
+    flex-wrap: wrap; }
+  .row_container {
+    margin: 2rem;
+    flex-wrap: wrap; }
+  .footer-row {
+    flex-wrap: wrap; }
+  .what-we-do {
+    margin: 0 2rem; }
+    .what-we-do--image {
+      display: none; }
+    .what-we-do-stats {
+      padding: 2rem; }
+  .row {
+    flex-flow: wrap; }
+  .icon__circle {
+    margin: 0 auto; }
+  .intro__icon--text-primary {
+    text-align: center;
+    justify-content: center; }
+  .col-heading__primary {
+    margin: 2rem 0rem; }
+  .col-heading__secondary {
+    margin: 1rem 4rem; }
+  .what-we-do {
+    margin: 0 2rem; }
+  .what-we-do-small {
+    font-size: 1.9rem; }
+  .intro__icon {
+    margin-top: 0; } }
 
 .marker-large {
   color: #F61067;
@@ -3822,13 +3945,9 @@ nav {
     width: 100%;
     z-index: 2;
     margin-top: -50.2%;
-    overflow-y: hidden; }
   .marker-large {
-    left: -14rem; } }
+    left: -14rem; }
 
-@media (max-width: 768px) {
-  .contact-image {
-    height: 18rem; }
   .title-primary1 {
     padding: 2rem 2rem;
     margin: 0 auto;
