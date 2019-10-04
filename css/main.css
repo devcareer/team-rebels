@@ -207,6 +207,9 @@ h6 {
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+.u-margin-medium {
+  margin: 4rem; }
+
 .u-margin-large {
   margin: 6rem; }
 
@@ -215,6 +218,10 @@ h6 {
 
 .u-padding-none {
   padding: 0; }
+
+.u-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 5px; }
 
 .u-margin-none {
   margin: 0; }
@@ -1477,6 +1484,47 @@ nav {
     color: #150433;
     font-weight: 600; } }
 
+@media screen and (max-width: 600px) {
+  .about-header__bottom1 {
+    height: 70%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .about-header__bottom1__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F61067;
+      line-height: normal; }
+    .about-header__bottom1__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.about-header__bottom1 {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628312/team-rebel/Contact/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .about-header__bottom1__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
+    color: #F61067; }
+  .about-header__bottom1__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
+
 .card__icon--white {
   font-size: 5rem;
   color: #FCFCFC; }
@@ -1606,3 +1654,122 @@ body {
     font-size: 1.9rem; }
   .intro__icon {
     margin-top: 0; } }
+
+.marker-large {
+  color: #F61067;
+  opacity: 0.1;
+  font-size: 15rem;
+  position: absolute;
+  left: -7rem; }
+
+.contact-image {
+  background: #F61067 url("https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 61.15rem;
+  padding: 0; }
+
+.icon-pink {
+  color: #F61067; }
+
+.section-contact__sub {
+  margin: 5rem; }
+
+.section-contact__col2 {
+  height: 66.5rem; }
+
+.address {
+  color: #776C82; }
+
+.title-largee {
+  font-family: "M PLUS 1p", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 4px;
+  text-transform: uppercase; }
+
+.purple-dark {
+  transform: translateX(300px);
+  box-sizing: border-box;
+  width: 72%;
+  z-index: 2;
+  margin-top: -52.2%;
+  overflow-y: hidden; }
+
+.title-primary1 {
+  padding: 2rem 4rem; }
+
+.input2 {
+  padding: 2rem; }
+
+.main1__btn {
+  width: 15vw;
+  height: 3.5vw;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: #FCFCFC;
+  background: #F61067;
+  border: 1px solid #F61067;
+  border-radius: 25vw;
+  font-size: 2vmin; }
+  .main1__btn:hover {
+    background: #f84186; }
+
+::placeholder {
+  color: gray; }
+
+.col1 {
+  height: 70rem;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FCFCFC; }
+
+.input2 {
+  width: 70%;
+  padding: .7rem; }
+
+.purple-light {
+  height: 40rem;
+  width: 50vw;
+  z-index: -2; }
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .purple-light {
+    display: none; }
+  .contact-image {
+    height: 30.5rem;
+    z-index: 0; }
+  .section-contact__sub {
+    margin: 0; }
+  .section-contact__col2 {
+    height: 59rem; }
+  .purple-dark {
+    transform: translate(0);
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 2;
+    margin-top: -50.2%;
+    overflow-y: hidden; } }
+
+@media (max-width: 768px) {
+  .contact-image {
+    height: 18rem; }
+  .marker-large {
+    left: -3rem; }
+  .title-primary1 {
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    width: 800%; }
+  .purple-light {
+    display: none; }
+  .purple-dark {
+    transform: translate(0);
+    width: 100%; }
+  .section-contact__sub {
+    width: 700%;
+    margin: 2rem; }
+  .section-contact__col2 {
+    height: 30rem; } }
