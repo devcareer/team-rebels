@@ -7,13 +7,16 @@
   left: -7rem;
 }
 
+
 .contact-image{
   background: $color-primary url('https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png');
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   height: 61.2rem;
+  // height: 40%;
 padding: 0;
+
 
  
 }
@@ -45,14 +48,16 @@ letter-spacing: 4px;
 text-transform: uppercase;
 }
 
+.background-container{
+  
+}
 .purple-dark{
-  transform: translateX(360px);
-  box-sizing: border-box;
-  width: 72%;
+  transform: translateX(211px);
+  
+  width: 75%;
   z-index: 2;
-  margin-top: -52.2%;
+  margin-top: -39.2%;
   overflow-y: hidden;
- 
   
 }
 .title-primary1{
