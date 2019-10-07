@@ -2785,7 +2785,7 @@ nav {
     margin-top: 5vmin;
     margin-left: 7%;
     font-family: "M PLUS 1p", sans-serif;
-    font-size: 7vmin;
+    font-size: 5vmin;
     font-weight: 900;
     line-height: normal;
     color: #F61067; }
@@ -2793,7 +2793,7 @@ nav {
     margin-left: 7%;
     margin-bottom: 15%;
     font-family: "M PLUS 1p", sans-serif;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     font-weight: 900;
     letter-spacing: 3px;
     color: #150433; }
@@ -2821,14 +2821,14 @@ nav {
         padding-top: 10%;
         padding-left: 25%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.5vmin;
+        font-size: 2.5vmin;
         font-weight: 900;
         letter-spacing: 1vmin;
         color: white; }
       .gallery-main__pics-left-1--p {
         padding-left: 25%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 2vmin;
+        font-size: 1.5vmin;
         font-weight: 400;
         letter-spacing: 0.5vmin;
         color: white; }
@@ -2841,14 +2841,14 @@ nav {
         padding-top: 10%;
         padding-left: 25%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.5vmin;
+        font-size: 2.5vmin;
         font-weight: 900;
         letter-spacing: 1vmin;
         color: white; }
       .gallery-main__pics-left-2--p {
         padding-left: 25%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 2vmin;
+        font-size: 1.5vmin;
         font-weight: 400;
         letter-spacing: 0.5vmin;
         color: white; }
@@ -2861,14 +2861,14 @@ nav {
         padding-top: 10%;
         padding-left: 25%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.5vmin;
+        font-size: 2.5vmin;
         font-weight: 900;
         letter-spacing: 1vmin;
         color: white; }
       .gallery-main__pics-left-3--p {
         padding-left: 25%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 2vmin;
+        font-size: 1.5vmin;
         font-weight: 400;
         letter-spacing: 0.5vmin;
         color: white; }
@@ -2887,14 +2887,14 @@ nav {
         padding-top: 10%;
         padding-left: 15%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.5vmin;
+        font-size: 2.5vmin;
         font-weight: 900;
         letter-spacing: 1vmin;
         color: white; }
       .gallery-main__pics-right-1--p {
         padding-left: 15%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 2vmin;
+        font-size: 1.5vmin;
         font-weight: 400;
         letter-spacing: 0.5vmin;
         color: white; }
@@ -2912,14 +2912,14 @@ nav {
         padding-top: 10%;
         padding-left: 15%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 3.5vmin;
+        font-size: 2.5vmin;
         font-weight: 900;
         letter-spacing: 1vmin;
         color: white; }
       .gallery-main__pics-right-3--p {
         padding-left: 15%;
         font-family: "M PLUS 1p", sans-serif;
-        font-size: 2vmin;
+        font-size: 1.5vmin;
         font-weight: 400;
         letter-spacing: 0.5vmin;
         color: white; }
