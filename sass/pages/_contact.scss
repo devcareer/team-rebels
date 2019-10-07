@@ -27,15 +27,19 @@ padding: 0;
 .section-contact{
 
  &__sub{
-   margin: 5rem;
+  margin: 1rem 6rem;
+  
+    width: 100%;
    
  }
  &__col2 {
   height: 66.5rem;
+
 }
 }
 .address{
-  color:#776C82;
+  color: #776C82;
+  margin-left: 2.5rem;
 }
 .title-largee{
   font-family: $default-font-family;
@@ -49,6 +53,7 @@ text-transform: uppercase;
 }
 
 .background-container{
+  background: linear-gradient(to bottom, #fff 0%,#fff 25%,#30124E 25%,#30124E 100%);
   
 }
 .purple-dark{
@@ -56,7 +61,7 @@ text-transform: uppercase;
   
   width: 75%;
   z-index: 2;
-  margin-top: -39.2%;
+  margin-top:-40.2%;
   overflow-y: hidden;
   
 }
@@ -94,7 +99,7 @@ padding: 2rem 4rem;
  padding: .7rem;
 }
 .purple-light{
-  height:40rem;
+  
   width:50vw;
  z-index: -2;
 //  top: -10rem;
