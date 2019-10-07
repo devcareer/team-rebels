@@ -12,9 +12,11 @@
         margin-bottom: 0;
         height: auto;
         background: $color-white;
+
         &__top {
             width: 100%;
             flex-direction: row !important;
+
             &__logo {
                 margin-left: 7%;
                 font-family: $default-font-family;
