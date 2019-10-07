@@ -1180,7 +1180,7 @@ nav {
       height: auto;
       background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
       background-blend-mode: multiply;
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat; }
       .about-header .about-header__bottom .about-header__bottom__h1 {
         margin-top: 7%;

@@ -247,7 +247,7 @@
         height: auto;
         background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png');
         background-blend-mode: multiply;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
 
         .about-header__bottom__h1 {
