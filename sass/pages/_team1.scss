@@ -4,7 +4,7 @@
             // height: 70%;
             background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png');
             background-blend-mode: multiply;
-            background-size: 100%;
+            background-size: cover;
             background-repeat: no-repeat;
 
             &__h1 {
@@ -32,7 +32,7 @@
         height: auto;
         background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png');
         background-blend-mode: multiply;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
 
         &__h1 {
