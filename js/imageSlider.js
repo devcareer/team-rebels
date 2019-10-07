@@ -56,6 +56,9 @@ const onChangeRight = () => {
     currentImageIndex += 1;
     currentH3 += 1;
     currentTagline += 1;
+    /* This is a conditonal statement for next arrow that checks if the currentImageIndex
+        (1 and above) is less than the length of the imageLinks(12), if true, then it changes the image, heading h3 and the names, and if false, then it returns null
+        */
     let condition = (currentImageIndex < imageLinks.length) ?
         (imageDiv.classList.add('imageChange'),
             imageDiv.src = imageLinks[currentImageIndex],
@@ -72,8 +75,8 @@ const onChangeLeft = () => {
         currentImageIndex -= 1;
         currentH3 -= 1;
         currentTagline -= 1;
-        /* This is a conditonal statement that checks if the currentImageIndex
-        (1 and above) is less than the length of the imageLinks(12), if true then it executes the block of statements, and if false then it returns null
+        /* This is a conditonal statement for the previous arrow that checks if the currentImageIndex
+        (1 and above) is less than the length of the imageLinks(12), if true, then it changes the image, heading h3 and the names, and if false, then it returns null
         */
         let condition = (currentImageIndex < imageLinks.length) ?
             (imageDiv.src = imageLinks[currentImageIndex],
@@ -89,13 +92,14 @@ const onChangeLeft = () => {
         currentImageIndex -= 1;
         currentH3 -= 1;
         currentTagline -= 1;
-
-        let condition = (currentImageIndex < imageLinks.length) ? //Condition 1
+        /* This is a conditonal statement for previous arrow when on 0 to returns the last imageLinks(12) , if true, then it changes the image, heading h3 and the names, and if false, then it returns null
+         */
+        let condition = (currentImageIndex < imageLinks.length) ?
             (imageDiv.src = imageLinks[currentImageIndex],
                 cardPhotosH3.innerHTML = h3Texts[currentH3],
                 cardPhotosTagline.classList.add('secondary'),
                 cardPhotosTagline.innerHTML = tagline[currentTagline]) :
-            null; // Else(default)
+            null;
         return condition;
     }
 
