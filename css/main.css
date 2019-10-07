@@ -3707,13 +3707,15 @@ nav {
   color: #F61067; }
 
 .section-contact__sub {
-  margin: 5rem; }
+  margin: 1rem 6rem;
+  width: 100%; }
 
 .section-contact__col2 {
   height: 66.5rem; }
 
 .address {
-  color: #776C82; }
+  color: #776C82;
+  margin-left: 2.5rem; }
 
 .title-largee {
   font-family: "M PLUS 1p", sans-serif;
@@ -3724,11 +3726,14 @@ nav {
   letter-spacing: 4px;
   text-transform: uppercase; }
 
+.background-container {
+  background: linear-gradient(to bottom, #fff 0%, #fff 25%, #30124E 25%, #30124E 100%); }
+
 .purple-dark {
   transform: translateX(211px);
   width: 75%;
   z-index: 2;
-  margin-top: -39.2%;
+  margin-top: -40.2%;
   overflow-y: hidden; }
 
 .title-primary1 {
@@ -3764,7 +3769,6 @@ nav {
   padding: .7rem; }
 
 .purple-light {
-  height: 40rem;
   width: 50vw;
   z-index: -2; }
 
@@ -3774,6 +3778,9 @@ nav {
   .contact-image {
     height: 30.5rem;
     z-index: 0; }
+  .input2 {
+    width: 70%;
+    padding: .7rem; }
   .section-contact__sub {
     margin: 0; }
   .section-contact__col2 {
@@ -3782,6 +3789,7 @@ nav {
     transform: translate(0);
     box-sizing: border-box;
     width: 100%;
+    overflow: hidden;
     z-index: 2;
     margin-top: -50.2%;
     overflow-y: hidden; }
@@ -3791,6 +3799,10 @@ nav {
 @media (max-width: 768px) {
   .contact-image {
     height: 18rem; }
+  .input2 {
+    width: 100%; }
+  .title-largee {
+    letter-spacing: 1.6px; }
   .title-primary1 {
     padding: 2rem 2rem;
     margin: 0 auto;
@@ -3798,6 +3810,7 @@ nav {
   .purple-light {
     display: none; }
   .purple-dark {
+    overflow-x: hidden;
     transform: translate(0);
     width: 100%; }
   .section-contact__sub {
