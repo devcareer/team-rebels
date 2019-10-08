@@ -1,5 +1,13 @@
 // *********The card-section.html style starts here****************
 .card-section {
+    .secondary {
+        color: #F61067;
+        font-weight: bolder;
+        transition: all .5s ease-in-out;
+    }
+    .imageChange {
+        transition: all .5s ease-in-out;
+    }
     .blank {
         margin: 0;
         padding: 0;
