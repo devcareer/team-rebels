@@ -71,7 +71,7 @@ padding: 2rem 4rem;
 .input2{
   padding: 2rem;
 }
-.main1__btn {
+.main1__btn1{
   width: 15vw;
   height: 3.5vw;
   margin-top: 5%;
@@ -152,6 +152,7 @@ padding: 2rem 4rem;
 }
 .input2{
   width: 100%;
+  padding: 0.6rem;
 }
 .title-largee{
   letter-spacing: 1.6px;
@@ -179,5 +180,23 @@ padding: 2rem 4rem;
     height: 30rem;
   }
 }
-
+  .main1__btn1 {
+    transform: translate(29px, 10px);
+    width: 34vw;
+    height: 10.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 4vmin;
 }
+.u-uppercase {
+  text-transform: uppercase;
+ 
+  letter-spacing: 1.1px;
+}
+}
+
+
