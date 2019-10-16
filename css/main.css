@@ -2149,6 +2149,7 @@ nav {
     .main1__btn:hover {
       background: #f84186; }
 
+
 .card-section .blank {
   margin: 0;
   padding: 0; }
@@ -3458,6 +3459,7 @@ nav {
     width: 100%;
     background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
     background-blend-mode: multiply;
+    background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat; }
     .team-about-header__bottom__h1 {
@@ -3479,7 +3481,7 @@ nav {
   height: auto;
   background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png");
   background-blend-mode: multiply;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat; }
   .team-about-header__bottom__h1 {
     margin-top: 7%;
