@@ -682,6 +682,11 @@ h6 {
       padding-left: 0; }
     .menu__item--primary {
       letter-spacing: .2rem; }
+  .footer-section {
+    font-size: 0.7rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 0.7rem; }
   .row {
     display: flex;
     flex-flow: wrap;
@@ -919,6 +924,14 @@ nav {
 @media (max-width: 1024px) {
   .navbar-brand {
     margin-left: 10rem; } }
+
+.card-section .secondary {
+  color: #F61067;
+  font-weight: bolder;
+  transition: all .5s ease-in-out; }
+
+.card-section .imageChange {
+  transition: all .5s ease-in-out; }
 
 .card-section .blank {
   margin: 0;
