@@ -8,15 +8,23 @@
 @import 'sass/base/typography';
 @import 'sass/base/utilities';
 //components
+@import 'sass/components/pyramaid.scss';
 @import 'sass/components/button.scss';
 @import 'sass/components/newsletter';
 @import 'sass/components/testimonials';
-@import 'sass/components/our-clients';
+@import 'sass/components/_our-clients';
+@import 'sass/components/what-we-do-col';
+@import 'sass/components/what-we-do-col-template';
 //layout
 @import 'sass/layouts/footer';
 @import 'sass/layouts/header-home';
 @import 'sass/layouts/card-section';
+@import 'sass/layouts/card-section-02';
 @import 'sass/layouts/about-header';
+@import 'sass/layouts/our-services';
+@import 'sass/layouts/_card-section';
+@import 'sass/layouts/_card-section-02';
+@import 'sass/layouts/contact-us-header';
 //pages
 @import 'sass/pages/about1';
 @import 'sass/pages/about2';
@@ -32,4 +40,3 @@
 @import 'sass/pages/team2';
 @import 'sass/pages/gallery';
 @import 'sass/pages/contact';
-

@@ -1,6 +1,5 @@
 {
   "name": "Lopper",
-
   "version": "1.0.0",
   "description": "Static build of http://www.looper.netify with SASS as CSS pre-processsor, Bootstrap as CSS framework and Jquery as Javascript framework.",
   "main": "app.js",
@@ -8,12 +7,14 @@
     "doc": "docs"
   },
   "dependencies": {
+    "node": "^12.11.0",
     "node-sass": "^4.12.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch sass/main.scss -o css"
+    "scss": "node-sass --watch sass/main.scss -o css",
+    "build": "npm run scss"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,3 @@
   },
   "homepage": "https://github.com/devcareer/team-rebels#readme"
 }
-
-
-

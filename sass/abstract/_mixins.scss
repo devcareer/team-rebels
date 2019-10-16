@@ -57,7 +57,7 @@
     }
    
     @else if $class == md {
-      @media (min-width: 992px) { @content; }
+      @media (max-width: 900px) { @content; }
     }
    
     @else if $class == lg {
@@ -65,7 +65,7 @@
     }
    
     @else if $class == ss {
-
+    
     @media (max-width: 1364px) { @content; }
       }
   
@@ -87,6 +87,7 @@
         @content;
     }
 }
+
 
 @mixin background-property($url,
 $blend-mode,
@@ -142,11 +143,11 @@ $style) {
     }
    
     @else if $class == sm {
-      @media (min-width: 768px) { @content; }
+      @media (max-width: 768px) { @content; }
     }
    
     @else if $class == md {
-      @media (min-width: 992px) { @content; }
+      @media (max-width: 992px) { @content; }
     }
    
     @else if $class == lg {

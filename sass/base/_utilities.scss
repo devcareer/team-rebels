@@ -16,8 +16,22 @@
   margin-top: 1rem;
 }
 
+
+
 .u-margin-medium  {
   margin: 3rem;
+}
+.u-margin-top-none{
+  margin-bottom: 0
+}
+.u-margin-bottom-medium{
+  margin-bottom: 4rem;
+}
+.u-margin-medium {
+  margin: 4rem;
+}
+.u-margin-large {
+  margin: 6rem;
 }
 .u-margin-left{
   margin-right: 4rem;
@@ -25,4 +39,11 @@
 .u-padding-none{
   padding: 0;
 }
+.u-uppercase{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
 
+.u-margin-none{
+  margin: 0;
+}

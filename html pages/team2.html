@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="about-header d-flex flex-column">
+        <div class="about-header__top d-flex justify-content-between align-items-start">
+            <h3 class="about-header__top__logo">Lopper</h3>
+            <nav class="about-nav d-flex justify-content-between">
+                <ul class="about-nav__list d-flex flex-row justify-content-around align-items-start">
+                    <li class="about-nav__home myDIV list--style"><a class="about-link" href="../index.html">Home</a></li>
+                    <li class="about-nav__services list--style"><a class="about-link" href="../html pages/service1.html">Services</a></li>
+                    <li class="about-nav__work list--style"><a class="about-link" href="../html pages/service2.html">Work</a></li>
+                    <li class="about-nav__about list--style"><a class="about-link" href="../html pages/about1.html">About</a></li>
+                    <li class="about-nav__number list--style">
+                        <a class="about-link" href="../html pages/contact.html">
+                            <svg width="3vmin" height="3vmin" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.6 5.4V18.9H5.4V5.4H12.6ZM15.3 0H2.7C1.20938 0 0 1.20938 0 2.7V26.1C0 27.5906 1.20938 28.8 2.7 28.8H15.3C16.7906 28.8 18 27.5906 18 26.1V2.7C18 1.20938 16.7906 0 15.3 0ZM2.7 27C2.205 27 1.8 26.595 1.8 26.1V2.7C1.8 2.205 2.205 1.8 2.7 1.8H15.3C15.795 1.8 16.2 2.205 16.2 2.7V26.1C16.2 26.595 15.795 27 15.3 27H2.7ZM13.725 3.6H4.275C3.90375 3.6 3.6 3.90375 3.6 4.275V20.025C3.6 20.3963 3.90375 20.7 4.275 20.7H13.725C14.0962 20.7 14.4 20.3963 14.4 20.025V4.275C14.4 3.90375 14.0962 3.6 13.725 3.6ZM11.025 23.4H6.975C6.60375 23.4 6.3 23.7038 6.3 24.075V24.525C6.3 24.8963 6.60375 25.2 6.975 25.2H11.025C11.3962 25.2 11.7 24.8963 11.7 24.525V24.075C11.7 23.7038 11.3962 23.4 11.025 23.4Z" fill="#30233D"/>
+                        </svg>(01) 666 - 693 - 456</a>
+                    </li>
+                </ul>
+                <div class="about-nav__menu d-flex flex-column">
+                    <p onclick="myMenu()">
+                        <svg width="5vmin" height="5vmin" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="25" height="2" fill="#30233D"/>
+                            <rect y="7" width="25" height="2" fill="#30233D"/>
+                            <rect x="9" y="14" width="16" height="2" fill="#30233D"/>
+                        </svg>
+                    </p>
+                    <ul class="filter-dropdown d-flex flex-column">
+                        <li class="myTog1 nav__home list--style"><a href="../index.html">Home</a></li>
+                        <li class="myTog2 nav__services list--style"><a href="../html pages/service1.html">Services</a></li>
+                        <li class="myTog3 nav__work list--style"><a href="../html pages/service2.html">Work</a></li>
+                        <li class="myTog4 nav__about list--style"><a href="../html pages/about1.html">About</a></li>
+                        <li class="myTog5 nav__number list--style">
+                            <a href="../html pages/contact.html">
+                                <svg width="3vmin" height="3vmin" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.6 5.4V18.9H5.4V5.4H12.6ZM15.3 0H2.7C1.20938 0 0 1.20938 0 2.7V26.1C0 27.5906 1.20938 28.8 2.7 28.8H15.3C16.7906 28.8 18 27.5906 18 26.1V2.7C18 1.20938 16.7906 0 15.3 0ZM2.7 27C2.205 27 1.8 26.595 1.8 26.1V2.7C1.8 2.205 2.205 1.8 2.7 1.8H15.3C15.795 1.8 16.2 2.205 16.2 2.7V26.1C16.2 26.595 15.795 27 15.3 27H2.7ZM13.725 3.6H4.275C3.90375 3.6 3.6 3.90375 3.6 4.275V20.025C3.6 20.3963 3.90375 20.7 4.275 20.7H13.725C14.0962 20.7 14.4 20.3963 14.4 20.025V4.275C14.4 3.90375 14.0962 3.6 13.725 3.6ZM11.025 23.4H6.975C6.60375 23.4 6.3 23.7038 6.3 24.075V24.525C6.3 24.8963 6.60375 25.2 6.975 25.2H11.025C11.3962 25.2 11.7 24.8963 11.7 24.525V24.075C11.7 23.7038 11.3962 23.4 11.025 23.4Z" fill="#30233D"/>
+                        </svg>(01) 666 - 693 - 456</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="team-about-header__bottom">
+            <h1 class="team-about-header__bottom__h1">About us</h1>
+            <p class="team-about-header__bottom__p">WE BUILD GREAT BUSINESS</p>
+        </div>
+    </header>
+    <main class="team-main d-flex flex-column">
+        <div class="team-main__top d-flex flex-column align-items-center">
+            <p class="team-main__p1">WE ARE</p>
+            <h4 class="team-main__h2">Our team</h4>
+            <p class="team-main__p2">Upper prior hundred links approach reedy, was to the than and the ever somehow surprised known for every by of there until road,</p>
+        </div>
+        <div class="team2-main__bottom d-flex flex-row align-items-center justify-content-center">
+            <div class="team2-main__bottom-up d-flex flex-column align-items-center">
+                <div class="team2-main__bottom-up-1 d-flex flex-column align-items-center">
+                    <img src="https://res.cloudinary.com/john-pels/image/upload/v1568628549/team-rebel/Team-01/Team-4.png" alt="img1" class="team-images">
+
+                </div>
+                <div class="team2-main__bottom-up-2 d-flex flex-column align-items-center">
+                    <img src="https://res.cloudinary.com/john-pels/image/upload/v1568628580/team-rebel/Team-02/Team-3.png" alt="img2" class="team-images">
+
+                </div>
+                <div class="team2-main__bottom-up-3 d-flex flex-column align-items-center">
+                    <img src="https://res.cloudinary.com/john-pels/image/upload/v1568628579/team-rebel/Team-02/Team-4.png" alt="img3" class="team-images">
+
+                </div>
+            </div>
+            <div class="team2-main__bottom-down d-flex flex-column align-items-center">
+                <div class="team2-main__bottom-down-1 d-flex flex-column align-items-center">
+                    <img src="https://res.cloudinary.com/john-pels/image/upload/v1568628577/team-rebel/Team-02/Team-2.png" alt="img4" class="team-images">
+
+                </div>
+                <div class="team2-main__bottom-down-2 d-flex flex-column align-items-start">
+                    <h6 class="head-5">Klara ipsum</h6>
+                    <p class="p1">Designer</p>
+                    <p class="p2">By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.<br><br> klara@lopper.com
+                    </p>
+                    <img src="https://res.cloudinary.com/john-pels/image/upload/v1568628376/team-rebel/Home-01/Home_01_first_image.png" alt="img5" class="img-5">
+
+                </div>
+                <div class="team-main__bottom-down-3 d-flex flex-column align-items-center">
+                    <img src="https://res.cloudinary.com/john-pels/image/upload/v1568628578/team-rebel/Team-02/Team-5.png" alt="img6" class="team-images">
+
+                </div>
+            </div>
+        </div>
+        <div class="carousel" data-include='card-section'></div>
+    </main>
+    <div class="footer" data-include='footer-home'></div>
+    <script src="../js/script.js">
+        var el1 = document.querySelector(".myTog1");
+        var el2 = document.querySelector(".myTog2");
+        var el3 = document.querySelector(".myTog3");
+        var el4 = document.querySelector(".myTog4");
+        var el5 = document.querySelector(".myTog5");
+
+        function myMenu() {
+            return el1.classList.toggle("tog"), el2.classList.toggle("tog"), el3.classList.toggle("tog"), el4.classList.toggle("tog"), el5.classList.toggle("tog");
+        }
+    </script>
+</body>
+
+</html>

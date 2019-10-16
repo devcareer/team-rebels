@@ -21,12 +21,14 @@
   z-index: 2;
 
   &--title {
+
     margin-top: 15%;
     font-weight: 800;
     text-align: center;
     color: $color-primary;
   }
   &--text {
+   
     color: $color-white;
     margin: 5% 10% 5% 10%;
   }
@@ -48,13 +50,29 @@
     margin-bottom: 5%;
   }
 }
+.blue_bg {
+  background: $color-secondary-400;
+  position: relative;
+  z-index: 2;
+
+  &--title {
+    margin-top: 15%;
+    font-weight: 800;
+    text-align: center;
+    color: $color-primary;
+  }
+  &--text {
+    color: $color-white;
+    margin: 5% 10% 5% 10%;
+  }
+}
 //for the client banner
 .client__bg {
   padding-top: 10%;
   background-color: $color-secondary-300;
   position: relative;
-  top: 40%;
-  z-index: 2;
+  top: -10%;
+  z-index: 1;
   &--title {
     color: $color-primary;
     text-transform: uppercase;
@@ -64,10 +82,43 @@
     color: $color-white;
     padding-bottom: 5%;
     margin-left: 5%;
+   
   }
 }
+.icon1{
+  color: $color-white;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.icon-1{
+  color: $color-white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.icon1__circle{
+  width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid $color-white;
+    text-align: center;
+    line-height: 1rem;
+    vertical-align: middle;
+    padding: 1rem;
+}
+.value_card{
+color: #FCFCFC;
+margin-right: 2rem;
+padding: 1rem;
+margin-bottom: 4rem;
 
-///value card part
+&:hover{
+  background-color: $color-primary;
+  transition: background .5s ease-in-out;
+  color: $color-white;
+ p{
+   color:$color-white;
+ }
+ }}
 .value__card {
   color: $color-white;
   border: 1px solid $color-white;
@@ -77,25 +128,64 @@
   margin-bottom: 10%;
   &:hover{
     background-color: $color-primary;
+    transition: background .5s ease-in-out;
+    color: $color-white;
+   p{
+    
   }
+  
   &--number {
     font-weight: 800;
     color: $color-primary;
+
+    
   }
+  
   &--title {
     font-weight: 800;
   }
+ 
+}
+}
+.value__card2 {
+  color: $color-white;
+  border: 1px solid $color-primary;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  &:hover{
+    background-color: $color-primary;
+    transition: background .5s ease-in-out;
+    color: $color-white;
+   p{
+    
+  }
+  
+  &--number {
+    font-weight: 800;
+    color: $color-primary;
+
+    
+  }
+  
+  &--title {
+    font-weight: 800;
+  }
+ 
 }
 
-@media screen and (min-width: 368px) {
+}
+@media screen and (max-width: 425px) {
   .client__logo {
     &--title {
       margin-top: 2rem;
     }
     &--image {
-      width: 300px;
+      width: 200px;
       padding-right: 10%;
       padding-bottom: 5%;
     }
   }
 }
+

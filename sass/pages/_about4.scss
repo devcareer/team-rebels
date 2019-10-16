@@ -1,0 +1,225 @@
+.about04-html {
+    .abt4-container-fluid {
+        @include mobile {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            width: 100%;
+            background: $color-secondary-300;
+            color: $color-white;
+            position: relative;
+            z-index: 1;
+            // border: 2px solid yellow;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @include tablet {
+            width: 100%;
+            background: $color-secondary-300;
+            color: $color-white;
+            position: relative;
+            z-index: 1;
+            // border: 2px solid yellow;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @include desktop {
+            width: 85%;
+            background: $color-secondary-300;
+            color: $color-white;
+            position: relative;
+            z-index: 1;
+            // border: 2px solid yellow;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .abt4-what-we-do {
+            // border: 2px solid green;
+            padding: 0;
+            margin: 0;
+            .what-we-do {
+                display: flex;
+                margin: 0;
+                padding: 5em;
+                flex-flow: column wrap;
+                align-content: flex-start;
+                // border: 2px solid white;
+            }
+        }
+        .row {
+            .col-1 {
+                background: $color-white;
+                color: $color-primary;
+                @media (min-width: 841px) and (max-width: 989px) {
+                    .col-1 {
+                        display: none;
+                    }
+                }
+                @include mobile {
+                    display: none;
+                }
+                .col-heading__primary1 {
+                    @include font-property($default-font-family, 1.2em, 500, normal);
+                }
+            }
+            .image {
+                @include mobile {
+                    display: none;
+                }
+                @include desktop {
+                    height: 30em;
+                    background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628376/team-rebel/Home-01/Home_01_first_image.png"), #F61067;
+                    background-position: 20% 40%;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    right: -17em;
+                    top: -4em;
+                    &::before {
+                        content: '';
+                        z-index: 1;
+                        width: 16em;
+                        height: 15em;
+                        // border: 2px solid white;
+                        position: absolute;
+                        bottom: -7.5em;
+                        right: 0;
+                        background: $color-secondary-100;
+                    }
+                }
+            }
+        }
+    }
+    .about4-wrap {
+        margin-top: -20em;
+        padding: 20em 0 0 0;
+        background: $color-secondary-100;
+        @include tablet {
+            margin-top: -3em;
+            padding: 0;
+        }
+        @include desktop {
+            margin-top: -20em;
+            padding: 20em 0 0 0;
+            background: $color-secondary-100;
+        }
+        .client__part {
+            padding: 4em 0 0 4em;
+            &--title {
+                @include font-property($default-font-family,
+                .7em,
+                800,
+                normal);
+                letter-spacing: .3em;
+            }
+            &--body {
+                color: $color-white;
+                @include font-property($default-font-family,
+                2em,
+                500,
+                normal);
+                @include tablet {
+                    color: $color-white;
+                    @include font-property($default-font-family,
+                    1.5em,
+                    500,
+                    normal);
+                }
+                @include mobile {
+                    color: $color-white;
+                    @include font-property($default-font-family,
+                    1.1em,
+                    500,
+                    normal);
+                }
+            }
+        }
+        .blue__bg {
+            padding: 0 3em;
+            background: $color-secondary-100;
+            &:hover {
+                background: $color-primary;
+                transition: background .5s ease-in-out;
+            }
+            &--title {
+                @include font-property($default-font-family,
+                1.5em,
+                500,
+                normal);
+                color: $color-white;
+            }
+        }
+        .client__logo {
+            &:hover {
+                background: $color-primary;
+                transition: background .5s ease-in-out;
+            }
+            &--title {
+                padding: 1em;
+                color: $color-white;
+                @include mobile {
+                    text-align: center;
+                    padding: 0;
+                    margin-bottom: 3em;
+                }
+            }
+            &--image {
+                margin: 0 auto;
+                @include mobile {
+                    margin: 0 auto;
+                }
+            }
+        }
+        .client__bg {
+            margin: 0;
+            padding: 0;
+            background: $color-secondary-100;
+            &--title {
+                @include font-property($default-font-family,
+                .7em,
+                800,
+                normal);
+                letter-spacing: .3em;
+                padding-left: 4.5em;
+                @include mobile {
+                    padding: 1em 0;
+                    text-align: center;
+                }
+            }
+            &--text {
+                @include font-property($default-font-family,
+                1em,
+                500,
+                normal);
+                line-height: 1.5em;
+                padding-left: 3em;
+            }
+            .abt4-down {
+                margin: 0;
+                padding: 0;
+                .u-margin-none {
+                    padding: 5em;
+                }
+                .u-margin-bottom-medium {
+                    // margin: 1em;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    box-sizing: border-box;
+                }
+                .value__card--title {
+                    @include font-property($default-font-family,
+                    1em,
+                    800,
+                    normal);
+                }
+                .value__card--body {
+                    @include font-property($default-font-family,
+                    .7em,
+                    normal,
+                    normal);
+                }
+            }
+        }
+    }
+}
