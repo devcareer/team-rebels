@@ -4,7 +4,7 @@
             // height: 70%;
             background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png');
             background-blend-mode: multiply;
-            background-size: 100%;
+            background-size: cover;
             background-repeat: no-repeat;
 
             &__h1 {
@@ -32,7 +32,7 @@
         height: auto;
         background: $color-secondary-200 url('https://res.cloudinary.com/john-pels/image/upload/v1568628552/team-rebel/Team-01/Rectangle.png');
         background-blend-mode: multiply;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
 
        
@@ -75,7 +75,7 @@
         color: $text-color-headers;
     }
 
-    &__bottom {
+    .team2-main__bottom {
         background: $color-secondary-400;
 
         @media screen and (max-width: 450px) {
@@ -85,16 +85,16 @@
 
         &-up {
             width: 30%;
-            margin-top: -27%;
+            margin-top: -28%;
             // background: yellow;
 
             &-1, &-2, &-3 {
 
-                .team-main__bottom-up-h5 {
+                .team2-main__bottom-up-h5 {
                     color: white;
                     font-size: 4vmin;
                 }
-                .team-main__bottom-up-p2 {
+                .team2-main__bottom-up-p2 {
                     color: $color-white;
                     letter-spacing: 2px;
                     font-weight: 200;
@@ -147,11 +147,11 @@
             &-1, &-2, &-3 {
                 // background: yellow;
 
-                .team-main__bottom-down-h5 {
+                .team2-main__bottom-down-h5 {
                     color: white;
                     font-size: 4vmin;
                 }
-                .team-main__bottom-down-p2 {
+                .team2-main__bottom-down-p2 {
                     color: $color-white;
                     letter-spacing: 2px;
                     font-weight: 200;
@@ -171,7 +171,7 @@
         }
 
         @media screen and (max-width: 450px) {
-            .team-main__bottom-up, .team-main__bottom-down {
+            .team2-main__bottom-up, .team2-main__bottom-down {
                 flex-direction: column !important;
                 -ms-flex-direction: column !important;
                 &-1, &-2, &-3 {
@@ -185,10 +185,10 @@
 
             }
 
-            .team-main__bottom-up {
+            .team2-main__bottom-up {
                 margin-top: -20%;
             }
-            .team-main__bottom-down {
+            .team2-main__bottom-down {
                 &-2 {
                     width: 70vmin;
                     order: 3;

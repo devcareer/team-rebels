@@ -1,0 +1,202 @@
+
+.marker-large{
+  color: $color-primary;
+  opacity: 0.1;
+  font-size:15rem;
+  position:absolute;
+  left: -7rem;
+}
+
+
+.contact-image{
+  background: $color-primary url('https://res.cloudinary.com/john-pels/image/upload/v1568628315/team-rebel/Contact/Photo.png');
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 61.2rem;
+  // height: 40%;
+padding: 0;
+
+
+ 
+}
+
+.icon-pink{
+  color: $color-primary;
+}
+.section-contact{
+
+ &__sub{
+  margin: 1rem 6rem;
+  
+    width: 100%;
+   
+ }
+ &__col2 {
+  height: 66.5rem;
+
+}
+}
+.address{
+  color: #776C82;
+  margin-left: 2.5rem;
+}
+.title-largee{
+  font-family: $default-font-family;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 37px;
+
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+.background-container{
+  background: linear-gradient(to bottom, #fff 0%,#fff 25%,#30124E 25%,#30124E 100%);
+  
+}
+.purple-dark{
+  transform: translateX(211px);
+  
+  width: 75%;
+  z-index: 2;
+  margin-top:-40.2%;
+  overflow-y: hidden;
+  
+}
+.title-primary1{
+padding: 2rem 4rem;
+}
+.input2{
+  padding: 2rem;
+}
+.main1__btn1{
+  width: 15vw;
+  height: 3.5vw;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: $color-white;
+  background: $color-primary;
+  border: 1px solid $color-primary;
+  border-radius: 25vw;
+  font-size: 2vmin;
+  &:hover {
+      background: lighten($color-primary, 10%)
+  }
+}
+::placeholder{
+  color: gray;
+}
+.col1{
+ height: 70rem;
+ padding: 0;
+ overflow: hidden;
+ background-color: $color-white;
+}
+.input2{
+  width: 70%;
+ padding: .7rem;
+}
+.purple-light{
+  
+  width:50vw;
+ z-index: -2;
+//  top: -10rem;
+
+}
+
+@include tablet-02{
+  .purple-light{
+    display: none;
+  }
+  .contact-image{
+    height: 30.5rem;
+    z-index: 0;
+  }
+  .input2{
+    width: 70%;
+   padding: .7rem;
+  }
+  .section-contact{
+
+    &__sub{
+      margin: 0;
+      
+    }
+   
+    &__col2 {
+    height: 59rem
+  }
+}
+   .purple-dark{
+    transform: translate(0);
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+    margin-top: -50.2%;
+    overflow-y: hidden;
+    
+  }
+  .marker-large{
+    left: -14rem;
+  
+  }
+
+}
+
+@include breakpoint(sm){
+.contact-image{
+  height: 18rem;
+}
+.input2{
+  width: 100%;
+  padding: 0.6rem;
+}
+.title-largee{
+  letter-spacing: 1.6px;
+}
+
+.title-primary1{
+  padding: 2rem 2rem;
+    margin: 0 auto;
+    width: 800%;
+  }
+  .purple-light{
+   display: none;
+  }
+  .purple-dark{
+    overflow-x: hidden;
+    transform: translate(0);
+    width: 100%;
+}
+.section-contact{
+  &__sub{
+    width:700%;
+    margin: 2rem;
+  }
+  &__col2{
+    height: 30rem;
+  }
+}
+  .main1__btn1 {
+    transform: translate(29px, 10px);
+    width: 34vw;
+    height: 10.5vw;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #FCFCFC;
+    background: #F61067;
+    border: 1px solid #F61067;
+    border-radius: 25vw;
+    font-size: 4vmin;
+}
+.u-uppercase {
+  text-transform: uppercase;
+ 
+  letter-spacing: 1.1px;
+}
+}
+
+
