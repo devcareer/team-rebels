@@ -326,7 +326,6 @@
             }
             @include mobile {
                 padding: 5em 0;
-            }
         }
         h3.card__newsletter-h3 {
             @include font-property($default-font-family, 1.3em, 500, normal);
@@ -398,14 +397,7 @@
     }
 }
 
-.blank1 {
-    margin: 0;
-    padding: 0;
-    .blank1__content {
-        width: 100%;
-        height: 25vh;
-        color: #FFF;
-    }
+
 }
 
 // *********The card-section.html style ends here****************
