@@ -6,9 +6,9 @@ body {
     padding: 0;
     overflow-x: hidden;
     position: absolute;
-  }
-  
-  header {
+}
+
+header {
     background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
     mix-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -17,9 +17,19 @@ body {
     width: 100%;
     margin: 0;
     position: relative;
-  }
-  
-  .background {
+}
+
+.header-home-02 {
+    background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/Rectangle-header.png");
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.background {
     position: absolute;
     top: 0;
     width: 100%;
@@ -27,13 +37,13 @@ body {
     background: #30124E;
     mix-blend-mode: multiply;
     z-index: -2;
-  }
-  
-  nav {
+}
+
+nav {
     z-index: 999;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     background: transparent;
     .navbar-brand {
         color: $color-white;
@@ -41,44 +51,44 @@ body {
         margin-right: 10rem;
         position: relative;
     }
-  }
-  
-  .navbar .navbar-brand:hover {
+}
+
+.navbar .navbar-brand:hover {
     color: $color-white;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link {
+}
+
+.navbar-dark .navbar-nav .nav-link {
     color: $color-white;
     margin-right: 3rem;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover {
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
     text-decoration: underline;
     color: $color-white;
-  }
-  
-  .vector {
+}
+
+.vector {
     position: absolute;
     left: 68%;
     color: $color-white;
     margin-top: .2%;
-  }
-  
-  .text-one {
+}
+
+.text-one {
     color: $color-white;
     padding-left: 7rem;
     padding-top: 2rem;
     padding-bottom: .5rem;
-  }
-  
-  .big__text {
+}
+
+.big__text {
     margin-left: 7rem;
     &--color {
         color: $color-primary;
     }
-  }
-  
-  .bg {
+}
+
+.bg {
     position: absolute;
     width: 833px;
     height: 80px;
@@ -93,9 +103,9 @@ body {
         margin-left: .1rem;
         color: $color-white;
     }
-  }
-  
-  .arrow {
+}
+
+.arrow {
     color: $color-white;
     position: absolute;
     border-radius: 50%;
@@ -111,42 +121,42 @@ body {
         border: 1px solid $color-white;
         box-sizing: border-box;
     }
-  }
-  
-  .misc-text {
+}
+
+.misc-text {
     color: $color-white;
     position: absolute;
     width: 226px;
     height: 31px;
     left: 972px;
     top: 22px;
-  }
-  
-  // .rect-1{
-  //   position: absolute;
-  // width: 27px;
-  // height: 2px;
-  // left: 1293px;
-  // top: 40px;
-  // background: $color-white;
-  // }
-  // .rect-2{
-  //   position: absolute;
-  // width: 27px;
-  // height: 2px;
-  // left: 1293px;
-  // top: 35px;
-  // background: $color-white;
-  // }
-  // .rect-3{
-  //   position: absolute;
-  // width: 18px;
-  // height: 2px;
-  // left: 1302px;
-  // top: 45px;
-  // background: $color-white;
-  // }
-  .scroll {
+}
+
+// .rect-1{
+//   position: absolute;
+// width: 27px;
+// height: 2px;
+// left: 1293px;
+// top: 40px;
+// background: $color-white;
+// }
+// .rect-2{
+//   position: absolute;
+// width: 27px;
+// height: 2px;
+// left: 1293px;
+// top: 35px;
+// background: $color-white;
+// }
+// .rect-3{
+//   position: absolute;
+// width: 18px;
+// height: 2px;
+// left: 1302px;
+// top: 45px;
+// background: $color-white;
+// }
+.scroll {
     position: absolute;
     width: 272px;
     height: 28px;
@@ -155,9 +165,9 @@ body {
     text-transform: uppercase;
     transform: rotate(90deg);
     color: $color-white;
-  }
-  
-  .icon {
+}
+
+.icon {
     position: absolute;
     width: 21px;
     height: 46px;
@@ -174,9 +184,9 @@ body {
         color: $color-white;
         transform: rotate(90deg);
     }
-  }
-  
-  @media (min-width: 769px) and (max-width:950px) {
+}
+
+@media (min-width: 769px) and (max-width:950px) {
     .big__text {
         font-size: 3em;
         margin-left: 6rem;
@@ -192,9 +202,9 @@ body {
             left: 600px;
         }
     }
-  }
-  
-  @media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:768px) {
     header {
         background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/mideveloper/image/upload/v1568649120/Rectangle_header_zftvh4.png");
         mix-blend-mode: multiply;
@@ -272,9 +282,9 @@ body {
             top: 18px;
         }
     }
-  }
-  
-  @media screen and (max-width:360px) {
+}
+
+@media screen and (max-width:360px) {
     header {
         width: 100rem;
     }
@@ -287,19 +297,19 @@ body {
         margin-left: 17rem;
         margin-top: -2rem;
     }
-  }
-  
-  @media (min-width:1440px) {
+}
+
+@media (min-width:1440px) {
     .vector {
         margin-left: -5%;
     }
     .scroll {
         margin-left: .6%;
     }
-  }
-  
-  @media (max-width:1024px) {
+}
+
+@media (max-width:1024px) {
     .navbar-brand {
         margin-left: 10rem;
     }
-  }
+}
