@@ -298,6 +298,64 @@ h6 {
           height: auto;
           padding-bottom: 3em; } }
 
+.testimonial {
+  position: relative;
+  margin-bottom: 10%; }
+
+.testimonial__section {
+  margin: 4% auto 0 2%;
+  width: 80%;
+  height: 10rem;
+  background-color: #30124E; }
+  .testimonial__section--quote {
+    color: #FCFCFC;
+    padding: 4%;
+    margin: 0 auto 0 5%; }
+  .testimonial__section--author {
+    color: #F61067;
+    margin-top: 5%;
+    margin-left: 10%; }
+  .testimonial__section--image {
+    height: 20rem;
+    margin-top: -35%;
+    margin-left: 65%; }
+  .testimonial__section--company {
+    color: #776C82; }
+
+.benefit__section {
+  margin-left: 5%; }
+  .benefit__section--title {
+    color: #F61067;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--subtitle {
+    color: #150433;
+    font-weight: 800;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--smallquote {
+    color: #150433;
+    font-weight: 800;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--body {
+    color: #150433;
+    padding-left: 10%;
+    padding-right: 5%; }
+  .benefit__section--button {
+    background: #F61067;
+    padding: 1.5%;
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 100px;
+    color: #FCFCFC; }
+    .benefit__section--button:hover {
+      color: #FCFCFC;
+      text-decoration: none; }
+
+.benefit__image--two {
+  position: absolute;
+  bottom: -8%;
+  right: 65%;
+  width: 15rem; }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
@@ -309,6 +367,9 @@ h6 {
     color: #150433;
     font-weight: 800;
     margin-left: -5%; }
+
+.client-wrapper {
+  margin: 0 0 0 0; }
 
 .blue__bg {
   background: #150433;
@@ -515,91 +576,126 @@ h6 {
   .main-image {
     width: 300px; } }
 
-.testimonial {
-  position: relative;
-  margin-bottom: 10%; }
+.col-3 {
+  text-align: center;
+  display: none; }
 
-.testimonial__section {
-  margin: 4% auto 0 2%;
-  width: 80%;
-  height: 10rem;
-  background-color: #30124E; }
-  .testimonial__section--quote {
-    color: #FCFCFC;
-    padding: 4%;
-    margin: 0 auto 0 5%; }
-  .testimonial__section--author {
-    color: #F61067;
-    margin-top: 5%;
-    margin-left: 10%; }
-  .testimonial__section--image {
-    height: 20rem;
-    margin-top: -35%;
-    margin-left: 65%; }
-  .testimonial__section--company {
+.what-we-do {
+  margin: 5rem 13rem;
+  padding: 4rem 0 2rem 0; }
+
+.col-heading__primary1 {
+  margin: 5rem 4rem; }
+
+.col-heading__secondary2 {
+  padding: 5rem 6rem 1rem 6rem; }
+
+.col-heading__secondary2:last-child {
+  padding-bottom: 3rem; }
+
+.what-we-do-image-1 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -23rem; }
+
+.text-pink {
+  color: #F61067; }
+
+#client-img {
+  width: 100%; }
+
+.what-we-do-image-2 {
+  background-image: linear-gradient(to right bottom, rgba(246, 16, 103, 0.9), rgba(246, 16, 103, 0.9)), url("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/left-side.png");
+  background-blend-mode: multiply;
+  height: 133%;
+  position: absolute;
+  z-index: 2;
+  top: -11rem;
+  right: -25.7rem; }
+
+#row-what-we-do {
+  position: relative; }
+
+.background-purple-dark {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.background-purple-light {
+  background-color: #30124E;
+  color: #FCFCFC; }
+
+.background-purple-lighter {
+  background-color: #5E239D;
+  color: #FCFCFC; }
+
+.background-pink {
+  background-color: #F61067;
+  color: #FCFCFC; }
+
+@media (max-width: 839px) {
+  .col-heading__primary1 {
+    display: none; }
+  .col-heading__primary1 {
+    margin: 0; } }
+
+@media (max-width: 768px) {
+  .what-we-do-image-1 {
+    display: none; }
+  .what-we-do-image-2 {
+    display: none; }
+  .col-3 {
+    text-align: center;
+    display: block; } }
+
+.border-white {
+  border: 1rem solid #FCFCFC; }
+
+.zoom {
+  transform: translateX(-20px); }
+
+.what-we-do-image-3 {
+  background-image: url("https://res.cloudinary.com/john-pels/image/upload/v1568628267/team-rebel/About-03/Home_01_first_image.png");
+  height: 121.5%;
+  position: absolute;
+  z-index: 2;
+  top: -10rem;
+  right: -23.7rem; }
+
+.text__part {
+  text-align: center;
+  padding: 5% 5% 0 2%; }
+  .text__part--capital {
+    color: #F61067; }
+  .text__part--small {
+    color: #150433;
+    font-weight: bolder; }
+  .text__part--body {
+    color: #150433;
+    font-weight: bold; }
+
+.main__text {
+  margin: 8% 8%; }
+  .main__text--number {
+    font-weight: 800;
+    color: #F61067; }
+  .main__text--title {
+    color: #150433;
+    font-weight: 800; }
+  .main__text--body {
     color: #776C82; }
 
-.benefit__section {
-  margin-left: 5%; }
-  .benefit__section--title {
-    color: #F61067;
-    margin: 5% 10% 5% 10%; }
-  .benefit__section--subtitle {
-    color: #150433;
-    font-weight: 800;
-    margin: 5% 10% 5% 10%; }
-  .benefit__section--smallquote {
-    color: #150433;
-    font-weight: 800;
-    margin: 5% 10% 5% 10%; }
-  .benefit__section--body {
-    color: #150433;
-    padding-left: 10%;
-    padding-right: 5%; }
-  .benefit__section--button {
-    background: #F61067;
-    padding: 1.5%;
-    width: 40%;
-    margin-left: 10%;
-    border-radius: 100px;
-    color: #FCFCFC; }
-    .benefit__section--button:hover {
-      color: #FCFCFC;
-      text-decoration: none; }
+.main-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: auto; }
 
-.benefit__image--two {
-  position: absolute;
-  bottom: -8%;
-  right: 65%;
-  width: 15rem; }
-
-.what-we-do-stats {
-  padding: 3rem; }
-  .what-we-do-stats__primary {
-    color: #F61067; }
-  .what-we-do-stats__secondary {
-    color: #5E239D; }
-  .what-we-do-stats__tertiary {
-    color: #00F0B5; }
-
-.stats_text {
-  letter-spacing: 6px;
-  text-transform: uppercase; }
-
-@media (max-width: 1364px) {
-  .footer-row {
-    flex-wrap: wrap; }
-  .what-we-do-stats {
-    padding: 2rem; }
-  .row {
-    flex-flow: wrap; }
-  .icon__circle {
-    margin: 0 auto; }
-  .intro__icon--text-primary {
-    text-align: center;
-    justify-content: center; }
-  .what-we-do-small {
-    font-size: 1.9rem; } }
+@media screen and (max-width: 768px) {
+  .main-image {
+    width: 300px; } }
 
 .footer-section {
   padding: 7rem;
@@ -899,7 +995,7 @@ nav {
   margin: 0;
   padding: 0; }
   .card-section .blank .blank__content {
-    background: #150433;
+    background: #FCFCFC;
     width: 100%;
     height: 40vh;
     color: #FFF; }
@@ -2014,7 +2110,7 @@ nav {
   width: 100%;
   background: #150433; }
   .main1__p1 {
-    margin-top: 22%;
+    margin-top: 2%;
     font-size: 2.5vmin;
     color: #F61067; }
   .main1__h2 {
@@ -2096,481 +2192,46 @@ nav {
     .main1__btn:hover {
       background: #f84186; }
 
-.card-section .secondary {
-  color: #F61067;
-  font-weight: bolder;
-  transition: all .5s ease-in-out; }
-
-.card-section .imageChange {
-  transition: all .5s ease-in-out; }
-
-.card-section .blank {
-  margin: 0;
-  padding: 0; }
-  .card-section .blank .blank__content {
-    background: #150433;
-    width: 100%;
-    height: 40vh;
-    color: #FFF; }
-
-.card-section .card {
-  margin: 0;
-  padding: 0;
-  border: none; }
-  .card-section .card .card .card__photos {
-    position: relative;
-    background: #FCFCFC;
-    width: 100%;
-    height: 40vh;
-    border: none; }
-    @media (min-width: 1201px) {
-      .card-section .card .card .card__photos {
-        width: 100%;
-        height: 80vh; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card .card__photos {
-        width: 100%;
-        height: 58vh; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images {
-      position: absolute; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images {
-      position: absolute; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-1 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 9em;
-      position: absolute;
-      top: 4.2em;
-      left: 17em;
-      width: 4.5em;
-      height: 4.5em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-1 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-1.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 8em 8em;
-      position: absolute;
-      top: 2.5em;
-      left: 5em;
-      width: 4.0em;
-      height: 4.0em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-1 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-2 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 9em 9em;
-      position: absolute;
-      top: 12em;
-      left: 8em;
-      object-position: center;
-      width: 4em;
-      height: 4em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-2 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-7.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 8em 8em;
-      position: absolute;
-      top: 8em;
-      left: 4em;
-      object-position: center;
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-2 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-3 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 6em 6em;
-      position: absolute;
-      top: 10em;
-      left: 25em;
-      object-position: center;
-      width: 2.2em;
-      height: 2.2em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-3 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-2.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 6em 6em;
-      position: absolute;
-      top: 6.5em;
-      left: 13em;
-      object-position: center;
-      width: 2.2em;
-      height: 2.2em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-3 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-4 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 10em;
-      right: 23em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-4 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-4.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 6em;
-      right: 12em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-4 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-5 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 11em;
-      right: 11em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-5 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-5.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(246, 16, 103, 0.25);
-      background-size: 7em 7em;
-      position: absolute;
-      top: 8em;
-      right: 2em;
-      object-position: center;
-      width: 3em;
-      height: 3em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-5 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-6 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 6em;
-      right: 18em;
-      object-position: center;
-      width: 2.3em;
-      height: 2.3em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-6 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-3.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(94, 35, 157, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 4em;
-      right: 7em;
-      object-position: center;
-      width: 2.3em;
-      height: 2.3em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-6 {
-      display: none; } }
-  @media (min-width: 1201px) {
-    .card-section .card .card-positioned-images.image-7 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 2em;
-      right: 11em;
-      object-position: center;
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 50%; } }
-  @media (min-width: 840px) and (max-width: 1200px) {
-    .card-section .card .card-positioned-images.image-7 {
-      display: block;
-      background: url("https://res.cloudinary.com/john-pels/image/upload/v1568628373/team-rebel/Home-01/Ellipse-6.png");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: normal;
-      box-shadow: 0px 8px 64px rgba(0, 240, 181, 0.25);
-      background-size: 9em 10em;
-      position: absolute;
-      top: 2em;
-      right: 2em;
-      object-position: center;
-      width: 3.5em;
-      height: 3.5em;
-      border-radius: 50%; } }
-  @media (max-width: 839px) {
-    .card-section .card .card-positioned-images.image-7 {
-      display: none; } }
-  .card-section .card .card-positioned-icon {
-    position: absolute; }
-    .card-section .card .card-positioned-icon .fa-arrow-right {
-      position: absolute;
-      top: 18em;
-      left: 60em;
-      border: 1px solid #F61067;
+@media screen and (max-width: 600px) {
+  .about-header__bottom1 {
+    height: 70%;
+    background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628209/team-rebel/About-01/Rectangle-header.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .about-header__bottom1__h1 {
+      margin-top: 7%;
+      margin-left: 7%;
+      font-size: 5vmin;
+      font-family: "M PLUS 1p", sans-serif;
       color: #F61067;
-      padding: 0.6em;
-      border-radius: 50%;
-      font-weight: 100; }
-      .card-section .card .card-positioned-icon .fa-arrow-right:hover {
-        background: #F61067;
-        transition: background .8s ease-in-out;
-        color: #FFF;
-        border: 1px solid #FFF;
-        cursor: pointer; }
-      @media (min-width: 840px) and (max-width: 1200px) {
-        .card-section .card .card-positioned-icon .fa-arrow-right {
-          display: none; } }
-      @media (max-width: 839px) {
-        .card-section .card .card-positioned-icon .fa-arrow-right {
-          display: none; } }
-    .card-section .card .card-positioned-icon .fa-arrow-left {
-      position: absolute;
-      top: 18em;
-      left: 11em;
-      background: #F61067;
-      color: #FFF;
-      padding: 0.6em;
-      border-radius: 50%;
-      font-weight: 100; }
-      .card-section .card .card-positioned-icon .fa-arrow-left:hover {
-        background: #FFF;
-        transition: background .8s ease-in-out;
-        color: #F61067;
-        border: 1px solid #F61067;
-        cursor: pointer; }
-      @media (min-width: 840px) and (max-width: 1200px) {
-        .card-section .card .card-positioned-icon .fa-arrow-left {
-          display: none; } }
-      @media (max-width: 839px) {
-        .card-section .card .card-positioned-icon .fa-arrow-left {
-          display: none; } }
-  .card-section .card img.card-center-image {
-    display: block;
-    background: none;
-    margin: -5em auto 0 auto;
-    width: 13em;
-    height: 13em; }
-    .card-section .card img.card-center-image .card-section-home02 {
-      display: block;
-      background: none;
-      margin: 5em auto 0 auto;
-      width: 13em;
-      height: 13em; }
-    @media (min-width: 1201px) {
-      .card-section .card img.card-center-image {
-        width: 20em;
-        height: 20em; } }
-  .card-section .card i.card__photos-fa {
-    margin: -0.4em auto 0 auto;
-    color: #F61067;
-    font-size: 3em;
-    z-index: 2; }
-  .card-section .card h3.card__photos-h3 {
-    font-family: "Noticia Text", serif;
-    font-size: 0.9em;
-    font-weight: normal;
-    font-style: italic;
-    text-align: center;
-    line-height: 1.2em; }
-    @media (min-width: 1201px) {
-      .card-section .card h3.card__photos-h3 {
-        font-family: "Noticia Text", serif;
-        font-size: 1.3em;
-        font-weight: normal;
-        font-style: italic;
-        line-height: 1.5em; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card h3.card__photos-h3 {
-        font-family: "Noticia Text", serif;
-        font-size: 1.3em;
-        font-weight: normal;
-        font-style: italic;
-        line-height: 1.7em;
-        margin-top: 1.3em; } }
-  .card-section .card .card__photos-tagline {
-    text-align: center;
-    font-size: 0.7em;
-    padding-bottom: 3em; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__photos-tagline {
-        font-size: 1em; } }
-    @media (min-width: 840px) and (max-width: 1200px) {
-      .card-section .card .card__photos-tagline {
-        font-size: 1em; } }
-  .card-section .card .card__photos-tagline span {
-    font-family: "M PLUS 1p", sans-serif;
-    font-size: 0.8em;
-    font-weight: 800;
-    font-style: normal;
+      line-height: normal; }
+    .about-header__bottom1__p {
+      margin-left: 7%;
+      margin-bottom: 4%;
+      font-size: 3vmin;
+      font-family: "M PLUS 1p", sans-serif;
+      color: #F4F4ED; } }
+
+.about-header__bottom1 {
+  width: 100%;
+  height: auto;
+  background: #3A0475 url("https://res.cloudinary.com/john-pels/image/upload/v1568628312/team-rebel/Contact/Rectangle.png");
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+  .about-header__bottom1__h1 {
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 6vmin;
+    line-height: normal;
     color: #F61067; }
-  .card-section .card .card__newsletter {
-    width: 100%;
-    border: none;
-    text-align: center;
-    padding: 5em 0; }
-    @media (min-width: 1201px) {
-      .card-section .card .card__newsletter {
-        padding: 5rem 0; } }
-    @media (max-width: 839px) {
-      .card-section .card .card__newsletter {
-        padding: 5em 0; } }
-    .card-section .card .card__newsletter h3.card__newsletter-h3 {
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 1.3em;
-      font-weight: 500;
-      font-style: normal; }
-      @media (min-width: 1201px) {
-        .card-section .card .card__newsletter h3.card__newsletter-h3 {
-          font-family: "M PLUS 1p", sans-serif;
-          font-size: 1.8em;
-          font-weight: 500;
-          font-style: normal; } }
-    .card-section .card .card__newsletter p.card__newsletter-p {
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 0.7em;
-      font-weight: 500;
-      font-style: normal; }
-      @media (min-width: 1201px) {
-        .card-section .card .card__newsletter p.card__newsletter-p {
-          font-family: "M PLUS 1p", sans-serif;
-          font-size: 1em;
-          font-weight: 500;
-          font-style: normal; } }
-    .card-section .card .card__newsletter .card__newsletter-form {
-      padding: 2em; }
-      @media (min-width: 1201px) {
-        .card-section .card .card__newsletter .card__newsletter-form {
-          width: 50%;
-          display: inline-flex;
-          margin: 0 auto; } }
-      @media (min-width: 840px) and (max-width: 1200px) {
-        .card-section .card .card__newsletter .card__newsletter-form {
-          padding: 0 10em; } }
-    .card-section .card .card__newsletter .card__newsletter-form input.card__newsletter-input {
-      width: 100%;
-      height: 3.0em;
-      border-bottom: 2px solid #F4F4ED;
-      border-top: none;
-      border-right: none;
-      border-left: none;
-      outline: none; }
-    .card-section .card .card__newsletter input::placeholder {
-      color: #9B94A3;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 0.7em;
-      font-weight: 800;
-      font-style: normal;
-      text-transform: uppercase;
-      letter-spacing: 0.3em;
-      line-height: 3.5em; }
-    .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button {
-      width: 100%;
-      height: 3.6em;
-      font-family: "M PLUS 1p", sans-serif;
-      font-size: 0.7em;
-      font-weight: 800;
-      font-style: normal;
-      background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-      border: none;
-      border-bottom: 2px solid #F4F4ED;
-      margin-top: 0.7em;
-      line-height: 3.5em;
-      text-transform: uppercase;
-      letter-spacing: 0.3em;
-      color: #F61067; }
-      .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button:hover {
-        background: rgba(212, 187, 187, 0.5);
-        transition: background .8s ease-in-out;
-        cursor: pointer; }
-      @media (min-width: 1201px) {
-        .card-section .card .card__newsletter .card__newsletter-form button.card__newsletter-button {
-          width: 70%; } }
-    .card-section .card .card__newsletter button.card__newsletter-button i.button-fa {
-      border: 1px solid rgba(246, 16, 103, 0.5);
-      box-sizing: border-box;
-      padding: .5em;
-      border-radius: 50%;
-      margin-left: 1.3em; }
+  .about-header__bottom1__p {
+    margin-top: 1%;
+    margin-bottom: 6.5%;
+    margin-left: 8%;
+    font-size: 2.5vmin;
+    color: #FCFCFC; }
 
 .card__icon--white {
   font-size: 5rem;
@@ -3019,6 +2680,48 @@ nav {
 .our-service {
   background-color: #FCFCFC;
   color: #150433; }
+
+.service__headtext {
+  padding-bottom: 5%;
+  text-align: center; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%; }
+
+.our-service {
+  background-color: #150433;
+  color: #FCFCFC; }
 
 .service__headtext {
   padding-bottom: 5%;

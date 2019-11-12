@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> fix bugs
 $(function(){
   var includes = $('[data-include]');
   jQuery.each(includes, function(){
