@@ -6,15 +6,18 @@
   &--title {
     text-transform: uppercase;
     color: $color-primary;
-    margin-left: 5%;
+    margin-left: -5%;
   }
   &--body {
     color: $color-secondary-400;
     font-weight: 800;
-    margin-left: 5%;
+    margin-left: -5%;
   }
 }
 //for the blue background
+.client-wrapper{
+  // margin: 0 0 0 0;
+}
 .blue__bg {
   background: $color-secondary-400;
   position: relative;
@@ -69,7 +72,7 @@
 //for the client banner
 .client__bg {
   padding-top: 10%;
-  background-color: $color-secondary-300;
+  background-color: $color-secondary-400;
   position: relative;
   top: -10%;
   z-index: 1;
@@ -104,33 +107,22 @@
     vertical-align: middle;
     padding: 1rem;
 }
-.value_card{
-color: #FCFCFC;
-margin-right: 2rem;
-padding: 1rem;
-margin-bottom: 4rem;
-
-&:hover{
-  background-color: $color-primary;
-  transition: background .5s ease-in-out;
-  color: $color-white;
- p{
-   color:$color-white;
- }
- }}
+.card-box{
+  margin: 0 5% 0 0;
+}
 .value__card {
   color: $color-white;
   border: 1px solid $color-white;
-  margin-right: 2rem;
+  margin-right: 1rem;
   padding: 2rem;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-bottom: 10%;
   &:hover{
     background-color: $color-primary;
     transition: background .5s ease-in-out;
     color: $color-white;
    p{
-    
+    color:$color-white;
   }
   
   &--number {
@@ -145,21 +137,7 @@ margin-bottom: 4rem;
   }
  
 }
-}
-.value__card2 {
-  color: $color-white;
-  border: 1px solid $color-primary;
-  margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%;
-  &:hover{
-    background-color: $color-primary;
-    transition: background .5s ease-in-out;
-    color: $color-white;
-   p{
-    
-  }
+
   
   &--number {
     font-weight: 800;
@@ -185,5 +163,4 @@ margin-bottom: 4rem;
       padding-bottom: 5%;
     }
   }
-}
 }

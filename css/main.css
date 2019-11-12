@@ -304,11 +304,11 @@ h6 {
   .client__part--title {
     text-transform: uppercase;
     color: #F61067;
-    margin-left: 5%; }
+    margin-left: -5%; }
   .client__part--body {
     color: #150433;
     font-weight: 800;
-    margin-left: 5%; }
+    margin-left: -5%; }
 
 .blue__bg {
   background: #150433;
@@ -351,7 +351,7 @@ h6 {
 
 .client__bg {
   padding-top: 10%;
-  background-color: #30124E;
+  background-color: #150433;
   position: relative;
   top: -10%;
   z-index: 1; }
@@ -384,58 +384,40 @@ h6 {
   vertical-align: middle;
   padding: 1rem; }
 
-.value_card {
-  color: #FCFCFC;
-  margin-right: 2rem;
-  padding: 1rem;
-  margin-bottom: 4rem; }
-  .value_card:hover {
-    background-color: #F61067;
-    transition: background .5s ease-in-out;
-    color: #FCFCFC; }
-    .value_card:hover p {
-      color: #FCFCFC; }
+.card-box {
+  margin: 0 5% 0 0; }
 
 .value__card {
   color: #FCFCFC;
   border: 1px solid #FCFCFC;
-  margin-right: 2rem;
+  margin-right: 1rem;
   padding: 2rem;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-bottom: 10%; }
   .value__card:hover {
     background-color: #F61067;
     transition: background .5s ease-in-out;
     color: #FCFCFC; }
+    .value__card:hover p {
+      color: #FCFCFC; }
     .value__card:hover--number {
       font-weight: 800;
       color: #F61067; }
     .value__card:hover--title {
       font-weight: 800; }
+  .value__card--number {
+    font-weight: 800;
+    color: #F61067; }
+  .value__card--title {
+    font-weight: 800; }
 
-.value__card2 {
-  color: #FCFCFC;
-  border: 1px solid #F61067;
-  margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
-  .value__card2:hover {
-    background-color: #F61067;
-    transition: background .5s ease-in-out;
-    color: #FCFCFC; }
-    .value__card2:hover--number {
-      font-weight: 800;
-      color: #F61067; }
-    .value__card2:hover--title {
-      font-weight: 800; }
-  @media screen and (max-width: 368px) {
-    .value__card2 .client__logo--title {
-      margin-top: 2rem; }
-    .value__card2 .client__logo--image {
-      width: 200px;
-      padding-right: 10%;
-      padding-bottom: 5%; } }
+@media screen and (max-width: 368px) {
+  .client__logo--title {
+    margin-top: 2rem; }
+  .client__logo--image {
+    width: 200px;
+    padding-right: 10%;
+    padding-bottom: 5%; } }
 
 .section-what-we-do {
   overflow-x: hidden; }
@@ -590,6 +572,34 @@ h6 {
   bottom: -8%;
   right: 65%;
   width: 15rem; }
+
+.what-we-do-stats {
+  padding: 3rem; }
+  .what-we-do-stats__primary {
+    color: #F61067; }
+  .what-we-do-stats__secondary {
+    color: #5E239D; }
+  .what-we-do-stats__tertiary {
+    color: #00F0B5; }
+
+.stats_text {
+  letter-spacing: 6px;
+  text-transform: uppercase; }
+
+@media (max-width: 1364px) {
+  .footer-row {
+    flex-wrap: wrap; }
+  .what-we-do-stats {
+    padding: 2rem; }
+  .row {
+    flex-flow: wrap; }
+  .icon__circle {
+    margin: 0 auto; }
+  .intro__icon--text-primary {
+    text-align: center;
+    justify-content: center; }
+  .what-we-do-small {
+    font-size: 1.9rem; } }
 
 .footer-section {
   padding: 7rem;
@@ -1966,7 +1976,7 @@ nav {
     width: 90%;
     margin: 5%; }
   .main__p1 {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 2.5vmin; }
   .main__h2 {
     font-size: 4vmin;
