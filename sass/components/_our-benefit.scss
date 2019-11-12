@@ -1,0 +1,78 @@
+
+.testimonial{
+    position: relative;
+    margin-bottom: 10%;
+  }.testimonial__section{
+    margin: 4% auto 0 2%;
+    width: 80%;
+    height: 10rem;
+    background-color: $color-secondary-300;
+    &--quote{
+      color: $color-white;
+      padding: 4%;
+      margin: 0 auto 0 5%;
+    }
+    &--author{
+      color: $color-primary;
+      margin-top: 5%;
+      margin-left: 10%;
+    }
+    &--image{
+      height: 20rem;
+      margin-top: -35%;
+      margin-left: 65%;
+    //   position: absolute;
+    //   top: -3%;
+    }
+    &--company{
+      color: $text-color-main-text;
+    }
+  }
+  
+  .benefit__section{
+    margin-left: 5%;
+   &--title{
+     color: $color-primary;
+     margin:5% 10% 5% 10%;
+   }
+   &--subtitle{
+     color: $color-secondary-400;
+     font-weight: 800;
+     margin:5% 10% 5% 10%;
+   }
+   &--smallquote{
+     color: $color-secondary-400;
+     font-weight: 800;
+     margin:5% 10% 5% 10%;
+   }
+   &--body{
+     color: $color-secondary-400;
+     padding-left: 10%;
+     padding-right: 5%;
+   }
+   &--button{
+     background: $color-primary;
+     padding: 1.5%;
+     width: 40%;
+     margin-left: 10%;
+     border-radius: 100px;
+     color: $color-white;
+     &:hover{
+       color: $color-white;
+       text-decoration: none;
+     }
+   }
+  }
+  
+  .benefit__image{
+    
+    &--two{
+      position: absolute;
+      bottom: -8%;
+      right: 65%;
+      width: 15rem;
+    }
+  }
+  
+  
+  

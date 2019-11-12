@@ -137,52 +137,6 @@ h6 {
   letter-spacing: 6px;
   text-transform: uppercase; }
 
-.title-medium {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14.4px;
-  line-height: 30px;
-  letter-spacing: 4px;
-  text-transform: uppercase; }
-
-.logo {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 43px;
-  letter-spacing: 2px; }
-
-.nav-link {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14.4px;
-  line-height: 30px;
-  /* identical to box height */
-  letter-spacing: 2px;
-  color: #FCFCFC; }
-
-.text-misc {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14.4px;
-  line-height: 30px;
-  letter-spacing: 2px;
-  color: #FCFCFC; }
-
-.title-large {
-  font-family: "M PLUS 1p", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 37px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 4px;
-  text-transform: uppercase; }
-
 .u-text-center {
   text-align: center; }
 
@@ -344,17 +298,78 @@ h6 {
           height: auto;
           padding-bottom: 3em; } }
 
+.testimonial {
+  position: relative;
+  margin-bottom: 10%; }
+
+.testimonial__section {
+  margin: 4% auto 0 2%;
+  width: 80%;
+  height: 10rem;
+  background-color: #30124E; }
+  .testimonial__section--quote {
+    color: #FCFCFC;
+    padding: 4%;
+    margin: 0 auto 0 5%; }
+  .testimonial__section--author {
+    color: #F61067;
+    margin-top: 5%;
+    margin-left: 10%; }
+  .testimonial__section--image {
+    height: 20rem;
+    margin-top: -35%;
+    margin-left: 65%; }
+  .testimonial__section--company {
+    color: #776C82; }
+
+.benefit__section {
+  margin-left: 5%; }
+  .benefit__section--title {
+    color: #F61067;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--subtitle {
+    color: #150433;
+    font-weight: 800;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--smallquote {
+    color: #150433;
+    font-weight: 800;
+    margin: 5% 10% 5% 10%; }
+  .benefit__section--body {
+    color: #150433;
+    padding-left: 10%;
+    padding-right: 5%; }
+  .benefit__section--button {
+    background: #F61067;
+    padding: 1.5%;
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 100px;
+    color: #FCFCFC; }
+    .benefit__section--button:hover {
+      color: #FCFCFC;
+      text-decoration: none; }
+
+.benefit__image--two {
+  position: absolute;
+  bottom: -8%;
+  right: 65%;
+  width: 15rem; }
+
 .client__part {
   margin-top: 5%;
   margin-bottom: 5%; }
   .client__part--title {
     text-transform: uppercase;
     color: #F61067;
-    margin-left: 5%; }
+    margin-left: -5%; }
   .client__part--body {
     color: #150433;
     font-weight: 800;
-    margin-left: 5%; }
+    margin-left: -5%; }
+
+.client-wrapper {
+  margin: 0 0 0 0; }
 
 .blue__bg {
   background: #150433;
@@ -397,7 +412,7 @@ h6 {
 
 .client__bg {
   padding-top: 10%;
-  background-color: #30124E;
+  background-color: #150433;
   position: relative;
   top: -10%;
   z-index: 1; }
@@ -430,53 +445,34 @@ h6 {
   vertical-align: middle;
   padding: 1rem; }
 
-.value_card {
-  color: #FCFCFC;
-  margin-right: 2rem;
-  padding: 1rem;
-  margin-bottom: 4rem; }
-  .value_card:hover {
-    background-color: #F61067;
-    transition: background .5s ease-in-out;
-    color: #FCFCFC; }
-    .value_card:hover p {
-      color: #FCFCFC; }
+.card-box {
+  margin: 0 5% 0 0; }
 
 .value__card {
   color: #FCFCFC;
   border: 1px solid #FCFCFC;
-  margin-right: 2rem;
+  margin-right: 1rem;
   padding: 2rem;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-bottom: 10%; }
   .value__card:hover {
     background-color: #F61067;
     transition: background .5s ease-in-out;
     color: #FCFCFC; }
+    .value__card:hover p {
+      color: #FCFCFC; }
     .value__card:hover--number {
       font-weight: 800;
       color: #F61067; }
     .value__card:hover--title {
       font-weight: 800; }
+  .value__card--number {
+    font-weight: 800;
+    color: #F61067; }
+  .value__card--title {
+    font-weight: 800; }
 
-.value__card2 {
-  color: #FCFCFC;
-  border: 1px solid #F61067;
-  margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%; }
-  .value__card2:hover {
-    background-color: #F61067;
-    transition: background .5s ease-in-out;
-    color: #FCFCFC; }
-    .value__card2:hover--number {
-      font-weight: 800;
-      color: #F61067; }
-    .value__card2:hover--title {
-      font-weight: 800; }
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 368px) {
   .client__logo--title {
     margin-top: 2rem; }
   .client__logo--image {
@@ -576,25 +572,9 @@ h6 {
   margin-bottom: 10%;
   width: auto; }
 
-.rectangle {
-  width: 35rem;
-  height: 20rem;
-  background-color: #00F0B5;
-  position: absolute;
-  top: 14rem;
-  left: 0;
-  z-index: -2;
-  margin-bottom: 5%; }
-
-.darkblue-rect {
-  background-color: #5E239D;
-  position: absolute;
-  left: 15%; }
-
-.pink-rect {
-  background-color: #F61067;
-  position: absolute;
-  left: 10%; }
+@media screen and (max-width: 768px) {
+  .main-image {
+    width: 300px; } }
 
 .col-3 {
   text-align: center;
@@ -713,25 +693,9 @@ h6 {
   margin-bottom: 10%;
   width: auto; }
 
-.rectangle {
-  width: 35rem;
-  height: 20rem;
-  background-color: #00F0B5;
-  position: absolute;
-  top: 14rem;
-  left: 0;
-  z-index: -2;
-  margin-bottom: 5%; }
-
-.darkblue-rect {
-  background-color: #5E239D;
-  position: absolute;
-  left: 15%; }
-
-.pink-rect {
-  background-color: #F61067;
-  position: absolute;
-  left: 10%; }
+@media screen and (max-width: 768px) {
+  .main-image {
+    width: 300px; } }
 
 .footer-section {
   padding: 7rem;
@@ -810,15 +774,6 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 35rem;
-  width: 100%;
-  margin: 0;
-  position: relative; }
-
-.header-home-02 {
-  background: linear-gradient(90deg, #5e239d 0%, rgba(196, 196, 196, 0) 56.77%), URL("https://res.cloudinary.com/john-pels/image/upload/v1568628410/team-rebel/Home-02/Rectangle-header.png");
-  mix-blend-mode: multiply;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   width: 100%;
   margin: 0;
   position: relative; }
@@ -1040,7 +995,7 @@ nav {
   margin: 0;
   padding: 0; }
   .card-section .blank .blank__content {
-    background: #150433;
+    background: #FCFCFC;
     width: 100%;
     height: 40vh;
     color: #FFF; }
@@ -2117,7 +2072,7 @@ nav {
     width: 90%;
     margin: 5%; }
   .main__p1 {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 2.5vmin; }
   .main__h2 {
     font-size: 4vmin;
@@ -2679,6 +2634,90 @@ nav {
     color: #5E239D; }
   .what-we-do-stats__tertiary {
     color: #00F0B5; }
+
+.our-service {
+  background-color: #150433;
+  color: #FCFCFC; }
+
+.service__headtext {
+  padding-bottom: 5%; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%;
+    padding: 3%; }
+
+.our-service {
+  background-color: #FCFCFC;
+  color: #150433; }
+
+.service__headtext {
+  padding-bottom: 5%;
+  text-align: center; }
+  .service__headtext--text {
+    color: #F61067;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10%; }
+  .service__headtext--head {
+    padding: 2% 0;
+    font-weight: 600; }
+  .service__headtext--body {
+    font-weight: 500; }
+
+.service__section {
+  padding-bottom: 5%; }
+  .service__section--titleone {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titletwo {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--titlethree {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefour {
+    padding: 3% 3%;
+    color: #F67110; }
+  .service__section--titlefive {
+    padding: 3% 3%;
+    color: #00F0B5; }
+  .service__section--titlesix {
+    padding: 3% 3%;
+    color: #F61067; }
+  .service__section--body {
+    text-align: justify;
+    margin: 0 3%; }
 
 .our-service {
   background-color: #150433;

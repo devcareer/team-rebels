@@ -1,3 +1,82 @@
+.testimonial{
+  position: relative;
+  margin-bottom: 10%;
+}.testimonial__section{
+  margin: 4% auto 0 2%;
+  width: 80%;
+  height: 10rem;
+  background-color: $color-secondary-300;
+  &--quote{
+    color: $color-white;
+    padding: 4%;
+    margin: 0 auto 0 5%;
+  }
+  &--author{
+    color: $color-primary;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  &--image{
+    height: 20rem;
+    margin-top: -35%;
+    margin-left: 65%;
+  //   position: absolute;
+  //   top: -3%;
+  }
+  &--company{
+    color: $text-color-main-text;
+  }
+}
+
+.benefit__section{
+  margin-left: 5%;
+ &--title{
+   color: $color-primary;
+   margin:5% 10% 5% 10%;
+ }
+ &--subtitle{
+   color: $color-secondary-400;
+   font-weight: 800;
+   margin:5% 10% 5% 10%;
+ }
+ &--smallquote{
+   color: $color-secondary-400;
+   font-weight: 800;
+   margin:5% 10% 5% 10%;
+ }
+ &--body{
+   color: $color-secondary-400;
+   padding-left: 10%;
+   padding-right: 5%;
+ }
+ &--button{
+   background: $color-primary;
+   padding: 1.5%;
+   width: 40%;
+   margin-left: 10%;
+   border-radius: 100px;
+   color: $color-white;
+   &:hover{
+     color: $color-white;
+     text-decoration: none;
+   }
+ }
+}
+
+.benefit__image{
+  
+  &--two{
+    position: absolute;
+    bottom: -8%;
+    right: 65%;
+    width: 15rem;
+  }
+}
+
+
+
+
+
 //fof the first content
 .client__part {
   margin-top: 5%;
@@ -6,15 +85,18 @@
   &--title {
     text-transform: uppercase;
     color: $color-primary;
-    margin-left: 5%;
+    margin-left: -5%;
   }
   &--body {
     color: $color-secondary-400;
     font-weight: 800;
-    margin-left: 5%;
+    margin-left: -5%;
   }
 }
 //for the blue background
+.client-wrapper{
+  margin: 0 0 0 0;
+}
 .blue__bg {
   background: $color-secondary-400;
   position: relative;
@@ -69,7 +151,7 @@
 //for the client banner
 .client__bg {
   padding-top: 10%;
-  background-color: $color-secondary-300;
+  background-color: $color-secondary-400;
   position: relative;
   top: -10%;
   z-index: 1;
@@ -82,7 +164,6 @@
     color: $color-white;
     padding-bottom: 5%;
     margin-left: 5%;
-   
   }
 }
 .icon1{
@@ -105,61 +186,22 @@
     vertical-align: middle;
     padding: 1rem;
 }
-.value_card{
-color: #FCFCFC;
-margin-right: 2rem;
-padding: 1rem;
-margin-bottom: 4rem;
-
-&:hover{
-  background-color: $color-primary;
-  transition: background .5s ease-in-out;
-  color: $color-white;
- p{
-   color:$color-white;
- }
- }}
+.card-box{
+  margin: 0 5% 0 0;
+}
 .value__card {
   color: $color-white;
   border: 1px solid $color-white;
-  margin-right: 2rem;
+  margin-right: 1rem;
   padding: 2rem;
-  margin-left: 5%;
+  margin-left: 1%;
   margin-bottom: 10%;
   &:hover{
     background-color: $color-primary;
     transition: background .5s ease-in-out;
     color: $color-white;
    p{
-    
-  }
-  
-  &--number {
-    font-weight: 800;
-    color: $color-primary;
-
-    
-  }
-  
-  &--title {
-    font-weight: 800;
-  }
- 
-}
-}
-.value__card2 {
-  color: $color-white;
-  border: 1px solid $color-primary;
-  margin-right: 2rem;
-  padding: 2rem;
-  margin-left: 5%;
-  margin-bottom: 10%;
-  &:hover{
-    background-color: $color-primary;
-    transition: background .5s ease-in-out;
-    color: $color-white;
-   p{
-    
+    color:$color-white;
   }
   
   &--number {
@@ -175,8 +217,21 @@ margin-bottom: 4rem;
  
 }
 
+  
+  &--number {
+    font-weight: 800;
+    color: $color-primary;
+
+    
+  }
+  
+  &--title {
+    font-weight: 800;
+  }
+ 
 }
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 368px) {
   .client__logo {
     &--title {
       margin-top: 2rem;
@@ -188,4 +243,3 @@ margin-bottom: 4rem;
     }
   }
 }
-
