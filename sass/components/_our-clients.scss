@@ -46,24 +46,7 @@
   }
   &--image {
     margin-left: 15%;
-    // width: ;
     margin-bottom: 5%;
-  }
-}
-.blue_bg {
-  background: $color-secondary-400;
-  position: relative;
-  z-index: 2;
-
-  &--title {
-    margin-top: 15%;
-    font-weight: 800;
-    text-align: center;
-    color: $color-primary;
-  }
-  &--text {
-    color: $color-white;
-    margin: 5% 10% 5% 10%;
   }
 }
 //for the client banner
@@ -72,7 +55,7 @@
   background-color: $color-secondary-300;
   position: relative;
   top: -10%;
-  z-index: 1;
+  z-index: -2;
   &--title {
     color: $color-primary;
     text-transform: uppercase;
